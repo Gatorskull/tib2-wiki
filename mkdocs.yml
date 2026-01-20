@@ -8,14 +8,18 @@ theme:
   features:
     - navigation.instant  # Click links without page reloads
     - navigation.tracking # Updates URL as you scroll
-    - navigation.sections # Groups sidebar items
+    # - navigation.sections  <-- REMOVED: This was forcing folders to stay open as headers!
   palette:
-    scheme: slate         # Dark mode by default
+    scheme: slate
     primary: deep purple
     accent: cyan
 
+plugins:
+  - search
+  - section-index         # (Recommended) Makes the folder click go straight to index.md
+
 markdown_extensions:
-  - admonition            # Allows "Warning" or "Info" blocks
-  - pymdownx.details      # Allows collapsible "Spoiler" blocks
-  - attr_list             # Allows resizing images
+  - admonition
+  - pymdownx.details
+  - attr_list
   - wikilinks

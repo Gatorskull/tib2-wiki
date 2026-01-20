@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Entities/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -53,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#Entities",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Entities/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Entities/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/index.md",
+                "file": "docs/Entities/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,6 +185,14 @@
   },
   "active": "22d646d885dbc36d",
   "lastOpenFiles": [
+    "docs/Entities/Corporations/Alliances.md",
+    "docs/Entities/Corporations/index.md",
+    "docs/Entities/Corporations/NPC-Owned Corporations.md",
+    "Untitled 1.canvas",
+    "Untitled.canvas",
+    "docs/Entities/index.md",
+    "docs/Entities/Items/Gearscore.md",
+    "docs/index.md",
     "docs/World/Maps/Spawnables.md",
     "docs/World/Maps/Security Rating.md",
     "docs/World/Maps/index.md",
@@ -215,13 +223,6 @@
     "docs/Entities/Items/Item Types/Drones",
     "docs/Entities/Items/Item Types/Armor.md",
     "docs/Entities/Items/Item Types/Computers.md",
-    "docs/Entities/Items/Item Types/Shields.md",
-    "docs/Entities/Items/Item Types/Storage.md",
-    "docs/Entities/Items/Mutations.md",
-    "docs/Entities/Items/Rarity.md",
-    "docs/Entities/Items/Rank.md",
-    "docs/Entities/Items/Quality.md",
-    "docs/assets/3445755.png",
-    "Untitled.canvas"
+    "docs/assets/3445755.png"
   ]
 }
