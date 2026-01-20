@@ -18,3 +18,4 @@ markdown_extensions:
   - admonition            # Allows "Warning" or "Info" blocks
   - pymdownx.details      # Allows collapsible "Spoiler" blocks
   - attr_list             # Allows resizing images
+  - wikilinks
