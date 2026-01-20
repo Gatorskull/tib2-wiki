@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Entities/index.md",
+                "file": "docs/Entities/Structures/Shipyards.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "index"
+              "title": "Shipyards"
             }
           }
         ]
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/Entities/index.md",
+                "file": "docs/Entities/Ships/Ship Slots.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for index"
+              "title": "Backlinks for Ship Slots"
             }
           },
           {
@@ -113,12 +113,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/Entities/index.md",
+                "file": "docs/Entities/Ships/Ship Slots.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from index"
+              "title": "Outgoing links from Ship Slots"
             }
           },
           {
@@ -156,13 +156,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/Entities/index.md",
+                "file": "docs/Entities/Ships/Ship Slots.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of index"
+              "title": "Outline of Ship Slots"
             }
           }
         ]
@@ -185,33 +185,36 @@
   },
   "active": "22d646d885dbc36d",
   "lastOpenFiles": [
+    "docs/Entities/Structures/Planets.md",
+    "docs/Entities/Structures/Outposts.md",
+    "docs/Entities/Structures/Jump Gates.md",
+    "docs/Entities/Structures/Shipyards.md",
+    "docs/Entities/Structures/Garrisons.md",
+    "docs/Entities/Structures/Structures.md",
+    "docs/Entities/Entities.md",
+    "Corporation.md",
+    "docs/Entities/Structures/Deployment.md",
+    "docs/Entities/Currencies/Skulls.md",
+    "docs/Entities/Currencies/Star Shards.md",
+    "docs/Entities/Currencies/Credits.md",
+    "docs/Entities/Currencies/Currencies.md",
+    "docs/Entities/Currencies/Tech Points.md",
+    "docs/Entities/Ships/Elite Ranks.md",
+    "docs/Entities/Ships/EquipPoints.md",
+    "docs/Entities/Items/Rank.md",
+    "Structures.md",
+    "AI prompt.md",
+    "docs/Entities/Currencies",
+    "docs/Entities/Ships/index.md",
+    "docs/Entities/Ships/Ship Slots.md",
+    "docs/Entities/Levels.md",
     "docs/Entities/Corporations/Alliances.md",
     "docs/Entities/Corporations/index.md",
     "docs/Entities/Corporations/NPC-Owned Corporations.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "docs/Entities/index.md",
     "docs/Entities/Items/Gearscore.md",
-    "docs/index.md",
-    "docs/World/Maps/Spawnables.md",
-    "docs/World/Maps/Security Rating.md",
-    "docs/World/Maps/index.md",
-    "docs/World/Maps/Exploration.md",
-    "docs/World/Maps/Untitled.md",
-    "docs/Getting Started/index.md",
-    "docs/Gameplay/Activities/index.md",
-    "docs/Gameplay/Builds/index.md",
-    "docs/Gameplay/Strategies/index.md",
-    "docs/Gameplay/index.md",
-    "docs/World/index.md",
-    "docs/World/Spawnables.md",
-    "docs/World/Maps/Sectors.md",
-    "docs/World/Sectors.md",
     "docs/World/Maps",
-    "docs/World/Maps.md",
-    "docs/Entities/Ships/EquipPoints.md",
-    "docs/Entities/Ships/Ship Slots.md",
-    "docs/Entities/Items/Item Types/Storages.md",
     "docs/Entities/Ships/Types of Ships/SHip SLots",
     "docs/Entities/Items/Item Types/Armor/Defensive Armors",
     "docs/Entities/Items/Item Types/Armor/Offensive Armors",
@@ -220,9 +223,6 @@
     "docs/Entities/Items/Item Types/Drones/Medic Drones",
     "docs/Entities/Items/Item Types/Drones/Fighter Drones",
     "docs/Entities/Items/Item Types/Drones/Harvest Drones",
-    "docs/Entities/Items/Item Types/Drones",
-    "docs/Entities/Items/Item Types/Armor.md",
-    "docs/Entities/Items/Item Types/Computers.md",
     "docs/assets/3445755.png"
   ]
 }
