@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+# The Infinite Black 2 Wiki
+Welcome to the community-run wiki for **The Infinite Black 2**, the cross-platform space MMO.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+!!! info "Under Construction"
+    This wiki is currently being built by the community. Feel free to [contribute on GitHub](https://github.com/gatorskull/tib2-wiki)!
 
-## Commands
+## Quick Links
+* [[Ships]] - Detailed stats for all ship classes.
+* [[Weapons]] - Damage types and weapon tiers.
+* [[Corporations]] - How to manage your corp.
+* [[Map]] - Navigating the sectors.
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+## Game Info
+* **Developer:** Spellbook
+* **Genre:** Space MMO
+* **Status:** Live
