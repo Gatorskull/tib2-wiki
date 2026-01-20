@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/World/index.md",
+                "file": "docs/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -94,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "docs/World/index.md",
+                "file": "docs/index.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "docs/World/index.md",
+                "file": "docs/index.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
@@ -156,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "docs/World/index.md",
+                "file": "docs/index.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
@@ -185,13 +185,19 @@
   },
   "active": "22d646d885dbc36d",
   "lastOpenFiles": [
-    "docs/World/Spawnables.md",
-    "docs/World/index.md",
     "docs/World/Maps/Spawnables.md",
     "docs/World/Maps/Security Rating.md",
-    "docs/World/Maps/Sectors.md",
-    "docs/World/Maps/Exploration.md",
     "docs/World/Maps/index.md",
+    "docs/World/Maps/Exploration.md",
+    "docs/World/Maps/Untitled.md",
+    "docs/Getting Started/index.md",
+    "docs/Gameplay/Activities/index.md",
+    "docs/Gameplay/Builds/index.md",
+    "docs/Gameplay/Strategies/index.md",
+    "docs/Gameplay/index.md",
+    "docs/World/index.md",
+    "docs/World/Spawnables.md",
+    "docs/World/Maps/Sectors.md",
     "docs/World/Sectors.md",
     "docs/World/Maps",
     "docs/World/Maps.md",
@@ -215,12 +221,6 @@
     "docs/Entities/Items/Rarity.md",
     "docs/Entities/Items/Rank.md",
     "docs/Entities/Items/Quality.md",
-    "docs/Entities/Items/index.md",
-    "docs/Entities/Items/Durability.md",
-    "docs/Entities/Items/Void.md",
-    "docs/Entities/Ships/Elite Ranks.md",
-    "docs/Entities/Ships/Hardcore Ships.md",
-    "docs/Entities/Ships/Ship Sizes.md",
     "docs/assets/3445755.png",
     "Untitled.canvas"
   ]
