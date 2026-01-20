@@ -1,0 +1,20 @@
+site_name: THe Infinite Black 2 Wiki
+site_url: https://gatorskull.github.io/tib2-wiki/
+repo_url: https://github.com/gatorskull/tib2-wiki
+repo_name: Contribute
+
+theme:
+  name: material
+  features:
+    - navigation.instant  # Click links without page reloads
+    - navigation.tracking # Updates URL as you scroll
+    - navigation.sections # Groups sidebar items
+  palette:
+    scheme: slate         # Dark mode by default
+    primary: deep purple
+    accent: cyan
+
+markdown_extensions:
+  - admonition            # Allows "Warning" or "Info" blocks
+  - pymdownx.details      # Allows collapsible "Spoiler" blocks
+  - attr_list             # Allows resizing images
