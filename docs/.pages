@@ -1,5 +1,7 @@
 nav:
+  - index.md
   - Getting Started     
   - Entities
   - Gameplay
+  - World
   - ...

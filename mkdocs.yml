@@ -6,9 +6,10 @@ repo_name: Contribute
 theme:
   name: material
   features:
-    - navigation.instant  # Click links without page reloads
-    - navigation.tracking # Updates URL as you scroll
-    # - navigation.sections  <-- REMOVED: This was forcing folders to stay open as headers!
+    - navigation.instant
+    - navigation.tracking
+    - navigation.indexes
+    
   palette:
     scheme: slate
     primary: deep purple
