@@ -1,4 +1,3 @@
-
 Welcome to the team! We use a **Docs-as-Code** workflow with **branches and pull requests** to keep the wiki stable, reviewable, and easy to collaborate on.
 
 **⚠️ Never push directly to `main`.** All changes must go through a branch and a pull request.
@@ -35,21 +34,21 @@ Before you begin (or before creating your branch):
 
 1. Open **GitHub Desktop**
     
-2. Switch to the **`main`** branch (2)
+2. Switch to the **`main`** branch (②)
     
-3. Click **Fetch origin** (1)
+3. Click **Fetch origin** (①)
     
-4. If updates are available, click **Pull origin** (replaces the **Fetch origin** button)
+4. If updates are available, click **Pull origin** (this replaces the **Fetch origin** button)
     
 
 **Why?** Keeping `main` up to date reduces merge conflicts later.
 
-![[workflow_1.png]]
+![GitHub Desktop showing the Fetch Origin and Current Branch buttons](assets/workflow_1.png)
 
-*GitHub Desktop showing the "Fetch Origin" and "Current Branch" buttons.*
+_GitHub Desktop showing the **Fetch Origin** and **Current Branch** buttons._
 
-!!! info "Look here"
-    After clicking **Pull Origin**, your computer now has the most recent published changes downloaded locally.
+> ℹ️ **Look here**  
+> After clicking **Pull origin**, your computer now has the most recent published changes downloaded locally.
 
 ---
 
@@ -89,11 +88,11 @@ You can create your branch:
 
 > ✅ Once created, **all commits stay on this branch** until the pull request is merged.
 
-![[workflow_2.png]]
+![GitHub Desktop New Branch button](assets/workflow_2.png)
 
-*GitHub Desktop "New Branch" button. Click this to start a new branch.*
+_GitHub Desktop **New Branch** button._
 
-![[workflow_3.png]]
+![Branch creation dialog in GitHub Desktop](assets/workflow_3.png)
 
 ---
 
@@ -136,9 +135,9 @@ Each commit should represent a meaningful step (draft, section added, fixes, etc
 
 > ✅ Multiple commits on the **same branch** are normal and encouraged.
 
-![[workflow_4.png]]
+![GitHub Desktop commit interface](assets/workflow_4.png)
 
-*Add a commit here. You can commit multiple times, just make sure to publish your changes afterwards.*
+_Commit your changes locally. You may commit multiple times before publishing._
 
 ---
 
@@ -153,7 +152,7 @@ When you’re ready to share your work:
 
 You may push multiple times as you continue working.
 
-![[workflow_5.png]]
+![Publish branch button in GitHub Desktop](assets/workflow_5.png)
 
 ---
 
@@ -180,17 +179,17 @@ You may push multiple times as you continue working.
 
 > The pull request represents **all commits on your branch**.
 
-![[workflow_6.png]]
+![Recent pushes banner on GitHub](assets/workflow_6.png)
 
-*If you check the website quickly after pushing your changes, it may have the recent pushes banner available. Otherwise, you'll need to click New Pull Request.*
+_The recent pushes banner allows you to quickly open a pull request._
 
-![[workflow_7.png]]
+![New pull request button on GitHub](assets/workflow_7.png)
 
-*If you use the New Pull Request button, you'll have to manually select the branch to merge into main.*
+_If the banner is not visible, use the **New Pull Request** button._
 
-![[workflow_8.png]]
+![Pull request creation screen](assets/workflow_8.png)
 
-*Add a descriptive title and create the pull request when you're ready.*
+_Add a descriptive title and create the pull request when ready._
 
 ---
 
@@ -216,13 +215,13 @@ After opening the PR:
 
 **Do not force-push or guess.** Ask for help.
 
-![[workflow_9.png]]
+![Successful pull request ready to merge](assets/workflow_9.png)
 
-*A successful pull request. This can be merged immediately.*
+_A pull request with no conflicts can be merged immediately._
 
-![[workflow_error.png]]
+![Pull request with merge conflict warning](assets/workflow_error.png)
 
-*This pull request has a merge conflict, meaning there are multiple changes affecting the same text. It can be fixed with the resolve conflicts button, or you can let someone else know about the issue.*
+_A pull request showing a merge conflict that requires resolution or review._
 
 ---
 
@@ -239,10 +238,9 @@ When the PR is approved and conflict-free:
 
 > GitHub Actions will rebuild the site. Changes go live in ~60 seconds.
 
+![Delete branch button after merge](assets/workflow_10.png)
 
-![[workflow_10.png]]
-
-*Delete your branch after you're done merging. You can create a new branch if you want to make new changes again later.*
+_Delete your branch after merging. Create a new branch for future changes._
 
 ---
 
@@ -269,9 +267,7 @@ When the PR is approved and conflict-free:
 
 ### Formatting Cheat Sheet (MkDocs Material)
 
-#### Admonitions
-
-Text inside **must be indented by 4 spaces or 1 tab**.
+> ℹ️ These render on the live site, but not in GitHub preview.
 
 ```md
 !!! info "Pro Tip"
@@ -294,10 +290,10 @@ Text inside **must be indented by 4 spaces or 1 tab**.
 
 ### Images
 
-Drag & drop into Obsidian:
+Use standard Markdown for GitHub compatibility:
 
 ```md
-![[image-name.png]]
+![Description of image](assets/image-name.png)
 ```
 
 ---
