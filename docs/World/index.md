@@ -3,7 +3,7 @@
 The universe of *The Infinite Black 2* is not a single infinite void, but a collection of distinct **Solar Systems** (Maps) connected by a network of **[Jump Gates](Jump_Gates.md)**.
 
 ## The Map Grid
-Every Solar System is a **14x14 Grid** of Sectors.
+Every Solar System is a **15x15 Grid** of [[Sectors]].
 * **Coordinates:** Ranges from `(0,0)` in the bottom-left to `(14,14)` in the top-right.
 * **Traversal:** Crossing the edge of a map does *not* loop you around; you must use a [Jump Gate](Jump_Gates.md) to leave the system.
 
