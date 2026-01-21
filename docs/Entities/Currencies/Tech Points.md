@@ -11,11 +11,11 @@
 * **Store:** Purchasable directly via the Cash Shop ($).
 
 !!! tip "New Player Strategy"
-    Don't spend Tech Points augmenting item rarities early on. You will earn a large amount of them from early game achievements which will slow down as you play longer. It is best practice to save them up and use them on an item that you use long term. Your in game [[corporation]] and [[alliance]] can help you decide on the best items. 
+    Don't spend Tech Points augmenting item rarities early on. You will earn a large amount of them from early game achievements which will slow down as you play longer. It is best practice to save them up and use them on an item that you use long term. Your in-game [**corporation**](corporations.md) can help you decide on the best items. 
 
 ## Uses: Equipment & Items
 
-Tech Points are the fuel for the crafting and upgrade system:
+Tech Points are the fuel for the item upgrade system:
 
 * **Ranking:** Used to [[Rank]] items **Up** or **Down**.
 * **Augmenting:** Used to upgrade the [[Rarity]] of an item (e.g., Rare $\rightarrow$ Ultra-Rare).

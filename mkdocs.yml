@@ -16,7 +16,8 @@ theme:
 
 plugins:
   - search
-  - section-index         # (Recommended) Makes the folder click go straight to index.md
+  - section-index      
+  - awesome-pages
 
 markdown_extensions:
   - admonition

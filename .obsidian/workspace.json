@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Entities/Structures/Shipyards.md",
+                "file": "docs/Entities/Currencies/Credits.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Shipyards"
+              "title": "Credits"
             }
           }
         ]
@@ -185,35 +185,36 @@
   },
   "active": "22d646d885dbc36d",
   "lastOpenFiles": [
+    "docs/Entities/Currencies/Currencies.md",
+    "docs/Entities/Currencies/Credits.md",
+    "docs/Gameplay/Activities/index.md",
+    "docs/Entities/Currencies/New Text Document.txt",
+    "docs/Gameplay/Gameplay.md",
+    "docs/Getting Started/Getting Started.md",
+    "docs/Entities/Currencies/Tech Points.md",
+    "docs/Entities/Currencies/Untitled.md",
+    "docs/Entities/Corporations/Corporations.md",
+    "docs/Entities/Corporations/NPC-Owned Corporations.md",
+    "corporations.md",
+    "docs/Entities/Structures/Structures.md",
+    "docs/Entities/Structures/Deployment.md",
+    "corporation](Corporations)] and [[alliance.md",
+    "alliance.md",
+    "docs/Entities/Currencies/Star Shards.md",
+    "docs/Entities/Currencies/Skulls.md",
+    "docs/Entities/Corporations/Player-Owned Corporations.md",
+    "docs/Entities/Structures/Shipyards.md",
     "docs/Entities/Structures/Planets.md",
     "docs/Entities/Structures/Outposts.md",
     "docs/Entities/Structures/Jump Gates.md",
-    "docs/Entities/Structures/Shipyards.md",
     "docs/Entities/Structures/Garrisons.md",
-    "docs/Entities/Structures/Structures.md",
     "docs/Entities/Entities.md",
     "Corporation.md",
-    "docs/Entities/Structures/Deployment.md",
-    "docs/Entities/Currencies/Skulls.md",
-    "docs/Entities/Currencies/Star Shards.md",
-    "docs/Entities/Currencies/Credits.md",
-    "docs/Entities/Currencies/Currencies.md",
-    "docs/Entities/Currencies/Tech Points.md",
     "docs/Entities/Ships/Elite Ranks.md",
     "docs/Entities/Ships/EquipPoints.md",
-    "docs/Entities/Items/Rank.md",
-    "Structures.md",
-    "AI prompt.md",
     "docs/Entities/Currencies",
-    "docs/Entities/Ships/index.md",
-    "docs/Entities/Ships/Ship Slots.md",
-    "docs/Entities/Levels.md",
-    "docs/Entities/Corporations/Alliances.md",
-    "docs/Entities/Corporations/index.md",
-    "docs/Entities/Corporations/NPC-Owned Corporations.md",
     "Untitled 1.canvas",
     "Untitled.canvas",
-    "docs/Entities/Items/Gearscore.md",
     "docs/World/Maps",
     "docs/Entities/Ships/Types of Ships/SHip SLots",
     "docs/Entities/Items/Item Types/Armor/Defensive Armors",
@@ -222,7 +223,6 @@
     "docs/Entities/Items/Item Types/Computers/Mark Computers",
     "docs/Entities/Items/Item Types/Drones/Medic Drones",
     "docs/Entities/Items/Item Types/Drones/Fighter Drones",
-    "docs/Entities/Items/Item Types/Drones/Harvest Drones",
     "docs/assets/3445755.png"
   ]
 }

@@ -20,5 +20,5 @@ Because Skulls are hard to farm but necessary for high-end crafting, they comman
 
 While they can be traded for wealth, Skulls are physically consumed as a material for high-tier manufacturing:
 
-* **Ship Crafting:** Required to build specific advanced ship hulls.
-* **Elite Ranks:** Essential for crafting **Elite Ranks** for both Ships and Structures.
+* **Ship Crafting:** Required to craft certain ships. *insert ship crafting cost table link here*
+* **Elite Ranks:** Required to increase the elite rank of structures and ships. *insert elite rank cost table link here*
