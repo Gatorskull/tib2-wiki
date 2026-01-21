@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "docs/Entities/Ships/index.md",
+                "file": "docs/Entities/Items/index.md",
                 "mode": "source",
                 "source": false
               },
@@ -185,11 +185,12 @@
   },
   "active": "22d646d885dbc36d",
   "lastOpenFiles": [
-    "docs/Entities/Levels.md",
+    "docs/Entities/Miscellaneous/index.md",
+    "docs/Entities/Currencies/index.md",
     "docs/Entities/Ships/index.md",
+    "docs/Entities/Levels.md",
     "docs/Entities/Items/Item Types/index.md",
     "docs/Entities/Items/index.md",
-    "docs/Entities/Currencies/index.md",
     "docs/Entities/Currencies/Star Shards.md",
     "docs/Entities/Currencies/Credits.md",
     "docs/Entities/Corporations/NPC-Owned Corporations.md",
@@ -202,9 +203,8 @@
     "docs/World/index.md",
     "docs/World/Maps/index.md",
     "docs/World/Maps/Sectors.md",
-    "docs/Entities/Misc/index.md",
-    "docs/Entities/Misc/Asteroids.md",
-    "docs/Entities/Misc/Loose Loot.md",
+    "docs/Entities/Miscellaneous/Asteroids.md",
+    "docs/Entities/Miscellaneous/Loose Loot.md",
     "docs/Entities/Currencies/index.md.md",
     "docs/Entities/Items/Item Types/index.md.md",
     "docs/Entities/Items/index.md.md",
