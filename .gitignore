@@ -1,0 +1,11 @@
+# Ignore volatile UI-related state
+.obsidian/workspace.json
+.obsidian/app.json
+
+# Ignore system and editor files
+.vscode/
+
+# local env files
+.env*.local
+.env*.dev
+.env*.prod
