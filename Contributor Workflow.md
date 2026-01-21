@@ -39,14 +39,17 @@ Before you begin (or before creating your branch):
     
 3. Click **Fetch origin** (1)
     
-4. If updates are available, click **Pull origin**
+4. If updates are available, click **Pull origin** (replaces the **Fetch origin** button)
     
 
 **Why?** Keeping `main` up to date reduces merge conflicts later.
 
 ![[workflow_1.png]]
 
+*GitHub Desktop showing the "Fetch Origin" and "Current Branch" buttons.*
 
+!!! info "Look here"
+    After clicking **Pull Origin**, your computer now has the most recent published changes downloaded locally.
 
 ---
 
@@ -87,6 +90,9 @@ You can create your branch:
 > ✅ Once created, **all commits stay on this branch** until the pull request is merged.
 
 ![[workflow_2.png]]
+
+*GitHub Desktop "New Branch" button. Click this to start a new branch.*
+
 ![[workflow_3.png]]
 
 ---
@@ -132,6 +138,8 @@ Each commit should represent a meaningful step (draft, section added, fixes, etc
 
 ![[workflow_4.png]]
 
+*Add a commit here. You can commit multiple times, just make sure to publish your changes afterwards.*
+
 ---
 
 ### 5. Push the Branch
@@ -174,11 +182,15 @@ You may push multiple times as you continue working.
 
 ![[workflow_6.png]]
 
+*If you check the website quickly after pushing your changes, it may have the recent pushes banner available. Otherwise, you'll need to click New Pull Request.*
+
 ![[workflow_7.png]]
+
+*If you use the New Pull Request button, you'll have to manually select the branch to merge into main.*
 
 ![[workflow_8.png]]
 
-
+*Add a descriptive title and create the pull request when you're ready.*
 
 ---
 
@@ -206,7 +218,11 @@ After opening the PR:
 
 ![[workflow_9.png]]
 
+*A successful pull request. This can be merged immediately.*
+
 ![[workflow_error.png]]
+
+*This pull request has a merge conflict, meaning there are multiple changes affecting the same text. It can be fixed with the resolve conflicts button, or you can let someone else know about the issue.*
 
 ---
 
@@ -225,6 +241,8 @@ When the PR is approved and conflict-free:
 
 
 ![[workflow_10.png]]
+
+*Delete your branch after you're done merging. You can create a new branch if you want to make new changes again later.*
 
 ---
 
