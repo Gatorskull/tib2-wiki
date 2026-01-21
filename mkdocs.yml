@@ -15,9 +15,10 @@ theme:
     accent: cyan
 
 plugins:
+  - awesome-pages
   - search
   - section-index      
-  - awesome-pages
+  
 
 markdown_extensions:
   - admonition
