@@ -27,7 +27,5 @@ nav:
   - Changelog.md
 
   # Catch-all: include any other files/folders not listed above
-  - ...
-
-hide:
-  - Draft Notes.md
+  # We disable this so that unlisted files do not show up in navigation, but are still searchable
+  # - ...

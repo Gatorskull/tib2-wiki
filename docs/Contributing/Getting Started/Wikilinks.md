@@ -4,12 +4,13 @@ This wiki uses **Obsidian-style wikilinks** instead of plain Markdown links when
 
 Example:
 
-[[Getting Started/index|Getting Started]]
-[[Example]]
+[[Getting Started]]
+
+[[Using Markdown]]
 
 ``` text
 [[Getting Started/index|Getting Started]]
-[[Example]]
+[[Using Markdown]]
 ```
 
 ### Why wikilinks are preferred
