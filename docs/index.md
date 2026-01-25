@@ -7,10 +7,10 @@ Welcome to the community-run wiki for **The Infinite Black 2**, the cross-platfo
     Reach out to Goot in the game for any questions or suggestions!
 
 ## Quick Links
-* [[Ships]] - Detailed stats for all ship classes.
-* [[Weapons]] - Damage types and weapon tiers.
-* [[docs/Entities/Corporations/index]] - How to manage your corp.
-* [[Map]] - Navigating the sectors.
+* [Ships](Ships) - Detailed stats for all ship classes.
+* [Weapons](Weapons) - Damage types and weapon tiers.
+* [Corporations](Entities/Corporations) - How to manage your corp.
+* [Maps](World/Maps) - Navigating the sectors.
 
 ## Game Info
 * **Developer:** Spellbook

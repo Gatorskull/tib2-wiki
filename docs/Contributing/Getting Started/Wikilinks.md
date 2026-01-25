@@ -8,6 +8,8 @@ Example:
 
 [[Using Markdown]]
 
+[Using Markdown](Using%20Markdown.md)
+
 ``` text
 [[Getting Started/index|Getting Started]]
 [[Using Markdown]]
