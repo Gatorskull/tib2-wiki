@@ -93,7 +93,7 @@ If something doesn’t show up in the sidebar:
 ## Where to find examples and templates
 
  **Start here:**  
-[[Getting Started/index|Getting Started]]
+[Getting Started](/tib2-wiki/Contributing/Getting%20Started)
 
 That section contains:
 - Step-by-step examples
