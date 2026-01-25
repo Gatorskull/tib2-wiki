@@ -1,0 +1,10 @@
+nav:
+  # Section landing page (required)
+  - index.md
+
+  # Standalone pages in this folder (Will appear in nav bar in this order)
+  - Examples.md
+  - Wikilinks.md
+
+  # Catch-all: include any other files/folders not listed above
+  - ...
