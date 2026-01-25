@@ -4,6 +4,10 @@
 
 # Ignore system and editor files
 .vscode/
+.venv/
+
+# local build files
+site/
 
 # local env files
 .env*.local

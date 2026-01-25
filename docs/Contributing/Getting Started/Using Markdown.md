@@ -1,3 +1,4 @@
+# Using Markdown
 
 This page provides **canonical examples** for writing and formatting content on the *The Infinite Black 2 Wiki*.  
 All contributors should follow these conventions to keep the wiki clean, consistent, and professional.
