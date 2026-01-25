@@ -1,0 +1,33 @@
+# -----------------------------------------------------------------------------
+# Navigation rules for this section
+#
+# Structure assumptions:
+# - index.md = section landing page
+# - Subfolders = subsections
+# - Standalone .md files = supporting pages
+#
+# Principles:
+# - index.md always comes first
+# - Major subsections are explicitly ordered
+# - Minor pages and future additions flow in via `...`
+# -----------------------------------------------------------------------------
+
+# Optional: Override sidebar title (defaults to folder name)
+# title: Section Name
+
+nav:
+  # Section landing page (required)
+  - index.md
+
+  # Primary subsections (folders)
+  - Getting Started
+
+  # Standalone pages in this folder
+  - FAQ.md
+  - Changelog.md
+
+  # Catch-all: include any other files/folders not listed above
+  - ...
+
+hide:
+  - Draft Notes.md

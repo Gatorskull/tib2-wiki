@@ -12,9 +12,9 @@ There are four primary currencies used in *The Infinite Black 2*.
 
 * [**Skulls**](Skulls.md) - The high-value PvP currency. Tradable and used for ship crafting and elite ranks.
 
-* [**Tech Points**](Tech_Points.md) - Bound progression currency.
+* [**Tech Points**](Tech%20Points.md) - Bound progression currency.
 
-* [**Star Shards**](Star_Shards.md) - Premium currency.
+* [**Star Shards**](Star%20Shards.md) - Premium currency.
 
   
   

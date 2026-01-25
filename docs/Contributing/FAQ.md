@@ -1,0 +1,1 @@
+Commonly asked questions about folder structure should go here.
