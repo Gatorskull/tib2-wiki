@@ -7,7 +7,7 @@ nav:
 
   # Standalone pages in this folder (Will appear in nav bar in this order)
   - Using Markdown.md
-  - Wikilinks.md
+  - Markdown Links.md
 
   # Catch-all: include any other files/folders not listed above
   - ...

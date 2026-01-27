@@ -75,31 +75,9 @@ Do **not** manually add line breaks inside paragraphs.
 
 ---
 ## Links
-Standard Markdown Links (External)
+We use standard markdown links, because the tech lead couldn't figure out how to configure wikilinks plugin with mkdocs properly. If you'd like to attempt it, contact the owners of this wiki.
 
-Use for **external sites only**.
-```md
-[Official Website](https://example.com)
-```
-
----
-## Wikilinks (Internal Pages)
-Use Obsidian-style wikilinks for all internal wiki references.
-```
-[[Ship Classes]]
-[[Weapons]]
-[[Faction: Wyrd]]
-```
-
-Display Text
-```
-[[Ship Classes|classes of ships]]
-```
-
-**Rules**
-- Prefer wikilinks over regular markdown links for internal pages.
-- Do not include file extensions (`.md`).
-- Link the **first meaningful mention** of a page on each article.
+See [Markdown Links](Markdown%20Links.md) for examples of how to link pages.
 
 ---
 ## Naming Conventions (Pages)
