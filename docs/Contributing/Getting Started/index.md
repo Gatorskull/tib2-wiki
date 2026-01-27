@@ -38,7 +38,7 @@ Use normal Markdown:
 Some text here.
 ```
 
-You may also use [Wikilinks](Wikilinks.md) when linking to other pages:
+You may also use [Markdown Links](Markdown%20Links.md) when linking to other pages:
 
 ``` md
 [[Contributing/FAQ|Frequently Asked Questions]]
