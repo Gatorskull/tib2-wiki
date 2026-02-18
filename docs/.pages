@@ -1,7 +1,10 @@
 nav:
   - index.md
-  - New Player Guide    
+  - Getting-Started
+  - Ships
+  - Items
   - Entities
   - Gameplay
   - World
+  - Contributing
   - ...

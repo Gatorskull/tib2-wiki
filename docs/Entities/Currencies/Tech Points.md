@@ -1,35 +1,44 @@
 # Tech Points
 
-**Tech Points (TP)** are the primary utility and progression currency. They are the most versatile currency in the game, used for everything from item upgrades to guild management.
+**Tech Points** are the main utility and progression currency. They are used for corps, item upgrades, bank space, travel, and more. You earn thousands over your career and can convert **1,000 [Credits](Credits.md) into 1 Tech Point** at any time.
 
-**Tradability:** Tech Points are **Bound** and cannot be traded between players.
+**Tradability:** Tech Points are **bound** — they cannot be traded between players.
 
 ## How to Obtain
 
-* **Conversion:** Purchased using Credits (Standard rate: 1,000 Credits = 1 TP).
-* **Gameplay:** Rewards for completing **Outpost Missions**, **Missions** and unlocking **Achievements**.
-* **Store:** Purchasable directly via the Cash Shop ($).
+* **Conversion** — 1,000 Credits = 1 Tech Point (any time).
+* **Gameplay** — Rewards from [Missions](/Gameplay/Missions.md), outpost missions, and achievements.
+* **Store** — Purchasable at [Spellbook.com](https://www.spellbook.com/purchase/tib2/techpoints.php) to support the game. Purchases also grant **Reward Points** — open **Captain Panel → REWARDS** for bonus gifts (Party Boxes, skins, etc.).
 
-!!! tip "New Player Strategy"
-    Don't spend Tech Points augmenting item rarities early on. You will earn a large amount of them from early game achievements which will slow down as you play longer. It is best practice to save them up and use them on an item that you use long term. Your in-game [**corporation**](/tib2-wiki/Entities/Corporations) can help you decide on the best items. 
+!!! info "Oblivion Server"
+    Tech Point **orders** deliver to both the **Primary Server** and **Oblivion Server** if you have a character on each. There is no link between servers and nothing transfers between them.
+
+---
 
 ## Uses: Equipment & Items
 
-Tech Points are the fuel for the item upgrade system:
-
-* **Ranking:** Used to [Rank](Rank.md) items **Up** or **Down**.
-* **Augmenting:** Used to upgrade the [Rarity](Rarity.md) of an item (e.g., Rare $\rightarrow$ Ultra-Rare).
+* **Item upgrades** — Rank items up or down; upgrade [rarity](/Items/index.md) (e.g. Rare → Ultra-Rare) via the item inspect panel.
+* **Research** — Buy research time for technologies in the captain research menu.
 
 ## Uses: Player Convenience
 
-* **Expansion:** Purchasing additional slots for your **Item Bank** and **Ship Garage**.
-* **Travel:** Used to **Quick Jump** to specific locations instantly.
-* **Research:** Buying "Research Time" for technologies in the player captain research menu.
+* **Bank & garage** — Unlock additional **Item Bank** and **Ship Garage** slots.
+* **Quick Jump** — Spend Tech Points to Quick Jump to discovered locations (e.g. alliance structures, human jump gates). Cost is **1 Tech Point per jump** regardless of how many ships move.
 
 ## Uses: Corporations
 
-Tech Points are vital for Corporation growth and logistics:
+* **Structures** — Unlock new [**defense units**](/Entities/Structures/index.md) and pay to **deploy** them (Corporation Management panel).
+* **Member slots** — Buy additional corp member slots.
+* **Corp bank** — Purchase extra corp bank slots for shared storage.
+* **Creating a corporation** — Tech Points are required to found a corp.
 
-* **Structure Management:** **Unlocking** new corporation [Corporation Defense Structures](Corporation%20Defense%20Structures) and paying to **deploy** them into sectors.
-* **Expansion:** Buying additional **Member Slots** to recruit more players.
-* **Storage:** Purchasing extra **Corp Bank** slots for shared storage.
+!!! tip "New player strategy"
+    Don’t spend Tech Points on item rarity upgrades early. You earn a lot from early achievements; that flow slows later. Save them for items you’ll use long term. Your [**corporation**](/Entities/Corporations/index.md) can help you decide.
+
+---
+
+## See Also
+
+* [Credits](Credits.md) — Converting to Tech Points
+* [Corporations](/Entities/Corporations/index.md) — Corp uses of Tech Points
+* [Structures](/Entities/Structures/index.md) — Deployment and unlocks

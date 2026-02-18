@@ -3,6 +3,9 @@
 
 Security Ratings range from **SR1** (safest) to **SR9** (most dangerous).
 
+!!! info "Indicative data"
+    The level and ship-per-sector ranges below are **indicative** and may be adjusted with game balance. Replace with official data when available.
+
 ---
 
 ## Overview

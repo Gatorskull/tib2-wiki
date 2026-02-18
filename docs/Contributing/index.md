@@ -90,6 +90,12 @@ If something doesn’t show up in the sidebar:
 
 ---
 
+## Wiki status (what’s done vs. left)
+
+To see what’s already built and what’s still missing or could be expanded, see [Wiki Status](Wiki-Status.md). It lists gaps (Artifacts, Mutate Item Kit, Gravity Drives, Ship Mods expansion, etc.) and a suggested order to tackle them.
+
+---
+
 ## Where to find examples and templates
 
  **Start here:**  

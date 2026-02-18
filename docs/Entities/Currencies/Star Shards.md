@@ -1,25 +1,24 @@
 # Star Shards
 
-**Star Shards** are the premium cosmetic currency in *The Infinite Black 2*. They are dedicated exclusively to visual customization and do not affect gameplay stats.
+**Star Shards** are the premium **cosmetic** currency. They are used only for visual customization and do **not** affect gameplay stats.
+
+**Tradability:** Star Shards are **bound** to your account.
 
 ## How to Obtain
 
-Star Shards can be acquired through high-level PvE challenges, currency exchange, or direct purchase.
-
-### 1. Currency Exchange (TIB Market)
-You can convert **Tech Points** into Star Shards via the TIB Market.
-
-!!! example "Exchange Rate"
-    **1,000 Tech Points** $\rightarrow$ **2,000 Star Shards** (Once per Day)
-
-### 2. Gameplay Rewards
-* **Outposts:** Earned by completing **Outpost Mission Chains** and defeating the final boss at the end of the chain.
-
-### 3. Direct Purchase
-* **Cash Shop:** Purchasable directly for real money ($).
+| Source | Details |
+|--------|---------|
+| **TIB Market (exchange)** | Convert [**Tech Points**](Tech%20Points.md) into Star Shards. **1,000 Tech Points → 2,000 Star Shards** (once per day). |
+| **Gameplay** | Earned from **Outpost mission chains** and defeating the final boss at the end of the chain. |
+| **Store** | Purchasable directly for real money in the cash shop. |
 
 ## Uses
 
-Currently, Star Shards serve a single purpose:
+* **Cosmetics** — Purchase visual upgrades from the TIB Market: ship skins, engine trails, avatars, and similar items.
 
-* **Cosmetics:** Purchasing visual upgrades from the TIB Market (e.g., Ship Skins, Engine Trails, Avatars).
+---
+
+## See Also
+
+* [Tech Points](Tech%20Points.md) — Convert into Star Shards
+* [Currencies overview](index.md)

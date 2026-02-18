@@ -1,13 +1,31 @@
 # Shipyards
 
-**Shipyards** are Corporation-owned industrial facilities dedicated to the construction and storage of vessels.
+**Shipyards** [**construct**](/Ships/Ship-Crafting.md) new [**ships**](/Ships/index.md) for corporation members and unlock new blueprints as they level up. Each corporation can have up to **3 Shipyards**.
 
-## Capacity & Variants
-Corporations can unlock up to **4 Shipyards** in total.
+## Capacity & Factions
 
-* **Faction Variants:** There is one Shipyard variant for each of the major factions.
-* **Function:** Used for crafting faction-specific hulls and storing fleet vessels.
+| Feature | Details |
+|---------|---------|
+| **Limit** | Up to **3** Shipyards per corporation. |
+| **Faction** | Each Shipyard is dedicated to **one faction** (Pirate, Het, Wyrd, Precursor). Corp leadership chooses the faction; that Shipyard then builds that faction’s ships. |
+| **Hull/Shield** | **+Max Hull** and **+Max Shield** stats are multiplied by **×12**. |
+
+## Function
+
+* **Building ships** — Members build ships at the corp’s Shipyards when the correct level and blueprint are unlocked. Advanced ships require [**Skulls**](/Entities/Currencies/Skulls.md) and [**Relics**](/Entities/Currencies/Relics.md) in addition to resources.
+* **Blueprints** — Unlocked as the Shipyard levels up (via resources in the inspect menu).
+* **Storage** — Shipyards also store fleet vessels.
 
 ## Deployment
-* **Cost:** 15 TP.
-* **Rules:** See [Deployment Guide](Deployment.md).
+
+* **Cost:** 15 [Tech Points](/Entities/Currencies/Tech%20Points.md).
+* **Rules:** See [Deployment](Deployment.md).
+
+---
+
+## See Also
+
+* [Structures overview](index.md)
+* [Ship Crafting](/Ships/Ship-Crafting.md)
+* [Corporations](/Entities/Corporations/index.md)
+* [Skulls](/Entities/Currencies/Skulls.md) and [Relics](/Entities/Currencies/Relics.md)

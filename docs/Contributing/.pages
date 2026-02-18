@@ -24,6 +24,7 @@ nav:
 
   # Standalone pages in this folder
   - FAQ.md
+  - Wiki-Fill-Out-Plan.md
   - Changelog.md
 
   # Catch-all: include any other files/folders not listed above
