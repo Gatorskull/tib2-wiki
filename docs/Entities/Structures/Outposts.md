@@ -22,7 +22,7 @@
 
 ## Deployment
 
-* **Cost:** 15 [Tech Points](/Entities/Currencies/Tech%20Points.md).
+* **Cost:** 15 [Tech Points](../Currencies/Tech Points.md).
 * **Rules:** See [Deployment](Deployment.md).
 
 ---
@@ -30,5 +30,5 @@
 ## See Also
 
 * [Structures overview](index.md)
-* [Corporations](/Entities/Corporations/index.md)
+* [Corporations](../Corporations/index.md)
 * [Deployment](Deployment.md)

@@ -1,6 +1,6 @@
 # Elite Ranks
 
-Ships and [**defense units**](/Entities/Structures/index.md) can be upgraded with **Elite Ranks** using [**Skulls**](/Entities/Currencies/Skulls.md) (earned from PvP). Each rank adds [**technology**](/Gameplay/Technology.md), [**skill points**](/Gameplay/Skills.md), and/or [**Equip Points**](Equip-Points.md). Use the **ELITE RANK** button on the Unit Inspect Panel; you can **preview** improvements without confirming.
+Ships and [**defense units**](../Entities/Structures/index.md) can be upgraded with **Elite Ranks** using [**Skulls**](../Entities/Currencies/Skulls.md) (earned from PvP). Each rank adds [**technology**](../Gameplay/Technology.md), [**skill points**](../Gameplay/Skills.md), and/or [**Equip Points**](Equip-Points.md). Use the **ELITE RANK** button on the Unit Inspect Panel; you can **preview** improvements without confirming.
 
 ## Ship Elite Rank Costs (Skulls)
 
@@ -30,6 +30,6 @@ The starting **Striker Gunboat** can become one of your strongest ships. Each El
 
 ## See Also
 
-* [Skulls](/Entities/Currencies/Skulls.md) — How to earn them
+* [Skulls](../Entities/Currencies/Skulls.md) — How to earn them
 * [Ships](index.md)
-* [Structures](/Entities/Structures/index.md) — Defense unit costs
+* [Structures](../Entities/Structures/index.md) — Defense unit costs

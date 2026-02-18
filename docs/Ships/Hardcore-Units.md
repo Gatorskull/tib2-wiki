@@ -1,6 +1,6 @@
 # Hardcore Ships & Defense Units
 
-Any **ship** or **defense unit** can be set to **Hardcore** (opt-in). Hardcore units gain strong bonuses but **drop equipment** and lose more **durability** on death. [**Corporate Defender**](/Entities/Corporations/Corporate-Defenders.md) ships are never chosen from Hardcore ships — only non-Hardcore eligible ships can be used as Corp Defenders.
+Any **ship** or **defense unit** can be set to **Hardcore** (opt-in). Hardcore units gain strong bonuses but **drop equipment** and lose more **durability** on death. [**Corporate Defender**](../Entities/Corporations/Corporate-Defenders.md) ships are never chosen from Hardcore ships — only non-Hardcore eligible ships can be used as Corp Defenders.
 
 ---
 
@@ -9,7 +9,7 @@ Any **ship** or **defense unit** can be set to **Hardcore** (opt-in). Hardcore u
 When a ship or defense unit is Hardcore:
 
 - **−10% Movement Cooldown** — Faster sector-to-sector movement.
-- **+25 [Skill Points](/Gameplay/Skills.md)** — Extra skill points to spend.
+- **+25 [Skill Points](../Gameplay/Skills.md)** — Extra skill points to spend.
 - **+3 [Equip Points](Equip-Points.md)** — Ships gain 3 more EP. **Corporate defense units** gain **+10 Equip Points** when Hardcore.
 - **+5 additional Skill Points** — Hardcore units can invest 5 more skill points (on top of the +25), for greater build flexibility.
 
@@ -27,17 +27,17 @@ So Hardcore is high risk, high reward: better stats and EP, but death costs you 
 
 ## Corporate Defenders and Phoenix
 
-- **Corp Defenders** — [Corporate Defender Ships](/Entities/Corporations/Corporate-Defenders.md) are drawn from corp/alliance members’ ships. **Hardcore ships are never used** as Corp Defenders; only eligible non-Hardcore ships are considered.
+- **Corp Defenders** — [Corporate Defender Ships](../Entities/Corporations/Corporate-Defenders.md) are drawn from corp/alliance members’ ships. **Hardcore ships are never used** as Corp Defenders; only eligible non-Hardcore ships are considered.
 - **Phoenix Ship Mod** — Ships with the [Phoenix](Ship-Mods.md) mod **cannot** go Hardcore, and Hardcore ships cannot use the Phoenix mod.
 
 ---
 
 ## Oblivion Server
 
-On the [**Oblivion Server**](/Gameplay/Oblivion-Server.md), rules are harsher:
+On the [**Oblivion Server**](../Gameplay/Oblivion-Server.md), rules are harsher:
 
 - **Hardcore ships** lose **100% durability** on death and **drop all equipped items**.
-- Hardcore ships that get the killing shot generate [**pity loot**](/Items/Pity-Loot.md) at **2×** the Oblivion accelerated rate, stacking with other loot bonuses (e.g. up to 10× or more during invasions).
+- Hardcore ships that get the killing shot generate [**pity loot**](../Items/Pity-Loot.md) at **2×** the Oblivion accelerated rate, stacking with other loot bonuses (e.g. up to 10× or more during invasions).
 
 ---
 
@@ -55,7 +55,7 @@ On the [**Oblivion Server**](/Gameplay/Oblivion-Server.md), rules are harsher:
 ## See Also
 
 * [Ship Mods](Ship-Mods.md) — Phoenix incompatible with Hardcore
-* [Corporate Defenders](/Entities/Corporations/Corporate-Defenders.md) — Hardcore ships never used
-* [Oblivion Server](/Gameplay/Oblivion-Server.md) — Hardcore death and loot rules
+* [Corporate Defenders](../Entities/Corporations/Corporate-Defenders.md) — Hardcore ships never used
+* [Oblivion Server](../Gameplay/Oblivion-Server.md) — Hardcore death and loot rules
 * [Equip Points](Equip-Points.md) — +3 EP (ships) / +10 EP (defenses)
-* [Skills](/Gameplay/Skills.md) — +25 and +5 extra Skill Points
+* [Skills](../Gameplay/Skills.md) — +25 and +5 extra Skill Points

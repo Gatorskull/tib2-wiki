@@ -1,6 +1,6 @@
 # Grapple Ability
 
-With **10+ Grapple Chance** a [ship](/Ships/index.md) can use the **Grapple** hotbar action. It **consumes 25% battery**. Grappled targets **lose 25 Evasion** and **cannot move**.
+With **10+ Grapple Chance** a [ship](../../Ships/index.md) can use the **Grapple** hotbar action. It **consumes 25% battery**. Grappled targets **lose 25 Evasion** and **cannot move**.
 
 ## How It Works (No Dice Roll)
 
@@ -24,5 +24,5 @@ With **10+ Grapple Chance** a [ship](/Ships/index.md) can use the **Grapple** ho
 ## See Also
 
 * [Hacking](Hacking.md) | [Drain](Drain.md) | [Technician](Technician.md) | [Taunt](Taunt.md) | [Deflector](Deflector.md) | [Junker](Junker.md)
-* [Stats](/Items/Stats.md) — Grapple Chance / Resist
+* [Stats](../../Items/Stats.md) — Grapple Chance / Resist
 * [Abilities](index.md)

@@ -9,7 +9,7 @@ Community-written guides can provide extra tips and opinions. They may not alway
 * **Bubbadoge's All-Inclusive Guide** — [Spellbook files](https://files.spellbook.com/tib/tib2guide.html)
 * **Bubbadoge's Gear Guide** — [Spellbook files](https://files.spellbook.com/tib/tib2gearguide.html)
 
-The developers pay [**Tech Points**](/Entities/Currencies/Tech%20Points.md) for well-written, comprehensive guides!
+The developers pay [**Tech Points**](../Entities/Currencies/Tech Points.md) for well-written, comprehensive guides!
 
 ---
 

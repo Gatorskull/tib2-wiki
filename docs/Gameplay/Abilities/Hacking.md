@@ -1,6 +1,6 @@
 # Hacking Ability
 
-With **10+ Hack Chance** a [ship](/Ships/index.md) can use the **Hack** hotbar action. It **consumes 25% battery**. Hacked targets:
+With **10+ Hack Chance** a [ship](../../Ships/index.md) can use the **Hack** hotbar action. It **consumes 25% battery**. Hacked targets:
 
 * **Cannot use** any hotbar ability **except Repair**
 * **Battery does not regenerate**
@@ -27,5 +27,5 @@ With **10+ Hack Chance** a [ship](/Ships/index.md) can use the **Hack** hotbar a
 ## See Also
 
 * [Grapple](Grapple.md) | [Drain](Drain.md) | [Technician](Technician.md) | [Taunt](Taunt.md) | [Deflector](Deflector.md) | [Junker](Junker.md)
-* [Stats](/Items/Stats.md) — Hack Chance / Resist
+* [Stats](../../Items/Stats.md) — Hack Chance / Resist
 * [Abilities](index.md)

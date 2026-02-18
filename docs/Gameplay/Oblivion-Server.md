@@ -34,7 +34,7 @@ The **Oblivion Server** is a **separate universe** with hardcore rule variations
 
 ## Hardcore Ships on Oblivion
 
-[**Hardcore**](/Ships/index.md) ships generate [**pity loot**](/Items/Pity-Loot.md) at **2×** the Oblivion accelerated rate when they get the killing shot. This stacks with other bonuses — **up to 10×** or more during invasions.
+[**Hardcore**](../Ships/Hardcore-Units.md) ships generate [**pity loot**](../Items/Pity-Loot.md) at **2×** the Oblivion accelerated rate when they get the killing shot. This stacks with other bonuses — **up to 10×** or more during invasions.
 
 ## Arena on Oblivion
 
@@ -46,14 +46,14 @@ The **Oblivion Server** is a **separate universe** with hardcore rule variations
 
 ## Tech Points and Reward Points
 
-* [**Tech Point**](/Entities/Currencies/Tech%20Points.md) **orders** deliver to **both** Primary and Oblivion if you have a character on each. There is **no link** between servers; **nothing transfers**.
-* [**Reward Point Gifts**](/Gameplay/Events/Reward-Point-Gifts.md) can buy [**Party Boxes**](/Gameplay/Events/Party-Boxes.md) that include **Ultimate** rarity on Oblivion.
+* [**Tech Point**](../Entities/Currencies/Tech Points.md) **orders** deliver to **both** Primary and Oblivion if you have a character on each. There is **no link** between servers; **nothing transfers**.
+* [**Reward Point Gifts**](./Events/Reward-Point-Gifts.md) can buy [**Party Boxes**](./Events/Party-Boxes.md) that include **Ultimate** rarity on Oblivion.
 
 ---
 
 ## See Also
 
-* [PvP](/Gameplay/Activities/Player%20vs%20Player%20(PVP)/index.md) — Normal server rules
-* [Ships](/Ships/index.md) — Hardcore ships
-* [Tech Points](/Entities/Currencies/Tech%20Points.md)
-* [Factions](/World/Factions/Precursor.md) — The Precursors' conflict with The Oblivion (lore)
+* [PvP](./Activities/Player vs Player (PVP)/index.md) — Normal server rules
+* [Ships](../Ships/index.md) — Hardcore ships
+* [Tech Points](../Entities/Currencies/Tech Points.md)
+* [Factions](../World/Factions/Precursor.md) — The Precursors' conflict with The Oblivion (lore)

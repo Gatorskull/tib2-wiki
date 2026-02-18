@@ -6,7 +6,7 @@ Timed and daily content: free gifts, daily event modifiers, holiday gems, and Pa
 
 | Topic | Description |
 |-------|-------------|
-| [**Free Daily Gifts**](Free-Daily-Gifts.md) | FREE button at [defense units](/Entities/Structures/index.md), GIFT BOX in menu, weekly Void reward. |
+| [**Free Daily Gifts**](Free-Daily-Gifts.md) | FREE button at [defense units](../../Entities/Structures/index.md), GIFT BOX in menu, weekly Void reward. |
 | [**Daily Events**](Daily-Events.md) | 50+ random modifiers (crafting bonuses, small-ship buffs, Love Day / War Day). Type **:DAILY** in chat. |
 
 ## Special & Rewards
@@ -21,6 +21,6 @@ Timed and daily content: free gifts, daily event modifiers, holiday gems, and Pa
 
 ## See Also
 
-* [Missions](/Gameplay/Missions.md) — Reset with daily
-* [PvE](/Gameplay/Activities/Player%20vs%20Environment%20(PVE)/index.md) — Event loot and modifiers
-* [Currencies](/Entities/Currencies/index.md) — Tech Points and Star Shards
+* [Missions](../Missions.md) — Reset with daily
+* [PvE](../Activities/Player vs Environment (PVE)/index.md) — Event loot and modifiers
+* [Currencies](../../Entities/Currencies/index.md) — Tech Points and Star Shards

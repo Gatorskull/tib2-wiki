@@ -31,15 +31,15 @@ All previously listed gaps now have full pages:
 
 | Topic | Location |
 |-------|----------|
-| **Artifacts** | [Entities/Structures/Artifacts.md](/Entities/Structures/Artifacts.md) |
-| **Mutate Item Kit** | [Items/Mutate-Item-Kit.md](/Items/Mutate-Item-Kit.md) |
-| **Gravity Drives** | [Items/Gravity-Drives.md](/Items/Gravity-Drives.md) |
-| **Interdictor Carrier** | [Ships/Interdictor-Carrier.md](/Ships/Interdictor-Carrier.md) |
-| **Deception Module** | [Ships/Deception-Module.md](/Ships/Deception-Module.md) |
-| **Hardcore Ships & Defense Units** | [Ships/Hardcore-Units.md](/Ships/Hardcore-Units.md) |
-| **Retro Ship Skins** | [Ships/Retro-Skins.md](/Ships/Retro-Skins.md) |
-| **Weapons** | [Items/Weapons.md](/Items/Weapons.md) (overview; damage tiers can be added when data exists) |
-| **Spaceball** | [Gameplay/Spaceball.md](/Gameplay/Spaceball.md) |
+| **Artifacts** | [Entities/Structures/Artifacts.md](../Entities/Structures/Artifacts.md) |
+| **Mutate Item Kit** | [Items/Mutate-Item-Kit.md](../Items/Mutate-Item-Kit.md) |
+| **Gravity Drives** | [Items/Gravity-Drives.md](../Items/Gravity-Drives.md) |
+| **Interdictor Carrier** | [Ships/Interdictor-Carrier.md](../Ships/Interdictor-Carrier.md) |
+| **Deception Module** | [Ships/Deception-Module.md](../Ships/Deception-Module.md) |
+| **Hardcore Ships & Defense Units** | [Ships/Hardcore-Units.md](../Ships/Hardcore-Units.md) |
+| **Retro Ship Skins** | [Ships/Retro-Skins.md](../Ships/Retro-Skins.md) |
+| **Weapons** | [Items/Weapons.md](../Items/Weapons.md) (overview; damage tiers can be added when data exists) |
+| **Spaceball** | [Gameplay/Spaceball.md](../Gameplay/Spaceball.md) |
 
 ---
 

@@ -19,5 +19,5 @@ The **Hets** are a mysterious species that live in **open space** and move in **
 
 * [Factions](index.md)
 * [Wyrd](Wyrd.md) | [Precursor](Precursor.md) | [Pirates](Pirates.md)
-* [Maps](/World/Maps/index.md)
-* [Ships](/Ships/index.md) — Het ship variants
+* [Maps](../Maps/index.md)
+* [Ships](../../Ships/index.md) — Het ship variants

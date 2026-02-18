@@ -1,19 +1,11 @@
 # -----------------------------------------------------------------------------
 # Navigation rules for this section
 #
-# Structure assumptions:
-# - index.md = section landing page
-# - Subfolders = subsections
-# - Standalone .md files = supporting pages
-#
-# Principles:
-# - index.md always comes first
-# - Major subsections are explicitly ordered
-# - Minor pages and future additions flow in via `...`
+# This entire section is HIDDEN from the wiki sidebar (contributor-only).
+# Pages are still reachable by direct link and search.
 # -----------------------------------------------------------------------------
 
-# Optional: Override sidebar title (defaults to folder name)
-# title: Section Name
+hide: true
 
 nav:
   # Section landing page (required)

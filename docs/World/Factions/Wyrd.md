@@ -23,5 +23,5 @@ The Wyrd introduced a **techno-organic virus** to the [**Het**](Het.md) in an at
 
 * [Factions](index.md)
 * [Het](Het.md) | [Precursor](Precursor.md) | [Pirates](Pirates.md)
-* [Maps](/World/Maps/index.md)
-* [Ships](/Ships/index.md) — Wyrd ship variants
+* [Maps](../Maps/index.md)
+* [Ships](../../Ships/index.md) — Wyrd ship variants

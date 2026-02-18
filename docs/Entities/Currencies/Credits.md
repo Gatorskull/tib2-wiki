@@ -25,6 +25,6 @@ Credits are generated through commerce and recycling:
 
 ## See Also
 
-* [Tech Points](Tech%20Points.md) — What Credits convert into
+* [Tech Points](Tech Points.md) — What Credits convert into
 * [Skulls](Skulls.md) — The other tradable currency; often exchanged for Credits
-* [Items](/Items/index.md) — What you buy and sell on the Auction House
+* [Items](../../Items/index.md) — What you buy and sell on the Auction House

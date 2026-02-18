@@ -1,6 +1,6 @@
 # Relics
 
-**Relics** are a rare [**ship crafting**](/Ships/Ship-Crafting.md) component used to build **Assassin, Hades, Carrier, and Emperor-class** [ships](/Ships/index.md). Each alien faction has its own relic type for building that faction’s ships at [**Corporation Shipyards**](/Entities/Structures/Shipyards.md).
+**Relics** are a rare [**ship crafting**](../../Ships/Ship-Crafting.md) component used to build **Assassin, Hades, Carrier, and Emperor-class** [ships](../../Ships/index.md). Each alien faction has its own relic type for building that faction’s ships at [**Corporation Shipyards**](../Structures/Shipyards.md).
 
 Relics are **tradable** like other resources — they can be sold, traded, or used yourself.
 
@@ -8,15 +8,15 @@ Relics are **tradable** like other resources — they can be sold, traded, or us
 
 | Source | Notes |
 |--------|--------|
-| [**Alliance Wars**](/Entities/Corporations/Alliances.md) | Main source. Corps capture **Relic Shrines** with [Garrisons](/Entities/Structures/Garrisons.md); shrines generate relics. |
+| [**Alliance Wars**](../Corporations/Alliances.md) | Main source. Corps capture **Relic Shrines** with [Garrisons](../Structures/Garrisons.md); shrines generate relics. |
 | **Level rewards** | Every 5 levels starting at **Level 15**. |
-| [**The Arena**](/Gameplay/Activities/Player%20vs%20Player%20(PVP)/Arena.md) | Arena rewards can include relics. |
+| [**The Arena**](../../Gameplay/Activities/Player vs Player (PVP)/Arena.md) | Arena rewards can include relics. |
 | **Loot** | Dropped by NPCs. |
 | **Free Daily Gifts / Holiday Events** | Special events and daily rewards. |
 
 ### Relic Shrines (Alliance Wars)
 
-* Each corporation may control **4 Relic Shrines**; max **10 shrines total** per [alliance](/Entities/Corporations/Alliances.md).
+* Each corporation may control **4 Relic Shrines**; max **10 shrines total** per [alliance](../Corporations/Alliances.md).
 * Captured shrines generate **one relic at 100% progress**. Time per 1% progress:
 
 | Shrine size | Minutes per 1% |
@@ -43,7 +43,7 @@ Each player has an **Alliance Point** counter that increases with kills, PvP, de
 
 ## See Also
 
-* [Ship Crafting](/Ships/Ship-Crafting.md) — What relics are used for
+* [Ship Crafting](../../Ships/Ship-Crafting.md) — What relics are used for
 * [Skulls](Skulls.md) — The other key ship-crafting currency
-* [Corporations](/Entities/Corporations/index.md) — Shipyards and shrine capture
-* [Alliances](/Entities/Corporations/Alliances.md) — Shared relic generation and Alliance Points
+* [Corporations](../Corporations/index.md) — Shipyards and shrine capture
+* [Alliances](../Corporations/Alliances.md) — Shared relic generation and Alliance Points

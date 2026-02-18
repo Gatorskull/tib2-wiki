@@ -8,4 +8,4 @@ There are **over 250 technologies** in TIB2 that affect combat, movement, crafti
 In-game: **HELP menu → INFORMATION → TECHNOLOGY LIST** for the full list.
 
 !!! info "Expansion planned"
-    We'll add a categorized overview here. See [FAQ](/Getting-Started/FAQ.md) and [How To Play](/Getting-Started/How-To-Play.md) for now.
+    We'll add a categorized overview here. See [FAQ](../Getting-Started/FAQ.md) and [How To Play](../Getting-Started/How-To-Play.md) for now.

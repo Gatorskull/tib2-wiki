@@ -78,4 +78,4 @@ So stacking 90 total chance gives an actual 52.50. As with resists, going past 2
 * [Items](index.md) — Item types and Gear Score
 * [Mutate Item Kit](Mutate-Item-Kit.md) — Stat bonuses that also stack and are subject to DR
 * [Void Items](Void-Items.md) — Extra stats that stack and are subject to DR
-* [FAQ](/Getting-Started/FAQ.md) — “Why do my ship stats seem lower than they should be?”
+* [FAQ](../Getting-Started/FAQ.md) — “Why do my ship stats seem lower than they should be?”

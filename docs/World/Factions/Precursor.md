@@ -17,6 +17,6 @@ Little is known about their societal structures, culture, or ultimate goals. The
 
 * [Factions](index.md)
 * [Wyrd](Wyrd.md) | [Het](Het.md) | [Pirates](Pirates.md)
-* [Oblivion Server](/Gameplay/Oblivion-Server.md) — Hardcore server named after The Oblivion
-* [Maps](/World/Maps/index.md)
-* [Ships](/Ships/index.md) — Precursor ship variants
+* [Oblivion Server](../../Gameplay/Oblivion-Server.md) — Hardcore server named after The Oblivion
+* [Maps](../Maps/index.md)
+* [Ships](../../Ships/index.md) — Precursor ship variants

@@ -1,6 +1,6 @@
 # Shipyards
 
-**Shipyards** [**construct**](/Ships/Ship-Crafting.md) new [**ships**](/Ships/index.md) for corporation members and unlock new blueprints as they level up. Each corporation can have up to **3 Shipyards**.
+**Shipyards** [**construct**](../../Ships/Ship-Crafting.md) new [**ships**](../../Ships/index.md) for corporation members and unlock new blueprints as they level up. Each corporation can have up to **3 Shipyards**.
 
 ## Capacity & Factions
 
@@ -12,13 +12,13 @@
 
 ## Function
 
-* **Building ships** — Members build ships at the corp’s Shipyards when the correct level and blueprint are unlocked. Advanced ships require [**Skulls**](/Entities/Currencies/Skulls.md) and [**Relics**](/Entities/Currencies/Relics.md) in addition to resources.
+* **Building ships** — Members build ships at the corp’s Shipyards when the correct level and blueprint are unlocked. Advanced ships require [**Skulls**](../Currencies/Skulls.md) and [**Relics**](../Currencies/Relics.md) in addition to resources.
 * **Blueprints** — Unlocked as the Shipyard levels up (via resources in the inspect menu).
 * **Storage** — Shipyards also store fleet vessels.
 
 ## Deployment
 
-* **Cost:** 15 [Tech Points](/Entities/Currencies/Tech%20Points.md).
+* **Cost:** 15 [Tech Points](../Currencies/Tech Points.md).
 * **Rules:** See [Deployment](Deployment.md).
 
 ---
@@ -26,6 +26,6 @@
 ## See Also
 
 * [Structures overview](index.md)
-* [Ship Crafting](/Ships/Ship-Crafting.md)
-* [Corporations](/Entities/Corporations/index.md)
-* [Skulls](/Entities/Currencies/Skulls.md) and [Relics](/Entities/Currencies/Relics.md)
+* [Ship Crafting](../../Ships/Ship-Crafting.md)
+* [Corporations](../Corporations/index.md)
+* [Skulls](../Currencies/Skulls.md) and [Relics](../Currencies/Relics.md)

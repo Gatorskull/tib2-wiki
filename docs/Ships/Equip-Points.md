@@ -5,4 +5,4 @@
 The sum of all equipped items' costs cannot exceed the ship's maximum. Item rank and rarity affect how many points each piece uses.
 
 !!! info "Full details coming soon"
-    See [Ships](index.md) and [FAQ](/Getting-Started/FAQ.md) for now.
+    See [Ships](index.md) and [FAQ](../Getting-Started/FAQ.md) for now.

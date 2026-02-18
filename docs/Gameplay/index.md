@@ -10,10 +10,10 @@ This section covers core systems that shape how you play: missions, technology, 
 
 ## Activities
 
-* [**Player vs Player (PvP)**](Activities/Player%20vs%20Player%20(PVP)/index.md) — Open-world PvP and territory.
-* [**The Arena**](Activities/Player%20vs%20Player%20(PVP)/Arena.md) — Structured PvP and Skull rewards.
-* [**Player vs Environment (PvE)**](Activities/Player%20vs%20Environment%20(PVE)/index.md) — PvE content.
-* [**Invasions**](Activities/Player%20vs%20Environment%20(PVE)/Invasions.md) — Invasion events.
+* [**Player vs Player (PvP)**](Activities/Player vs Player (PVP)/index.md) — Open-world PvP and territory.
+* [**The Arena**](Activities/Player vs Player (PVP)/Arena.md) — Structured PvP and Skull rewards.
+* [**Player vs Environment (PvE)**](Activities/Player vs Environment (PVE)/index.md) — PvE content.
+* [**Invasions**](Activities/Player vs Environment (PVE)/Invasions.md) — Invasion events.
 
 ## Abilities
 

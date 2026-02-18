@@ -1,6 +1,6 @@
 # Stats
 
-Ships, [defense units](/Entities/Structures/index.md), and [items](index.md) provide **stats** that affect combat, movement, and abilities. Stats from items are subject to [**Diminishing Returns**](Diminishing-Returns.md).
+Ships, [defense units](../Entities/Structures/index.md), and [items](index.md) provide **stats** that affect combat, movement, and abilities. Stats from items are subject to [**Diminishing Returns**](Diminishing-Returns.md).
 
 ## Stat List
 
@@ -40,5 +40,5 @@ Ships, [defense units](/Entities/Structures/index.md), and [items](index.md) pro
 
 * [Items](index.md)
 * [Diminishing Returns](Diminishing-Returns.md)
-* [Skills](/Gameplay/Skills.md) — Captain, ship, and corp stats stack
-* [Technology](/Gameplay/Technology.md)
+* [Skills](../Gameplay/Skills.md) — Captain, ship, and corp stats stack
+* [Technology](../Gameplay/Technology.md)

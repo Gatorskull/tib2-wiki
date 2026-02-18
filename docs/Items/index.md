@@ -18,7 +18,7 @@ There are **9 equipment types** in TIB2:
 | Computer | Targeting and utility |
 | Special | Unique abilities (e.g. Technician, Tank) |
 
-**Gear Score** is the sum of your equipped items' scores (based on rarity, quality, rank). Many activities (e.g. [**The Arena**](/Gameplay/Activities/Player%20vs%20Player%20(PVP)/Arena.md)) require a minimum Gear Score.
+**Gear Score** is the sum of your equipped items' scores (based on rarity, quality, rank). Many activities (e.g. [**The Arena**](../Gameplay/Activities/Player vs Player (PVP)/Arena.md)) require a minimum Gear Score.
 
 ## Topics
 
@@ -33,6 +33,6 @@ There are **9 equipment types** in TIB2:
 
 ## See Also
 
-* [Ships](/Ships/index.md) — What you equip items on
-* [Currencies](/Entities/Currencies/index.md) — Credits, Skulls, Tech Points
-* [FAQ](/Getting-Started/FAQ.md) — Item durability, drones, and more
+* [Ships](../Ships/index.md) — What you equip items on
+* [Currencies](../Entities/Currencies/index.md) — Credits, Skulls, Tech Points
+* [FAQ](../Getting-Started/FAQ.md) — Item durability, drones, and more

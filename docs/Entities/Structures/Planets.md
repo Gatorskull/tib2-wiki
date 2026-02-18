@@ -7,9 +7,9 @@
 | Benefit | Details |
 |---------|---------|
 | **Respawn** | Members can choose to respawn at the **Corporate Planet** instead of Earth: **Settings → Gameplay Menu**. |
-| **Technology** | Planets grant a **system-wide [technology](/Gameplay/Technology.md) bonus** to all corp members. |
+| **Technology** | Planets grant a **system-wide [technology](../../Gameplay/Technology.md) bonus** to all corp members. |
 | **Stats** | **+Max Hull** and **+Max Shield** stats are multiplied by **×40** on the planet. |
-| **Sacred Relic Shrine** | If a planet is deployed on a **Sacred Relic Shrine**, its technology bonus applies to the **entire [alliance](/Entities/Corporations/Alliances.md)** throughout the **entire game**. |
+| **Sacred Relic Shrine** | If a planet is deployed on a **Sacred Relic Shrine**, its technology bonus applies to the **entire [alliance](../Corporations/Alliances.md)** throughout the **entire game**. |
 
 ## Corporation Planets
 
@@ -30,7 +30,7 @@ Specific NPC factions have **permanent Homeworlds** at coordinates **(7, 7)** in
 
 ## Deployment
 
-* **Cost:** 15 [Tech Points](/Entities/Currencies/Tech%20Points.md).
+* **Cost:** 15 [Tech Points](../Currencies/Tech Points.md).
 * **Rules:** See [Deployment](Deployment.md).
 
 ---
@@ -38,5 +38,5 @@ Specific NPC factions have **permanent Homeworlds** at coordinates **(7, 7)** in
 ## See Also
 
 * [Structures overview](index.md)
-* [Corporations](/Entities/Corporations/index.md)
-* [Relics](/Entities/Currencies/Relics.md) — Shrines and Sacred Relic Shrine
+* [Corporations](../Corporations/index.md)
+* [Relics](../Currencies/Relics.md) — Shrines and Sacred Relic Shrine

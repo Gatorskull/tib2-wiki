@@ -1,19 +1,19 @@
 # Player vs Player (PvP)
 
-PvP is where you earn [**Skulls**](/Entities/Currencies/Skulls.md), fight for territory, and help your [**alliance**](/Entities/Corporations/Alliances.md) capture [**Relic Shrines**](/Entities/Currencies/Relics.md). Human-controlled space is safe; everywhere else you can be attacked — or attack.
+PvP is where you earn [**Skulls**](../../../Entities/Currencies/Skulls.md), fight for territory, and help your [**alliance**](../../../Entities/Corporations/Alliances.md) capture [**Relic Shrines**](../../../Entities/Currencies/Relics.md). Human-controlled space is safe; everywhere else you can be attacked — or attack.
 
 ## Where You're Safe (PvE Maps)
 
-You are **safe from attack** in **human-controlled systems**, called **PvE Maps**, marked in **BLUE** on the [**Starmap**](/World/Maps/index.md).
+You are **safe from attack** in **human-controlled systems**, called **PvE Maps**, marked in **BLUE** on the [**Starmap**](../../../World/Maps/index.md).
 
-When you join a [**Corporation**](/Entities/Corporations/index.md) you also join their **alliance**. In PvP maps you're on a team with everyone in that alliance. Friendly ships share vision, can follow or repair each other, and attack enemies to split XP and loot.
+When you join a [**Corporation**](../../../Entities/Corporations/index.md) you also join their **alliance**. In PvP maps you're on a team with everyone in that alliance. Friendly ships share vision, can follow or repair each other, and attack enemies to split XP and loot.
 
 ## Why PvP? Rewards
 
 * **~10% more XP** and **~20% more loot** when hunting in PvP maps (vs safe space).
-* [**Pity loot**](/Items/Pity-Loot.md) progresses faster in dangerous areas.
-* [**Skulls**](/Entities/Currencies/Skulls.md) — from killing players and from **defending or attacking** non-NPC [**defense units**](/Entities/Structures/index.md). Structure warfare is one of the best ways to earn Skulls.
-* **Relics** — Most PvP maps have a **Shrine**. Corps place a [**Garrison**](/Entities/Structures/Garrisons.md) on the shrine to capture the map and generate [**Relics**](/Entities/Currencies/Relics.md) for the alliance.
+* [**Pity loot**](../../../Items/Pity-Loot.md) progresses faster in dangerous areas.
+* [**Skulls**](../../../Entities/Currencies/Skulls.md) — from killing players and from **defending or attacking** non-NPC [**defense units**](../../../Entities/Structures/index.md). Structure warfare is one of the best ways to earn Skulls.
+* **Relics** — Most PvP maps have a **Shrine**. Corps place a [**Garrison**](../../../Entities/Structures/Garrisons.md) on the shrine to capture the map and generate [**Relics**](../../../Entities/Currencies/Relics.md) for the alliance.
 
 ## Where You're (Mostly) Safe in PvP
 
@@ -45,14 +45,14 @@ A **Collision** mechanic limits how many ships can be in one sector to reduce la
 |----------|-------------|
 | [**The Arena**](Arena.md) | Controlled PvP matches every few hours. Best place to earn Skulls; no durability loss. |
 | **Open-world PvP** | Fight enemy players in PvP maps. |
-| **Structure warfare** | Attack or defend [defense units](/Entities/Structures/index.md); bonus Skulls for both. |
+| **Structure warfare** | Attack or defend [defense units](../../../Entities/Structures/index.md); bonus Skulls for both. |
 
 ---
 
 ## See Also
 
 * [The Arena](Arena.md) — Structured PvP and Skull rewards
-* [Skulls](/Entities/Currencies/Skulls.md)
-* [Corporations & Alliances](/Entities/Corporations/index.md)
-* [Structures](/Entities/Structures/index.md) — What you deploy and fight over
-* [Maps](/World/Maps/index.md) — Security ratings and the Starmap
+* [Skulls](../../../Entities/Currencies/Skulls.md)
+* [Corporations & Alliances](../../../Entities/Corporations/index.md)
+* [Structures](../../../Entities/Structures/index.md) — What you deploy and fight over
+* [Maps](../../../World/Maps/index.md) — Security ratings and the Starmap

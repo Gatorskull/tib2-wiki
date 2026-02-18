@@ -1,9 +1,13 @@
 # Activities
 
-There are various activities available to captains within The Infinite Black.
+**Activities** are the main ways you spend time in-game beyond core systems: **PvP** (open-world and Arena) and **PvE** (missions, invasions, exploration). Use the links below for details.
 
-## Topics
-* **[PVE](Player%20vs%20Environment%20(PVE)/index.md)** – Placeholder value.
-* **[PVP](Player%20vs%20Player%20(PVP)/index.md)** – Placeholder value.
-* **[Invasions](Player%20vs%20Environment%20(PVE)/Invasions.md)** – Placeholder value.
-* **[Arena](Player%20vs%20Player%20(PVP)/Arena.md)** – Placeholder value.
+## PvP
+
+* [**Player vs Player (PvP)**](Player vs Player (PVP)/index.md) — Open-world PvP, territory, and Skulls.
+* [**The Arena**](Player vs Player (PVP)/Arena.md) — Structured PvP with balanced teams and Skull rewards.
+
+## PvE
+
+* [**Player vs Environment (PvE)**](Player vs Environment (PVE)/index.md) — PvE content and safe maps.
+* [**Invasions**](Player vs Environment (PVE)/Invasions.md) — Timed PvE events and Phoenix ship mod.

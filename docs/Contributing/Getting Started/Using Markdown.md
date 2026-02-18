@@ -77,7 +77,7 @@ Do **not** manually add line breaks inside paragraphs.
 ## Links
 We use standard markdown links, because the tech lead couldn't figure out how to configure wikilinks plugin with mkdocs properly. If you'd like to attempt it, contact the owners of this wiki.
 
-See [Markdown Links](Markdown%20Links.md) for examples of how to link pages.
+See [Markdown Links](Markdown Links.md) for examples of how to link pages.
 
 ---
 ## Naming Conventions (Pages)

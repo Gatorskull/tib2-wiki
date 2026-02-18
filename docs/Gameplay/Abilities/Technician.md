@@ -1,6 +1,6 @@
 # Technician Technology
 
-[**Ships**](/Ships/index.md) can improve **repair** ability with the **Technician** line from the **Technician [Special item](/Items/index.md)** or the **Medic [ship mod](/Ships/Ship-Mods.md)**. Higher **rarity** on the Technician Special and higher **Elite Rank** on a Medic ship add more ranks.
+[**Ships**](../../Ships/index.md) can improve **repair** ability with the **Technician** line from the **Technician [Special item](../../Items/index.md)** or the **Medic [ship mod](../../Ships/Ship-Mods.md)**. Higher **rarity** on the Technician Special and higher **Elite Rank** on a Medic ship add more ranks.
 
 ## Ranks
 
@@ -22,5 +22,5 @@ Repair **drones** with Technician can remove negative effects but **cannot** spl
 ## See Also
 
 * [Grapple](Grapple.md) | [Hacking](Hacking.md) | [Drain](Drain.md) | [Taunt](Taunt.md) | [Deflector](Deflector.md) | [Junker](Junker.md)
-* [Stats](/Items/Stats.md) — Critical Chance, Splash Chance
+* [Stats](../../Items/Stats.md) — Critical Chance, Splash Chance
 * [Abilities](index.md)

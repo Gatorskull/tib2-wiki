@@ -1,6 +1,6 @@
 # The Arena
 
-**The Arena** is the best place to earn [**Skulls**](/Entities/Currencies/Skulls.md). It's a **controlled** PvP environment: balanced teams, no Artifacts or [Corporation Skills](/Gameplay/Skills.md), so matches are fair and predictable.
+**The Arena** is the best place to earn [**Skulls**](../../../Entities/Currencies/Skulls.md). It's a **controlled** PvP environment: balanced teams, no Artifacts or [Corporation Skills](../../Skills.md), so matches are fair and predictable.
 
 ## How It Works
 
@@ -13,7 +13,7 @@
 
 | Player type | Requirement |
 |-------------|-------------|
-| **New players** | At least **1 ship** with [**Gear Score**](/Items/index.md) **1,000+** and **no free starting gear**. |
+| **New players** | At least **1 ship** with [**Gear Score**](../../../Items/index.md) **1,000+** and **no free starting gear**. |
 | **Advanced** | Some arena types require **more than 1 ship**. |
 
 Check the in-game Arena screen for the exact requirements of each upcoming round.
@@ -29,7 +29,7 @@ Check the in-game Arena screen for the exact requirements of each upcoming round
 
 ## See Also
 
-* [Skulls](/Entities/Currencies/Skulls.md) — What you spend Arena earnings on
+* [Skulls](../../../Entities/Currencies/Skulls.md) — What you spend Arena earnings on
 * [Player vs Player](index.md) — Open-world PvP and structure warfare
-* [Ships](/Ships/index.md) — Fleet and Gear Score
-* [Items](/Items/index.md) — Gear Score and equipment
+* [Ships](../../../Ships/index.md) — Fleet and Gear Score
+* [Items](../../../Items/index.md) — Gear Score and equipment

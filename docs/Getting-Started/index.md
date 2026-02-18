@@ -10,8 +10,8 @@ New to **The Infinite Black 2**? This section covers the basics so you can get i
 ## Other Resources
 
 * **[Player-Written Guides](Player-Guides.md)** — Community guides and external links.
-* **[Corporations](/Entities/Corporations/index.md)** — How corps work and why you should join one early.
-* **[Maps](/World/Maps/index.md)** — Navigating sectors and security ratings.
+* **[Corporations](../Entities/Corporations/index.md)** — How corps work and why you should join one early.
+* **[Maps](../World/Maps/index.md)** — Navigating sectors and security ratings.
 * **[Device Sharing & Multiple Accounts](Device-Sharing-And-Accounts.md)** — One account per player; enforcement.
 * **[Delete Account](Delete-Account.md)** — How to delete your Spellbook account.
 

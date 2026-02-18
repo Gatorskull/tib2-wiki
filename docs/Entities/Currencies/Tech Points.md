@@ -7,7 +7,7 @@
 ## How to Obtain
 
 * **Conversion** — 1,000 Credits = 1 Tech Point (any time).
-* **Gameplay** — Rewards from [Missions](/Gameplay/Missions.md), outpost missions, and achievements.
+* **Gameplay** — Rewards from [Missions](../../Gameplay/Missions.md), outpost missions, and achievements.
 * **Store** — Purchasable at [Spellbook.com](https://www.spellbook.com/purchase/tib2/techpoints.php) to support the game. Purchases also grant **Reward Points** — open **Captain Panel → REWARDS** for bonus gifts (Party Boxes, skins, etc.).
 
 !!! info "Oblivion Server"
@@ -17,7 +17,7 @@
 
 ## Uses: Equipment & Items
 
-* **Item upgrades** — Rank items up or down; upgrade [rarity](/Items/index.md) (e.g. Rare → Ultra-Rare) via the item inspect panel.
+* **Item upgrades** — Rank items up or down; upgrade [rarity](../../Items/index.md) (e.g. Rare → Ultra-Rare) via the item inspect panel.
 * **Research** — Buy research time for technologies in the captain research menu.
 
 ## Uses: Player Convenience
@@ -27,18 +27,18 @@
 
 ## Uses: Corporations
 
-* **Structures** — Unlock new [**defense units**](/Entities/Structures/index.md) and pay to **deploy** them (Corporation Management panel).
+* **Structures** — Unlock new [**defense units**](../Structures/index.md) and pay to **deploy** them (Corporation Management panel).
 * **Member slots** — Buy additional corp member slots.
 * **Corp bank** — Purchase extra corp bank slots for shared storage.
 * **Creating a corporation** — Tech Points are required to found a corp.
 
 !!! tip "New player strategy"
-    Don’t spend Tech Points on item rarity upgrades early. You earn a lot from early achievements; that flow slows later. Save them for items you’ll use long term. Your [**corporation**](/Entities/Corporations/index.md) can help you decide.
+    Don’t spend Tech Points on item rarity upgrades early. You earn a lot from early achievements; that flow slows later. Save them for items you’ll use long term. Your [**corporation**](../Corporations/index.md) can help you decide.
 
 ---
 
 ## See Also
 
 * [Credits](Credits.md) — Converting to Tech Points
-* [Corporations](/Entities/Corporations/index.md) — Corp uses of Tech Points
-* [Structures](/Entities/Structures/index.md) — Deployment and unlocks
+* [Corporations](../Corporations/index.md) — Corp uses of Tech Points
+* [Structures](../Structures/index.md) — Deployment and unlocks

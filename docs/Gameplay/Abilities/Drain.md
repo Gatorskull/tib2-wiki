@@ -1,6 +1,6 @@
 # Drain Ability
 
-With **10+ Drain Chance** a [ship](/Ships/index.md) can use the **Drain** hotbar action. **No battery cost** to activate. Drain **steals** some of the target's **shields and battery**, making weapons and other abilities harder or impossible to use.
+With **10+ Drain Chance** a [ship](../../Ships/index.md) can use the **Drain** hotbar action. **No battery cost** to activate. Drain **steals** some of the target's **shields and battery**, making weapons and other abilities harder or impossible to use.
 
 ## How It Works (No Dice Roll)
 
@@ -22,5 +22,5 @@ With **10+ Drain Chance** a [ship](/Ships/index.md) can use the **Drain** hotbar
 ## See Also
 
 * [Grapple](Grapple.md) | [Hacking](Hacking.md) | [Technician](Technician.md) | [Taunt](Taunt.md) | [Deflector](Deflector.md) | [Junker](Junker.md)
-* [Stats](/Items/Stats.md) — Drain Chance / Resist
+* [Stats](../../Items/Stats.md) — Drain Chance / Resist
 * [Abilities](index.md)

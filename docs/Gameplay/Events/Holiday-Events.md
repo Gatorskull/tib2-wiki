@@ -16,9 +16,9 @@ On **specific calendar days**, special **gem** holiday events run. During these 
 
 ## How It Works
 
-* **Gem NPCs** — Special NPCs have a **glowing gem** floating over their [ship](/Ships/index.md). **Kill them** to collect the drop.
-* **Spawn** — Gems can spawn **anywhere** at any [Security Rating](/World/Maps/Security%20Rating.md), but **often in harder areas**.
-* **Clues** — Every **30 minutes**, a clue about where to find gems is **whispered to one player**. Sometimes a whole [**corporation**](/Entities/Corporations/index.md) or even the **entire universe** is told.
+* **Gem NPCs** — Special NPCs have a **glowing gem** floating over their [ship](../../Ships/index.md). **Kill them** to collect the drop.
+* **Spawn** — Gems can spawn **anywhere** at any [Security Rating](../../World/Maps/Security Rating.md), but **often in harder areas**.
+* **Clues** — Every **30 minutes**, a clue about where to find gems is **whispered to one player**. Sometimes a whole [**corporation**](../../Entities/Corporations/index.md) or even the **entire universe** is told.
 * **Visibility** — Gems are **not visible for 30 minutes** (even to the player who got the clue), giving captains time to reach the spot before others.
 
 ---

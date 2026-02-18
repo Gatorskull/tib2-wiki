@@ -31,6 +31,6 @@ Require **10+** of the matching stat to use. Battery cost except Drain.
 
 ## See Also
 
-* [Stats](/Items/Stats.md) — Grapple/Hack/Drain Chance and Resist
-* [Ships](/Ships/index.md) — What uses abilities
-* [Items](/Items/index.md) — Special items (Technician, Tank)
+* [Stats](../../Items/Stats.md) — Grapple/Hack/Drain Chance and Resist
+* [Ships](../../Ships/index.md) — What uses abilities
+* [Items](../../Items/index.md) — Special items (Technician, Tank)

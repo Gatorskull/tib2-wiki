@@ -97,11 +97,19 @@ Absolute links always start at the `docs/` root:
 
 ### Examples
 
+From a page in `Contributing/Getting Started/`, use relative paths to other sections:
+
 ```
-[Contributing guide](/Contributing/index.md)
-[FAQ](/Contributing/FAQ.md)
-[Ship classes](/Ships/index.md)
+[Contributing guide](../index.md)
+[FAQ](../FAQ.md)
+[Ship classes](../../Ships/index.md)
 ```
+
+From the `docs/` root, links are simply `Section/Page.md` (e.g. `Ships/index.md`, `Entities/Currencies/index.md`).
+
+### Filenames or folders with spaces
+
+Use the **literal space** in the path so the link matches the file or folder name on disk (e.g. `Tech Points.md`, `Jump Gates.md`, `Player vs Player (PVP)/Arena.md`). Do not use `%20` in internal links — that can break resolution in some builds.
 
 ---
 

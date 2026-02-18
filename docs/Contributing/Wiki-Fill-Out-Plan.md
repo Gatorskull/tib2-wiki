@@ -135,7 +135,7 @@ Optional: **docs/About/** for Spellbook and legal/meta pages.
 - **Cross-section:** When a page mentions another concept (e.g. Skulls, Ships, Corporations), add a Markdown link to the canonical page (relative within section, absolute across sections). See **Markdown Links.md**.
 - **Breadcrumbs:** Optional: end each page with a “See also” or “Related” list linking 3–5 related pages.
 - **In Game WIKI links:** When converting `<u><link="X">Y</link></u>`, map “X” to the target file in this plan (e.g. “Ships” → `/Ships/index.md`, “Tech Points” → `/Entities/Currencies/Tech Points.md`).
-- **Fix broken links:** Homepage currently links to `Ships` and `Weapons`; once **Ships** exists, fix to `[Ships](/Ships/index.md)`. Add **Weapons** under `docs/Items/Weapons.md` or `docs/Ships/Weapons.md` when you have data.
+- **Fix broken links:** Homepage currently links to `Ships` and `Weapons`; once **Ships** exists, fix to `[Ships](Ships/index.md)` (or relative from docs root). Add **Weapons** under `docs/Items/Weapons.md` or `docs/Ships/Weapons.md` when you have data.
 
 ---
 
@@ -147,7 +147,7 @@ Optional: **docs/About/** for Spellbook and legal/meta pages.
    Add **docs/Ships/index.md** and **docs/Items/index.md** with short placeholder text so the homepage links work. Optionally add **docs/Getting-Started/index.md** and link it from the main nav (e.g. via **docs/.pages**).
 
 2. **Fix homepage links**  
-   In **docs/index.md**, change `[Ships](Ships)` and `[Weapons](Weapons)` to proper paths (e.g. `[Ships](/Ships/index.md)`, `[Weapons](/Items/Weapons.md)` or a stub).
+   In **docs/index.md**, change `[Ships](Ships)` and `[Weapons](Weapons)` to proper paths (e.g. `[Ships](Ships/index.md)`, `[Weapons](Items/Weapons.md)` using relative paths from docs root or a stub).
 
 3. **Update docs/.pages**  
    Add **Ships**, **Items**, and **Getting-Started** (and any new top-level sections) to **docs/.pages** in the order you want in the sidebar.

@@ -1,16 +1,16 @@
 # Ship Crafting
 
-[**Corporations**](/Entities/Corporations/index.md) level up their [**Shipyards**](/Entities/Structures/Shipyards.md) to unlock ship blueprints. Members build ships at the corp's shipyard; each Shipyard is dedicated to **one faction** (Pirate, Het, Wyrd, or Precursor). Corp leadership chooses the faction, opening advanced **alien-class** ships with different [**technology**](/Gameplay/Technology.md) — more powerful but more expensive.
+[**Corporations**](../Entities/Corporations/index.md) level up their [**Shipyards**](../Entities/Structures/Shipyards.md) to unlock ship blueprints. Members build ships at the corp's shipyard; each Shipyard is dedicated to **one faction** (Pirate, Het, Wyrd, or Precursor). Corp leadership chooses the faction, opening advanced **alien-class** ships with different [**technology**](../Gameplay/Technology.md) — more powerful but more expensive.
 
 ## Requirements
 
 * [**Larger ships**](Size-And-Targeting.md) have more [**Equip Points**](Equip-Points.md), allowing stronger items.
-* **Advanced ships** require [**Skulls**](/Entities/Currencies/Skulls.md) and [**Relics**](/Entities/Currencies/Relics.md) in addition to basic resources.
+* **Advanced ships** require [**Skulls**](../Entities/Currencies/Skulls.md) and [**Relics**](../Entities/Currencies/Relics.md) in addition to basic resources.
 * You need a corporation with the **right faction shipyard** to build that faction's ships.
 
 ## Ship Stat Bonus Mod
 
-When you craft a ship it gains a **random Ship Stat Bonus Mod**. Its strength is comparable to a number of [**Skill Points**](/Gameplay/Skills.md):
+When you craft a ship it gains a **random Ship Stat Bonus Mod**. Its strength is comparable to a number of [**Skill Points**](../Gameplay/Skills.md):
 
 * **Random roll:** Between **3** and **12** Skill Points equivalent.
 * **Maximum (12)** is only possible during rare **daily crafting events**.
@@ -29,7 +29,7 @@ There is a **1% chance** a crafted ship gains **+1 Equip Point**; rarely **+2** 
 ## See Also
 
 * [Ships](index.md)
-* [Shipyards](/Entities/Structures/Shipyards.md)
-* [Skulls](/Entities/Currencies/Skulls.md) and [Relics](/Entities/Currencies/Relics.md)
-* [Corporations](/Entities/Corporations/index.md)
-* [Item Crafting](/Items/Item-Crafting.md)
+* [Shipyards](../Entities/Structures/Shipyards.md)
+* [Skulls](../Entities/Currencies/Skulls.md) and [Relics](../Entities/Currencies/Relics.md)
+* [Corporations](../Entities/Corporations/index.md)
+* [Item Crafting](../Items/Item-Crafting.md)

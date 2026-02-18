@@ -1,16 +1,16 @@
 # Alliances
 
-Several [**corporations**](index.md) can join together as a **single team**, forming an **alliance** that captures territory and [**Relics**](/Entities/Currencies/index.md) in a never-ending galactic war.
+Several [**corporations**](index.md) can join together as a **single team**, forming an **alliance** that captures territory and [**Relics**](../Currencies/index.md) in a never-ending galactic war.
 
 ## What Alliances Share
 
 * **Chat room** — One alliance-wide chat.
-* [**Missions**](/Gameplay/Missions.md) — Shared alliance missions (progress and rewards).
+* [**Missions**](../../Gameplay/Missions.md) — Shared alliance missions (progress and rewards).
 * [**Corporate Defenders**](Corporate-Defenders.md) — The alliance shares one pool of defender ships; any eligible ship in the alliance can be called to any defense unit under attack.
 
 ## PvP and Friends
 
-All players in an alliance are **friendly** in [**PvP systems**](/Gameplay/Activities/Player%20vs%20Player%20(PVP)/index.md) — you don't attack each other in open-world PvP. This does **not** apply in [**The Arena**](/Gameplay/Activities/Player%20vs%20Player%20(PVP)/Arena.md), where matchmaking is separate.
+All players in an alliance are **friendly** in [**PvP systems**](../../Gameplay/Activities/Player vs Player (PVP)/index.md) — you don't attack each other in open-world PvP. This does **not** apply in [**The Arena**](../../Gameplay/Activities/Player vs Player (PVP)/Arena.md), where matchmaking is separate.
 
 ## Alliance Citizens
 
@@ -35,7 +35,7 @@ Each player has a single **Primary Alliance Citizen** character — their **high
 ## Management
 
 * Click the **STATS** button on the **Corp Panel** to view alliance and citizen details.
-* Corporations can **transfer Corp [Tech Points](/Entities/Currencies/Tech%20Points.md)** to other corporations in the alliance. Use **:ALLIANCE** in chat for details.
+* Corporations can **transfer Corp [Tech Points](../Currencies/Tech Points.md)** to other corporations in the alliance. Use **:ALLIANCE** in chat for details.
 * **Alliance Leaders** (Commanders of the primary corporation) see **Invite** and **Kick** buttons on other corps' panels. Member corporations see a **Leave Alliance** button.
 
 !!! warning "When someone joins or leaves"
@@ -47,5 +47,5 @@ Each player has a single **Primary Alliance Citizen** character — their **high
 
 * [Corporations](index.md)
 * [Corporate Defenders](Corporate-Defenders.md)
-* [Structures](/Entities/Structures/index.md) — Deploying in PvP maps
-* [Relics](/Entities/Currencies/index.md) — What alliances fight for at shrines
+* [Structures](../Structures/index.md) — Deploying in PvP maps
+* [Relics](../Currencies/index.md) — What alliances fight for at shrines

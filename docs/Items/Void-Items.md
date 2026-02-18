@@ -8,7 +8,7 @@
 |--------|------------------|
 | **Crafted items** | **1:50** chance to be Void. Crafters use **:CRAFTVOID** in chat. |
 | **NPC defense units** | Can drop Void loot. |
-| **Free Weekly Gift** | [Party Box](/Gameplay/Events/Party-Boxes.md) missions (Captain Panel → REWARDS → CLAIM WEEKLY GIFT). |
+| **Free Weekly Gift** | [Party Box](../Gameplay/Events/Party-Boxes.md) missions (Captain Panel → REWARDS → CLAIM WEEKLY GIFT). |
 | **Standard Arena** | Prizes **1:20** chance to be Void. |
 | **Hardcore Arena** | Prizes **1:4** chance to be Void. |
 | **Invasion victory** | Loot **1:20** chance to be Void. |
@@ -16,7 +16,7 @@
 
 ## Upgrading Void Gear
 
-Void items can be **mutated** and **upgraded** like normal gear. To upgrade to the **highest rarities** (Elite, Mythic, Omega) they cost [**Relics**](/Entities/Currencies/Relics.md). The Relic's **faction** must match the item's faction:
+Void items can be **mutated** and **upgraded** like normal gear. To upgrade to the **highest rarities** (Elite, Mythic, Omega) they cost [**Relics**](../Entities/Currencies/Relics.md). The Relic's **faction** must match the item's faction:
 
 | Rarity | Relics |
 |--------|--------|
@@ -26,7 +26,7 @@ Void items can be **mutated** and **upgraded** like normal gear. To upgrade to t
 
 ## Re-Void and Conversion
 
-* **Re-Void Kits** — From [Reward Point Gifts](/Gameplay/Events/Reward-Point-Gifts.md). Let you **re-roll** the Void bonus randomly.
+* **Re-Void Kits** — From [Reward Point Gifts](../Gameplay/Events/Reward-Point-Gifts.md). Let you **re-roll** the Void bonus randomly.
 * **Void Upgrade Kit** — Crafted (Captain Panel → Item Crafting). Converts a **normal** non-Void item to Void.
 
 ## Void Rarity Names
@@ -48,6 +48,6 @@ Void items can be **mutated** and **upgraded** like normal gear. To upgrade to t
 * [Items](index.md)
 * [Item Crafting](Item-Crafting.md)
 * [Stats](Stats.md)
-* [Relics](/Entities/Currencies/Relics.md)
-* [Arena](/Gameplay/Activities/Player%20vs%20Player%20(PVP)/Arena.md)
-* [Party Boxes](/Gameplay/Events/Party-Boxes.md)
+* [Relics](../Entities/Currencies/Relics.md)
+* [Arena](../Gameplay/Activities/Player vs Player (PVP)/Arena.md)
+* [Party Boxes](../Gameplay/Events/Party-Boxes.md)

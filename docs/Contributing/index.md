@@ -99,7 +99,7 @@ To see what’s already built and what’s still missing or could be expanded, s
 ## Where to find examples and templates
 
  **Start here:**  
-[Getting Started](/tib2-wiki/Contributing/Getting%20Started)
+[Getting Started](Getting Started/index.md)
 
 That section contains:
 - Step-by-step examples

@@ -1,12 +1,12 @@
 # Artifacts
 
-**Artifacts** are mysterious alien objects scattered across the universe in *The Infinite Black 2*. There are **over 50** of them. Corporations capture and store them at [**planets**](Planets.md) and [**garrisons**](Garrisons.md) to gain [**technology**](/Gameplay/Technology.md) benefits. Any player can **study** an artifact to permanently gain **+1 [Skill Point](/Gameplay/Skills.md)**.
+**Artifacts** are mysterious alien objects scattered across the universe in *The Infinite Black 2*. There are **over 50** of them. Corporations capture and store them at [**planets**](Planets.md) and [**garrisons**](Garrisons.md) to gain [**technology**](../../Gameplay/Technology.md) benefits. Any player can **study** an artifact to permanently gain **+1 [Skill Point](../../Gameplay/Skills.md)**.
 
 ---
 
 ## Corporation Control and Tech Bonus
 
-When a [**corporation**](/Entities/Corporations/index.md) controls an artifact (by having it stored at one of their planets or garrisons):
+When a [**corporation**](../Corporations/index.md) controls an artifact (by having it stored at one of their planets or garrisons):
 
 - **All members** of that corporation receive the artifact’s **technology bonus**.
 - This applies **regardless** of the member’s Skill Tree investment or unlocked tech research — the bonus is global for the corp while they hold the artifact.
@@ -20,7 +20,7 @@ So capturing and holding artifacts is a major goal for corps that want to boost 
 
 Any player can **STUDY** an artifact. Studying is a **one-time, permanent** action:
 
-- Studying an artifact **permanently** awards **+1 [Skill Point](/Gameplay/Skills.md)** to that captain.
+- Studying an artifact **permanently** awards **+1 [Skill Point](../../Gameplay/Skills.md)** to that captain.
 - This is a long-term goal: many players seek out artifacts over the course of the game to collect every possible bonus skill point.
 
 ### Who Can Study?
@@ -47,6 +47,6 @@ Once a player has studied an artifact, the **+1 Skill Point is kept forever** �
 ## See Also
 
 * [Structures](index.md) — Planets, Garrisons, and where artifacts are stored
-* [Corporations](/Entities/Corporations/index.md) — How corps capture and benefit from artifacts
-* [Technology](/Gameplay/Technology.md) — What the artifact tech bonus affects
-* [Skills](/Gameplay/Skills.md) — What Skill Points do
+* [Corporations](../Corporations/index.md) — How corps capture and benefit from artifacts
+* [Technology](../../Gameplay/Technology.md) — What the artifact tech bonus affects
+* [Skills](../../Gameplay/Skills.md) — What Skill Points do

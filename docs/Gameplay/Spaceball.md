@@ -75,5 +75,5 @@ Games are supposed to be fun. Anyone can develop a gambling problem. If you find
 
 ## See Also
 
-* [Currencies](/Entities/Currencies/index.md) — Credits and Tech Points
-* [Tech Points](/Entities/Currencies/Tech%20Points.md) — Can be used for Spaceball or upgrades
+* [Currencies](../Entities/Currencies/index.md) — Credits and Tech Points
+* [Tech Points](../Entities/Currencies/Tech Points.md) — Can be used for Spaceball or upgrades

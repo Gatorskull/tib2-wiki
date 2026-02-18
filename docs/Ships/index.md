@@ -1,6 +1,6 @@
 # Ships
 
-Your fleet is the heart of *The Infinite Black 2*. You command multiple ships, each with its own equipment, level, and role. Combat is balanced around **multiple ships** — new players should explore 100% of Sol to earn a second ship and join a [**Corporation**](/Entities/Corporations/index.md) for [**ship construction**](Ship-Crafting.md) and tech.
+Your fleet is the heart of *The Infinite Black 2*. You command multiple ships, each with its own equipment, level, and role. Combat is balanced around **multiple ships** — new players should explore 100% of Sol to earn a second ship and join a [**Corporation**](../Entities/Corporations/index.md) for [**ship construction**](Ship-Crafting.md) and tech.
 
 ## Ship Classes
 
@@ -26,7 +26,7 @@ Your fleet must contain a **mix of ship sizes** to deploy more slots:
 | 9 ships | SMALL + MEDIUM or smaller |
 | 10 ships | SMALL + MEDIUM + LARGE or smaller |
 
-Smaller ships satisfy larger requirements (e.g. a MEDIUM counts as your LARGE slot). See [**Small Strike Team Bonus**](/Gameplay/Abilities/Small-Strike-Team-Bonus.md) for the benefit of fielding small/medium ships.
+Smaller ships satisfy larger requirements (e.g. a MEDIUM counts as your LARGE slot). See [**Small Strike Team Bonus**](../Gameplay/Abilities/Small-Strike-Team-Bonus.md) for the benefit of fielding small/medium ships.
 
 ## Captain Level to Deploy More Ships
 
@@ -64,7 +64,7 @@ Players begin in a **Striker Gunboat** with better-than-average ability and dece
 
 ## See Also
 
-* [How To Play](/Getting-Started/How-To-Play.md) — Your first goals
-* [Corporations](/Entities/Corporations/index.md) — Shipyards and building ships
-* [Currencies](/Entities/Currencies/index.md) — Skulls for repairs and elite ranks
-* [Abilities](/Gameplay/Abilities/index.md) — Grapple, Hack, Drain, Technician, Taunt, Deflector, Junker
+* [How To Play](../Getting-Started/How-To-Play.md) — Your first goals
+* [Corporations](../Entities/Corporations/index.md) — Shipyards and building ships
+* [Currencies](../Entities/Currencies/index.md) — Skulls for repairs and elite ranks
+* [Abilities](../Gameplay/Abilities/index.md) — Grapple, Hack, Drain, Technician, Taunt, Deflector, Junker

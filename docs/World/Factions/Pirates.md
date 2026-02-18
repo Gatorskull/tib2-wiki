@@ -24,5 +24,5 @@ Humans have been in open war with every known alien species for hundreds of year
 
 * [Factions](index.md)
 * [Wyrd](Wyrd.md) | [Het](Het.md) | [Precursor](Precursor.md)
-* [Maps](/World/Maps/index.md) — Sol and human-controlled space
-* [Ships](/Ships/index.md) — Pirate ship variants
+* [Maps](../Maps/index.md) — Sol and human-controlled space
+* [Ships](../../Ships/index.md) — Pirate ship variants

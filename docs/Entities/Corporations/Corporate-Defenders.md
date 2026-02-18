@@ -1,6 +1,6 @@
 # Corporate Defender Ships
 
-[**Ships**](/Ships/index.md) owned by members of a [**corporation**](index.md) can be **summoned** while the player is offline to help protect [**defense units**](/Entities/Structures/index.md) under attack. These **Corporate Defenders** are deployed automatically and fight under the game's AI. If the ship's owner **logs in**, their defender ships **recall**.
+[**Ships**](../../Ships/index.md) owned by members of a [**corporation**](index.md) can be **summoned** while the player is offline to help protect [**defense units**](../Structures/index.md) under attack. These **Corporate Defenders** are deployed automatically and fight under the game's AI. If the ship's owner **logs in**, their defender ships **recall**.
 
 ## Benefits
 
@@ -16,10 +16,10 @@ A ship can be used as a Corporate Defender only if it meets **all** of:
 |-------------|--------|
 | **Level** | 10 or higher |
 | **Weapon** | Must have a weapon equipped |
-| [**Gear Score**](/Items/index.md) | 1,000 or higher |
+| [**Gear Score**](../../Items/index.md) | 1,000 or higher |
 
 !!! danger "Hardcore ships"
-    [**Hardcore**](/Ships/index.md) ships are **never** used as Corp Defenders.
+    [**Hardcore**](../../Ships/index.md) ships are **never** used as Corp Defenders.
 
 ---
 
@@ -27,5 +27,5 @@ A ship can be used as a Corporate Defender only if it meets **all** of:
 
 * [Corporations](index.md)
 * [Alliances](Alliances.md)
-* [Structures](/Entities/Structures/index.md) — What defenders protect
-* [Ships](/Ships/index.md)
+* [Structures](../Structures/index.md) — What defenders protect
+* [Ships](../../Ships/index.md)
