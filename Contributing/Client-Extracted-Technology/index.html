@@ -1,0 +1,7752 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://gatorskull.github.io/tib2-wiki/Contributing/Client-Extracted-Technology/">
+      
+      
+        <link rel="prev" href="../Client-Extracted-Structures/">
+      
+      
+        <link rel="next" href="../Client-Extraction-Notes/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Client-Extracted Technology - The Infinite Black 2 Wiki (unofficial)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#client-extracted-technology" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="The Infinite Black 2 Wiki (unofficial)" class="md-header__button md-logo" aria-label="The Infinite Black 2 Wiki (unofficial)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Infinite Black 2 Wiki (unofficial)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Client-Extracted Technology
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/gatorskull/tib2-wiki" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Contribute
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="The Infinite Black 2 Wiki (unofficial)" class="md-nav__button md-logo" aria-label="The Infinite Black 2 Wiki (unofficial)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    The Infinite Black 2 Wiki (unofficial)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/gatorskull/tib2-wiki" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Contribute
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Infinite Black 2 Wiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Getting-Started/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Getting Started
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/How-To-Play/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How To Play
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Common-Workflows/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common Workflows
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recommended Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Chat-Commands/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chat Commands
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/FAQ/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frequently Asked Questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Player-Guides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Player-Written Guides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Getting-Started/Quick-Start-Guides/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Start Guides
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_7" id="__nav_2_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Quick Start Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Settings-Quick-Start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Settings Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Tech-Points-Quick-Start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tech Points Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Computer-Deconstruction-Quick-Start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Computer Deconstruction Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Item-Repair-Quick-Start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Repair Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Arena-Quick-Start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arena Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Lucky-Arena-Notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lucky's Arena Notes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Credits-Quick-Start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Credits Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Fleet-PvP-Quick-Start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fleet PvP Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Specials-Quick-Start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Specials Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Review-The-Game/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Review The Game
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Spellbook/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spellbook
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Device-Sharing-And-Accounts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Device Sharing and Multiple Accounts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Delete-Account/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Delete My Account
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Ships/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ships
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ships
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Ship-Reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ship Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Size-And-Targeting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ship and Defense Unit Size
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Equip-Points/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equip Points
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Ship-Crafting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ship Crafting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Ship-Mods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ship Mods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Elite-Ranks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elite Ranks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Carrier-Leadership/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Carrier Leadership
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Interdictor-Carrier/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interdictor Carrier
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Hardcore-Units/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hardcore Ships &amp; Defense Units
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Deception-Module/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deception Module
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Retro-Skins/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retro Ship Skins
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Items/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Items
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Items
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Item-Reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Equipment-Slots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipment Slots
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Stats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Diminishing-Returns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stat Bonus Diminishing Returns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Weapons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Weapons
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Drones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Specials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Special Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Tech-Computers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tech Computers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Item-Management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Item-Upgrades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Upgrades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Item-Crafting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Crafting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Pity-Loot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pity Loot Drops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Loot-Reward-Reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Loot and Reward Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Void-Items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Void Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Mutate-Item-Kit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mutate Item Kit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Gravity-Drives/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gravity Drives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Entities/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entities
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entities
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Entities/Corporations/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Corporations
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Corporations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Corporations/Alliances/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alliances
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Corporations/Corporate-Defenders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Corporate Defender Ships
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Entities/Currencies/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Currencies
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Currencies
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Currencies/Credits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Credits
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Currencies/Skulls/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skulls
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Currencies/Tech%20Points/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tech Points
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Currencies/Star%20Shards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Star Shards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Currencies/Relics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Entities/Structures/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structures
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Structures
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Structures/Deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Deployment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Structures/Structure-Reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Structures/Planets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Structures/Garrisons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Garrisons
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Structures/Outposts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Outposts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Structures/Shipyards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shipyards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Structures/Artifacts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artifacts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Structures/Jump%20Gates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jump Gates
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Gameplay/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gameplay
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Gameplay
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Missions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Missions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Combat-and-Targeting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combat and Targeting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Technology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Technology-Reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technology Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Level-XP-Reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level and XP Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Achievements-and-Leaderboards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Achievements and Leaderboards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Gameplay/Activities/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activities
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_8" id="__nav_6_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Activities
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Activities/Outpost-Missions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Outpost Missions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Gameplay/Activities/Player%20vs%20Environment%20%28PVE%29/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Player vs Environment (PVE)
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_8_2" id="__nav_6_8_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Player vs Environment (PVE)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Activities/Player%20vs%20Environment%20%28PVE%29/Open%20World%20Farming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Open World Farming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Activities/Player%20vs%20Environment%20%28PVE%29/NPC%20Busts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NPC Busts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Activities/Player%20vs%20Environment%20%28PVE%29/Invasions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Invasions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Gameplay/Activities/Player%20vs%20Player%20%28PVP%29/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Player vs Player (PVP)
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_8_3" id="__nav_6_8_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Player vs Player (PVP)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Activities/Player%20vs%20Player%20%28PVP%29/Arena/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Arena
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Activities/Player%20vs%20Player%20%28PVP%29/Fleet-PvP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fleet PvP Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Activities/Player%20vs%20Player%20%28PVP%29/Structure%20Busts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Warfare Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_9" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Gameplay/Abilities/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Abilities
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_9" id="__nav_6_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Abilities
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Abilities/Grapple/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grapple Ability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Abilities/Hacking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hacking Ability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Abilities/Drain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drain Ability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Abilities/Technician/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technician Technology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Abilities/Taunt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Taunt (Tank)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Abilities/Deflector/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deflector Technology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Abilities/Junker/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Junker Technology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Abilities/Small-Strike-Team-Bonus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Small Strike Team Bonus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_10" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Gameplay/Events/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Events
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_10" id="__nav_6_10_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Events
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Events/Free-Daily-Gifts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Free Daily Gifts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Events/Daily-Events/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Daily Events
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Events/Holiday-Events/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Holiday Events
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Events/Party-Boxes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Party Boxes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Events/Reward-Point-Gifts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reward Point Gifts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Oblivion-Server/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oblivion Server
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Strategy/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Strategy
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Strategy
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/New-Player-Path/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    New Player Path
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Ship-Building/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ship Building Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Carrier-Builds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Carrier Builds
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/PvP-Basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PvP Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Missions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mission Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Open-World-Farming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Open World Farming Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/NPC-Busts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NPC Bust Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Build-Philosophy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Build Philosophy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Faction-Ship-Notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Faction Ship Notes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Computer-Deconstruction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Computer Deconstruction Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Fleet-PvP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fleet PvP Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Structure-Busting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Busting Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../World/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    World
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    World
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../World/Maps/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maps
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Maps
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../World/Maps/Sectors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sectors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../World/Maps/Security%20Rating/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Security Rating
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../World/Factions/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Factions
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Factions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../World/Factions/Wyrd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Wyrd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../World/Factions/Het/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Het
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../World/Factions/Precursor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Precursors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../World/Factions/Pirates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Pirate Faction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#runtime-confirmed-numerical-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Runtime-Confirmed Numerical Effects
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#main-technology-table" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Main technology table
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#technology-helper-classifications" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Technology Helper Classifications
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Technology Helper Classifications">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#effect-remaps" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Effect remaps
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#family-helpers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Family helpers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#status-effects" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Status effects
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#researchable-technologies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Researchable technologies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stacks-with-other-ranks" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Stacks with other ranks
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#major-technologies" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Major technologies
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#defense-eligibility" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Defense eligibility
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#paid-tech-point-boost-candidates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Paid tech-point boost candidates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#artifact-candidates" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Artifact candidates
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#max-override-families" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Max override families
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#daily-tech-generic-categories" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Daily tech generic categories
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#daily-tech-exact-variants" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Daily tech exact variants
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="client-extracted-technology">Client-Extracted Technology</h1>
+<p>Hidden contributor staging page. This is raw client-extracted technology display data from the current 2.1.0 Steam client decompile. Use it to build public pages, but do not copy blindly without checking whether the wording belongs in player-facing reference, guide, or strategy content.</p>
+<p>Source files:</p>
+<ul>
+<li><code>Assembly-CSharp\BCHEAEJKAJI.cs</code> technology enum</li>
+<li><code>Assembly-CSharp\DFHOJHHBAMJ.cs</code> <code>GetName(this BCHEAEJKAJI)</code>, <code>GetDescription(this BCHEAEJKAJI, ...)</code>, and daily-tech helpers</li>
+<li><code>Assembly-CSharp\JEKJDKMBIGN.cs</code> <code>GetRegenerationTechHull(...)</code></li>
+<li><code>Assembly-CSharp\PGJIDFCBFCC.cs</code> regeneration default backing values</li>
+</ul>
+<p>Notes:</p>
+<ul>
+<li><code>NULL</code> and unused/future enum values are included when the client exposes a label or description.</li>
+<li>Daily tech descriptions are dynamic and depend on the assigned daily tech type; see the matrix below the main table.</li>
+<li>The daily-tech matrix is client wording and should be cleaned before becoming public-facing copy.</li>
+</ul>
+<h2 id="runtime-confirmed-numerical-effects">Runtime-Confirmed Numerical Effects</h2>
+<p>Source: <code>Assembly-CSharp\GKFECKLMHGM.cs</code>.</p>
+<p>The main table below is built from client display names/descriptions. This section records values also seen in runtime stat aggregation helpers, which makes them stronger candidates for public rules pages.</p>
+<p>Movement and targeting:</p>
+<table>
+<thead>
+<tr>
+<th>Tech/effect</th>
+<th style="text-align: right;">Runtime effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HyperDrive1</td>
+<td style="text-align: right;"><code>-10%</code> move time modifier</td>
+</tr>
+<tr>
+<td>HyperDrive2</td>
+<td style="text-align: right;"><code>-15%</code> move time modifier</td>
+</tr>
+<tr>
+<td>HyperDrive3</td>
+<td style="text-align: right;"><code>-20%</code> move time modifier</td>
+</tr>
+<tr>
+<td>SpaceLaneEffect1</td>
+<td style="text-align: right;"><code>-10%</code> move time modifier</td>
+</tr>
+<tr>
+<td>SpaceLaneEffect2</td>
+<td style="text-align: right;"><code>-15%</code> move time modifier</td>
+</tr>
+<tr>
+<td>SpaceLaneEffect3</td>
+<td style="text-align: right;"><code>-20%</code> move time modifier</td>
+</tr>
+<tr>
+<td>FriendlyTerritoryEffect</td>
+<td style="text-align: right;"><code>-10%</code> move time modifier</td>
+</tr>
+<tr>
+<td>NanobotCharge</td>
+<td style="text-align: right;"><code>-10%</code> move time modifier</td>
+</tr>
+<tr>
+<td>Targeting1</td>
+<td style="text-align: right;"><code>-5%</code> targeting-time modifier</td>
+</tr>
+<tr>
+<td>Targeting2</td>
+<td style="text-align: right;"><code>-10%</code> targeting-time modifier</td>
+</tr>
+<tr>
+<td>Targeting3</td>
+<td style="text-align: right;"><code>-15%</code> targeting-time modifier</td>
+</tr>
+<tr>
+<td>InterdictorEffect1</td>
+<td style="text-align: right;"><code>+15%</code> move and targeting-time penalty</td>
+</tr>
+<tr>
+<td>InterdictorEffect2</td>
+<td style="text-align: right;"><code>+20%</code> move and targeting-time penalty</td>
+</tr>
+<tr>
+<td>InterdictorEffect3</td>
+<td style="text-align: right;"><code>+25%</code> move and targeting-time penalty</td>
+</tr>
+<tr>
+<td>InterdictorEffect4</td>
+<td style="text-align: right;"><code>+30%</code> move and targeting-time penalty</td>
+</tr>
+</tbody>
+</table>
+<p>XP, evasion, and hit chance:</p>
+<table>
+<thead>
+<tr>
+<th>Tech</th>
+<th style="text-align: right;">Runtime effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Analysis1</td>
+<td style="text-align: right;"><code>+10%</code> XP</td>
+</tr>
+<tr>
+<td>Analysis2</td>
+<td style="text-align: right;"><code>+15%</code> XP</td>
+</tr>
+<tr>
+<td>Analysis3</td>
+<td style="text-align: right;"><code>+20%</code> XP</td>
+</tr>
+<tr>
+<td>Intuition1</td>
+<td style="text-align: right;"><code>+5%</code> XP and <code>+5</code> evasion</td>
+</tr>
+<tr>
+<td>Intuition2</td>
+<td style="text-align: right;"><code>+10%</code> XP and <code>+10</code> evasion</td>
+</tr>
+<tr>
+<td>Intuition3</td>
+<td style="text-align: right;"><code>+15%</code> XP and <code>+15</code> evasion</td>
+</tr>
+<tr>
+<td>EvasiveManeuvers1</td>
+<td style="text-align: right;"><code>+6</code> evasion</td>
+</tr>
+<tr>
+<td>EvasiveManeuvers2</td>
+<td style="text-align: right;"><code>+10</code> evasion</td>
+</tr>
+<tr>
+<td>EvasiveManeuvers3</td>
+<td style="text-align: right;"><code>+14</code> evasion</td>
+</tr>
+<tr>
+<td>Intimidation1</td>
+<td style="text-align: right;"><code>+6</code> hit chance</td>
+</tr>
+<tr>
+<td>Intimidation2</td>
+<td style="text-align: right;"><code>+10</code> hit chance</td>
+</tr>
+<tr>
+<td>Intimidation3</td>
+<td style="text-align: right;"><code>+14</code> hit chance</td>
+</tr>
+</tbody>
+</table>
+<p>Hull and shield max:</p>
+<table>
+<thead>
+<tr>
+<th>Tech family</th>
+<th>Runtime effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HullMax1-8</td>
+<td>highest rank only: <code>+5%</code>, <code>+8%</code>, <code>+11%</code>, <code>+14%</code>, <code>+17%</code>, <code>+20%</code>, <code>+23%</code>, <code>+30%</code> hull</td>
+</tr>
+<tr>
+<td>AdvancedAlloys1-2</td>
+<td>additional <code>+2%</code>, <code>+4%</code> hull</td>
+</tr>
+<tr>
+<td>ShieldMax1-7</td>
+<td>highest rank only: <code>+5%</code>, <code>+8%</code>, <code>+11%</code>, <code>+14%</code>, <code>+17%</code>, <code>+20%</code>, <code>+23%</code> shield</td>
+</tr>
+<tr>
+<td>ShieldAmplifier1-3</td>
+<td>additional <code>+3%</code>, <code>+6%</code>, <code>+9%</code> shield</td>
+</tr>
+</tbody>
+</table>
+<p>Outgoing and incoming damage modifiers:</p>
+<table>
+<thead>
+<tr>
+<th>Tech/effect</th>
+<th style="text-align: right;">Runtime effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Overpower</td>
+<td style="text-align: right;"><code>+10%</code> outgoing damage and <code>+15%</code> incoming damage</td>
+</tr>
+<tr>
+<td>Vanquisher</td>
+<td style="text-align: right;"><code>+15%</code> outgoing damage</td>
+</tr>
+<tr>
+<td>SmallStrikeTeamEffect</td>
+<td style="text-align: right;"><code>+5%</code> outgoing damage</td>
+</tr>
+<tr>
+<td>NanobotCharge</td>
+<td style="text-align: right;"><code>+10%</code> outgoing damage</td>
+</tr>
+<tr>
+<td>LeadershipEffect1</td>
+<td style="text-align: right;"><code>+3%</code> outgoing damage</td>
+</tr>
+<tr>
+<td>LeadershipEffect2</td>
+<td style="text-align: right;"><code>+5%</code> outgoing damage</td>
+</tr>
+<tr>
+<td>LeadershipEffect3</td>
+<td style="text-align: right;"><code>+7%</code> outgoing damage</td>
+</tr>
+<tr>
+<td>Freighter1</td>
+<td style="text-align: right;"><code>-50%</code> outgoing damage</td>
+</tr>
+<tr>
+<td>Freighter2</td>
+<td style="text-align: right;"><code>-45%</code> outgoing damage</td>
+</tr>
+<tr>
+<td>Freighter3</td>
+<td style="text-align: right;"><code>-40%</code> outgoing damage</td>
+</tr>
+<tr>
+<td>Freighter4</td>
+<td style="text-align: right;"><code>-35%</code> outgoing damage</td>
+</tr>
+<tr>
+<td>Freighter5</td>
+<td style="text-align: right;"><code>-30%</code> outgoing damage</td>
+</tr>
+<tr>
+<td>EnemyTerritoryEffect</td>
+<td style="text-align: right;"><code>+10%</code> incoming damage</td>
+</tr>
+</tbody>
+</table>
+<p>Repair facility hull-repair bonuses:</p>
+<table>
+<thead>
+<tr>
+<th>Tech</th>
+<th style="text-align: right;">Runtime hull-repair bonus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RepairFacility1</td>
+<td style="text-align: right;"><code>+10%</code></td>
+</tr>
+<tr>
+<td>RepairFacility2</td>
+<td style="text-align: right;"><code>+15%</code></td>
+</tr>
+<tr>
+<td>RepairFacility3</td>
+<td style="text-align: right;"><code>+20%</code></td>
+</tr>
+<tr>
+<td>RepairFacility4</td>
+<td style="text-align: right;"><code>+25%</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="main-technology-table">Main technology table</h2>
+<table>
+<thead>
+<tr>
+<th>Enum</th>
+<th>Client display name</th>
+<th>Client description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NULL</td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td>UNUSED1</td>
+<td>Future Technology</td>
+<td>An Unused Future Technology Type</td>
+</tr>
+<tr>
+<td>RepairFacility1</td>
+<td>Repair Facility Rank 1</td>
+<td>-10% Repair Cooldown &amp; +10% Hull Repair Bonus</td>
+</tr>
+<tr>
+<td>RepairFacility2</td>
+<td>Repair Facility Rank 2</td>
+<td>-20% Repair Cooldown &amp; +15% Hull Repair Bonus</td>
+</tr>
+<tr>
+<td>RepairFacility3</td>
+<td>Repair Facility Rank 3</td>
+<td>-30% Repair Cooldown &amp; +20% Hull Repair Bonus</td>
+</tr>
+<tr>
+<td>RepairFacility4</td>
+<td>Repair Facility Rank 4</td>
+<td>-40% Repair Cooldown &amp; +25% Hull Repair Bonus</td>
+</tr>
+<tr>
+<td>EvasiveManeuvers1</td>
+<td>Evasive Maneuvers</td>
+<td>+6 Evasion Bonus</td>
+</tr>
+<tr>
+<td>EvasiveManeuvers2</td>
+<td>Evasive Maneuvers II</td>
+<td>+10 Evasion Bonus</td>
+</tr>
+<tr>
+<td>EvasiveManeuvers3</td>
+<td>Evasive Maneuvers III</td>
+<td>+14 Evasion Bonus</td>
+</tr>
+<tr>
+<td>Intimidation1</td>
+<td>Intimidation</td>
+<td>+6 Hit Chance Bonus</td>
+</tr>
+<tr>
+<td>Intimidation2</td>
+<td>Intimidation II</td>
+<td>+10 Hit Chance Bonus</td>
+</tr>
+<tr>
+<td>Intimidation3</td>
+<td>Intimidation III</td>
+<td>+14 Hit Chance Bonus</td>
+</tr>
+<tr>
+<td>Intuition1</td>
+<td>Intuition</td>
+<td>+5% XP Bonus and +5 Evasion</td>
+</tr>
+<tr>
+<td>Intuition2</td>
+<td>Intuition II</td>
+<td>+10% XP Bonus and +10 Evasion</td>
+</tr>
+<tr>
+<td>Intuition3</td>
+<td>Intuition III</td>
+<td>+15% XP Bonus and +15 Evasion</td>
+</tr>
+<tr>
+<td>SkipJump</td>
+<td>Skip Jump</td>
+<td>Very Fast Movement Speed</td>
+</tr>
+<tr>
+<td>CrewFurnace</td>
+<td>Crew Furnace</td>
+<td>Fast Movement Speed</td>
+</tr>
+<tr>
+<td>Analysis1</td>
+<td>Analysis</td>
+<td>+10% XP Bonus</td>
+</tr>
+<tr>
+<td>Analysis2</td>
+<td>Analysis II</td>
+<td>+15% XP Bonus</td>
+</tr>
+<tr>
+<td>Analysis3</td>
+<td>Analysis III</td>
+<td>+20% XP Bonus</td>
+</tr>
+<tr>
+<td>HyperDrive1</td>
+<td>HyperDrive</td>
+<td>10% Ship Movement Speed Bonus</td>
+</tr>
+<tr>
+<td>HyperDrive2</td>
+<td>HyperDrive II</td>
+<td>15% Ship Movement Speed Bonus</td>
+</tr>
+<tr>
+<td>HyperDrive3</td>
+<td>HyperDrive III</td>
+<td>20% Ship Movement Speed Bonus</td>
+</tr>
+<tr>
+<td>SpaceLaneEffect1</td>
+<td>Space Lane Effect</td>
+<td>10% Ship Movement Speed Bonus (Blue Sector Lines)</td>
+</tr>
+<tr>
+<td>SpaceLaneEffect2</td>
+<td>Space Lane Effect II</td>
+<td>15% Ship Movement Speed Bonus (Blue Sector Lines)</td>
+</tr>
+<tr>
+<td>SpaceLaneEffect3</td>
+<td>Space Lane Effect III</td>
+<td>20% Ship Movement Speed Bonus (Blue Sector Lines)</td>
+</tr>
+<tr>
+<td>Vorpal1</td>
+<td>Vorpal Rank 1</td>
+<td>Attacks Versus Enemies Below 5% Health Always Critical</td>
+</tr>
+<tr>
+<td>Vorpal2</td>
+<td>Vorpal Rank 2</td>
+<td>Attacks Versus Enemies Below 10% Health Always Critical</td>
+</tr>
+<tr>
+<td>Vorpal3</td>
+<td>Vorpal Rank 3</td>
+<td>Attacks Versus Enemies Below 15% Health Always Critical</td>
+</tr>
+<tr>
+<td>Vorpal4</td>
+<td>Vorpal Rank 4</td>
+<td>Attacks Versus Enemies Below 20% Health Always Critical</td>
+</tr>
+<tr>
+<td>Targeting1</td>
+<td>Targeting</td>
+<td>5% Weapon &amp; Drone Targeting Speed Bonus</td>
+</tr>
+<tr>
+<td>Targeting2</td>
+<td>Targeting II</td>
+<td>10% Weapon &amp; Drone Targeting Speed Bonus</td>
+</tr>
+<tr>
+<td>Targeting3</td>
+<td>Targeting III</td>
+<td>15% Weapon &amp; Drone Targeting Speed Bonus</td>
+</tr>
+<tr>
+<td>Junker1</td>
+<td>Junker</td>
+<td>+5% Chance to Repair When Damaging Enemy Hull</td>
+</tr>
+<tr>
+<td>Junker2</td>
+<td>Junker II</td>
+<td>+10% Chance to Repair When Damaging Enemy Hull</td>
+</tr>
+<tr>
+<td>Junker3</td>
+<td>Junker III</td>
+<td>+15% Chance to Repair When Damaging Enemy Hull</td>
+</tr>
+<tr>
+<td>Mechanic1</td>
+<td>Mechanic</td>
+<td>Repair 5% Hull When Enemy NPC Killed</td>
+</tr>
+<tr>
+<td>Mechanic2</td>
+<td>Mechanic II</td>
+<td>Repair 10% Hull When Enemy NPC Killed</td>
+</tr>
+<tr>
+<td>Mechanic3</td>
+<td>Mechanic III</td>
+<td>Repair 15% Hull When Enemy NPC Killed</td>
+</tr>
+<tr>
+<td>ShieldCapacitors1</td>
+<td>Shield Capacitors</td>
+<td>+5% Chance to Resist Shield Damage and Convert to Battery</td>
+</tr>
+<tr>
+<td>ShieldCapacitors2</td>
+<td>Shield Capacitors II</td>
+<td>+10% Chance to Resist Shield Damage and Convert to Battery</td>
+</tr>
+<tr>
+<td>ShieldCapacitors3</td>
+<td>Shield Capacitors III</td>
+<td>+15% Chance to Resist Shield Damage and Convert to Battery</td>
+</tr>
+<tr>
+<td>ShieldAmplifier1</td>
+<td>Shield Amplifier</td>
+<td>+3% Shield Max</td>
+</tr>
+<tr>
+<td>ShieldAmplifier2</td>
+<td>Shield Amplifier II</td>
+<td>+6% Shield Max</td>
+</tr>
+<tr>
+<td>ShieldAmplifier3</td>
+<td>Shield Amplifier III</td>
+<td>+9% Shield Max</td>
+</tr>
+<tr>
+<td>ShieldPierce1</td>
+<td>Shield Bypass</td>
+<td>+5% Chance for Attacks to Ignore Shields</td>
+</tr>
+<tr>
+<td>ShieldPierce2</td>
+<td>Shield Bypass II</td>
+<td>+10% Chance for Attacks to Ignore Shields</td>
+</tr>
+<tr>
+<td>ShieldPierce3</td>
+<td>Shield Bypass III</td>
+<td>+15% Chance for Attacks to Ignore Shields</td>
+</tr>
+<tr>
+<td>Freighter1</td>
+<td>Freighter Rank 1</td>
+<td>-50% Damage but +100% Resource &amp; Harvesting Capacity</td>
+</tr>
+<tr>
+<td>Freighter2</td>
+<td>Freighter Rank 2</td>
+<td>-45% Damage but +125% Resource &amp; Harvesting Capacity</td>
+</tr>
+<tr>
+<td>Freighter3</td>
+<td>Freighter Rank 3</td>
+<td>-40% Damage but +150% Resource &amp; Harvesting Capacity</td>
+</tr>
+<tr>
+<td>Freighter4</td>
+<td>Freighter Rank 4</td>
+<td>-35% Damage but +175% Resource &amp; Harvesting Capacity</td>
+</tr>
+<tr>
+<td>Freighter5</td>
+<td>Freighter Rank 5</td>
+<td>-30% Damage but +200% Resource &amp; Harvesting Capacity</td>
+</tr>
+<tr>
+<td>Scavenger1</td>
+<td>Scavenger Rank 1</td>
+<td>2% Fleet Resource &amp; Loot Bonus Chance</td>
+</tr>
+<tr>
+<td>Scavenger2</td>
+<td>Scavenger Rank 2</td>
+<td>4% Fleet Resource &amp; Loot Bonus Chance</td>
+</tr>
+<tr>
+<td>Scavenger3</td>
+<td>Scavenger Rank 3</td>
+<td>6% Fleet Resource &amp; Loot Bonus Chance</td>
+</tr>
+<tr>
+<td>Scavenger4</td>
+<td>Scavenger Rank 4</td>
+<td>8% Fleet Resource &amp; Loot Bonus Chance</td>
+</tr>
+<tr>
+<td>Scavenger5</td>
+<td>Scavenger Rank 5</td>
+<td>10% Fleet Resource &amp; Loot Bonus Chance</td>
+</tr>
+<tr>
+<td>Scavenger6</td>
+<td>Scavenger Rank 6</td>
+<td>12% Fleet Resource &amp; Loot Bonus Chance</td>
+</tr>
+<tr>
+<td>Scavenger7</td>
+<td>Scavenger Rank 7</td>
+<td>14% Fleet Resource &amp; Loot Bonus Chance</td>
+</tr>
+<tr>
+<td>Harvesting1</td>
+<td>Harvesting Rank 1</td>
+<td>Gain XP From Asteroids &amp; 5% Resource Harvest Bonus Chance</td>
+</tr>
+<tr>
+<td>Harvesting2</td>
+<td>Harvesting Rank 2</td>
+<td>Gain XP From Asteroids &amp; 10% Resource Harvest Bonus Chance</td>
+</tr>
+<tr>
+<td>Harvesting3</td>
+<td>Harvesting Rank 3</td>
+<td>Gain XP From Asteroids &amp; 15% Resource Harvest Bonus Chance</td>
+</tr>
+<tr>
+<td>Harvesting4</td>
+<td>Harvesting Rank 4</td>
+<td>Gain XP From Asteroids &amp; 20% Resource Harvest Bonus Chance</td>
+</tr>
+<tr>
+<td>Harvesting5</td>
+<td>Harvesting Rank 5</td>
+<td>Gain XP From Asteroids &amp; 25% Resource Harvest Bonus Chance</td>
+</tr>
+<tr>
+<td>Harvesting6</td>
+<td>Harvesting Rank 6</td>
+<td>Gain XP From Asteroids &amp; 30% Resource Harvest Bonus Chance</td>
+</tr>
+<tr>
+<td>Harvesting7</td>
+<td>Harvesting Rank 7</td>
+<td>Gain XP From Asteroids &amp; 35% Resource Harvest Bonus Chance</td>
+</tr>
+<tr>
+<td>AdvancedAlloys1</td>
+<td>Advanced Alloys</td>
+<td>+2% Hull Max</td>
+</tr>
+<tr>
+<td>AdvancedAlloys2</td>
+<td>Advanced Alloys II</td>
+<td>+4% Hull Max</td>
+</tr>
+<tr>
+<td>AdvancedHacking1</td>
+<td>Advanced Hacking</td>
+<td>+1 Second Hack Duration</td>
+</tr>
+<tr>
+<td>AdvancedHacking2</td>
+<td>Advanced Hacking II</td>
+<td>+2 Second Hack Duration</td>
+</tr>
+<tr>
+<td>AdvancedHacking3</td>
+<td>Advanced Hacking III</td>
+<td>+3 Second Hack Duration &amp; Targets Lose Special Abilities</td>
+</tr>
+<tr>
+<td>AdvancedGrappling1</td>
+<td>Advanced Grappling</td>
+<td>+1 Second Grapple Duration</td>
+</tr>
+<tr>
+<td>AdvancedGrappling2</td>
+<td>Advanced Grappling II</td>
+<td>+2 Second Grapple Duration</td>
+</tr>
+<tr>
+<td>AdvancedGrappling3</td>
+<td>Advanced Grappling III</td>
+<td>+3 Second Grapple Duration &amp; Targets Dragged on Move</td>
+</tr>
+<tr>
+<td>AdvancedDraining1</td>
+<td>Advanced Draining</td>
+<td>+20 Shield &amp; +2 Battery Stolen by Drain Attack</td>
+</tr>
+<tr>
+<td>AdvancedDraining2</td>
+<td>Advanced Draining II</td>
+<td>+40 Shield &amp; +4 Battery Stolen by Drain Attack</td>
+</tr>
+<tr>
+<td>AdvancedDraining3</td>
+<td>Advanced Draining III</td>
+<td>+60 Shield &amp; +6 Battery Stolen by Drain Attack &amp; Can Critical</td>
+</tr>
+<tr>
+<td>SpeedHack1</td>
+<td>Hack Speed</td>
+<td>-4 Second Hack Cooldown</td>
+</tr>
+<tr>
+<td>SpeedHack2</td>
+<td>Hack Speed II</td>
+<td>-6 Second Hack Cooldown</td>
+</tr>
+<tr>
+<td>SpeedHack3</td>
+<td>Hack Speed III</td>
+<td>-8 Second Hack Cooldown</td>
+</tr>
+<tr>
+<td>SpeedGrapple1</td>
+<td>Grapple Speed</td>
+<td>-4 Second Grapple Cooldown</td>
+</tr>
+<tr>
+<td>SpeedGrapple2</td>
+<td>Grapple Speed II</td>
+<td>-6 Second Grapple Cooldown</td>
+</tr>
+<tr>
+<td>SpeedGrapple3</td>
+<td>Grapple Speed III</td>
+<td>-8 Second Grapple Cooldown</td>
+</tr>
+<tr>
+<td>SpeedDrain1</td>
+<td>Drain Speed</td>
+<td>-4 Second Drain Cooldown</td>
+</tr>
+<tr>
+<td>SpeedDrain2</td>
+<td>Drain Speed II</td>
+<td>-6 Second Drain Cooldown</td>
+</tr>
+<tr>
+<td>SpeedDrain3</td>
+<td>Drain Speed III</td>
+<td>-8 Second Drain Cooldown</td>
+</tr>
+<tr>
+<td>HullMax1</td>
+<td>Improved Hulls Rank 1</td>
+<td>5% Hull Bonus</td>
+</tr>
+<tr>
+<td>HullMax2</td>
+<td>Improved Hulls Rank 2</td>
+<td>8% Hull Bonus</td>
+</tr>
+<tr>
+<td>HullMax3</td>
+<td>Improved Hulls Rank 3</td>
+<td>11% Hull Bonus</td>
+</tr>
+<tr>
+<td>HullMax4</td>
+<td>Improved Hulls Rank 4</td>
+<td>14% Hull Bonus</td>
+</tr>
+<tr>
+<td>HullMax5</td>
+<td>Improved Hulls Rank 5</td>
+<td>17% Hull Bonus</td>
+</tr>
+<tr>
+<td>HullMax6</td>
+<td>Improved Hulls Rank 6</td>
+<td>20% Hull Bonus</td>
+</tr>
+<tr>
+<td>HullMax7</td>
+<td>Improved Hulls Rank 7</td>
+<td>23% Hull Bonus</td>
+</tr>
+<tr>
+<td>HullMax8</td>
+<td>Improved Hulls Rank 8</td>
+<td>30% Hull Bonus</td>
+</tr>
+<tr>
+<td>ShieldMax1</td>
+<td>Improved Shields Rank 1</td>
+<td>5% Shield Bonus</td>
+</tr>
+<tr>
+<td>ShieldMax2</td>
+<td>Improved Shields Rank 2</td>
+<td>8% Shield Bonus</td>
+</tr>
+<tr>
+<td>ShieldMax3</td>
+<td>Improved Shields Rank 3</td>
+<td>11% Shield Bonus</td>
+</tr>
+<tr>
+<td>ShieldMax4</td>
+<td>Improved Shields Rank 4</td>
+<td>14% Shield Bonus</td>
+</tr>
+<tr>
+<td>ShieldMax5</td>
+<td>Improved Shields Rank 5</td>
+<td>17% Shield Bonus</td>
+</tr>
+<tr>
+<td>ShieldMax6</td>
+<td>Improved Shields Rank 6</td>
+<td>20% Shield Bonus</td>
+</tr>
+<tr>
+<td>ShieldMax7</td>
+<td>Improved Shields Rank 7</td>
+<td>23% Shield Bonus</td>
+</tr>
+<tr>
+<td>Leadership1</td>
+<td>Leadership</td>
+<td>Speed Bonus and +3% Damage for Nearby Corporate Ships</td>
+</tr>
+<tr>
+<td>Leadership2</td>
+<td>Leadership II</td>
+<td>Speed Bonus and +5% Damage for Nearby Corporate Ships</td>
+</tr>
+<tr>
+<td>Leadership3</td>
+<td>Leadership III</td>
+<td>Speed Bonus and +7% Damage for Nearby Corporate Ships</td>
+</tr>
+<tr>
+<td>LeadershipEffect1</td>
+<td>Leadership Effect</td>
+<td>Speed Bonus and +3% Damage from Nearby Carrier</td>
+</tr>
+<tr>
+<td>LeadershipEffect2</td>
+<td>Leadership Effect II</td>
+<td>Speed Bonus and +5% Damage from Nearby Carrier</td>
+</tr>
+<tr>
+<td>LeadershipEffect3</td>
+<td>Leadership Effect III</td>
+<td>Speed Bonus and +7% Damage from Nearby Carrier</td>
+</tr>
+<tr>
+<td>Interdictor1</td>
+<td>Interdictor</td>
+<td>15% Targeting &amp; Movement Speed Penalty to Nearby Enemies</td>
+</tr>
+<tr>
+<td>Interdictor2</td>
+<td>Interdictor II</td>
+<td>20% Targeting &amp; Movement Speed Penalty to Nearby Enemies</td>
+</tr>
+<tr>
+<td>Interdictor3</td>
+<td>Interdictor III</td>
+<td>25% Targeting &amp; Movement Speed Penalty to Nearby Enemies</td>
+</tr>
+<tr>
+<td>InterdictorEffect1</td>
+<td>Interdictor Effect</td>
+<td>15% Targeting &amp; Movement Speed Penalty</td>
+</tr>
+<tr>
+<td>InterdictorEffect2</td>
+<td>Interdictor Effect II</td>
+<td>20% Targeting &amp; Movement Speed Penalty</td>
+</tr>
+<tr>
+<td>InterdictorEffect3</td>
+<td>Interdictor Effect III</td>
+<td>25% Targeting &amp; Movement Speed Penalty</td>
+</tr>
+<tr>
+<td>GarrisonStrikes2</td>
+<td>Garrison Strikes II</td>
+<td>Doubles Garrison Strike Damage Radius</td>
+</tr>
+<tr>
+<td>GarrisonStrikes3</td>
+<td>Garrison Strikes III</td>
+<td>Reduces Garrison Strike Warning Time</td>
+</tr>
+<tr>
+<td>Overpower</td>
+<td>Overpower</td>
+<td>+10% Damage Bonus and 15% Damage Vulnerability</td>
+</tr>
+<tr>
+<td>ReverseHacking</td>
+<td>Reverse Hacking</td>
+<td>Very High Chance of Hack Deflected Back at Attackers</td>
+</tr>
+<tr>
+<td>ReverseGrappling</td>
+<td>Reverse Grappling</td>
+<td>Very High Chance of Grapple Deflected Back at Attackers</td>
+</tr>
+<tr>
+<td>ReverseBatteryDrain</td>
+<td>Reverse Drain</td>
+<td>Very High Chance of Drain Deflected Back at Attackers</td>
+</tr>
+<tr>
+<td>Deflector1</td>
+<td>Deflector Rank 1</td>
+<td>3% Chance Damage Deflected Back At Attackers</td>
+</tr>
+<tr>
+<td>Deflector2</td>
+<td>Deflector Rank 2</td>
+<td>5% Chance Damage Deflected Back At Attackers</td>
+</tr>
+<tr>
+<td>Deflector3</td>
+<td>Deflector Rank 3</td>
+<td>7% Chance Damage Deflected Back At Attackers</td>
+</tr>
+<tr>
+<td>Deflector4</td>
+<td>Deflector Rank 4</td>
+<td>9% Chance Damage Deflected Back At Attackers</td>
+</tr>
+<tr>
+<td>Deflector5</td>
+<td>Deflector Rank 5</td>
+<td>11% Chance Damage Deflected Back At Attackers</td>
+</tr>
+<tr>
+<td>Deflector6</td>
+<td>Deflector Rank 6</td>
+<td>13% Chance Damage Deflected Back At Attackers</td>
+</tr>
+<tr>
+<td>Deflector7</td>
+<td>Deflector Rank 7</td>
+<td>15% Chance Damage Deflected Back At Attackers</td>
+</tr>
+<tr>
+<td>Technician1</td>
+<td>Technician</td>
+<td>Repair Removes Negative Status Effects</td>
+</tr>
+<tr>
+<td>Technician2</td>
+<td>Technician II</td>
+<td>Repair Can Critical &amp; Removes Negative Status Effects</td>
+</tr>
+<tr>
+<td>Technician3</td>
+<td>Technician III</td>
+<td>Repair Can Splash, Critical &amp; Removes Negative Status Effects</td>
+</tr>
+<tr>
+<td>Technician4</td>
+<td>Technician IV</td>
+<td>Repair Heals Over Time, Splashes, Criticals &amp; Removes Effects</td>
+</tr>
+<tr>
+<td>RepairOverTimeEffect</td>
+<td>Repair Over Time</td>
+<td>Immune to Effects &amp; Repairs 3 Times Over 21 Seconds</td>
+</tr>
+<tr>
+<td>AlienDamage1</td>
+<td>Damage vs Aliens Rank 1</td>
+<td>3% Damage Bonus vs Alien Races</td>
+</tr>
+<tr>
+<td>AlienDamage2</td>
+<td>Damage vs Aliens Rank 2</td>
+<td>4% Damage Bonus vs Alien Races</td>
+</tr>
+<tr>
+<td>AlienDamage3</td>
+<td>Damage vs Aliens Rank 3</td>
+<td>5% Damage Bonus vs Alien Races</td>
+</tr>
+<tr>
+<td>AlienDamage4</td>
+<td>Damage vs Aliens Rank 4</td>
+<td>6% Damage Bonus vs Alien Races</td>
+</tr>
+<tr>
+<td>AlienDamage5</td>
+<td>Damage vs Aliens Rank 5</td>
+<td>7% Damage Bonus vs Alien Races</td>
+</tr>
+<tr>
+<td>AlienDamage6</td>
+<td>Damage vs Aliens Rank 6</td>
+<td>8% Damage Bonus vs Alien Races</td>
+</tr>
+<tr>
+<td>AlienDamage7</td>
+<td>Damage vs Aliens Rank 7</td>
+<td>9% Damage Bonus vs Alien Races</td>
+</tr>
+<tr>
+<td>PvPDamage1</td>
+<td>Damage vs Players Rank 1</td>
+<td>1% Damage Bonus vs Players</td>
+</tr>
+<tr>
+<td>PvPDamage2</td>
+<td>Damage vs Players Rank 2</td>
+<td>2% Damage Bonus vs Players</td>
+</tr>
+<tr>
+<td>PvPDamage3</td>
+<td>Damage vs Players Rank 3</td>
+<td>3% Damage Bonus vs Players</td>
+</tr>
+<tr>
+<td>PvPDamage4</td>
+<td>Damage vs Players Rank 4</td>
+<td>4% Damage Bonus vs Players</td>
+</tr>
+<tr>
+<td>PvPDamage5</td>
+<td>Damage vs Players Rank 5</td>
+<td>5% Damage Bonus vs Players</td>
+</tr>
+<tr>
+<td>PvPDamage6</td>
+<td>Damage vs Players Rank 6</td>
+<td>6% Damage Bonus vs Players</td>
+</tr>
+<tr>
+<td>PvPDamage7</td>
+<td>Damage vs Players Rank 7</td>
+<td>7% Damage Bonus vs Players</td>
+</tr>
+<tr>
+<td>PvPBonusXP1</td>
+<td>Player Kill Bonus XP</td>
+<td>+10% Bonus XP For Killing Players</td>
+</tr>
+<tr>
+<td>PvPBonusXP2</td>
+<td>Player Kill Bonus XP II</td>
+<td>+15% Bonus XP For Killing Players</td>
+</tr>
+<tr>
+<td>PvPBonusXP3</td>
+<td>Player Kill Bonus XP III</td>
+<td>+20% Bonus XP For Killing Players</td>
+</tr>
+<tr>
+<td>NovaInversion</td>
+<td>Nova Inversion</td>
+<td>Very High Chance Nova Repairs Hull Instead of Damage</td>
+</tr>
+<tr>
+<td>NovaDeath1</td>
+<td>Nova Death</td>
+<td>Damage enemies when you die! (100% Strength)</td>
+</tr>
+<tr>
+<td>NovaDeath2</td>
+<td>Nova Death II</td>
+<td>Damage enemies when you die! (125% Strength)</td>
+</tr>
+<tr>
+<td>NovaDeath3</td>
+<td>Nova Death III</td>
+<td>Damage enemies when you die! (150% Strength)</td>
+</tr>
+<tr>
+<td>NovaDeath4</td>
+<td>Nova Death IV</td>
+<td>Damage enemies when you die! (175% Strength)</td>
+</tr>
+<tr>
+<td>NovaDeath5</td>
+<td>Nova Death V</td>
+<td>Damage enemies when you die! (200% Strength)</td>
+</tr>
+<tr>
+<td>NovaDeath6</td>
+<td>Nova Death VI</td>
+<td>Damage enemies when you die! (250% Strength)</td>
+</tr>
+<tr>
+<td>NovaDeath7</td>
+<td>Nova Death VII</td>
+<td>Damage enemies when you die! (300% Strength)</td>
+</tr>
+<tr>
+<td>Regeneration1</td>
+<td>Regeneration Rank 1</td>
+<td>Units Repair 25 Hull Every 30 Seconds</td>
+</tr>
+<tr>
+<td>Regeneration2</td>
+<td>Regeneration Rank 2</td>
+<td>Units Repair 50 Hull Every 30 Seconds</td>
+</tr>
+<tr>
+<td>Regeneration3</td>
+<td>Regeneration Rank 3</td>
+<td>Units Repair 75 Hull Every 30 Seconds</td>
+</tr>
+<tr>
+<td>Regeneration4</td>
+<td>Regeneration Rank 4</td>
+<td>Units Repair 100 Hull Every 30 Seconds</td>
+</tr>
+<tr>
+<td>Regeneration5</td>
+<td>Regeneration Rank 5</td>
+<td>Units Repair 150 Hull Every 30 Seconds</td>
+</tr>
+<tr>
+<td>Regeneration6</td>
+<td>Regeneration Rank 6</td>
+<td>Units Repair 200 Hull Every 30 Seconds</td>
+</tr>
+<tr>
+<td>Regeneration7</td>
+<td>Regeneration Rank 7</td>
+<td>Units Repair 250 Hull Every 30 Seconds</td>
+</tr>
+<tr>
+<td>Marauder1</td>
+<td>Marauder</td>
+<td>+4% Damage vs Defense Units</td>
+</tr>
+<tr>
+<td>Marauder2</td>
+<td>Marauder II</td>
+<td>+8% Damage vs Defense Units</td>
+</tr>
+<tr>
+<td>Marauder3</td>
+<td>Marauder III</td>
+<td>+12% Damage vs Defense Units</td>
+</tr>
+<tr>
+<td>Guardian1</td>
+<td>Guardian</td>
+<td>+4% Damage vs Defense Unit Attackers</td>
+</tr>
+<tr>
+<td>Guardian2</td>
+<td>Guardian II</td>
+<td>+6% Damage vs Defense Unit Attackers</td>
+</tr>
+<tr>
+<td>AttackDrones1</td>
+<td>Attack Drones</td>
+<td>+3% Attack Drone Damage</td>
+</tr>
+<tr>
+<td>AttackDrones2</td>
+<td>Attack Drones II</td>
+<td>+5% Attack Drone Damage</td>
+</tr>
+<tr>
+<td>AttackDrones3</td>
+<td>Attack Drones III</td>
+<td>+7% Attack Drone Damage</td>
+</tr>
+<tr>
+<td>AttackDrones4</td>
+<td>Attack Drones ADV</td>
+<td>+9% Attack Drone Damage</td>
+</tr>
+<tr>
+<td>RepairDrones1</td>
+<td>Repair Drones</td>
+<td>+5% Drone Hull Repairs</td>
+</tr>
+<tr>
+<td>RepairDrones2</td>
+<td>Repair Drones II</td>
+<td>+7% Drone Hull Repairs</td>
+</tr>
+<tr>
+<td>RepairDrones3</td>
+<td>Repair Drones III</td>
+<td>+9% Drone Hull Repairs</td>
+</tr>
+<tr>
+<td>RepairDrones4</td>
+<td>Repair Drones ADV</td>
+<td>+11% Drone Hull Repairs</td>
+</tr>
+<tr>
+<td>SpeedRepair1</td>
+<td>Repair Speed</td>
+<td>-4 Second Repair Cooldown</td>
+</tr>
+<tr>
+<td>SpeedRepair2</td>
+<td>Repair Speed II</td>
+<td>-6 Second Repair Cooldown</td>
+</tr>
+<tr>
+<td>SpeedRepair3</td>
+<td>Repair Speed III</td>
+<td>-8 Second Repair Cooldown</td>
+</tr>
+<tr>
+<td>BattleRam1</td>
+<td>Battle Ram Rank 1</td>
+<td>5% Chance to Ram Hostiles on Move</td>
+</tr>
+<tr>
+<td>BattleRam2</td>
+<td>Battle Ram Rank 2</td>
+<td>10% Chance to Ram Hostiles on Move</td>
+</tr>
+<tr>
+<td>BattleRam3</td>
+<td>Battle Ram Rank 3</td>
+<td>15% Chance to Ram Hostiles on Move</td>
+</tr>
+<tr>
+<td>BattleRam4</td>
+<td>Battle Ram Rank 4</td>
+<td>20% Chance to Ram Hostiles on Move</td>
+</tr>
+<tr>
+<td>BattleRam5</td>
+<td>Battle Ram Rank 5</td>
+<td>25% Chance to Ram Hostiles on Move</td>
+</tr>
+<tr>
+<td>BattleRam6</td>
+<td>Battle Ram Rank 6</td>
+<td>30% Chance to Ram Hostiles on Move</td>
+</tr>
+<tr>
+<td>BattleRam7</td>
+<td>Battle Ram Rank 7</td>
+<td>35% Chance to Ram Hostiles on Move</td>
+</tr>
+<tr>
+<td>LongRangeVision</td>
+<td>Long Range Vision</td>
+<td>Increased Sector Vision Range</td>
+</tr>
+<tr>
+<td>PassiveScan1</td>
+<td>Passive Scanning</td>
+<td>Counter Sneak Attacks and +15% Detect Cloaked Enemy Chance</td>
+</tr>
+<tr>
+<td>PassiveScan2</td>
+<td>Passive Scanning II</td>
+<td>Counter Sneak Attacks and +20% Detect Cloaked Enemy Chance</td>
+</tr>
+<tr>
+<td>PassiveScan3</td>
+<td>Passive Scanning III</td>
+<td>Counter Sneak Attacks and +30% Detect Cloaked Enemy Chance</td>
+</tr>
+<tr>
+<td>Stealth1</td>
+<td>Basic Stealth</td>
+<td>Movement Direction &amp; Time Hidden</td>
+</tr>
+<tr>
+<td>Stealth2</td>
+<td>Advanced Stealth</td>
+<td>Movement Direction Hidden &amp; Immune to Passive Scan</td>
+</tr>
+<tr>
+<td>Scan1</td>
+<td>Scanning Rank 1</td>
+<td>Active Ability to Reveal Rank 1 Cloaking</td>
+</tr>
+<tr>
+<td>Scan2</td>
+<td>Scanning Rank 2</td>
+<td>Active Ability to Reveal Rank 2 Cloaking</td>
+</tr>
+<tr>
+<td>Scan3</td>
+<td>Scanning Rank 3</td>
+<td>Active Ability to Reveal Rank 3 Cloaking</td>
+</tr>
+<tr>
+<td>Scan4</td>
+<td>Scanning Rank 4</td>
+<td>Active Ability to Reveal Rank 4 Cloaking</td>
+</tr>
+<tr>
+<td>Scan5</td>
+<td>Scanning Rank 5</td>
+<td>Active Ability to Reveal Rank 5 Cloaking</td>
+</tr>
+<tr>
+<td>Scan6</td>
+<td>Scanning Rank 6</td>
+<td>Active Ability to Reveal Rank 6 Cloaking</td>
+</tr>
+<tr>
+<td>Scan7</td>
+<td>Scanning Rank 7</td>
+<td>Active Ability to Reveal Rank 7 Cloaking</td>
+</tr>
+<tr>
+<td>AdvancedScanning</td>
+<td>Advanced Scanning</td>
+<td>+1 Scanning Power (Requires Scanning)</td>
+</tr>
+<tr>
+<td>SpeedScan1</td>
+<td>Scan Speed</td>
+<td>-4 Second Scan Cooldown</td>
+</tr>
+<tr>
+<td>SpeedScan2</td>
+<td>Scan Speed II</td>
+<td>-6 Second Scan Cooldown</td>
+</tr>
+<tr>
+<td>SpeedScan3</td>
+<td>Scan Speed III</td>
+<td>-8 Second Scan Cooldown</td>
+</tr>
+<tr>
+<td>Cloak1</td>
+<td>Cloaking Rank 1</td>
+<td>Hide From Enemy Vision (Power 1)</td>
+</tr>
+<tr>
+<td>Cloak2</td>
+<td>Cloaking Rank 2</td>
+<td>Hide From Enemy Vision (Power 2)</td>
+</tr>
+<tr>
+<td>Cloak3</td>
+<td>Cloaking Rank 3</td>
+<td>Hide From Enemy Vision (Power 3)</td>
+</tr>
+<tr>
+<td>Cloak4</td>
+<td>Cloaking Rank 4</td>
+<td>Hide From Enemy Vision (Power 4)</td>
+</tr>
+<tr>
+<td>Cloak5</td>
+<td>Cloaking Rank 5</td>
+<td>Hide From Enemy Vision (Power 5)</td>
+</tr>
+<tr>
+<td>Cloak6</td>
+<td>Cloaking Rank 6</td>
+<td>Hide From Enemy Vision (Power 6)</td>
+</tr>
+<tr>
+<td>Cloak7</td>
+<td>Cloaking Rank 7</td>
+<td>Hide From Enemy Vision (Power 7)</td>
+</tr>
+<tr>
+<td>AdvancedCloaking</td>
+<td>Advanced Cloaking</td>
+<td>+1 Cloaking Power (Requires Cloaking)</td>
+</tr>
+<tr>
+<td>CloakDuration1</td>
+<td>Cloak Duration</td>
+<td>+3 Second Cloak Duration</td>
+</tr>
+<tr>
+<td>CloakDuration2</td>
+<td>Cloak Duration II</td>
+<td>+5 Second Cloak Duration</td>
+</tr>
+<tr>
+<td>CloakDuration3</td>
+<td>Cloak Duration III</td>
+<td>+7 Second Cloak Duration</td>
+</tr>
+<tr>
+<td>SpeedCloak1</td>
+<td>Cloak Speed</td>
+<td>-4 Second Cloak Cooldown</td>
+</tr>
+<tr>
+<td>SpeedCloak2</td>
+<td>Cloak Speed II</td>
+<td>-6 Second Cloak Cooldown</td>
+</tr>
+<tr>
+<td>SpeedCloak3</td>
+<td>Cloak Speed III</td>
+<td>-8 Second Cloak Cooldown</td>
+</tr>
+<tr>
+<td>Vanquisher</td>
+<td>Vanquisher</td>
+<td>+15% Damage Bonus and Immune to Hack and Grapple</td>
+</tr>
+<tr>
+<td>Savior1</td>
+<td>Savior Rank 1</td>
+<td>Repairs of Targets Below 10% Health Always Critical &amp; Splash</td>
+</tr>
+<tr>
+<td>Savior2</td>
+<td>Savior Rank 2</td>
+<td>Repairs of Targets Below 15% Health Always Critical &amp; Splash</td>
+</tr>
+<tr>
+<td>Savior3</td>
+<td>Savior Rank 3</td>
+<td>Repairs of Targets Below 20% Health Always Critical &amp; Splash</td>
+</tr>
+<tr>
+<td>Savior4</td>
+<td>Savior Rank 4</td>
+<td>Repairs of Targets Below 25% Health Always Critical &amp; Splash</td>
+</tr>
+<tr>
+<td>Rebirth1</td>
+<td>Rebirth Rank 1</td>
+<td>Fatal Damage Restores 10% Health &amp; Cloaks (6 Hour Cooldown)</td>
+</tr>
+<tr>
+<td>Rebirth2</td>
+<td>Rebirth Rank 2</td>
+<td>Fatal Damage Restores 15% Health &amp; Cloaks (5 Hour Cooldown)</td>
+</tr>
+<tr>
+<td>Rebirth3</td>
+<td>Rebirth Rank 3</td>
+<td>Fatal Damage Restores 20% Health &amp; Cloaks (4 Hour Cooldown)</td>
+</tr>
+<tr>
+<td>Rebirth4</td>
+<td>Rebirth Rank 4</td>
+<td>Fatal Damage Restores 25% Health &amp; Cloaks (3 Hour Cooldown)</td>
+</tr>
+<tr>
+<td>Interdictor4</td>
+<td>Interdictor IV</td>
+<td>30% Targeting &amp; Movement Speed Penalty to Nearby Enemies</td>
+</tr>
+<tr>
+<td>InterdictorEffect4</td>
+<td>Interdictor Effect IV</td>
+<td>30% Targeting &amp; Movement Speed Penalty</td>
+</tr>
+<tr>
+<td>UNUSED11</td>
+<td>Future Technology</td>
+<td>An Unused Future Technology Type</td>
+</tr>
+<tr>
+<td>SmallStrikeTeamEffect</td>
+<td>Small Strike Team</td>
+<td>+5% Damage &amp; +5 Resists if Fleet is 33% Small or Medium</td>
+</tr>
+<tr>
+<td>OnFireEffect</td>
+<td>On Fire!</td>
+<td>Ship Takes Fire Damage Every 6 Seconds</td>
+</tr>
+<tr>
+<td>CollisionEffect</td>
+<td>Collision Warning!</td>
+<td>Ship Takes Collision Damage Every 5 Seconds</td>
+</tr>
+<tr>
+<td>UNUSED20</td>
+<td>Future Technology</td>
+<td>An Unused Future Technology Type</td>
+</tr>
+<tr>
+<td>EnemyTerritoryEffect</td>
+<td>Enemy Territory</td>
+<td>10% Damage Vulnerability and All Resists Reduced by 10</td>
+</tr>
+<tr>
+<td>FriendlyTerritoryEffect</td>
+<td>Friendly Territory</td>
+<td>10% Movement Speed Bonus and All Resists Increased by 5</td>
+</tr>
+<tr>
+<td>UNUSED30</td>
+<td>Future Technology</td>
+<td>An Unused Future Technology Type</td>
+</tr>
+<tr>
+<td>ResourceLootBonusPvP</td>
+<td>PvP Loot &amp; Xp Bonus</td>
+<td>Xp and Loot Bonus in Player-vs-Player Zones</td>
+</tr>
+<tr>
+<td>PvPProtection</td>
+<td>PvP Protection</td>
+<td>Temporary Protection from Player vs Player Attacks</td>
+</tr>
+<tr>
+<td>NanobotCharge</td>
+<td>Nanobot Charge</td>
+<td>+10% XP Gain, +10% Outgoing Damage, +10% Move Speed Bonus</td>
+</tr>
+<tr>
+<td>SneakAttack</td>
+<td>Sneak Attack!</td>
+<td>+30 Critical Chance and +25% Critical Damage Bonus</td>
+</tr>
+<tr>
+<td>DailyTech1</td>
+<td>Daily Tech Bonus 1</td>
+<td>[Daily tech description depends on assigned daily tech type]</td>
+</tr>
+<tr>
+<td>DailyTech2</td>
+<td>Daily Tech Bonus 2</td>
+<td>[Daily tech description depends on assigned daily tech type]</td>
+</tr>
+<tr>
+<td>DailyTech3</td>
+<td>Daily Tech Bonus 3</td>
+<td>[Daily tech description depends on assigned daily tech type]</td>
+</tr>
+<tr>
+<td>ShieldRepair1</td>
+<td>Shield Repair</td>
+<td>Repair 10% More Shields with Hull Repair and Cloak</td>
+</tr>
+<tr>
+<td>ShieldRepair2</td>
+<td>Shield Repair II</td>
+<td>Repair 15% More Shields with Hull Repair and Cloak</td>
+</tr>
+<tr>
+<td>ShieldRepair3</td>
+<td>Shield Repair III</td>
+<td>Repair 20% More Shields with Hull Repair and Cloak</td>
+</tr>
+<tr>
+<td>ShieldRepair4</td>
+<td>Shield Repair IV</td>
+<td>Repair 25% More Shields with Hull Repair and Cloak</td>
+</tr>
+<tr>
+<td>ShieldRepair5</td>
+<td>Shield Repair V</td>
+<td>Repair 30% More Shields with Hull Repair and Cloak</td>
+</tr>
+<tr>
+<td>HackRam1</td>
+<td>Hack Ram Rank 1</td>
+<td>5% Chance to Hack Hostiles on Move</td>
+</tr>
+<tr>
+<td>HackRam2</td>
+<td>Hack Ram Rank 2</td>
+<td>10% Chance to Hack Hostiles on Move</td>
+</tr>
+<tr>
+<td>HackRam3</td>
+<td>Hack Ram Rank 3</td>
+<td>15% Chance to Hack Hostiles on Move</td>
+</tr>
+<tr>
+<td>HackRam4</td>
+<td>Hack Ram Rank 4</td>
+<td>20% Chance to Hack Hostiles on Move</td>
+</tr>
+<tr>
+<td>HackRam5</td>
+<td>Hack Ram Rank 5</td>
+<td>25% Chance to Hack Hostiles on Move</td>
+</tr>
+<tr>
+<td>HackRam6</td>
+<td>Hack Ram Rank 6</td>
+<td>30% Chance to Hack Hostiles on Move</td>
+</tr>
+<tr>
+<td>HackRam7</td>
+<td>Hack Ram Rank 7</td>
+<td>35% Chance to Hack Hostiles on Move</td>
+</tr>
+</tbody>
+</table>
+<h2 id="technology-helper-classifications">Technology Helper Classifications</h2>
+<p>Source: <code>Assembly-CSharp\DFHOJHHBAMJ.cs</code>.</p>
+<p>These helpers are client-side classifications. Use them as source-backed staging data, but do not automatically turn every helper name into public wording.</p>
+<h3 id="effect-remaps">Effect remaps</h3>
+<table>
+<thead>
+<tr>
+<th>Source tech</th>
+<th>Effect tech</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Leadership1</td>
+<td>LeadershipEffect1</td>
+</tr>
+<tr>
+<td>Leadership2</td>
+<td>LeadershipEffect2</td>
+</tr>
+<tr>
+<td>Leadership3</td>
+<td>LeadershipEffect3</td>
+</tr>
+<tr>
+<td>Interdictor1</td>
+<td>InterdictorEffect1</td>
+</tr>
+<tr>
+<td>Interdictor2</td>
+<td>InterdictorEffect2</td>
+</tr>
+<tr>
+<td>Interdictor3</td>
+<td>InterdictorEffect3</td>
+</tr>
+<tr>
+<td>Interdictor4</td>
+<td>InterdictorEffect4</td>
+</tr>
+</tbody>
+</table>
+<h3 id="family-helpers">Family helpers</h3>
+<table>
+<thead>
+<tr>
+<th>Helper</th>
+<th>Client rule</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>IsStealthRelated()</code></td>
+<td>Cloak1 through AdvancedCloaking</td>
+</tr>
+<tr>
+<td><code>IsScanningRelated()</code></td>
+<td>PassiveScan1 through AdvancedScanning; this range includes Stealth1 and Stealth2 because of enum order</td>
+</tr>
+<tr>
+<td><code>IsDeflector()</code></td>
+<td>Deflector1 through Deflector7</td>
+</tr>
+<tr>
+<td><code>GetEffectsVision()</code></td>
+<td>true for stealth-related or scanning-related techs</td>
+</tr>
+<tr>
+<td><code>GetIsPvPDamage()</code></td>
+<td>PvPDamage1 through PvPDamage7</td>
+</tr>
+<tr>
+<td><code>GetIsPassiveScanning()</code></td>
+<td>PassiveScan1 through PassiveScan3</td>
+</tr>
+<tr>
+<td><code>IsGarrisonsOnly()</code></td>
+<td>GarrisonStrikes2 and GarrisonStrikes3</td>
+</tr>
+<tr>
+<td><code>IsDailyTech()</code></td>
+<td>DailyTech1 through DailyTech3</td>
+</tr>
+</tbody>
+</table>
+<h3 id="status-effects">Status effects</h3>
+<p><code>IsStatusEffect(tech, entityType)</code> returns true for these status-style techs:</p>
+<table>
+<thead>
+<tr>
+<th>Tech/group</th>
+<th>Condition</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>RepairFacility1</td>
+<td>status effect unless entity type is Outpost</td>
+</tr>
+<tr>
+<td>RepairFacility2</td>
+<td>status effect unless entity type is Garrison</td>
+</tr>
+<tr>
+<td>RepairFacility3</td>
+<td>status effect unless entity type is Planet</td>
+</tr>
+<tr>
+<td>RepairFacility4</td>
+<td>status effect unless entity type is Shipyard</td>
+</tr>
+<tr>
+<td>SpaceLaneEffect1-3</td>
+<td>always status effects</td>
+</tr>
+<tr>
+<td>LeadershipEffect1-3</td>
+<td>always status effects</td>
+</tr>
+<tr>
+<td>InterdictorEffect1-4</td>
+<td>always status effects</td>
+</tr>
+<tr>
+<td>RepairOverTimeEffect</td>
+<td>always status effect</td>
+</tr>
+<tr>
+<td>SmallStrikeTeamEffect</td>
+<td>always status effect</td>
+</tr>
+<tr>
+<td>OnFireEffect</td>
+<td>always status effect</td>
+</tr>
+<tr>
+<td>CollisionEffect</td>
+<td>always status effect</td>
+</tr>
+<tr>
+<td>EnemyTerritoryEffect</td>
+<td>always status effect</td>
+</tr>
+<tr>
+<td>FriendlyTerritoryEffect</td>
+<td>always status effect</td>
+</tr>
+<tr>
+<td>ResourceLootBonusPvP</td>
+<td>always status effect</td>
+</tr>
+<tr>
+<td>PvPProtection</td>
+<td>always status effect</td>
+</tr>
+<tr>
+<td>NanobotCharge</td>
+<td>always status effect</td>
+</tr>
+<tr>
+<td>SneakAttack</td>
+<td>always status effect</td>
+</tr>
+<tr>
+<td>DailyTech1-3</td>
+<td>status effects through <code>IsDailyTech()</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="researchable-technologies">Researchable technologies</h3>
+<p><code>CanBeResearched()</code> returns true for:</p>
+<table>
+<thead>
+<tr>
+<th>Researchable group</th>
+<th>Ranks / techs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EvasiveManeuvers</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Intimidation</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Targeting</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>ShieldAmplifier</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>Scavenger</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>Harvesting</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>AdvancedAlloys</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>AdvancedHacking</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>AdvancedGrappling</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>AdvancedDraining</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>SpeedHack</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>SpeedGrapple</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>SpeedDrain</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>GarrisonStrikes</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>AlienDamage</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>PvPDamage</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>PvPBonusXP</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>Marauder</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>Guardian</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>AttackDrones</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>RepairDrones</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>SpeedRepair</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>PassiveScan</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>AdvancedScanning</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>SpeedScan</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>AdvancedCloaking</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>CloakDuration</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>SpeedCloak</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>HackRam</td>
+<td>1-2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="stacks-with-other-ranks">Stacks with other ranks</h3>
+<p><code>GetStacksWithOtherRanks()</code> returns true for:</p>
+<table>
+<thead>
+<tr>
+<th>Stackable group</th>
+<th>Ranks / techs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EvasiveManeuvers</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>Intimidation</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>Intuition</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>Analysis</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>HyperDrive</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>Targeting</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>Junker</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>ShieldCapacitors</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>ShieldAmplifier</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>ShieldPierce</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>AdvancedAlloys</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>AdvancedHacking</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>AdvancedGrappling</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>AdvancedDraining</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>SpeedHack</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>SpeedGrapple</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>SpeedDrain</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>GarrisonStrikes</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>PvPBonusXP</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>Marauder</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>Guardian</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>AttackDrones</td>
+<td>1-4</td>
+</tr>
+<tr>
+<td>RepairDrones</td>
+<td>1-4</td>
+</tr>
+<tr>
+<td>SpeedRepair</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>PassiveScan</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>SpeedScan</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>CloakDuration</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>SpeedCloak</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>ShieldRepair</td>
+<td>1-5</td>
+</tr>
+</tbody>
+</table>
+<p>Notably, several ranked families are not returned by this helper, including Scavenger, Harvesting, Freighter, HullMax, ShieldMax, Deflector, AlienDamage, PvPDamage, NovaDeath, Regeneration, BattleRam, Scan, Cloak, and HackRam. Those may still have max-rank override behavior through <code>GetMaxOverrideTech()</code>.</p>
+<h3 id="major-technologies">Major technologies</h3>
+<p><code>IsMajor()</code> returns true for:</p>
+<table>
+<thead>
+<tr>
+<th>Major group</th>
+<th>Ranks / techs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>SkipJump</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>CrewFurnace</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>Analysis</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>HyperDrive</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>Targeting</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>ShieldCapacitors</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>ShieldAmplifier</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>ShieldPierce</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>Scavenger</td>
+<td>2-7</td>
+</tr>
+<tr>
+<td>Harvesting</td>
+<td>2-7</td>
+</tr>
+<tr>
+<td>AdvancedAlloys</td>
+<td>2</td>
+</tr>
+<tr>
+<td>AdvancedHacking</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>AdvancedGrappling</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>AdvancedDraining</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>SpeedHack</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>SpeedGrapple</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>SpeedDrain</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>HullMax</td>
+<td>1-8</td>
+</tr>
+<tr>
+<td>ShieldMax</td>
+<td>1-7</td>
+</tr>
+<tr>
+<td>Leadership</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>GarrisonStrikes</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>Overpower</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>ReverseHacking</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>ReverseGrappling</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>ReverseBatteryDrain</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>Deflector</td>
+<td>1-7</td>
+</tr>
+<tr>
+<td>Technician</td>
+<td>2-4</td>
+</tr>
+<tr>
+<td>AlienDamage</td>
+<td>2-7</td>
+</tr>
+<tr>
+<td>PvPDamage</td>
+<td>2-7</td>
+</tr>
+<tr>
+<td>PvPBonusXP</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>NovaInversion</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>NovaDeath</td>
+<td>1-7</td>
+</tr>
+<tr>
+<td>Regeneration</td>
+<td>2-7</td>
+</tr>
+<tr>
+<td>Marauder</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>Guardian</td>
+<td>2</td>
+</tr>
+<tr>
+<td>AttackDrones</td>
+<td>2-4</td>
+</tr>
+<tr>
+<td>RepairDrones</td>
+<td>2-4</td>
+</tr>
+<tr>
+<td>SpeedRepair</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>BattleRam</td>
+<td>3-7</td>
+</tr>
+<tr>
+<td>PassiveScan</td>
+<td>3</td>
+</tr>
+<tr>
+<td>Scan</td>
+<td>3-7</td>
+</tr>
+<tr>
+<td>AdvancedScanning</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>SpeedScan</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>Cloak</td>
+<td>3-7</td>
+</tr>
+<tr>
+<td>AdvancedCloaking</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>CloakDuration</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>Vanquisher</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>ShieldRepair</td>
+<td>3-5</td>
+</tr>
+<tr>
+<td>HackRam</td>
+<td>2</td>
+</tr>
+</tbody>
+</table>
+<h3 id="defense-eligibility">Defense eligibility</h3>
+<p><code>CanDefenseHave()</code> returns false for the groups below and true for other technology values. This is a client helper classification, not a complete public rule for how defense units acquire techs.</p>
+<table>
+<thead>
+<tr>
+<th>Not defense-eligible group</th>
+<th>Ranks / techs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>NULL / UNUSED1</td>
+<td>excluded</td>
+</tr>
+<tr>
+<td>EvasiveManeuvers</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>Intuition</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>SkipJump</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>CrewFurnace</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>Analysis</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>HyperDrive</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>SpaceLaneEffect</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>Targeting</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>Junker</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>Mechanic</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>Freighter</td>
+<td>1-5</td>
+</tr>
+<tr>
+<td>Scavenger</td>
+<td>1-7</td>
+</tr>
+<tr>
+<td>Harvesting</td>
+<td>1-7</td>
+</tr>
+<tr>
+<td>Leadership</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>LeadershipEffect</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>InterdictorEffect</td>
+<td>1-4</td>
+</tr>
+<tr>
+<td>PvPBonusXP</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>Stealth</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>Cloak</td>
+<td>1-7</td>
+</tr>
+<tr>
+<td>AdvancedCloaking</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>CloakDuration</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>SpeedCloak</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>UNUSED11</td>
+<td>excluded</td>
+</tr>
+<tr>
+<td>SmallStrikeTeamEffect</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>OnFireEffect</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>CollisionEffect</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>UNUSED20</td>
+<td>excluded</td>
+</tr>
+<tr>
+<td>EnemyTerritoryEffect</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>FriendlyTerritoryEffect</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>UNUSED30</td>
+<td>excluded</td>
+</tr>
+<tr>
+<td>ShieldRepair</td>
+<td>1-5</td>
+</tr>
+</tbody>
+</table>
+<p>Notable defense-eligible groups by omission include RepairFacility1-4, Intimidation1-3, Vorpal1-4, ShieldCapacitors1-3, ShieldAmplifier1-3, ShieldPierce1-3, Interdictor1-4 source techs, PvPDamage1-7, and most advanced/combat utility tech families not listed above.</p>
+<h3 id="paid-tech-point-boost-candidates">Paid tech-point boost candidates</h3>
+<p><code>CanPaidTechPointBoost()</code> returns true for rank-1/base entries only:</p>
+<p>Analysis1, HyperDrive1, Targeting1, ShieldPierce1, Scavenger1, Harvesting1, SpeedHack1, SpeedGrapple1, SpeedDrain1, HullMax1, ShieldMax1, AlienDamage1, PvPDamage1, PvPBonusXP1, Marauder1, Guardian1, AttackDrones1, RepairDrones1, SpeedRepair1, SpeedScan1, CloakDuration1, and SpeedCloak1.</p>
+<h3 id="artifact-candidates">Artifact candidates</h3>
+<p><code>CanBeArtifact()</code> returns true for:</p>
+<table>
+<thead>
+<tr>
+<th>Artifact-capable group</th>
+<th>Ranks / techs</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EvasiveManeuvers</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Intimidation</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Analysis</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>HyperDrive</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>Targeting</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Junker</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Mechanic</td>
+<td>1</td>
+</tr>
+<tr>
+<td>ShieldCapacitors</td>
+<td>1</td>
+</tr>
+<tr>
+<td>ShieldAmplifier</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>ShieldPierce</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Scavenger</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Harvesting</td>
+<td>1</td>
+</tr>
+<tr>
+<td>AdvancedAlloys</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>AdvancedHacking</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>AdvancedGrappling</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>AdvancedDraining</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>SpeedHack</td>
+<td>2</td>
+</tr>
+<tr>
+<td>SpeedGrapple</td>
+<td>2</td>
+</tr>
+<tr>
+<td>SpeedDrain</td>
+<td>2</td>
+</tr>
+<tr>
+<td>ShieldMax</td>
+<td>1</td>
+</tr>
+<tr>
+<td>GarrisonStrikes</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>Overpower</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>AlienDamage</td>
+<td>1</td>
+</tr>
+<tr>
+<td>PvPDamage</td>
+<td>1</td>
+</tr>
+<tr>
+<td>PvPBonusXP</td>
+<td>1</td>
+</tr>
+<tr>
+<td>NovaInversion</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>NovaDeath</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Regeneration</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Marauder</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Guardian</td>
+<td>1</td>
+</tr>
+<tr>
+<td>AttackDrones</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>RepairDrones</td>
+<td>1-3</td>
+</tr>
+<tr>
+<td>SpeedRepair</td>
+<td>2</td>
+</tr>
+<tr>
+<td>PassiveScan</td>
+<td>2-3</td>
+</tr>
+<tr>
+<td>Stealth</td>
+<td>1-2</td>
+</tr>
+<tr>
+<td>AdvancedScanning</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>SpeedScan</td>
+<td>2</td>
+</tr>
+<tr>
+<td>AdvancedCloaking</td>
+<td>single tech</td>
+</tr>
+<tr>
+<td>CloakDuration</td>
+<td>2</td>
+</tr>
+<tr>
+<td>HackRam</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<h3 id="max-override-families">Max override families</h3>
+<p><code>GetMaxOverrideTech()</code> returns the max-rank representative for these ranked families. A <code>NULL</code> result means the helper does not override that tech family.</p>
+<table>
+<thead>
+<tr>
+<th>Family</th>
+<th>Max override</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Freighter1-5</td>
+<td>Freighter5</td>
+</tr>
+<tr>
+<td>Scavenger1-7</td>
+<td>Scavenger7</td>
+</tr>
+<tr>
+<td>Harvesting1-7</td>
+<td>Harvesting7</td>
+</tr>
+<tr>
+<td>HullMax1-8</td>
+<td>HullMax8</td>
+</tr>
+<tr>
+<td>ShieldMax1-7</td>
+<td>ShieldMax7</td>
+</tr>
+<tr>
+<td>Deflector1-7</td>
+<td>Deflector7</td>
+</tr>
+<tr>
+<td>AlienDamage1-7</td>
+<td>AlienDamage7</td>
+</tr>
+<tr>
+<td>PvPDamage1-7</td>
+<td>PvPDamage7</td>
+</tr>
+<tr>
+<td>NovaDeath1-7</td>
+<td>NovaDeath7</td>
+</tr>
+<tr>
+<td>Regeneration1-7</td>
+<td>Regeneration7</td>
+</tr>
+<tr>
+<td>BattleRam1-7</td>
+<td>BattleRam7</td>
+</tr>
+<tr>
+<td>Scan1-7</td>
+<td>Scan7</td>
+</tr>
+<tr>
+<td>Cloak1-7</td>
+<td>Cloak7</td>
+</tr>
+<tr>
+<td>HackRam1-7</td>
+<td>HackRam7</td>
+</tr>
+</tbody>
+</table>
+<h2 id="daily-tech-generic-categories">Daily tech generic categories</h2>
+<p>Source: <code>DFHOJHHBAMJ.cs</code>, method <code>GetDailyTechGenericDescription(this ENIALFMHHLL)</code>.</p>
+<table>
+<thead>
+<tr>
+<th>Daily type</th>
+<th>Generic description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Small</td>
+<td>Small Ships Random Daily Bonus</td>
+</tr>
+<tr>
+<td>Medium</td>
+<td>Medium Ships Random Daily Bonus</td>
+</tr>
+<tr>
+<td>Large</td>
+<td>Large Ships Random Daily Bonus</td>
+</tr>
+<tr>
+<td>Huge</td>
+<td>Huge Ships Random Daily Bonus</td>
+</tr>
+<tr>
+<td>Human</td>
+<td>Human Faction Units Random Daily Bonus</td>
+</tr>
+<tr>
+<td>Wyrd</td>
+<td>Wyrd Faction Units Random Daily Bonus</td>
+</tr>
+<tr>
+<td>Het</td>
+<td>Het Faction Units Random Daily Bonus</td>
+</tr>
+<tr>
+<td>Precursor</td>
+<td>Precursor Faction Units Random Daily Bonus</td>
+</tr>
+<tr>
+<td>Random1</td>
+<td>Random Daily Bonus</td>
+</tr>
+<tr>
+<td>Random2</td>
+<td>Random Daily Bonus</td>
+</tr>
+<tr>
+<td>Random3</td>
+<td>Random Daily Bonus</td>
+</tr>
+</tbody>
+</table>
+<h2 id="daily-tech-exact-variants">Daily tech exact variants</h2>
+<p>Source: <code>DFHOJHHBAMJ.cs</code>, method <code>GetDailyTechDescription(this ENIALFMHHLL, byte)</code>. The numeric code appears to choose the daily-bonus variant; <code>0/default</code> means any non-99 code not explicitly handled by cases 1-10.</p>
+<table>
+<thead>
+<tr>
+<th>Variant code</th>
+<th>Daily type</th>
+<th>Client description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0/default</td>
+<td>Small/Medium/Large/Huge/Human/Wyrd/Het/Precursor</td>
+<td>Matching ship size or faction moves 20% faster</td>
+</tr>
+<tr>
+<td>0/default</td>
+<td>Random1</td>
+<td>Mission Rewards Doubled</td>
+</tr>
+<tr>
+<td>0/default</td>
+<td>Random2</td>
+<td>Young is Brash - Old is Wise - Admirals are Critical - Crafters are Masterful</td>
+</tr>
+<tr>
+<td>0/default</td>
+<td>Random3</td>
+<td>50% Chance Crafted Items Gain +1 Rarity Upgrade</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Small/Medium/Large/Huge/Human/Wyrd/Het/Precursor</td>
+<td>Matching ship size or faction gains 20% more XP</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Random1</td>
+<td>Item Durability Repairs Cost 33% Less</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Random2</td>
+<td>Ancient Alien Secrets Hidden In Asteroids</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Random3</td>
+<td>Crafted Items Gain +10 Quality Bonus</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Small/Medium/Large/Huge/Human/Wyrd/Het/Precursor</td>
+<td>Matching ship size or faction repairs can critical and splash</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Random1</td>
+<td>Convert Credits to Tech Points Gets 10% Bonus</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Random2</td>
+<td>Arena Awards Bonus Loot and Skulls</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Random3</td>
+<td>Blueprint Discovery Unlocks Extra Item</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Small/Medium/Large/Huge/Human/Wyrd/Het/Precursor</td>
+<td>Matching ship size or faction can cloak and scan at power 1</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Random1</td>
+<td>No HUGE or MASSIVE Ships Allowed in The Arena</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Random2</td>
+<td>Double XP Bonus for Defense Unit Level Up</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Random3</td>
+<td>Double Resources Gained From Tech Point Trades</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Small/Medium/Large/Huge/Human/Wyrd/Het/Precursor</td>
+<td>Matching ship size or faction has Advanced Grappling III</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Random1</td>
+<td>Pirate &amp; Alien Defense Units Drop Bonus Loot</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Random2</td>
+<td>Naked Aggression</td>
+</tr>
+<tr>
+<td>4</td>
+<td>Random3</td>
+<td>Crafted Ships Gain Higher Random Stat Bonus</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Small/Medium/Large/Huge/Human/Wyrd/Het/Precursor</td>
+<td>Matching ship size or faction has Reverse Hack and Reverse Grapple</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Random1</td>
+<td>Double Skulls for World PvP Kills</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Random2</td>
+<td>Double Rewards for Alliance Defense Kills</td>
+</tr>
+<tr>
+<td>5</td>
+<td>Random3</td>
+<td>Double Skill Gain From Item &amp; Ship Crafting</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Random1</td>
+<td>Double Loot for Hardcore Ships in PvP &amp; Homeworld Maps</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Random2</td>
+<td>Created in the Image of the Space Lord or Space Lady</td>
+</tr>
+<tr>
+<td>6</td>
+<td>Random3</td>
+<td>They Stole Our Holy Relics!</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Random1</td>
+<td>Invasion Bosses Drop Blueprints</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Random2</td>
+<td>Hull Repairs Reduced by 80% in The Arena</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Random3</td>
+<td>Assassin Leaders Can Drop Powerful Item Blueprints</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Random1</td>
+<td>Invasion Bosses Drop Powerful Holiday Gem Loot</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Random2</td>
+<td>Grapple &amp; Drain Attacks Splash to Multiple Enemies</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Random3</td>
+<td>Taunt &amp; Hacking Attacks Splash to Multiple Enemies</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Random1</td>
+<td>Pirate Leaders Hide in Rock Asteroids</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Random2</td>
+<td>Alien Leaders Hide in Non-Rock Asteroids</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Random3</td>
+<td>Rescue Drifting Crew for Rewards</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Random1</td>
+<td>Item Damage Only 1% in All World PvP and SR8+ PvE Deaths</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Random2</td>
+<td>Alien Leaders &amp; Invasion Bosses Always Drop Void Loot</td>
+</tr>
+<tr>
+<td>10</td>
+<td>Random3</td>
+<td>Double Item Rewards for Invasion &amp; Arena Victory</td>
+</tr>
+<tr>
+<td>99</td>
+<td>Random1</td>
+<td>Bonus Loot and PvP Skulls with Low Item Durability Damage</td>
+</tr>
+<tr>
+<td>99</td>
+<td>Random2</td>
+<td>Special Holiday Event</td>
+</tr>
+</tbody>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>

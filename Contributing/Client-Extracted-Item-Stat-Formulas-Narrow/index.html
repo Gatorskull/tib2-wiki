@@ -1,0 +1,7832 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+        <link rel="canonical" href="https://gatorskull.github.io/tib2-wiki/Contributing/Client-Extracted-Item-Stat-Formulas-Narrow/">
+      
+      
+        <link rel="prev" href="../Client-Extracted-Item-Stat-Coverage/">
+      
+      
+        <link rel="next" href="../Client-Extracted-Items/">
+      
+      
+        
+      
+      
+      <link rel="icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.6">
+    
+    
+      
+        <title>Client-Extracted Narrow Item Stat Formulas - The Infinite Black 2 Wiki (unofficial)</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.484c7ddc.min.css">
+      
+        
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.ab4e12ef.min.css">
+      
+      
+
+
+    
+    
+      
+    
+    
+      
+        
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&display=fallback">
+        <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
+      
+    
+    
+    <script>__md_scope=new URL("../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    
+      
+
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="slate" data-md-color-primary="deep-purple" data-md-color-accent="cyan">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#client-extracted-narrow-item-stat-formulas" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+    
+      
+
+  
+
+<header class="md-header md-header--shadow" data-md-component="header">
+  <nav class="md-header__inner md-grid" aria-label="Header">
+    <a href="../.." title="The Infinite Black 2 Wiki (unofficial)" class="md-header__button md-logo" aria-label="The Infinite Black 2 Wiki (unofficial)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    <label class="md-header__button md-icon" for="__drawer">
+      
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3zm0 5h18v2H3zm0 5h18v2H3z"/></svg>
+    </label>
+    <div class="md-header__title" data-md-component="header-title">
+      <div class="md-header__ellipsis">
+        <div class="md-header__topic">
+          <span class="md-ellipsis">
+            The Infinite Black 2 Wiki (unofficial)
+          </span>
+        </div>
+        <div class="md-header__topic" data-md-component="header-topic">
+          <span class="md-ellipsis">
+            
+              Client-Extracted Narrow Item Stat Formulas
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      
+    
+    
+    
+    
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="Search">
+        
+        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      
+    
+    
+      <div class="md-header__source">
+        <a href="https://github.com/gatorskull/tib2-wiki" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Contribute
+  </div>
+</a>
+      </div>
+    
+  </nav>
+  
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="The Infinite Black 2 Wiki (unofficial)" class="md-nav__button md-logo" aria-label="The Infinite Black 2 Wiki (unofficial)" data-md-component="logo">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
+
+    </a>
+    The Infinite Black 2 Wiki (unofficial)
+  </label>
+  
+    <div class="md-nav__source">
+      <a href="https://github.com/gatorskull/tib2-wiki" title="Go to repository" class="md-source" data-md-component="source">
+  <div class="md-source__icon md-icon">
+    
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 7.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2025 Fonticons, Inc.--><path d="M439.6 236.1 244 40.5c-5.4-5.5-12.8-8.5-20.4-8.5s-15 3-20.4 8.4L162.5 81l51.5 51.5c27.1-9.1 52.7 16.8 43.4 43.7l49.7 49.7c34.2-11.8 61.2 31 35.5 56.7-26.5 26.5-70.2-2.9-56-37.3L240.3 199v121.9c25.3 12.5 22.3 41.8 9.1 55-6.4 6.4-15.2 10.1-24.3 10.1s-17.8-3.6-24.3-10.1c-17.6-17.6-11.1-46.9 11.2-56v-123c-20.8-8.5-24.6-30.7-18.6-45L142.6 101 8.5 235.1C3 240.6 0 247.9 0 255.5s3 15 8.5 20.4l195.6 195.7c5.4 5.4 12.7 8.4 20.4 8.4s15-3 20.4-8.4l194.7-194.7c5.4-5.4 8.4-12.8 8.4-20.4s-3-15-8.4-20.4"/></svg>
+  </div>
+  <div class="md-source__repository">
+    Contribute
+  </div>
+</a>
+    </div>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../.." class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Infinite Black 2 Wiki
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Getting-Started/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Getting Started
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2" id="__nav_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Getting Started
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/How-To-Play/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    How To Play
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Common-Workflows/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Common Workflows
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Settings/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Recommended Settings
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Chat-Commands/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Chat Commands
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/FAQ/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Frequently Asked Questions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Player-Guides/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Player-Written Guides
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_2_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Getting-Started/Quick-Start-Guides/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Quick Start Guides
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_2_7" id="__nav_2_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_2_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_2_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Quick Start Guides
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Settings-Quick-Start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Settings Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Tech-Points-Quick-Start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tech Points Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Computer-Deconstruction-Quick-Start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Computer Deconstruction Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Item-Repair-Quick-Start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Repair Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Arena-Quick-Start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Arena Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Lucky-Arena-Notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Lucky's Arena Notes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Credits-Quick-Start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Credits Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Fleet-PvP-Quick-Start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fleet PvP Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Quick-Start-Guides/Specials-Quick-Start/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Specials Quick Start
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Review-The-Game/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Review The Game
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Spellbook/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Spellbook
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Device-Sharing-And-Accounts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Device Sharing and Multiple Accounts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Getting-Started/Delete-Account/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Delete My Account
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Ships/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ships
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_3" id="__nav_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Ships
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Ship-Reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ship Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Size-And-Targeting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ship and Defense Unit Size
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Equip-Points/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equip Points
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Ship-Crafting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ship Crafting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Ship-Mods/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ship Mods
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Elite-Ranks/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Elite Ranks
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Carrier-Leadership/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Carrier Leadership
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Interdictor-Carrier/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Interdictor Carrier
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Hardcore-Units/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hardcore Ships &amp; Defense Units
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Deception-Module/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deception Module
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Ships/Retro-Skins/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Retro Ship Skins
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_4" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Items/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Items
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_4" id="__nav_4_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_4">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Items
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Item-Reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Equipment-Slots/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Equipment Slots
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Stats/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stats
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Diminishing-Returns/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Stat Bonus Diminishing Returns
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Weapons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Weapons
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Drones/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drones
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Specials/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Special Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Tech-Computers/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tech Computers
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Item-Management/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Management
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Item-Upgrades/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Upgrades
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Item-Crafting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Item Crafting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Pity-Loot/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Pity Loot Drops
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Loot-Reward-Reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Loot and Reward Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Void-Items/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Void Items
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Mutate-Item-Kit/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mutate Item Kit
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Items/Gravity-Drives/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gravity Drives
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Entities/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Entities
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5" id="__nav_5_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Entities
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Entities/Corporations/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Corporations
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_1" id="__nav_5_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Corporations
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Corporations/Alliances/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Alliances
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Corporations/Corporate-Defenders/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Corporate Defender Ships
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Entities/Currencies/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Currencies
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_2" id="__nav_5_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Currencies
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Currencies/Credits/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Credits
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Currencies/Skulls/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skulls
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Currencies/Tech%20Points/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Tech Points
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Currencies/Star%20Shards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Star Shards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Currencies/Relics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Relics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_5_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Entities/Structures/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structures
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_5_3" id="__nav_5_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_5_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_5_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Structures
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Structures/Deployment/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Deployment
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Structures/Structure-Reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Structures/Planets/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Planets
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Structures/Garrisons/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Garrisons
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Structures/Outposts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Outposts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Structures/Shipyards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Shipyards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Structures/Artifacts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Artifacts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Entities/Structures/Jump%20Gates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Jump Gates
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Gameplay/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Gameplay
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6" id="__nav_6_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Gameplay
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Missions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Missions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Combat-and-Targeting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Combat and Targeting
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Technology/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Technology-Reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technology Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Skills/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Skills
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Level-XP-Reference/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Level and XP Reference
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Achievements-and-Leaderboards/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Achievements and Leaderboards
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Gameplay/Activities/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Activities
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_8" id="__nav_6_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Activities
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Activities/Outpost-Missions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Outpost Missions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Gameplay/Activities/Player%20vs%20Environment%20%28PVE%29/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Player vs Environment (PVE)
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_8_2" id="__nav_6_8_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Player vs Environment (PVE)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Activities/Player%20vs%20Environment%20%28PVE%29/Open%20World%20Farming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Open World Farming
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Activities/Player%20vs%20Environment%20%28PVE%29/NPC%20Busts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NPC Busts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Activities/Player%20vs%20Environment%20%28PVE%29/Invasions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Invasions
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_8_3" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Gameplay/Activities/Player%20vs%20Player%20%28PVP%29/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Player vs Player (PVP)
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_8_3" id="__nav_6_8_3_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_8_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_8_3">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Player vs Player (PVP)
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Activities/Player%20vs%20Player%20%28PVP%29/Arena/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Arena
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Activities/Player%20vs%20Player%20%28PVP%29/Fleet-PvP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fleet PvP Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Activities/Player%20vs%20Player%20%28PVP%29/Structure%20Busts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Warfare Rules
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_9" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Gameplay/Abilities/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Abilities
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_9" id="__nav_6_9_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_9">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Abilities
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Abilities/Grapple/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Grapple Ability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Abilities/Hacking/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Hacking Ability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Abilities/Drain/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Drain Ability
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Abilities/Technician/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Technician Technology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Abilities/Taunt/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Taunt (Tank)
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Abilities/Deflector/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Deflector Technology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Abilities/Junker/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Junker Technology
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Abilities/Small-Strike-Team-Bonus/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Small Strike Team Bonus
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_10" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Gameplay/Events/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Events
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_6_10" id="__nav_6_10_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_10">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Events
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Events/Free-Daily-Gifts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Free Daily Gifts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Events/Daily-Events/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Daily Events
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Events/Holiday-Events/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Holiday Events
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Events/Party-Boxes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Party Boxes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Events/Reward-Point-Gifts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Reward Point Gifts
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Gameplay/Oblivion-Server/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Oblivion Server
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_7" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../Strategy/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Strategy
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_7" id="__nav_7_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_7">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Strategy
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/New-Player-Path/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    New Player Path
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Ship-Building/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Ship Building Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Carrier-Builds/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Carrier Builds
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/PvP-Basics/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    PvP Basics
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Missions/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Mission Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Open-World-Farming/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Open World Farming Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/NPC-Busts/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    NPC Bust Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Build-Philosophy/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Build Philosophy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Faction-Ship-Notes/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Faction Ship Notes
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Computer-Deconstruction/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Computer Deconstruction Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Fleet-PvP/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Fleet PvP Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../Strategy/Structure-Busting/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Structure Busting Strategy
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+      
+      
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../World/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    World
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8" id="__nav_8_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    World
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_1" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../World/Maps/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Maps
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8_1" id="__nav_8_1_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_1_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Maps
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../World/Maps/Sectors/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Sectors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../World/Maps/Security%20Rating/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Security Rating
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        
+          
+          <div class="md-nav__link md-nav__container">
+            <a href="../../World/Factions/" class="md-nav__link ">
+              
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Factions
+  
+
+    
+  </span>
+  
+  
+
+            </a>
+            
+              
+              <label class="md-nav__link " for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
+                <span class="md-nav__icon md-icon"></span>
+              </label>
+            
+          </div>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Factions
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../World/Factions/Wyrd/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Wyrd
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../World/Factions/Het/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Het
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../World/Factions/Precursor/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Precursors
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../World/Factions/Pirates/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    The Pirate Faction
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#helper-dependencies-to-translate-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Helper dependencies to translate next
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#translated-helpers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Translated helpers
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Translated helpers">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#balance-modifier" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Balance modifier
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shield-helpers" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shield helpers
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#engine-and-battery-class-factions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Engine and battery class factions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#battery-power-aggregation" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery power aggregation
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#armor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armor
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Armor">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#armor-classes-and-factions" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armor classes and factions
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shared-armor-formulas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shared armor formulas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#armor-class-stat-formulas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Armor class stat formulas
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#storage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Storage
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Storage">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#shared-storage-formulas" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shared storage formulas
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#storage-slot-unlock-text" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Storage slot unlock text
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#computer" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Computer
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#special" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Special
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#drone" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Drone
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#consumable" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Consumable
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#shield" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Shield
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Shield">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#equippointcost" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EquipPointCost
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#incomingdamage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        IncomingDamage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hackresist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HackResist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grappleresist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GrappleResist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criticalresist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CriticalResist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#splashresist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SplashResist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#batterydrainresist" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BatteryDrainResist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shieldcapacity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ShieldCapacity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#engine" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Engine
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Engine">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#equippointcost_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EquipPointCost
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equippointmax" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EquipPointMax
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#movespeedpercent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MoveSpeedPercent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criticaldamage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CriticalDamage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evasionchance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EvasionChance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grappleresist_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GrappleResist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criticalresist_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CriticalResist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#powercapacity" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PowerCapacity
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#battery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Battery
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Battery">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#equippointcost_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EquipPointCost
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#equippointmax_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EquipPointMax
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#movespeedpercent_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        MoveSpeedPercent
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hullrepair" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HullRepair
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shielddamage" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ShieldDamage
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#xpbonus" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        XpBonus
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criticalchance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CriticalChance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#evasionchance_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        EvasionChance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#batterydrainpower" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BatteryDrainPower
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grapplepower" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GrapplePower
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hitchance" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HitChance
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#hackresist_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        HackResist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grappleresist_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        GrappleResist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#criticalresist_2" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        CriticalResist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#splashresist_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        SplashResist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#batterydrainresist_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        BatteryDrainResist
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#powerrecharge" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PowerRecharge
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#powercapacity_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        PowerCapacity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shieldcapacity_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ShieldCapacity
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shieldpenetration" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        ShieldPenetration
+      
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#targetingspeedpercent" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        TargetingSpeedPercent
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          
+            <div class="md-content" data-md-component="content">
+              
+              <article class="md-content__inner md-typeset">
+                
+                  
+
+
+  
+  
+
+
+<h1 id="client-extracted-narrow-item-stat-formulas">Client-Extracted Narrow Item Stat Formulas</h1>
+<p>Hidden contributor staging page. This captures raw client formula bodies for the narrower item stat families: shields, engines, and batteries. This is closer to source than wiki copy; formulas still need translation before public pages.</p>
+<p>Notes:</p>
+<ul>
+<li><code>base.PPAFMKOLBBL</code> is the item rarity enum in runtime item classes.</li>
+<li><code>base.EDPOPGPNMCD</code> is a shared item value/stat multiplier used throughout runtime item formulas.</li>
+<li><code>DNONFFBHEEM.Class</code> is the item class enum; <code>DNONFFBHEEM.Ep</code> is the data-fed rank/base EP value for item families that use it.</li>
+<li>Obfuscated switch cases and suspicious constants should be verified before public use.</li>
+<li>In formulas below, <code>rarity</code> means the numeric value of <code>AHKIAECFDDB.R#</code>, <code>q</code> means the cached item quality multiplier, and <code>epCost</code> means the runtime item EquipPointCost unless noted otherwise.</li>
+</ul>
+<h2 id="helper-dependencies-to-translate-next">Helper dependencies to translate next</h2>
+<p>The raw formulas below call these helper methods:</p>
+<table>
+<thead>
+<tr>
+<th>Helper</th>
+<th>Why it matters</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>GetEpCostMod()</code></td>
+<td>Shield EP cost faction modifier. Already summarized in <code>Client-Extraction-Notes.md</code>.</td>
+</tr>
+<tr>
+<td><code>GetFaction()</code></td>
+<td>Converts item class to faction, usually for faction-specific EP/stat behavior.</td>
+</tr>
+<tr>
+<td><code>GetMod()</code></td>
+<td>Converts AI/balance modifier enum to a multiplier.</td>
+</tr>
+<tr>
+<td><code>GetModelNumber()</code></td>
+<td>Used by shields to choose which shield models grant specific stats.</td>
+</tr>
+<tr>
+<td><code>InternalGetResistMod()</code></td>
+<td>Shared shield resist amount used by several shield stats.</td>
+</tr>
+<tr>
+<td><code>InternalGetShieldCapacity()</code></td>
+<td>Shared shield-capacity base used by shield capacity formulas.</td>
+</tr>
+</tbody>
+</table>
+<h2 id="translated-helpers">Translated helpers</h2>
+<p>These helpers are stable enough to use while translating the raw formulas below. Keep them on contributor pages until the dependent stat formulas have been sanity-checked against live item displays.</p>
+<h3 id="balance-modifier">Balance modifier</h3>
+<p>Source: <code>Assembly-CSharp\OMPIMDNGMHG.cs</code>, <code>GetMod(this CCGPFAFAKIG)</code>.</p>
+<p>The generic balance modifier enum maps to:</p>
+<table>
+<thead>
+<tr>
+<th>Modifier</th>
+<th style="text-align: right;">Multiplier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Default/unknown</td>
+<td style="text-align: right;"><code>1.0</code></td>
+</tr>
+<tr>
+<td>MIN</td>
+<td style="text-align: right;"><code>1 - (NILGPMKLJEF * 0.1)</code></td>
+</tr>
+<tr>
+<td>LOW</td>
+<td style="text-align: right;"><code>1 - (NILGPMKLJEF * 0.2)</code></td>
+</tr>
+<tr>
+<td>MID</td>
+<td style="text-align: right;"><code>1 - (NILGPMKLJEF * 0.4)</code></td>
+</tr>
+<tr>
+<td>HIGH</td>
+<td style="text-align: right;"><code>1 - (NILGPMKLJEF * 0.6)</code></td>
+</tr>
+<tr>
+<td>MAX</td>
+<td style="text-align: right;"><code>1 - NILGPMKLJEF</code></td>
+</tr>
+</tbody>
+</table>
+<p>Client default: <code>NILGPMKLJEF = 0.75</code>, so the default multipliers are MIN <code>0.925</code>, LOW <code>0.85</code>, MID <code>0.70</code>, HIGH <code>0.55</code>, MAX <code>0.25</code>.</p>
+<h3 id="shield-helpers">Shield helpers</h3>
+<p>Source: <code>Assembly-CSharp\BNCBECFCPHP.cs</code> and <code>Assembly-CSharp\OMPIMDNGMHG.cs</code>.</p>
+<p>Shield class letters map to factions:</p>
+<table>
+<thead>
+<tr>
+<th>Shield class prefix</th>
+<th>Faction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>A_V##</code></td>
+<td>Precursor</td>
+</tr>
+<tr>
+<td><code>B_V##</code></td>
+<td>Wyrd</td>
+</tr>
+<tr>
+<td><code>C_V##</code></td>
+<td>Het</td>
+</tr>
+<tr>
+<td><code>D_V##</code></td>
+<td>Pirate</td>
+</tr>
+<tr>
+<td><code>E_V##</code></td>
+<td>Human</td>
+</tr>
+</tbody>
+</table>
+<p>Shield model number is just the numeric suffix: <code>*_V01</code> -&gt; model <code>1</code>, through <code>*_V12</code> -&gt; model <code>12</code>.</p>
+<p>Base shield capacity before model/stat multipliers:</p>
+<table>
+<thead>
+<tr>
+<th>Shield class prefix</th>
+<th>Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>A_V##</code> / Precursor</td>
+<td><code>315 * item EP/rank value * item value multiplier</code></td>
+</tr>
+<tr>
+<td><code>B_V##</code> / Wyrd</td>
+<td><code>290 * item EP/rank value * item value multiplier</code></td>
+</tr>
+<tr>
+<td><code>C_V##</code> / Het</td>
+<td><code>265 * item EP/rank value * item value multiplier</code></td>
+</tr>
+<tr>
+<td><code>D_V##</code> / Pirate</td>
+<td><code>240 * item EP/rank value * item value multiplier</code></td>
+</tr>
+<tr>
+<td><code>E_V##</code> / Human/default</td>
+<td><code>215 * item EP/rank value * item value multiplier</code></td>
+</tr>
+</tbody>
+</table>
+<p>Shared shield resist amount:</p>
+<table>
+<thead>
+<tr>
+<th>Faction</th>
+<th>Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Human/default</td>
+<td><code>rarity * 0.8 * item value multiplier</code></td>
+</tr>
+<tr>
+<td>Pirate</td>
+<td><code>rarity * 0.7 * item value multiplier</code></td>
+</tr>
+<tr>
+<td>Het</td>
+<td><code>rarity * 0.6 * item value multiplier</code></td>
+</tr>
+<tr>
+<td>Wyrd</td>
+<td><code>rarity * 0.5 * item value multiplier</code></td>
+</tr>
+<tr>
+<td>Precursor</td>
+<td><code>rarity * 0.4 * item value multiplier</code></td>
+</tr>
+</tbody>
+</table>
+<p>Shield EP cost faction modifier:</p>
+<table>
+<thead>
+<tr>
+<th>Faction</th>
+<th style="text-align: right;">Modifier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Human/default</td>
+<td style="text-align: right;"><code>0</code></td>
+</tr>
+<tr>
+<td>Pirate</td>
+<td style="text-align: right;"><code>1</code></td>
+</tr>
+<tr>
+<td>Het</td>
+<td style="text-align: right;"><code>2</code></td>
+</tr>
+<tr>
+<td>Wyrd</td>
+<td style="text-align: right;"><code>3</code></td>
+</tr>
+<tr>
+<td>Precursor</td>
+<td style="text-align: right;"><code>4</code></td>
+</tr>
+</tbody>
+</table>
+<h3 id="engine-and-battery-class-factions">Engine and battery class factions</h3>
+<p>Source: <code>Assembly-CSharp\OMPIMDNGMHG.cs</code>.</p>
+<p>Engine factions:</p>
+<table>
+<thead>
+<tr>
+<th>Engine</th>
+<th>Faction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Gravity Drive</td>
+<td>Precursor</td>
+</tr>
+<tr>
+<td>Skip Drive</td>
+<td>Human</td>
+</tr>
+<tr>
+<td>Impulse Drive</td>
+<td>Wyrd</td>
+</tr>
+<tr>
+<td>Fusion Drive</td>
+<td>Het</td>
+</tr>
+<tr>
+<td>Atomic Drive</td>
+<td>Pirate</td>
+</tr>
+<tr>
+<td>Crux Drive</td>
+<td>Het</td>
+</tr>
+<tr>
+<td>Stealth Drive</td>
+<td>Wyrd</td>
+</tr>
+<tr>
+<td>Neutron Drive</td>
+<td>Human</td>
+</tr>
+</tbody>
+</table>
+<p>Battery factions:</p>
+<table>
+<thead>
+<tr>
+<th>Battery</th>
+<th>Faction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alkaic Battery</td>
+<td>Pirate</td>
+</tr>
+<tr>
+<td>Chromic Battery</td>
+<td>Pirate</td>
+</tr>
+<tr>
+<td>Galvanic Battery</td>
+<td>Pirate</td>
+</tr>
+<tr>
+<td>Mercuric Battery</td>
+<td>Human</td>
+</tr>
+<tr>
+<td>Lithic Battery</td>
+<td>Human</td>
+</tr>
+<tr>
+<td>Voltaic Battery</td>
+<td>Het</td>
+</tr>
+<tr>
+<td>Hydric Battery</td>
+<td>Het</td>
+</tr>
+<tr>
+<td>Zambic Battery</td>
+<td>Wyrd</td>
+</tr>
+<tr>
+<td>Silic Battery</td>
+<td>Wyrd</td>
+</tr>
+<tr>
+<td>Moltic Battery</td>
+<td>Precursor</td>
+</tr>
+<tr>
+<td>Polyanic Battery</td>
+<td>Precursor</td>
+</tr>
+<tr>
+<td>Radionic Battery</td>
+<td>Precursor</td>
+</tr>
+</tbody>
+</table>
+<h3 id="battery-power-aggregation">Battery power aggregation</h3>
+<p>Source: <code>Assembly-CSharp\GKFECKLMHGM.cs</code>, <code>GetPowerCapacity()</code> and <code>GetPowerRechargeRate()</code>.</p>
+<p>Client defaults from <code>PGJIDFCBFCC.cs</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Constant</th>
+<th style="text-align: right;">Default</th>
+<th>Meaning seen in client</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>OEIKMFLMGEP</code></td>
+<td style="text-align: right;"><code>17</code></td>
+<td>Base power capacity</td>
+</tr>
+<tr>
+<td><code>EOJADIDEHDH</code></td>
+<td style="text-align: right;"><code>1.5</code></td>
+<td>Base power recharge per second</td>
+</tr>
+<tr>
+<td><code>EMDOMLHMHOD</code></td>
+<td style="text-align: right;"><code>10</code></td>
+<td>Minimum hack/grapple/drain power required to use those actions</td>
+</tr>
+</tbody>
+</table>
+<p>Power capacity aggregation:</p>
+<pre><code class="language-text">capacity = base capacity
+  + full-slot item PowerCapacity
+  + aux-slot item PowerCapacity * aux multiplier
+  + eligible battery capacity bonuses
+</code></pre>
+<p>Battery capacity bonuses apply when the ship is Pirate or when the ship faction matches the battery faction. If the final value is above base capacity, the client multiplies it by <code>DDFFLFKNGLL</code>; otherwise it returns the base capacity. The meaning/default of <code>DDFFLFKNGLL</code> still needs a named-constant pass.</p>
+<p>Power recharge aggregation:</p>
+<pre><code class="language-text">recharge = base recharge
+  + full-slot item PowerRecharge
+  + aux-slot item PowerRecharge * aux multiplier
+  + skill bonus to PowerRecharge
+</code></pre>
+<p>If <code>OPFKNEPIMCB</code> is set on the ship/player object, recharge gains <code>+0.05</code>. If final recharge is above base recharge, the client multiplies it by <code>NOJILIOCBMF</code>; otherwise it returns base recharge. The meaning/default of <code>NOJILIOCBMF</code> still needs a named-constant pass.</p>
+<h2 id="armor">Armor</h2>
+<p>Source: <code>Assembly-CSharp\KKKEBKMMOBA.cs</code> and armor enum/faction helpers in <code>Assembly-CSharp\OMPIMDNGMHG.cs</code>.</p>
+<h3 id="armor-classes-and-factions">Armor classes and factions</h3>
+<table>
+<thead>
+<tr>
+<th>Armor class</th>
+<th>Faction</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Titanium</td>
+<td>Human</td>
+</tr>
+<tr>
+<td>Composite</td>
+<td>Pirate</td>
+</tr>
+<tr>
+<td>Carbide</td>
+<td>Human</td>
+</tr>
+<tr>
+<td>Exoprene</td>
+<td>Het</td>
+</tr>
+<tr>
+<td>Cytoplast</td>
+<td>Het</td>
+</tr>
+<tr>
+<td>Holocrine</td>
+<td>Het</td>
+</tr>
+<tr>
+<td>Diamond</td>
+<td>Wyrd</td>
+</tr>
+<tr>
+<td>Thorium</td>
+<td>Pirate</td>
+</tr>
+<tr>
+<td>Osmium</td>
+<td>Wyrd</td>
+</tr>
+<tr>
+<td>Citadel</td>
+<td>Precursor</td>
+</tr>
+<tr>
+<td>Ajax</td>
+<td>Precursor</td>
+</tr>
+<tr>
+<td>Aegis</td>
+<td>Precursor</td>
+</tr>
+<tr>
+<td>Kismet</td>
+<td>Precursor</td>
+</tr>
+</tbody>
+</table>
+<h3 id="shared-armor-formulas">Shared armor formulas</h3>
+<p>Armor EP cost:</p>
+<pre><code class="language-text">epCost = max(0, item EP/rank - rarity + 1)
+</code></pre>
+<p>Shared armor max hull base:</p>
+<pre><code class="language-text">armorHullBase = (240 + rarity * 10) * armorHullClassFactor * q * item EP/rank
+</code></pre>
+<p><code>armorHullClassFactor</code> is <code>0.25</code> for Titanium, Exoprene, Diamond, Thorium, Aegis, and Kismet; otherwise it is <code>1.0</code>.</p>
+<p>Armor <code>MaxHull</code>:</p>
+<pre><code class="language-text">MaxHull = armorHullBase * balanceMod
+</code></pre>
+<p>Armor <code>MoveSpeedPercent</code> is derived from <code>armorHullBase</code> but divides quality back out:</p>
+<table>
+<thead>
+<tr>
+<th>Rarity</th>
+<th style="text-align: right;">Divisor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R1/default</td>
+<td style="text-align: right;">15000</td>
+</tr>
+<tr>
+<td>R2</td>
+<td style="text-align: right;">15500</td>
+</tr>
+<tr>
+<td>R3</td>
+<td style="text-align: right;">16000</td>
+</tr>
+<tr>
+<td>R4</td>
+<td style="text-align: right;">16500</td>
+</tr>
+<tr>
+<td>R5</td>
+<td style="text-align: right;">17000</td>
+</tr>
+<tr>
+<td>R6</td>
+<td style="text-align: right;">17500</td>
+</tr>
+<tr>
+<td>R7</td>
+<td style="text-align: right;">18000</td>
+</tr>
+</tbody>
+</table>
+<pre><code class="language-text">MoveSpeedPercent = armorHullBase / (q * rarity divisor)
+</code></pre>
+<h3 id="armor-class-stat-formulas">Armor class stat formulas</h3>
+<p>Most armor class stats use one of these two shared forms:</p>
+<pre><code class="language-text">flat = (rarity + epCost) * q
+percent = (rarity * 0.01 + epCost * 0.01) * q
+</code></pre>
+<table>
+<thead>
+<tr>
+<th>Armor class</th>
+<th>Stat(s)</th>
+<th>Formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Titanium</td>
+<td>EvasionChance</td>
+<td><code>flat</code></td>
+</tr>
+<tr>
+<td>Composite</td>
+<td>HackResist</td>
+<td><code>flat</code></td>
+</tr>
+<tr>
+<td>Carbide</td>
+<td>XpBonus</td>
+<td><code>percent</code></td>
+</tr>
+<tr>
+<td>Exoprene</td>
+<td>SplashChance, HullDamage</td>
+<td><code>SplashChance = flat</code>; <code>HullDamage = percent * 0.8</code></td>
+</tr>
+<tr>
+<td>Cytoplast</td>
+<td>SplashResist</td>
+<td><code>flat</code></td>
+</tr>
+<tr>
+<td>Holocrine</td>
+<td>HullRepair</td>
+<td><code>percent</code></td>
+</tr>
+<tr>
+<td>Diamond</td>
+<td>HitChance, HullDamage</td>
+<td><code>HitChance = flat</code>; <code>HullDamage = percent * 0.8</code></td>
+</tr>
+<tr>
+<td>Thorium</td>
+<td>ShieldPenetration, HullDamage</td>
+<td><code>ShieldPenetration = percent</code>; <code>HullDamage = percent * 0.8</code></td>
+</tr>
+<tr>
+<td>Osmium</td>
+<td>GrappleResist</td>
+<td><code>flat</code></td>
+</tr>
+<tr>
+<td>Citadel</td>
+<td>CriticalResist</td>
+<td><code>flat</code></td>
+</tr>
+<tr>
+<td>Ajax</td>
+<td>BatteryDrainResist</td>
+<td><code>flat</code></td>
+</tr>
+<tr>
+<td>Aegis</td>
+<td>TargetingSpeedPercent, HullDamage</td>
+<td><code>TargetingSpeedPercent = -percent</code>; <code>HullDamage = percent * 0.8</code></td>
+</tr>
+<tr>
+<td>Kismet</td>
+<td>CriticalChance, HullDamage</td>
+<td><code>CriticalChance = flat</code>; <code>HullDamage = percent * 0.8</code></td>
+</tr>
+</tbody>
+</table>
+<p>Important interpretation note: <code>MoveSpeedPercent</code> and <code>TargetingSpeedPercent</code> sign/display semantics should be checked against live item panels before public wording. The formula above records the client stat value, not player-facing advice.</p>
+<h2 id="storage">Storage</h2>
+<p>Source: <code>Assembly-CSharp\KJEIOMFAJOC.cs</code>, <code>Assembly-CSharp\HEPGMEMIEFG.cs</code>, <code>Assembly-CSharp\EPFDDGJHAFO.cs</code>, and storage helpers in <code>Assembly-CSharp\OMPIMDNGMHG.cs</code>.</p>
+<p>Storage classes are the cross-product of five factions and six categories:</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Human</th>
+<th>Pirate</th>
+<th>Het</th>
+<th>Wyrd</th>
+<th>Precursor</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hold</td>
+<td>HUMA-Hold</td>
+<td>PIRA-Hold</td>
+<td>HET-Hold</td>
+<td>WYRD-Hold</td>
+<td>PREC-Hold</td>
+</tr>
+<tr>
+<td>Vault</td>
+<td>HUMA-Vault</td>
+<td>PIRA-Vault</td>
+<td>HET-Vault</td>
+<td>WYRD-Vault</td>
+<td>PREC-Vault</td>
+</tr>
+<tr>
+<td>Arsenal</td>
+<td>HUMA-Arsenal</td>
+<td>PIRA-Arsenal</td>
+<td>HET-Arsenal</td>
+<td>WYRD-Arsenal</td>
+<td>PREC-Arsenal</td>
+</tr>
+<tr>
+<td>Archive</td>
+<td>HUMA-Archive</td>
+<td>PIRA-Archive</td>
+<td>HET-Archive</td>
+<td>WYRD-Archive</td>
+<td>PREC-Archive</td>
+</tr>
+<tr>
+<td>Armory</td>
+<td>HUMA-Armory</td>
+<td>PIRA-Armory</td>
+<td>HET-Armory</td>
+<td>WYRD-Armory</td>
+<td>PREC-Armory</td>
+</tr>
+<tr>
+<td>Munitions</td>
+<td>HUMA-Munitions</td>
+<td>PIRA-Munitions</td>
+<td>HET-Munitions</td>
+<td>WYRD-Munitions</td>
+<td>PREC-Munitions</td>
+</tr>
+</tbody>
+</table>
+<h3 id="shared-storage-formulas">Shared storage formulas</h3>
+<p>Storage EP cost:</p>
+<pre><code class="language-text">epCost = max(0, item EP/rank - rarity + 1)
+</code></pre>
+<p>Storage resource capacity:</p>
+<pre><code class="language-text">ResourceCapacity = (item EP/rank + (item EP/rank + rarity) * q) / 2
+</code></pre>
+<p>Storage EP bonus:</p>
+<table>
+<thead>
+<tr>
+<th>Rarity</th>
+<th style="text-align: right;">EquipPointMax</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R1-R4</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>R5</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>R6</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>R7</td>
+<td style="text-align: right;">3</td>
+</tr>
+</tbody>
+</table>
+<p>Storage penalty percent helper:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">EP cost</th>
+<th style="text-align: right;">Penalty percent</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">1.0</td>
+</tr>
+<tr>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">0.75</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">0.5</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">0.25</td>
+</tr>
+<tr>
+<td style="text-align: right;">4+</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+<p>The client uses this helper in several storage category stat tradeoffs. Treat exact tradeoff stats as needs-live-panel confirmation before public tables.</p>
+<h3 id="storage-slot-unlock-text">Storage slot unlock text</h3>
+<p>Source: <code>KJEIOMFAJOC.IMENLMBAELG</code>.</p>
+<p>If <code>epCost &gt;= 4</code>, the client returns category-based slot text:</p>
+<table>
+<thead>
+<tr>
+<th>Storage category</th>
+<th>Displayed slot effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hold, Vault</td>
+<td><code>+1 Battery Equipment Item Slot</code></td>
+</tr>
+<tr>
+<td>Arsenal, Munitions</td>
+<td><code>+1 Weapon Equipment Item Slot</code></td>
+</tr>
+<tr>
+<td>Archive, Armory</td>
+<td><code>+1 Drone Equipment Item Slot</code></td>
+</tr>
+</tbody>
+</table>
+<p>This text is client display logic. Confirm server/equip behavior before moving it to public rules.</p>
+<h2 id="computer">Computer</h2>
+<p>Sources: <code>Assembly-CSharp\CAHAIADFHCG.cs</code>, <code>Assembly-CSharp\KOBILLCNLAJ.cs</code>, <code>Assembly-CSharp\OMPIMDNGMHG.cs</code>.</p>
+<p>Computer formulas use:</p>
+<ul>
+<li><code>rarity</code> = numeric <code>AHKIAECFDDB.R#</code>.</li>
+<li><code>q</code> = cached quality multiplier.</li>
+<li><code>techLevel</code> = <code>GetTechLevel()</code>, where Mark computers return 0 and Tech I/II/III return 1/2/3.</li>
+<li><code>category</code> = one of Sage, Toil, Havok, Cabal, Agent, Ice, Warrior, Victor.</li>
+</ul>
+<p>Computer category and faction mapping:</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Faction</th>
+<th>Classes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sage</td>
+<td>Precursor</td>
+<td>Sage Mark I-IV, Sage Tech I-III</td>
+</tr>
+<tr>
+<td>Toil</td>
+<td>Het</td>
+<td>Toil Mark I-IV, Toil Tech I-III</td>
+</tr>
+<tr>
+<td>Havok</td>
+<td>Pirate</td>
+<td>Havok Mark I-IV, Havok Tech I-III</td>
+</tr>
+<tr>
+<td>Cabal</td>
+<td>Human</td>
+<td>Cabal Mark I-IV, Cabal Tech I-III</td>
+</tr>
+<tr>
+<td>Agent</td>
+<td>Precursor</td>
+<td>Agent Mark I-IV, Agent Tech I-III</td>
+</tr>
+<tr>
+<td>Ice</td>
+<td>Wyrd</td>
+<td>Ice Mark I-IV, Ice Tech I-III</td>
+</tr>
+<tr>
+<td>Warrior</td>
+<td>Wyrd</td>
+<td>Warrior Mark I-IV, Warrior Tech I-III</td>
+</tr>
+<tr>
+<td>Victor</td>
+<td>Human</td>
+<td>Victor Mark I, Victor Tech I-III</td>
+</tr>
+</tbody>
+</table>
+<p>Computer craft categories are only emitted for non-tech, non-Victor categories. Example: <code>Sage Computers</code>. Tech computers and Victor computers return no craft category from <code>GetItemCraftCategory()</code>.</p>
+<p>Computer EP cost:</p>
+<pre><code class="language-csharp">protected override int OMIBOKEONLA
+{
+    get
+    {
+        return 0;
+    }
+}
+</code></pre>
+<p>Computer base credit value by tech level:</p>
+<table>
+<thead>
+<tr>
+<th>Tech level</th>
+<th style="text-align: right;">Base credit value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Mark / 0</td>
+<td style="text-align: right;">1800</td>
+</tr>
+<tr>
+<td>Tech I</td>
+<td style="text-align: right;">2400</td>
+</tr>
+<tr>
+<td>Tech II</td>
+<td style="text-align: right;">3000</td>
+</tr>
+<tr>
+<td>Tech III</td>
+<td style="text-align: right;">3600</td>
+</tr>
+</tbody>
+</table>
+<p>Runtime credit value formula:</p>
+<ul>
+<li>R1: <code>baseCreditValue / 2</code></li>
+<li>R2+: <code>rarity^3 * baseCreditValue</code></li>
+</ul>
+<p>R6/R7 technology bonuses exposed by helper methods:</p>
+<table>
+<thead>
+<tr>
+<th>Condition</th>
+<th>Bonus</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>R6 Sage category</td>
+<td><code>Scan3</code></td>
+</tr>
+<tr>
+<td>R7 Sage category</td>
+<td><code>Scan4</code></td>
+</tr>
+<tr>
+<td>R7 Toil category</td>
+<td><code>ReverseGrappling</code></td>
+</tr>
+<tr>
+<td>R7 Havok category</td>
+<td><code>ReverseGrappling</code></td>
+</tr>
+<tr>
+<td>R7 Cabal category</td>
+<td><code>ReverseBatteryDrain</code></td>
+</tr>
+<tr>
+<td>R7 Agent category</td>
+<td><code>ReverseHacking</code></td>
+</tr>
+<tr>
+<td>R7 Ice category</td>
+<td><code>ReverseHacking</code></td>
+</tr>
+<tr>
+<td>R7 Warrior category</td>
+<td><code>ReverseBatteryDrain</code></td>
+</tr>
+<tr>
+<td>R7 Victor category</td>
+<td>none from <code>GetR7TechBonus()</code></td>
+</tr>
+</tbody>
+</table>
+<p>Computer item technology (<code>ENBAENEOAFE</code>) only appears at R7 or higher. Non-void and void map differently:</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Non-void R7 item tech</th>
+<th>Void R7 item tech</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sage</td>
+<td><code>AlienDamage3</code></td>
+<td><code>AlienDamage4</code></td>
+</tr>
+<tr>
+<td>Toil</td>
+<td><code>SpeedDrain1</code></td>
+<td><code>SpeedDrain2</code></td>
+</tr>
+<tr>
+<td>Havok</td>
+<td><code>SpeedHack1</code></td>
+<td><code>SpeedHack2</code></td>
+</tr>
+<tr>
+<td>Cabal</td>
+<td><code>Savior1</code></td>
+<td><code>Savior2</code></td>
+</tr>
+<tr>
+<td>Agent</td>
+<td><code>Vorpal1</code></td>
+<td><code>Vorpal2</code></td>
+</tr>
+<tr>
+<td>Ice</td>
+<td><code>Analysis1</code></td>
+<td><code>Analysis2</code></td>
+</tr>
+<tr>
+<td>Warrior</td>
+<td><code>Targeting1</code></td>
+<td><code>Targeting2</code></td>
+</tr>
+<tr>
+<td>Victor</td>
+<td><code>HyperDrive1</code></td>
+<td><code>HyperDrive2</code></td>
+</tr>
+</tbody>
+</table>
+<p>Computer EP max bonus:</p>
+<table>
+<thead>
+<tr>
+<th>Class group</th>
+<th style="text-align: right;">R1-R6 EP max</th>
+<th style="text-align: right;">R7+ EP max</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Toil Mark I-IV</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>Sage Tech I, Toil Tech I</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>Havok/Cabal/Agent/Ice/Warrior Tech I</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>Sage Tech II, Toil Tech II</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td>Havok/Cabal/Agent/Ice/Warrior Tech II</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>Sage Tech III, Toil Tech III</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>Havok/Cabal/Agent/Ice/Warrior Tech III</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td>Victor Mark I</td>
+<td style="text-align: right;">1</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>Victor Tech I</td>
+<td style="text-align: right;">2</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>Victor Tech II</td>
+<td style="text-align: right;">3</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td>Victor Tech III</td>
+<td style="text-align: right;">4</td>
+<td style="text-align: right;">5</td>
+</tr>
+<tr>
+<td>Other Mark computers</td>
+<td style="text-align: right;">0</td>
+<td style="text-align: right;">0</td>
+</tr>
+</tbody>
+</table>
+<p>The per-stat computer formulas are present in <code>KOBILLCNLAJ.cs</code>, but several decompiled switch blocks include impossible/raw cast cases that need translation against enum order or live item-panel checks before publishing as rules. Confirm before public use.</p>
+<h2 id="special">Special</h2>
+<p>Sources: <code>Assembly-CSharp\EJDCMKKAGOP.cs</code>, <code>Assembly-CSharp\KKHJOEBCGAP.cs</code>, <code>Assembly-CSharp\OMPIMDNGMHG.cs</code>.</p>
+<p>Special item craft category:</p>
+<ul>
+<li>All non-null specials except Weird Alien Artifact return <code>Specialist Items</code>.</li>
+<li><code>NULL</code> and Weird Alien Artifact return no craft category.</li>
+</ul>
+<p>Special item EP cost:</p>
+<pre><code class="language-csharp">protected override int OMIBOKEONLA
+{
+    get
+    {
+        return 0;
+    }
+}
+</code></pre>
+<p>Special credit value:</p>
+<ul>
+<li>R1: <code>2175</code></li>
+<li>R2+: <code>rarity^3 * 4350</code></li>
+</ul>
+<p>Special technology slot A (<code>IDHKHPPPENO</code> / <code>GetTechBonusA</code>):</p>
+<table>
+<thead>
+<tr>
+<th>Special</th>
+<th>Rarity mapping</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Technician</td>
+<td>R1-R4 <code>Technician1</code>, R5 <code>Technician2</code>, R6 <code>Technician3</code>, R7 <code>Technician4</code></td>
+</tr>
+<tr>
+<td>Prospector</td>
+<td><code>Harvesting1</code> through <code>Harvesting7</code> by rarity</td>
+</tr>
+<tr>
+<td>Tank</td>
+<td><code>HullMax1</code> through <code>HullMax7</code> by rarity</td>
+</tr>
+<tr>
+<td>Scout</td>
+<td>R1-R2 <code>Scan1</code>, R3 <code>Scan2</code>, R4 <code>Scan3</code>, R5 <code>Scan4</code>, R6 <code>Scan5</code>, R7 <code>Scan6</code></td>
+</tr>
+<tr>
+<td>Hacker</td>
+<td>R4-R5 <code>AdvancedHacking1</code>, R6 <code>AdvancedHacking2</code>, R7 <code>AdvancedHacking3</code></td>
+</tr>
+<tr>
+<td>Stalker</td>
+<td>R1-R2 <code>Cloak1</code>, R3 <code>Cloak2</code>, R4 <code>Cloak3</code>, R5 <code>Cloak4</code>, R6 <code>Cloak5</code>, R7 <code>Cloak6</code></td>
+</tr>
+<tr>
+<td>Nova Device</td>
+<td><code>NovaDeath1</code> through <code>NovaDeath7</code> by rarity</td>
+</tr>
+<tr>
+<td>Battle Ram</td>
+<td><code>BattleRam1</code> through <code>BattleRam7</code> by rarity</td>
+</tr>
+<tr>
+<td>Alien Hunter</td>
+<td><code>Scavenger1</code> through <code>Scavenger7</code> by rarity</td>
+</tr>
+<tr>
+<td>Bounty Hunter</td>
+<td><code>PvPDamage1</code> through <code>PvPDamage7</code> by rarity</td>
+</tr>
+<tr>
+<td>Deflector</td>
+<td><code>Deflector1</code> through <code>Deflector7</code> by rarity</td>
+</tr>
+<tr>
+<td>Weird Alien Artifact</td>
+<td>none</td>
+</tr>
+<tr>
+<td>Grappling Hook</td>
+<td>R4-R5 <code>AdvancedGrappling1</code>, R6 <code>AdvancedGrappling2</code>, R7 <code>AdvancedGrappling3</code></td>
+</tr>
+<tr>
+<td>Vampire</td>
+<td>R4-R5 <code>AdvancedDraining1</code>, R6 <code>AdvancedDraining2</code>, R7 <code>AdvancedDraining3</code></td>
+</tr>
+<tr>
+<td>Advanced Construct</td>
+<td>R6 <code>Mechanic1</code>, R7 <code>Mechanic2</code></td>
+</tr>
+<tr>
+<td>Advanced Shields</td>
+<td><code>ShieldMax1</code> through <code>ShieldMax7</code> by rarity</td>
+</tr>
+<tr>
+<td>Advanced Electronics</td>
+<td>R5 <code>Scan1</code>, R6 <code>Scan2</code>, R7 <code>Scan3</code></td>
+</tr>
+<tr>
+<td>Advanced Munitions</td>
+<td>R6 <code>Mechanic1</code>, R7 <code>Mechanic2</code></td>
+</tr>
+<tr>
+<td>Advanced Propulsion</td>
+<td>R6 <code>Mechanic1</code>, R7 <code>Mechanic2</code></td>
+</tr>
+<tr>
+<td>Alien Technology</td>
+<td>none</td>
+</tr>
+<tr>
+<td>Drone Master</td>
+<td>R1-R4 <code>AttackDrones1</code>, R5 <code>AttackDrones2</code>, R6 <code>AttackDrones3</code>, R7 <code>AttackDrones4</code></td>
+</tr>
+</tbody>
+</table>
+<p>Special technology slot B (<code>ENBAENEOAFE</code> / <code>GetTechBonusB</code>):</p>
+<table>
+<thead>
+<tr>
+<th>Special</th>
+<th>Rarity mapping</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Technician</td>
+<td>R1-R5 <code>SpeedRepair1</code>, R6 <code>SpeedRepair2</code>, R7 <code>SpeedRepair3</code></td>
+</tr>
+<tr>
+<td>Tank</td>
+<td>R7 <code>AdvancedAlloys1</code></td>
+</tr>
+<tr>
+<td>Scout</td>
+<td>R1-R5 <code>SpeedScan1</code>, R6 <code>SpeedScan2</code>, R7 <code>SpeedScan3</code></td>
+</tr>
+<tr>
+<td>Hacker</td>
+<td>R1-R5 <code>SpeedHack1</code>, R6 <code>SpeedHack2</code>, R7 <code>SpeedHack3</code></td>
+</tr>
+<tr>
+<td>Stalker</td>
+<td>R1-R5 <code>CloakDuration1</code>, R6 <code>CloakDuration2</code>, R7 <code>CloakDuration3</code></td>
+</tr>
+<tr>
+<td>Nova Device</td>
+<td>R6-R7 <code>NovaInversion</code></td>
+</tr>
+<tr>
+<td>Alien Hunter</td>
+<td><code>AlienDamage1</code> through <code>AlienDamage7</code> by rarity</td>
+</tr>
+<tr>
+<td>Bounty Hunter</td>
+<td>R1-R4 <code>PvPBonusXP1</code>, R5-R6 <code>PvPBonusXP2</code>, R7 <code>PvPBonusXP3</code></td>
+</tr>
+<tr>
+<td>Deflector</td>
+<td>R7 <code>ShieldCapacitors1</code></td>
+</tr>
+<tr>
+<td>Grappling Hook</td>
+<td>R1-R5 <code>SpeedGrapple1</code>, R6 <code>SpeedGrapple2</code>, R7 <code>SpeedGrapple3</code></td>
+</tr>
+<tr>
+<td>Vampire</td>
+<td>R1-R5 <code>SpeedDrain1</code>, R6 <code>SpeedDrain2</code>, R7 <code>SpeedDrain3</code></td>
+</tr>
+<tr>
+<td>Advanced Shields</td>
+<td>R7 <code>ShieldAmplifier1</code></td>
+</tr>
+<tr>
+<td>Drone Master</td>
+<td>R1-R4 <code>RepairDrones1</code>, R5 <code>RepairDrones2</code>, R6 <code>RepairDrones3</code>, R7 <code>RepairDrones4</code></td>
+</tr>
+<tr>
+<td>Other specials</td>
+<td>none</td>
+</tr>
+</tbody>
+</table>
+<p>Special EP max bonus:</p>
+<table>
+<thead>
+<tr>
+<th>Special</th>
+<th>Rarity mapping</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Tank</td>
+<td>R7 <code>+1</code></td>
+</tr>
+<tr>
+<td>Battle Ram</td>
+<td>R1-R4 <code>+0</code>, R5 <code>+1</code>, R6 <code>+2</code>, R7 <code>+3</code></td>
+</tr>
+<tr>
+<td>Alien Hunter, Bounty Hunter, Deflector, Vampire</td>
+<td>R1-R5 <code>+0</code>, R6 <code>+1</code>, R7 <code>+2</code></td>
+</tr>
+<tr>
+<td>Advanced Construct</td>
+<td>R1-R5 <code>+2</code>, R6 <code>+3</code>, R7 <code>+4</code></td>
+</tr>
+<tr>
+<td>Advanced Shields, Advanced Propulsion</td>
+<td>R1-R3 <code>+0</code>, R4-R6 <code>+1</code>, R7 <code>+2</code></td>
+</tr>
+<tr>
+<td>Advanced Electronics, Advanced Munitions</td>
+<td>R1-R4 <code>+0</code>, R5-R6 <code>+1</code>, R7 <code>+2</code></td>
+</tr>
+<tr>
+<td>Alien Technology</td>
+<td>R1-R6 <code>+1</code>, R7 <code>+2</code></td>
+</tr>
+<tr>
+<td>Other specials</td>
+<td><code>+0</code></td>
+</tr>
+</tbody>
+</table>
+<p>Special display slot text:</p>
+<table>
+<thead>
+<tr>
+<th>Special</th>
+<th>Condition</th>
+<th>Displayed slot effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Alien Hunter, Bounty Hunter</td>
+<td>R7+</td>
+<td><code>+1 Weapon Equipment Item Slot</code></td>
+</tr>
+<tr>
+<td>Weird Alien Artifact</td>
+<td>any rarity</td>
+<td><code>+1 Drone Equipment Item Slot</code></td>
+</tr>
+<tr>
+<td>Vampire, Alien Technology</td>
+<td>R7+</td>
+<td><code>+1 Battery Equipment Item Slot</code></td>
+</tr>
+<tr>
+<td>Drone Master</td>
+<td>R7+</td>
+<td><code>+1 Drone Equipment Item Slot</code></td>
+</tr>
+</tbody>
+</table>
+<p>Special immunity display text:</p>
+<table>
+<thead>
+<tr>
+<th>Special</th>
+<th>Rarity</th>
+<th>Displayed text</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Hacker</td>
+<td>R2-R7</td>
+<td><code>Immune to Hack Ram Rank 1-6</code></td>
+</tr>
+<tr>
+<td>Advanced Construct</td>
+<td>R2-R7</td>
+<td><code>Immune to Battle Ram and Hack Ram Rank 1-6</code></td>
+</tr>
+</tbody>
+</table>
+<p>The remaining direct stat formulas in <code>KKHJOEBCGAP.cs</code> are a mix of readable overrides and obfuscation-noise methods. Use this section as the stable technology/EP/slot extraction until the per-stat pass is completed.</p>
+<h2 id="drone">Drone</h2>
+<p>Sources: <code>Assembly-CSharp\HAOJHDJLJFO.cs</code>, <code>Assembly-CSharp\HHIKNHLFHOI.cs</code>, <code>Assembly-CSharp\BBNPEFEJEEC.cs</code>, <code>Assembly-CSharp\BFADKAEGMNI.cs</code>, <code>Assembly-CSharp\OMPIMDNGMHG.cs</code>, <code>Assembly-CSharp\PGJIDFCBFCC.cs</code>.</p>
+<p>Drone categories:</p>
+<table>
+<thead>
+<tr>
+<th>Enum</th>
+<th>Category</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Harvest</code></td>
+<td>Harvest drone</td>
+</tr>
+<tr>
+<td><code>Repair</code></td>
+<td>Repair drone</td>
+</tr>
+<tr>
+<td><code>Fighter</code></td>
+<td>Fighter drone</td>
+</tr>
+</tbody>
+</table>
+<p>Drone class family and faction mapping:</p>
+<table>
+<thead>
+<tr>
+<th>Prefix</th>
+<th>Faction</th>
+<th>Versions</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>LCD</code></td>
+<td>Pirate</td>
+<td>V1-V12</td>
+</tr>
+<tr>
+<td><code>HX</code></td>
+<td>Het</td>
+<td>V1-V12</td>
+</tr>
+<tr>
+<td><code>WP</code></td>
+<td>Wyrd</td>
+<td>V1-V12</td>
+</tr>
+<tr>
+<td><code>DCD</code></td>
+<td>Precursor</td>
+<td>V1-V12</td>
+</tr>
+<tr>
+<td><code>BAS</code></td>
+<td>Human</td>
+<td>V1-V12</td>
+</tr>
+</tbody>
+</table>
+<p>Drone craft categories are faction plus category, for example <code>Pirate Fighter Drones</code>, <code>Het Repair Drones</code>, or <code>Precursor Harvest Drones</code>.</p>
+<p>Drone EP cost:</p>
+<ul>
+<li>Category modifier: Harvest <code>+0</code>, Repair <code>+1</code>, Fighter <code>+2</code>.</li>
+<li>Special case: BAS-V12 Repair reduces the category-modified EP cost by 1 before faction/rarity logic.</li>
+<li>Special case: BAS-V6 Harvest reduces the category-modified EP cost by 1 before faction/rarity logic.</li>
+<li>Final <code>OMIBOKEONLA</code> clamps negative results to <code>0</code>.</li>
+</ul>
+<p>Faction/rarity EP cost before final clamp:</p>
+<table>
+<thead>
+<tr>
+<th>Faction</th>
+<th style="text-align: right;">R1-R2</th>
+<th style="text-align: right;">R3-R4</th>
+<th style="text-align: right;">R5-R6</th>
+<th style="text-align: right;">R7</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pirate</td>
+<td style="text-align: right;"><code>1 + categoryMod</code></td>
+<td style="text-align: right;"><code>categoryMod</code></td>
+<td style="text-align: right;"><code>categoryMod - 1</code></td>
+<td style="text-align: right;"><code>categoryMod - 2</code></td>
+</tr>
+<tr>
+<td>Het</td>
+<td style="text-align: right;"><code>2 + categoryMod</code></td>
+<td style="text-align: right;"><code>1 + categoryMod</code></td>
+<td style="text-align: right;"><code>categoryMod</code></td>
+<td style="text-align: right;"><code>categoryMod - 1</code></td>
+</tr>
+<tr>
+<td>Wyrd</td>
+<td style="text-align: right;"><code>3 + categoryMod</code></td>
+<td style="text-align: right;"><code>2 + categoryMod</code></td>
+<td style="text-align: right;"><code>1 + categoryMod</code></td>
+<td style="text-align: right;"><code>categoryMod</code></td>
+</tr>
+<tr>
+<td>Precursor</td>
+<td style="text-align: right;"><code>4 + categoryMod</code></td>
+<td style="text-align: right;"><code>3 + categoryMod</code></td>
+<td style="text-align: right;"><code>2 + categoryMod</code></td>
+<td style="text-align: right;"><code>1 + categoryMod</code></td>
+</tr>
+<tr>
+<td>Human</td>
+<td style="text-align: right;"><code>categoryMod</code></td>
+<td style="text-align: right;"><code>categoryMod</code></td>
+<td style="text-align: right;"><code>categoryMod</code> except R6 <code>categoryMod - 1</code></td>
+<td style="text-align: right;"><code>categoryMod - 2</code></td>
+</tr>
+</tbody>
+</table>
+<p>Drone base credit value:</p>
+<table>
+<thead>
+<tr>
+<th>Faction</th>
+<th style="text-align: right;">R1 credit value</th>
+<th>R2+ formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Human</td>
+<td style="text-align: right;">900</td>
+<td><code>rarity^3 * 1800</code></td>
+</tr>
+<tr>
+<td>Pirate</td>
+<td style="text-align: right;">1000</td>
+<td><code>rarity^3 * 1900</code></td>
+</tr>
+<tr>
+<td>Het</td>
+<td style="text-align: right;">1100</td>
+<td><code>rarity^3 * 2000</code></td>
+</tr>
+<tr>
+<td>Wyrd</td>
+<td style="text-align: right;">1200</td>
+<td><code>rarity^3 * 2100</code></td>
+</tr>
+<tr>
+<td>Precursor</td>
+<td style="text-align: right;">1300</td>
+<td><code>rarity^3 * 2200</code></td>
+</tr>
+</tbody>
+</table>
+<p>Drone action timers use config defaults from <code>PGJIDFCBFCC</code>:</p>
+<table>
+<thead>
+<tr>
+<th>Category</th>
+<th>Base formula</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Fighter</td>
+<td><code>14000ms - (rarity - R1) * 500ms</code></td>
+</tr>
+<tr>
+<td>Repair</td>
+<td><code>26000ms - (rarity - R1) * 1000ms</code></td>
+</tr>
+<tr>
+<td>Harvest</td>
+<td><code>(60000ms - (rarity - R1) * 5000ms) * factionMultiplier</code></td>
+</tr>
+</tbody>
+</table>
+<p>Harvest timer faction multipliers:</p>
+<table>
+<thead>
+<tr>
+<th>Faction</th>
+<th style="text-align: right;">Multiplier</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Pirate</td>
+<td style="text-align: right;">100%</td>
+</tr>
+<tr>
+<td>Het</td>
+<td style="text-align: right;">110%</td>
+</tr>
+<tr>
+<td>Wyrd</td>
+<td style="text-align: right;">120%</td>
+</tr>
+<tr>
+<td>Human</td>
+<td style="text-align: right;">130%</td>
+</tr>
+<tr>
+<td>Precursor</td>
+<td style="text-align: right;">140%</td>
+</tr>
+</tbody>
+</table>
+<p>Harvest resource amount by faction:</p>
+<table>
+<thead>
+<tr>
+<th>Faction</th>
+<th style="text-align: right;">Resources per harvest action</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Human</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>Pirate</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>Het</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>Wyrd</td>
+<td style="text-align: right;">4</td>
+</tr>
+<tr>
+<td>Precursor</td>
+<td style="text-align: right;">5</td>
+</tr>
+</tbody>
+</table>
+<p>Fighter drone damage display:</p>
+<ul>
+<li>Minimum damage uses <code>BFADKAEGMNI.GetDroneMinDmg(rarity, factionAttackBonusDps, 14000, q, aiBalanceMod)</code>.</li>
+<li><code>GetDroneMinDmg</code> computes <code>((2 + rarity + factionAttackBonusDps) * 14000 * q)</code>, reduces it by one third, divides by <code>1000</code>, then applies <code>aiBalanceMod.GetWeaponDamageMod()</code>.</li>
+<li>Maximum displayed damage is <code>minDamage * 2</code>.</li>
+<li>The displayed attack interval still uses the rarity-adjusted Fighter timer above.</li>
+</ul>
+<p>Fighter faction attack bonus values:</p>
+<table>
+<thead>
+<tr>
+<th>Faction</th>
+<th style="text-align: right;">Attack bonus DPS input</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Human</td>
+<td style="text-align: right;">0</td>
+</tr>
+<tr>
+<td>Pirate</td>
+<td style="text-align: right;">1</td>
+</tr>
+<tr>
+<td>Het</td>
+<td style="text-align: right;">2</td>
+</tr>
+<tr>
+<td>Wyrd</td>
+<td style="text-align: right;">3</td>
+</tr>
+<tr>
+<td>Precursor</td>
+<td style="text-align: right;">4</td>
+</tr>
+</tbody>
+</table>
+<p>Repair drone display:</p>
+<ul>
+<li>Minimum repair uses <code>BFADKAEGMNI.GetDroneMinRepair(rarity, factionAttackBonusDps, 26000, q)</code>.</li>
+<li><code>GetDroneMinRepair</code> computes <code>((rarity + factionAttackBonusDps) * 26000 * q)</code>, reduces it by one half, then divides by <code>1000</code>.</li>
+<li>Maximum displayed repair is <code>minRepair * 2</code>.</li>
+<li>The displayed repair interval still uses the rarity-adjusted Repair timer above.</li>
+</ul>
+<p>Category scaling for regular stat bonuses:</p>
+<ul>
+<li>Several normal stat bonuses use a <code>CBNFHGOHOJH</code> multiplier: Fighter category <code>1.0</code>, non-Fighter categories <code>0.5</code>.</li>
+<li>Several resistance-style bonuses use an <code>NMNJHLNBOHM</code> multiplier: Fighter category <code>0.5</code>, non-Fighter categories <code>1.0</code>.</li>
+<li>Some percent bonuses use <code>NALIIKPGKPC</code>: Repair category <code>1.0</code>, non-Repair categories <code>0.5</code>.</li>
+</ul>
+<p>The main drone actions above are category behavior, not ordinary item stat bonuses. This is the current-client backing for the wiki rule that an aux drone still keeps its main action at full value while its normal item stats are subject to aux scaling.</p>
+<h2 id="consumable">Consumable</h2>
+<p>Sources: <code>Assembly-CSharp\PIBAEAKHECA.cs</code>, <code>Assembly-CSharp\NLLPDCFPKJM.cs</code>, <code>Assembly-CSharp\OMPIMDNGMHG.cs</code>.</p>
+<p>Consumable runtime items are metadata-driven. <code>PIBAEAKHECA</code> is the class enum, <code>NLLPDCFPKJM.FLCMIIEJMPG</code> is the metadata field, and helpers in <code>OMPIMDNGMHG.cs</code> provide display names, descriptions, craft categories, default rarities, resource/currency types, pile counts, and tech-computer-upgrade decoding.</p>
+<p>Consumable EP cost:</p>
+<pre><code class="language-csharp">public override int GetBaseEP()
+{
+    return 0;
+}
+</code></pre>
+<p>Consumable required player level is <code>0</code> through the shared item-family required-level rule.</p>
+<p>Consumable base credit value:</p>
+<table>
+<thead>
+<tr>
+<th>Condition</th>
+<th style="text-align: right;">Credit value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resource pile</td>
+<td style="text-align: right;"><code>pileCount * resourceType.GetScrapCreditValue()</code></td>
+</tr>
+<tr>
+<td>Skull pile</td>
+<td style="text-align: right;"><code>pileCount * 25</code></td>
+</tr>
+<tr>
+<td>Other consumable with <code>ANPJBFOPCPB == false</code></td>
+<td style="text-align: right;"><code>0</code></td>
+</tr>
+<tr>
+<td>Other consumable with <code>ANPJBFOPCPB == true</code></td>
+<td style="text-align: right;"><code>rarity * 100</code></td>
+</tr>
+</tbody>
+</table>
+<p>For all named <code>PIBAEAKHECA</code> values in the current enum, <code>ANPJBFOPCPB</code> evaluates false. The <code>rarity * 100</code> branch appears to be a fallback for unknown/future consumable values beyond the current enum range. Current named non-resource, non-skull consumables therefore have base credit value <code>0</code> unless another branch handles them.</p>
+<p>Client craft categories:</p>
+<table>
+<thead>
+<tr>
+<th>Craft category</th>
+<th>Consumable classes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Crafting Resources</code></td>
+<td>Resource piles and Skull piles</td>
+</tr>
+<tr>
+<td><code>Consumable Kits</code></td>
+<td>QualityRepairKit, NanobotChargeKit, MutateItemKit, VoidItemKit</td>
+</tr>
+<tr>
+<td>none</td>
+<td>Portrait, ShipModification, ItemBlueprint, Title, Relic piles, StatModification, OblivionFragment variants, ReMutateItemKit, PartyBox, TechComputerUpgradeKit, ReVoidItemKit, NULL/default</td>
+</tr>
+</tbody>
+</table>
+<p>Default rarity:</p>
+<table>
+<thead>
+<tr>
+<th>Class</th>
+<th>Default rarity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Portrait</td>
+<td>R3</td>
+</tr>
+<tr>
+<td>ShipModification</td>
+<td>R7</td>
+</tr>
+<tr>
+<td>Title</td>
+<td>R6</td>
+</tr>
+<tr>
+<td>SkullPile10</td>
+<td>R4</td>
+</tr>
+<tr>
+<td>SkullPile100</td>
+<td>R5</td>
+</tr>
+<tr>
+<td>SkullPile500</td>
+<td>R6</td>
+</tr>
+<tr>
+<td>SkullPile1000</td>
+<td>R7</td>
+</tr>
+<tr>
+<td>RelicPile1/5/10/50/100</td>
+<td>R7</td>
+</tr>
+<tr>
+<td>StatModification, QualityRepairKit, NanobotChargeKit, MutateItemKit, PartyBox, TechComputerUpgradeKit</td>
+<td>R5</td>
+</tr>
+<tr>
+<td>OblivionFragment, OblivionFragment5, OblivionFragment10</td>
+<td>R7</td>
+</tr>
+<tr>
+<td>ReMutateItemKit, ReVoidItemKit</td>
+<td>R6</td>
+</tr>
+<tr>
+<td>VoidItemKit</td>
+<td>R7</td>
+</tr>
+<tr>
+<td>Any class reaching the pile-count fallback with pile count 100</td>
+<td>R3</td>
+</tr>
+<tr>
+<td>Any class reaching the pile-count fallback with pile count 500</td>
+<td>R4</td>
+</tr>
+<tr>
+<td>Any class reaching the pile-count fallback with pile count 1000</td>
+<td>R5</td>
+</tr>
+<tr>
+<td>Any class reaching the pile-count fallback with pile count 5000</td>
+<td>R7</td>
+</tr>
+<tr>
+<td>Fallback</td>
+<td>R2</td>
+</tr>
+</tbody>
+</table>
+<p>Pile counts:</p>
+<table>
+<thead>
+<tr>
+<th>Family</th>
+<th>Counts</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Resource piles</td>
+<td><code>100</code>, <code>500</code>, <code>1000</code>, <code>5000</code></td>
+</tr>
+<tr>
+<td>Skull piles</td>
+<td><code>10</code>, <code>100</code>, <code>500</code>, <code>1000</code></td>
+</tr>
+<tr>
+<td>Relic piles</td>
+<td><code>1</code>, <code>5</code>, <code>10</code>, <code>50</code>, <code>100</code></td>
+</tr>
+</tbody>
+</table>
+<p>Metadata encodings:</p>
+<table>
+<thead>
+<tr>
+<th>Consumable</th>
+<th>Metadata encoding</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Portrait</td>
+<td><code>portraitFamilyByte | portraitIndexA &lt;&lt; 8 | portraitIndexB &lt;&lt; 16</code></td>
+</tr>
+<tr>
+<td>ItemBlueprint</td>
+<td><code>itemFamilyByte | class/category byte &lt;&lt; 8 | class/category byte &lt;&lt; 16 | buildCount &lt;&lt; 24</code></td>
+</tr>
+<tr>
+<td>StatModification</td>
+<td><code>statByte | absoluteValueTimes1000 low/mid/high bytes &lt;&lt; 8/16/24</code>; sign is reconstructed from whether the stat treats the value as a penalty</td>
+</tr>
+<tr>
+<td>TechComputerUpgradeKit</td>
+<td><code>computerCategory + techLevel * 1000</code>; techLevel is 1 below 2000, 2 below 3000, and 3 at 3000+</td>
+</tr>
+</tbody>
+</table>
+<p>Tech computer upgrade display rules:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Decoded tech level</th>
+<th>Client name/description meaning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1</td>
+<td><code>Category Mk CPU Upgrade</code>; upgrades a Mark computer to Tech 1</td>
+</tr>
+<tr>
+<td style="text-align: right;">2</td>
+<td><code>Category Tech 1 CPU Upgrade</code>; upgrades Tech 1 to Tech 2</td>
+</tr>
+<tr>
+<td style="text-align: right;">3</td>
+<td><code>Category Tech 2 CPU Upgrade</code>; upgrades Tech 2 to Tech 3</td>
+</tr>
+</tbody>
+</table>
+<p>Nanobot charge kit rarity helper:</p>
+<table>
+<thead>
+<tr>
+<th style="text-align: right;">Duration hours</th>
+<th>Rarity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: right;">1-5</td>
+<td>R2</td>
+</tr>
+<tr>
+<td style="text-align: right;">6-10</td>
+<td>R3</td>
+</tr>
+<tr>
+<td style="text-align: right;">11-20</td>
+<td>R4</td>
+</tr>
+<tr>
+<td style="text-align: right;">21-30</td>
+<td>R5</td>
+</tr>
+<tr>
+<td style="text-align: right;">31-40</td>
+<td>R6</td>
+</tr>
+<tr>
+<td style="text-align: right;">41+</td>
+<td>R7</td>
+</tr>
+</tbody>
+</table>
+<p>Quality repair kit public effect text from the client:</p>
+<table>
+<thead>
+<tr>
+<th>Kit rarity/metadata</th>
+<th>Client description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Not R6/R7</td>
+<td>Upgrade any non-special item's quality to <code>150</code></td>
+</tr>
+<tr>
+<td>R6</td>
+<td>Upgrade any non-special item's quality to <code>175</code></td>
+</tr>
+<tr>
+<td>R7</td>
+<td>Upgrade any non-special item's quality to <code>200</code></td>
+</tr>
+</tbody>
+</table>
+<h2 id="shield">Shield</h2>
+<p>Source: <code>Assembly-CSharp\BNCBECFCPHP.cs</code></p>
+<h3 id="equippointcost">EquipPointCost</h3>
+<p>Source line: <code>618</code>, obfuscated property: <code>OMIBOKEONLA</code>.</p>
+<pre><code class="language-csharp">protected override int OMIBOKEONLA
+    {
+        get
+        {
+            int num = this.DNONFFBHEEM.Ep - (int)base.PPAFMKOLBBL + 1 + BNCBECFCPHP.GetEpCostMod(this.DNONFFBHEEM.Class.GetFaction());
+            if (num &gt; 0)
+            {
+                return num;
+            }
+            return 0;
+        }
+    }
+</code></pre>
+<h3 id="incomingdamage">IncomingDamage</h3>
+<p>Source line: <code>754</code>, obfuscated property: <code>PLHGOLKMLJJ</code>.</p>
+<pre><code class="language-csharp">protected override float PLHGOLKMLJJ
+    {
+        get
+        {
+            int modelNumber = this.CECBGCDJJAH.GetModelNumber();
+            if (modelNumber != 4 &amp;&amp; modelNumber - 9 &gt; 1)
+            {
+                return 0f;
+            }
+            return (float)base.PPAFMKOLBBL * -0.015f * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="hackresist">HackResist</h3>
+<p>Source line: <code>244</code>, obfuscated property: <code>IJICKEGDCCE</code>.</p>
+<pre><code class="language-csharp">protected override float IJICKEGDCCE
+    {
+        get
+        {
+            int modelNumber = this.CECBGCDJJAH.GetModelNumber();
+            if (modelNumber - 3 &gt; 1 &amp;&amp; modelNumber != 12)
+            {
+                return 0f;
+            }
+            return this.InternalGetResistMod();
+        }
+    }
+</code></pre>
+<h3 id="grappleresist">GrappleResist</h3>
+<p>Source line: <code>9</code>, obfuscated property: <code>AFNCJMNENCA</code>.</p>
+<pre><code class="language-csharp">protected override float AFNCJMNENCA
+    {
+        get
+        {
+            int modelNumber = this.CECBGCDJJAH.GetModelNumber();
+            if (modelNumber &lt;= 3)
+            {
+                if (modelNumber == 1 || modelNumber == 3)
+                {
+                    goto IL_29;
+                }
+            }
+            else if (modelNumber == 7 || modelNumber == 11)
+            {
+                goto IL_29;
+            }
+            return 0f;
+            IL_29:
+            return this.InternalGetResistMod();
+        }
+    }
+</code></pre>
+<h3 id="criticalresist">CriticalResist</h3>
+<p>Source line: <code>303</code>, obfuscated property: <code>CDLEBDHOLGB</code>.</p>
+<pre><code class="language-csharp">protected override float CDLEBDHOLGB
+    {
+        get
+        {
+            int modelNumber = this.CECBGCDJJAH.GetModelNumber();
+            if (modelNumber != 2 &amp;&amp; modelNumber != 10 &amp;&amp; modelNumber != 12)
+            {
+                return 0f;
+            }
+            return this.InternalGetResistMod();
+        }
+    }
+</code></pre>
+<h3 id="splashresist">SplashResist</h3>
+<p>Source line: <code>804</code>, obfuscated property: <code>BFILEEDOAPJ</code>.</p>
+<pre><code class="language-csharp">protected override float BFILEEDOAPJ
+    {
+        get
+        {
+            int modelNumber = this.CECBGCDJJAH.GetModelNumber();
+            if (modelNumber != 2 &amp;&amp; modelNumber != 5 &amp;&amp; modelNumber != 11)
+            {
+                return 0f;
+            }
+            return this.InternalGetResistMod();
+        }
+    }
+</code></pre>
+<h3 id="batterydrainresist">BatteryDrainResist</h3>
+<p>Source line: <code>171</code>, obfuscated property: <code>LDOFEGMICPK</code>.</p>
+<pre><code class="language-csharp">protected override float LDOFEGMICPK
+    {
+        get
+        {
+            int modelNumber = this.CECBGCDJJAH.GetModelNumber();
+            if (modelNumber != 1 &amp;&amp; modelNumber != 6 &amp;&amp; modelNumber != 9)
+            {
+                return 0f;
+            }
+            return this.InternalGetResistMod() * 1.5f;
+        }
+    }
+</code></pre>
+<h3 id="shieldcapacity">ShieldCapacity</h3>
+<p>Source line: <code>718</code>, obfuscated property: <code>KHAGACJJONM</code>.</p>
+<pre><code class="language-csharp">protected override float KHAGACJJONM
+    {
+        get
+        {
+            int modelNumber = this.CECBGCDJJAH.GetModelNumber();
+            if (modelNumber - 5 &lt;= 2)
+            {
+                return 1.25f * this.InternalGetShieldCapacity() * this.NDOJHMKGBFK.GetMod() * 1.15f;
+            }
+            if (modelNumber != 8)
+            {
+                return this.InternalGetShieldCapacity() * this.NDOJHMKGBFK.GetMod() * 1.15f;
+            }
+            return 1.5f * this.InternalGetShieldCapacity() * this.NDOJHMKGBFK.GetMod() * 1.15f;
+        }
+    }
+</code></pre>
+<h2 id="engine">Engine</h2>
+<p>Source: <code>Assembly-CSharp\OIBAMMKGNBK.cs</code></p>
+<h3 id="equippointcost_1">EquipPointCost</h3>
+<p>Source line: <code>647</code>, obfuscated property: <code>OMIBOKEONLA</code>.</p>
+<pre><code class="language-csharp">protected override int OMIBOKEONLA
+    {
+        get
+        {
+            return 0;
+        }
+    }
+</code></pre>
+<h3 id="equippointmax">EquipPointMax</h3>
+<p>Source line: <code>355</code>, obfuscated property: <code>AKAAAIOKMOP</code>.</p>
+<pre><code class="language-csharp">protected override int AKAAAIOKMOP
+    {
+        get
+        {
+            if (this.CECBGCDJJAH != JOPMBBDJMIO.Gravity)
+            {
+                if (base.PPAFMKOLBBL &lt; AHKIAECFDDB.R6)
+                {
+                    return 0;
+                }
+                return 1;
+            }
+            else
+            {
+                if (base.PPAFMKOLBBL &lt; AHKIAECFDDB.R7)
+                {
+                    return 0;
+                }
+                return 1;
+            }
+        }
+    }
+</code></pre>
+<h3 id="movespeedpercent">MoveSpeedPercent</h3>
+<p>Source line: <code>108</code>, obfuscated property: <code>JCKNDPELNLG</code>.</p>
+<pre><code class="language-csharp">protected override float JCKNDPELNLG
+    {
+        get
+        {
+            JOPMBBDJMIO @class = this.CECBGCDJJAH;
+            if (@class - JOPMBBDJMIO.Impulse &gt; 2)
+            {
+                return 0f;
+            }
+            return -0.0125f * (float)base.PPAFMKOLBBL * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="criticaldamage">CriticalDamage</h3>
+<p>Source line: <code>1003</code>, obfuscated property: <code>EPIANIDJPJF</code>.</p>
+<pre><code class="language-csharp">protected override float EPIANIDJPJF
+    {
+        get
+        {
+            if (this.CECBGCDJJAH != JOPMBBDJMIO.Neutron)
+            {
+                return 0f;
+            }
+            return (float)base.PPAFMKOLBBL * 0.01f * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="evasionchance">EvasionChance</h3>
+<p>Source line: <code>295</code>, obfuscated property: <code>CICMMLJMJKP</code>.</p>
+<pre><code class="language-csharp">protected override float CICMMLJMJKP
+    {
+        get
+        {
+            JOPMBBDJMIO @class = this.CECBGCDJJAH;
+            if (@class == JOPMBBDJMIO.Fusion)
+            {
+                return (float)base.PPAFMKOLBBL * 1.5f * base.EDPOPGPNMCD;
+            }
+            if (@class != JOPMBBDJMIO.Neutron)
+            {
+                return (float)base.PPAFMKOLBBL * 0.5f * base.EDPOPGPNMCD;
+            }
+            return 0f;
+        }
+    }
+</code></pre>
+<h3 id="grappleresist_1">GrappleResist</h3>
+<p>Source line: <code>792</code>, obfuscated property: <code>AFNCJMNENCA</code>.</p>
+<pre><code class="language-csharp">protected override float AFNCJMNENCA
+    {
+        get
+        {
+            if (this.CECBGCDJJAH != JOPMBBDJMIO.Impulse)
+            {
+                return 0f;
+            }
+            return (float)base.PPAFMKOLBBL * 2f * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="criticalresist_1">CriticalResist</h3>
+<p>Source line: <code>778</code>, obfuscated property: <code>CDLEBDHOLGB</code>.</p>
+<pre><code class="language-csharp">protected override float CDLEBDHOLGB
+    {
+        get
+        {
+            if (this.CECBGCDJJAH != JOPMBBDJMIO.Neutron)
+            {
+                return 0f;
+            }
+            return (float)base.PPAFMKOLBBL * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="powercapacity">PowerCapacity</h3>
+<p>Source line: <code>864</code>, obfuscated property: <code>JEFDOBNBCJO</code>.</p>
+<pre><code class="language-csharp">protected override float JEFDOBNBCJO
+    {
+        get
+        {
+            if (this.CECBGCDJJAH != JOPMBBDJMIO.Atomic)
+            {
+                return 0f;
+            }
+            return (float)base.PPAFMKOLBBL * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h2 id="battery">Battery</h2>
+<p>Source: <code>Assembly-CSharp\ECCOKHAPHDD.cs</code></p>
+<h3 id="equippointcost_2">EquipPointCost</h3>
+<p>Source line: <code>460</code>, obfuscated property: <code>OMIBOKEONLA</code>.</p>
+<pre><code class="language-csharp">protected override int OMIBOKEONLA
+    {
+        get
+        {
+            return 0;
+        }
+    }
+</code></pre>
+<h3 id="equippointmax_1">EquipPointMax</h3>
+<p>Source line: <code>436</code>, obfuscated property: <code>AKAAAIOKMOP</code>.</p>
+<pre><code class="language-csharp">protected override int AKAAAIOKMOP
+    {
+        get
+        {
+            if (base.PPAFMKOLBBL &lt; AHKIAECFDDB.R7)
+            {
+                return 0;
+            }
+            return 1;
+        }
+    }
+</code></pre>
+<h3 id="movespeedpercent_1">MoveSpeedPercent</h3>
+<p>Source line: <code>814</code>, obfuscated property: <code>JCKNDPELNLG</code>.</p>
+<pre><code class="language-csharp">protected override float JCKNDPELNLG
+    {
+        get
+        {
+            EAHJHMGGHGM @class = this.DNONFFBHEEM.Class;
+            if (@class - EAHJHMGGHGM.Alkaic &lt;= 1)
+            {
+                return -0.01f * (float)base.PPAFMKOLBBL * base.EDPOPGPNMCD;
+            }
+            if (@class != EAHJHMGGHGM.Voltaic)
+            {
+                return 0f;
+            }
+            return -0.015f * (float)base.PPAFMKOLBBL * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="hullrepair">HullRepair</h3>
+<p>Source line: <code>196</code>, obfuscated property: <code>LDCKLGHOKDN</code>.</p>
+<pre><code class="language-csharp">protected override float LDCKLGHOKDN
+    {
+        get
+        {
+            if (this.DNONFFBHEEM.Class != EAHJHMGGHGM.Alkaic)
+            {
+                return 0f;
+            }
+            return (float)base.PPAFMKOLBBL * 0.003f * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="shielddamage">ShieldDamage</h3>
+<p>Source line: <code>364</code>, obfuscated property: <code>AEDGBNCKKPF</code>.</p>
+<pre><code class="language-csharp">protected override float AEDGBNCKKPF
+    {
+        get
+        {
+            EAHJHMGGHGM @class = this.DNONFFBHEEM.Class;
+            if (@class - EAHJHMGGHGM.Zambic &gt; 1)
+            {
+                return 0f;
+            }
+            return (0.01f + (float)base.PPAFMKOLBBL * 0.01f) * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="xpbonus">XpBonus</h3>
+<p>Source line: <code>154</code>, obfuscated property: <code>LMJGMPDOOHH</code>.</p>
+<pre><code class="language-csharp">protected override float LMJGMPDOOHH
+    {
+        get
+        {
+            EAHJHMGGHGM @class = this.DNONFFBHEEM.Class;
+            if (@class != EAHJHMGGHGM.Galvanic &amp;&amp; @class != EAHJHMGGHGM.Silic)
+            {
+                return 0f;
+            }
+            return (float)base.PPAFMKOLBBL * 0.015f * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="criticalchance">CriticalChance</h3>
+<p>Source line: <code>686</code>, obfuscated property: <code>MOLDAGLDGFJ</code>.</p>
+<pre><code class="language-csharp">protected override float MOLDAGLDGFJ
+    {
+        get
+        {
+            if (this.DNONFFBHEEM.Class != EAHJHMGGHGM.Galvanic)
+            {
+                return 0f;
+            }
+            return (float)base.PPAFMKOLBBL * 0.5f * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="evasionchance_1">EvasionChance</h3>
+<p>Source line: <code>763</code>, obfuscated property: <code>CICMMLJMJKP</code>.</p>
+<pre><code class="language-csharp">protected override float CICMMLJMJKP
+    {
+        get
+        {
+            if (this.DNONFFBHEEM.Class != EAHJHMGGHGM.Hydric)
+            {
+                return 0f;
+            }
+            return (1f + (float)base.PPAFMKOLBBL * 1f) * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="batterydrainpower">BatteryDrainPower</h3>
+<p>Source line: <code>51</code>, obfuscated property: <code>AKHIEAMMMAD</code>.</p>
+<pre><code class="language-csharp">protected override float AKHIEAMMMAD
+    {
+        get
+        {
+            if (this.DNONFFBHEEM.Class != EAHJHMGGHGM.Chromic)
+            {
+                return 0f;
+            }
+            return (float)base.PPAFMKOLBBL * 1.5f * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="grapplepower">GrapplePower</h3>
+<p>Source line: <code>422</code>, obfuscated property: <code>AAALLHAEEIB</code>.</p>
+<pre><code class="language-csharp">protected override float AAALLHAEEIB
+    {
+        get
+        {
+            if (this.DNONFFBHEEM.Class != EAHJHMGGHGM.Hydric)
+            {
+                return 0f;
+            }
+            return (float)base.PPAFMKOLBBL * 1.5f * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="hitchance">HitChance</h3>
+<p>Source line: <code>580</code>, obfuscated property: <code>AMFJDLDNMHO</code>.</p>
+<pre><code class="language-csharp">protected override float AMFJDLDNMHO
+    {
+        get
+        {
+            if (this.DNONFFBHEEM.Class != EAHJHMGGHGM.Silic)
+            {
+                return 0f;
+            }
+            return (float)base.PPAFMKOLBBL * 1.5f * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="hackresist_1">HackResist</h3>
+<p>Source line: <code>295</code>, obfuscated property: <code>IJICKEGDCCE</code>.</p>
+<pre><code class="language-csharp">protected override float IJICKEGDCCE
+    {
+        get
+        {
+            switch (this.DNONFFBHEEM.Class)
+            {
+            case EAHJHMGGHGM.Alkaic:
+            case EAHJHMGGHGM.Galvanic:
+            case EAHJHMGGHGM.Voltaic:
+            case EAHJHMGGHGM.Silic:
+            case EAHJHMGGHGM.Polyanic:
+                return (1f + (float)base.PPAFMKOLBBL) * base.EDPOPGPNMCD;
+            default:
+                return 0f;
+            case EAHJHMGGHGM.Lithic:
+                if (base.PPAFMKOLBBL &lt; AHKIAECFDDB.R3)
+                {
+                    return 0f;
+                }
+                return (1f + (float)base.PPAFMKOLBBL - 1f) * base.EDPOPGPNMCD;
+            }
+        }
+    }
+</code></pre>
+<h3 id="grappleresist_2">GrappleResist</h3>
+<p>Source line: <code>865</code>, obfuscated property: <code>AFNCJMNENCA</code>.</p>
+<pre><code class="language-csharp">protected override float AFNCJMNENCA
+    {
+        get
+        {
+            EAHJHMGGHGM @class = this.DNONFFBHEEM.Class;
+            if (@class != EAHJHMGGHGM.Mercuric &amp;&amp; @class != EAHJHMGGHGM.Zambic &amp;&amp; @class != EAHJHMGGHGM.Radionic)
+            {
+                return 0f;
+            }
+            return (1f + (float)base.PPAFMKOLBBL) * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="criticalresist_2">CriticalResist</h3>
+<p>Source line: <code>717</code>, obfuscated property: <code>CDLEBDHOLGB</code>.</p>
+<pre><code class="language-csharp">protected override float CDLEBDHOLGB
+    {
+        get
+        {
+            switch (this.DNONFFBHEEM.Class)
+            {
+            case EAHJHMGGHGM.Lithic:
+                if (base.PPAFMKOLBBL &lt; AHKIAECFDDB.R3)
+                {
+                    return 0f;
+                }
+                return (1f + (float)base.PPAFMKOLBBL - 1f) * base.EDPOPGPNMCD;
+            case EAHJHMGGHGM.Zambic:
+            case EAHJHMGGHGM.Moltic:
+            case EAHJHMGGHGM.Polyanic:
+            case EAHJHMGGHGM.Radionic:
+                return (1f + (float)base.PPAFMKOLBBL) * base.EDPOPGPNMCD;
+            default:
+                return 0f;
+            }
+        }
+    }
+</code></pre>
+<h3 id="splashresist_1">SplashResist</h3>
+<p>Source line: <code>470</code>, obfuscated property: <code>BFILEEDOAPJ</code>.</p>
+<pre><code class="language-csharp">protected override float BFILEEDOAPJ
+    {
+        get
+        {
+            EAHJHMGGHGM @class = this.DNONFFBHEEM.Class;
+            if (@class - EAHJHMGGHGM.Alkaic &gt; 1 &amp;&amp; @class - EAHJHMGGHGM.Mercuric &gt; 1)
+            {
+                return 0f;
+            }
+            return (1f + (float)base.PPAFMKOLBBL) * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="batterydrainresist_1">BatteryDrainResist</h3>
+<p>Source line: <code>513</code>, obfuscated property: <code>LDOFEGMICPK</code>.</p>
+<pre><code class="language-csharp">protected override float LDOFEGMICPK
+    {
+        get
+        {
+            EAHJHMGGHGM @class = this.DNONFFBHEEM.Class;
+            if (@class - EAHJHMGGHGM.Moltic &gt; 1)
+            {
+                return 0f;
+            }
+            return (1f + (float)base.PPAFMKOLBBL * 1.5f) * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="powerrecharge">PowerRecharge</h3>
+<p>Source line: <code>118</code>, obfuscated property: <code>ENGLBKJJOGE</code>.</p>
+<pre><code class="language-csharp">protected override float ENGLBKJJOGE
+    {
+        get
+        {
+            switch (base.PPAFMKOLBBL)
+            {
+            case AHKIAECFDDB.R2:
+                return 0.69f * base.EDPOPGPNMCD;
+            case AHKIAECFDDB.R3:
+                return 0.78000003f * base.EDPOPGPNMCD;
+            case AHKIAECFDDB.R4:
+                return 0.87000006f * base.EDPOPGPNMCD;
+            case AHKIAECFDDB.R5:
+                return 0.96000004f * base.EDPOPGPNMCD;
+            case AHKIAECFDDB.R6:
+                return 1.0500001f * base.EDPOPGPNMCD;
+            case AHKIAECFDDB.R7:
+                return 1.14f * base.EDPOPGPNMCD;
+            default:
+                return 0.6f * base.EDPOPGPNMCD;
+            }
+        }
+    }
+</code></pre>
+<h3 id="powercapacity_1">PowerCapacity</h3>
+<p>Source line: <code>400</code>, obfuscated property: <code>JEFDOBNBCJO</code>.</p>
+<pre><code class="language-csharp">protected override float JEFDOBNBCJO
+    {
+        get
+        {
+            return (3f + (float)base.PPAFMKOLBBL * 3f) * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="shieldcapacity_1">ShieldCapacity</h3>
+<p>Source line: <code>550</code>, obfuscated property: <code>KHAGACJJONM</code>.</p>
+<pre><code class="language-csharp">protected override float KHAGACJJONM
+    {
+        get
+        {
+            EAHJHMGGHGM @class = this.DNONFFBHEEM.Class;
+            if (@class == EAHJHMGGHGM.Mercuric || @class == EAHJHMGGHGM.Lithic)
+            {
+                return (float)base.PPAFMKOLBBL * 50f * base.EDPOPGPNMCD * 1.15f;
+            }
+            if (@class != EAHJHMGGHGM.Radionic)
+            {
+                return 0f;
+            }
+            return (float)base.PPAFMKOLBBL * 25f * base.EDPOPGPNMCD * 1.15f;
+        }
+    }
+</code></pre>
+<h3 id="shieldpenetration">ShieldPenetration</h3>
+<p>Source line: <code>91</code>, obfuscated property: <code>BIDNACKAGFL</code>.</p>
+<pre><code class="language-csharp">protected override float BIDNACKAGFL
+    {
+        get
+        {
+            EAHJHMGGHGM @class = this.DNONFFBHEEM.Class;
+            if (@class - EAHJHMGGHGM.Chromic &gt; 1)
+            {
+                return 0f;
+            }
+            return (0.01f + (float)base.PPAFMKOLBBL * 0.01f) * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+<h3 id="targetingspeedpercent">TargetingSpeedPercent</h3>
+<p>Source line: <code>604</code>, obfuscated property: <code>KHLBGHAAHOE</code>.</p>
+<pre><code class="language-csharp">protected override float KHLBGHAAHOE
+    {
+        get
+        {
+            if (this.DNONFFBHEEM.Class != EAHJHMGGHGM.Moltic)
+            {
+                return 0f;
+            }
+            return -0.025f * (float)base.PPAFMKOLBBL * base.EDPOPGPNMCD;
+        }
+    }
+</code></pre>
+
+
+
+
+
+
+
+
+
+
+
+
+                
+              </article>
+            </div>
+          
+          
+<script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
+        </div>
+        
+      </main>
+      
+        <footer class="md-footer">
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+  
+    Made with
+    <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+      Material for MkDocs
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    <div class="md-dialog" data-md-component="dialog">
+      <div class="md-dialog__inner md-typeset"></div>
+    </div>
+    
+    
+    
+      
+      
+      <script id="__config" type="application/json">{"annotate": null, "base": "../..", "features": ["navigation.instant", "navigation.tracking", "navigation.indexes"], "search": "../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+    
+    
+      <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
+      
+    
+  </body>
+</html>
