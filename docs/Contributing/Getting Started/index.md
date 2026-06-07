@@ -171,10 +171,10 @@ This ensures:
 Example:
 
     World/Factions/
-    ├─ index.md
-    ├─ The Syndicate.md
-    ├─ Free Traders.md
-    └─ .pages
+    |- index.md
+    |- The Syndicate.md
+    |- Free Traders.md
+    `- .pages
 
 Use wikilinks between related pages where appropriate.
 

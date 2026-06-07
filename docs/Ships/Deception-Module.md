@@ -1,6 +1,6 @@
 # Deception Module
 
-The **Deception Module** is a ship upgrade that **hides** information from other players — such as equipped gear, [**Equip Points**](Equip-Points.md) used, and various [**stats**](../Items/Stats.md). It does **not** replace or conflict with [**Ship Mods**](Ship-Mods.md) and works on **any ship**. You can toggle deception on or off from the **Ship Inspect** panel.
+The **Deception Module** is a ship upgrade that **hides** information from other players -- such as equipped gear, [**Equip Points**](Equip-Points.md) used, and various [**stats**](../Items/Stats.md). It does **not** replace or conflict with [**Ship Mods**](Ship-Mods.md) and works on **any ship**. You can toggle deception on or off from the **Ship Inspect** panel.
 
 Deception effects **grow stronger with [Elite Rank](Elite-Ranks.md)**: higher rank hides more slots and item types.
 
@@ -8,15 +8,15 @@ Deception effects **grow stronger with [Elite Rank](Elite-Ranks.md)**: higher ra
 
 ## Where to Get Deception Modules
 
-- [**The Arena**](../Gameplay/Activities/Player vs Player (PVP)/Arena.md)
+- [**The Arena**](<../Gameplay/Activities/Player vs Player (PVP)/Arena.md>)
 - [**Holiday Events**](../Gameplay/Events/Holiday-Events.md)
-- [**Reward Point Gifts**](../Gameplay/Events/Reward-Point-Gifts.md) — 1,000 Reward Points
+- [**Reward Point Gifts**](../Gameplay/Events/Reward-Point-Gifts.md) -- 1,000 Reward Points
 
 ---
 
 ## What Is Hidden (by Elite Rank)
 
-More is hidden as the ship’s Elite Rank increases. The following lists show what is **hidden at or above** each rank.
+More is hidden as the ship's Elite Rank increases. The following lists show what is **hidden at or above** each rank.
 
 ### Hidden at Elite Rank 0
 
@@ -63,14 +63,14 @@ So at **Elite Rank 5** with Deception on, other players cannot see your gear sco
 | **Effect** | Hides gear, EP used, stats, resists from other players |
 | **Compatibility** | Works with all Ship Mods; any ship |
 | **Toggle** | Ship Inspect panel |
-| **Scaling** | More hidden at higher Elite Rank (0–5) |
+| **Scaling** | More hidden at higher Elite Rank (0-5) |
 | **Sources** | Arena, Holiday Events, Reward Point Gifts (1,000 RP) |
 
 ---
 
 ## See Also
 
-* [Ship Mods](Ship-Mods.md) — Separate from Deception; both can be used
-* [Elite Ranks](Elite-Ranks.md) — Determines how much is hidden
-* [Reward Point Gifts](../Gameplay/Events/Reward-Point-Gifts.md) — 1,000 RP for Deception Module
-* [The Arena](../Gameplay/Activities/Player vs Player (PVP)/Arena.md) — Source for Deception Module
+* [Ship Mods](Ship-Mods.md) -- Separate from Deception; both can be used
+* [Elite Ranks](Elite-Ranks.md) -- Determines how much is hidden
+* [Reward Point Gifts](../Gameplay/Events/Reward-Point-Gifts.md) -- 1,000 RP for Deception Module
+* [The Arena](<../Gameplay/Activities/Player vs Player (PVP)/Arena.md>) -- Source for Deception Module

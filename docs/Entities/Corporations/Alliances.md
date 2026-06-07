@@ -4,13 +4,26 @@ Several [**corporations**](index.md) can join together as a **single team**, for
 
 ## What Alliances Share
 
-* **Chat room** — One alliance-wide chat.
-* [**Missions**](../../Gameplay/Missions.md) — Shared alliance missions (progress and rewards).
-* [**Corporate Defenders**](Corporate-Defenders.md) — The alliance shares one pool of defender ships; any eligible ship in the alliance can be called to any defense unit under attack.
+* **Chat room** -- One alliance-wide chat.
+* [**Missions**](../../Gameplay/Missions.md) -- Shared alliance missions (progress and rewards).
+* [**Corporate Defenders**](Corporate-Defenders.md) -- The alliance shares one pool of defender ships; any eligible ship in the alliance can be called to any defense unit under attack.
+
+## Alliance War
+
+Alliances fight over PvP maps, [defense units](../Structures/index.md), [Relic Shrines](../Currencies/Relics.md), and [Artifacts](../Structures/Artifacts.md). Most stable territory mechanics are documented on their dedicated pages:
+
+| Mechanic | Canonical page |
+|----------|----------------|
+| Structure deployment, shields, Quick Jump, recall | [Structures](../Structures/index.md) and [Deployment](../Structures/Deployment.md) |
+| Relic Shrine capture and Alliance Points | [Relics](../Currencies/Relics.md) |
+| Structure attack/defense rules | [Structure Warfare Rules](<../../Gameplay/Activities/Player vs Player (PVP)/Structure Busts.md>) |
+| Structure attack/defense strategy | [Structure Busting Strategy](../../Strategy/Structure-Busting.md) |
+| Fleet movement, drivers, sort calls | [Fleet PvP Rules](<../../Gameplay/Activities/Player vs Player (PVP)/Fleet-PvP.md>) |
+| Fleet tactics | [Fleet PvP Strategy](../../Strategy/Fleet-PvP.md) |
 
 ## PvP and Friends
 
-All players in an alliance are **friendly** in [**PvP systems**](../../Gameplay/Activities/Player vs Player (PVP)/index.md) — you don't attack each other in open-world PvP. This does **not** apply in [**The Arena**](../../Gameplay/Activities/Player vs Player (PVP)/Arena.md), where matchmaking is separate.
+All players in an alliance are **friendly** in [**PvP systems**](<../../Gameplay/Activities/Player vs Player (PVP)/index.md>) -- you don't attack each other in open-world PvP. This does **not** apply in [**The Arena**](<../../Gameplay/Activities/Player vs Player (PVP)/Arena.md>), where matchmaking is separate.
 
 ## Alliance Citizens
 
@@ -30,7 +43,7 @@ Corporations **cannot invite** new players once the alliance citizen count is **
 
 ### Primary Alliance Citizen
 
-Each player has a single **Primary Alliance Citizen** character — their **highest-level character**. This is used for mechanics that depend on “one main per alliance,” e.g. capturing **Security Rating 8** maps (citizen requirements).
+Each player has a single **Primary Alliance Citizen** character -- their **highest-level character**. This is used for mechanics that depend on "one main per alliance," e.g. capturing **Security Rating 8** maps (citizen requirements).
 
 ## Management
 
@@ -47,5 +60,7 @@ Each player has a single **Primary Alliance Citizen** character — their **high
 
 * [Corporations](index.md)
 * [Corporate Defenders](Corporate-Defenders.md)
-* [Structures](../Structures/index.md) — Deploying in PvP maps
-* [Relics](../Currencies/index.md) — What alliances fight for at shrines
+* [Structures](../Structures/index.md) -- Deploying in PvP maps
+* [Structure Warfare Rules](<../../Gameplay/Activities/Player vs Player (PVP)/Structure Busts.md>) -- Structure attack and defense rules
+* [Structure Busting Strategy](../../Strategy/Structure-Busting.md) -- Community structure warfare guidance
+* [Relics](../Currencies/index.md) -- What alliances fight for at shrines

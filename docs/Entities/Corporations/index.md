@@ -2,8 +2,8 @@
 
 Corporations are the **social backbone** of The Infinite Black 2. Most game features involve working as a team: unlocking [**technology**](../../Gameplay/Technology.md), capturing **artifacts**, harvesting [**relics**](../Currencies/index.md), and fighting in the [**Alliance War**](Alliances.md).
 
-!!! tip "Join early"
-    There is **no downside** to joining a corporation and many benefits. New players should find a friendly, active corp as soon as possible. Corps can provide hunting groups, access to better [**ships**](../../Ships/index.md), protection from [**PvP**](../../Gameplay/Activities/Player vs Player (PVP)/index.md), and more.
+!!! tip "New players"
+    Corporations provide technology, skills, ship construction access, shared missions, and group protection. New-player routing belongs in [How To Play](../../Getting-Started/How-To-Play.md).
 
 ---
 
@@ -26,11 +26,11 @@ These [**defense units**](../Structures/index.md) are leveled up using **resourc
 
 ### Unlocking more structures
 
-Corporation members can invest [**Tech Points**](../Currencies/Tech Points.md) to unlock **additional** defense units from the **Corporation Management** panel. See the [Structures overview](../Structures/index.md) for limits (e.g. up to 4 Garrisons, 8 Outposts, 3 Shipyards).
+Corporation members can invest [**Tech Points**](../Currencies/Tech Points.md) to unlock **additional** defense units from the **Corporation Management** panel. See the [Structures overview](../Structures/index.md) for limits and [Structure Reference](../Structures/Structure-Reference.md) for cap-cost tables.
 
 ### Corporate Defenders
 
-Ships owned by corp members can be summoned as [**Corporate Defenders**](Corporate-Defenders.md) to protect defense units under attack. They deploy automatically and fight under the game's AI — and recall if the owner logs in.
+Ships owned by corp members can be summoned as [**Corporate Defenders**](Corporate-Defenders.md) to protect defense units under attack. They deploy automatically and fight under the game's AI -- and recall if the owner logs in.
 
 ---
 
@@ -40,14 +40,14 @@ Ships owned by corp members can be summoned as [**Corporate Defenders**](Corpora
 |-------|-------------|
 | [**Alliances**](Alliances.md) | Multiple corps in one team; shared chat, missions, and defenders. |
 | [**Corporate Defenders**](Corporate-Defenders.md) | Your ships defending corp structures while you're offline. |
-| [**Structures**](../Structures/index.md) | Planets, Garrisons, Outposts, Shipyards — limits and deployment. |
+| [**Structures**](../Structures/index.md) | Planets, Garrisons, Outposts, Shipyards -- limits and deployment. |
 | [**Shipyards & ship building**](../Structures/Shipyards.md) | Building ships for corp members; faction choice and blueprints. |
 
 ---
 
 ## See Also
 
-* [How To Play](../../Getting-Started/How-To-Play.md) — Why joining a corp is one of your first goals
-* [Ships](../../Ships/index.md) — What you build at corp Shipyards
-* [Currencies](../Currencies/index.md) — Tech Points, Skulls, Credits
-* [Maps](../../World/Maps/index.md) — Where corps deploy and fight for territory
+* [How To Play](../../Getting-Started/How-To-Play.md) -- Why joining a corp is one of your first goals
+* [Ships](../../Ships/index.md) -- What you build at corp Shipyards
+* [Currencies](../Currencies/index.md) -- Tech Points, Skulls, Credits
+* [Maps](../../World/Maps/index.md) -- Where corps deploy and fight for territory

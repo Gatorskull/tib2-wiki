@@ -1,26 +1,32 @@
 # Drain Ability
 
-With **10+ Drain Chance** a [ship](../../Ships/index.md) can use the **Drain** hotbar action. **No battery cost** to activate. Drain **steals** some of the target's **shields and battery**, making weapons and other abilities harder or impossible to use.
+With **10+ Drain Chance**, a [ship](../../Ships/index.md) can use the **Drain** hotbar action. Drain requires a target in the same sector, is a hostile action, has a default **50 s** cooldown, and has no battery cost to activate. Drain **steals** some of the target's **shields and battery**, making weapons and other abilities harder or impossible to use.
 
-## How It Works (No Dice Roll)
+## How It Works
 
-* **Drain Chance** — Increases **amount** taken.
-* **Drain Resist** — Reduces amount. 1 point Drain Resist ≈ 2 points Drain Chance (1% for NPCs). ~20 Resist for a chance to fully resist vs +10 Drain Chance. Below 3 Battery damage: **50% resist**. Below 1: **always resisted**.
-* **Evasion** (players): 5 Evasion = 1 Drain Resist.
-* **Hit Chance** (players): 5 Hit Chance = 1 Drain Chance.
+* **Drain Chance** increases the amount stolen.
+* **Drain Resist** reduces the amount stolen.
+* For player ships, **Hit Chance** can contribute to Drain power and **Evasion** can contribute to Drain resistance.
+* If the final effect is too weak, the Drain can be resisted.
 
-## Base Amount
+Exact amount and resist formulas are **Needs data** until the live behavior is confirmed.
 
-5 Battery + 2 (Advanced Draining) + 4 (Advanced Draining II). Each **Drain Chance** +1% amount; each **Drain Resist** −2% (or −1% NPCs).
+## Technology Effects
 
-## Reverse Drain
-
-**Reverse Drain** — 50% chance to reflect the Drain at the attacker using the target's Drain Chance (even if &lt;10).
+| Technology | Effect |
+|------------|--------|
+| **Advanced Draining** | Adds +20 shield and +2 battery stolen by Drain. |
+| **Advanced Draining II** | Adds +40 shield and +4 battery stolen by Drain. |
+| **Advanced Draining III** | Adds +60 shield and +6 battery stolen by Drain and allows Drain to critical. |
+| **Drain Speed** | Reduces Drain cooldown by 4 s. |
+| **Drain Speed II** | Reduces Drain cooldown by 6 s. |
+| **Drain Speed III** | Reduces Drain cooldown by 8 s. |
+| **Reverse Drain** | Gives a high chance to deflect Drain back at attackers. |
 
 ---
 
 ## See Also
 
 * [Grapple](Grapple.md) | [Hacking](Hacking.md) | [Technician](Technician.md) | [Taunt](Taunt.md) | [Deflector](Deflector.md) | [Junker](Junker.md)
-* [Stats](../../Items/Stats.md) — Drain Chance / Resist
+* [Stats](../../Items/Stats.md) -- Drain Chance / Resist
 * [Abilities](index.md)

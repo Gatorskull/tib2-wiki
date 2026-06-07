@@ -4,9 +4,9 @@
 
 ## Benefits
 
-* **No penalty for dying** — Corp Defenders killed during an attack do **not** lose durability or suffer other penalties.
-* **Shared pool** — [**Alliances**](Alliances.md) share one pool of Corp Defenders. Any eligible ship in the alliance can be called to fight at **any** defense unit in the alliance.
-* **Auto deployment** — The strongest available defenders deploy first, with a mix of small and large units.
+* **No penalty for dying** -- Corp Defenders killed during an attack do **not** lose durability or suffer other penalties.
+* **Shared pool** -- [**Alliances**](Alliances.md) share one pool of Corp Defenders. Any eligible ship in the alliance can be called to fight at **any** defense unit in the alliance.
+* **Auto deployment** -- The strongest available defenders deploy first, with a mix of small and large units.
 
 ## Eligibility
 
@@ -27,5 +27,5 @@ A ship can be used as a Corporate Defender only if it meets **all** of:
 
 * [Corporations](index.md)
 * [Alliances](Alliances.md)
-* [Structures](../Structures/index.md) — What defenders protect
+* [Structures](../Structures/index.md) -- What defenders protect
 * [Ships](../../Ships/index.md)

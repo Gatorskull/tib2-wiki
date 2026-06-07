@@ -9,5 +9,5 @@ nav:
   - Using Markdown.md
   - Markdown Links.md
 
-  # Catch-all: include any other files/folders not listed above
-  - ...
+  # Catch-all disabled so draft/example files only appear when explicitly listed.
+  # - ...

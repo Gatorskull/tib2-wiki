@@ -1,6 +1,6 @@
 # Stat Bonus Diminishing Returns
 
-**Diminishing returns** in *The Infinite Black 2* means that the more you stack a single [**stat**](Stats.md), the **less** each extra point helps. This keeps balance (e.g. no infinite evasion) and lets newer players compete with less maxed gear. The concept applies to many stats: once you have more than a certain amount, additional gear that adds the same stat is slightly less effective. Your ship’s **displayed stats** already reflect the diminished value.
+**Diminishing returns** in *The Infinite Black 2* means that the more you stack a single [**stat**](Stats.md), the **less** each extra point helps. This keeps balance (e.g. no infinite evasion) and lets newer players compete with less maxed gear. The concept applies to many stats: once you have more than a certain amount, additional gear that adds the same stat is slightly less effective. Your ship's **displayed stats** already reflect the diminished value.
 
 Example: **Outgoing Damage**. Once you have more than +5% Outgoing Damage, any extra Outgoing Damage from gear is slightly less effective. So if all your items give +6% Outgoing Damage, your ship might show about +5.8% instead of 6%.
 
@@ -60,22 +60,28 @@ For **chance-type** stats (e.g. critical chance, splash chance), the **total** f
 | 85 | 50.90 |
 | 90 | 52.50 |
 
-So stacking 90 total chance gives an actual 52.50. As with resists, going past 20–25 shows clear diminishing returns.
+So stacking 90 total chance gives an actual 52.50. As with resists, going past 20-25 shows clear diminishing returns.
 
 ---
 
 ## Why It Matters
 
-- **Build diversity** — Maximizing one stat has a ceiling; mixing stats and item types is encouraged.
-- **Catch-up** — Newer players can close the gap with less perfect gear because heavy stacking is less efficient.
-- **Display** — The ship inspect panel shows the **actual** (diminished) values, not the raw sum from items.
+- **Build diversity** -- Maximizing one stat has a ceiling; mixing stats and item types is encouraged.
+- **Catch-up** -- Newer players can close the gap with less perfect gear because heavy stacking is less efficient.
+- **Display** -- The ship inspect panel shows the **actual** (diminished) values, not the raw sum from items.
+
+---
+
+## Needs data
+
+The wiki currently has tables for resist-type and chance-type stat scaling. It does not yet include a complete formula or table for every stat category. Add additional formulas only after they are verified.
 
 ---
 
 ## See Also
 
-* [Stats](Stats.md) — Full list of stats and what they do
-* [Items](index.md) — Item types and Gear Score
-* [Mutate Item Kit](Mutate-Item-Kit.md) — Stat bonuses that also stack and are subject to DR
-* [Void Items](Void-Items.md) — Extra stats that stack and are subject to DR
-* [FAQ](../Getting-Started/FAQ.md) — “Why do my ship stats seem lower than they should be?”
+* [Stats](Stats.md) -- Full list of stats and what they do
+* [Items](index.md) -- Item types and Gear Score
+* [Mutate Item Kit](Mutate-Item-Kit.md) -- Stat bonuses that also stack and are subject to DR
+* [Void Items](Void-Items.md) -- Extra stats that stack and are subject to DR
+* [FAQ](../Getting-Started/FAQ.md) -- "Why do my ship stats seem lower than they should be?"

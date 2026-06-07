@@ -18,12 +18,12 @@
 | [**Relics**](Relics.md) | Yes | Rare ship-crafting component. From Alliance Wars (shrines), Arena, level rewards, loot. |
 
 !!! info "Market note"
-    The exchange rate between Credits and Skulls fluctuates with player activity (often around **700–800 Credits per Skull**). See the [Auction House](Credits.md#uses) and in-game market for current rates.
+    Exchange rates between tradable currencies fluctuate with player activity. Check current market listings, trade chat, and your corporation instead of treating old wiki or Discord values as current prices.
 
 ---
 
 ## See Also
 
-* [Corporations](../Corporations/index.md) — Tech Points for structures; Skulls and Relics for ship building
-* [Ships](../../Ships/index.md) — What you spend Skulls and Relics on
-* [Getting Started](../../Getting-Started/FAQ.md) — How to get Skulls, Tech Points, and Credits
+* [Corporations](../Corporations/index.md) -- Tech Points for structures; Skulls and Relics for ship building
+* [Ships](../../Ships/index.md) -- What you spend Skulls and Relics on
+* [Getting Started](../../Getting-Started/FAQ.md) -- How to get Skulls, Tech Points, and Credits

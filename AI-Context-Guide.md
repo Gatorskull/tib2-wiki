@@ -1,4 +1,4 @@
-# TIB2 Wiki — AI Context Guide
+# TIB2 Wiki -- AI Context Guide
 
 **Use this document to give an AI (or new contributor) full context in one place.** Copy it, paste it, or reference it with `@AI-Context-Guide.md` in Cursor so the AI understands the project, structure, and how to work with the wiki.
 
@@ -22,7 +22,7 @@
 | **Version control** | Git (GitHub Desktop recommended) |
 | **Deploy** | GitHub Actions (auto-build on push to `main`) |
 
-- **Never push directly to `main`.** All changes go through a **branch → pull request → review → merge**.
+- **Never push directly to `main`.** All changes go through a **branch -> pull request -> review -> merge**.
 - Commit tags: `[Content]`, `[Fix]`, `[Assets]`, `[Config]`.
 - Full workflow: see **Contributor Workflow.md** in the repo root.
 
@@ -32,29 +32,29 @@
 
 ```
 tib2-wiki/
-├── docs/                    ← ALL wiki content (Markdown)
-│   ├── index.md            ← Homepage
-│   ├── .pages              ← Top-level nav order
-│   ├── Entities/           ← Structures, Currencies, Corporations
-│   ├── Gameplay/           ← Activities (PVP, PVE, Arena, Invasions)
-│   ├── World/              ← Maps, Security Rating, navigation
-│   └── Contributing/       ← How to contribute, style, examples
-├── Gathered Training Data/ ← SOURCE: in-game wiki export & Discord data
-│   ├── In Game WIKI.md     ← Primary source (v1.5.0 export, [[[Topic]]] format)
-│   └── Raw Training Data*.md
-├── mkdocs.yml              ← Site config (admins only)
-├── AI-Context-Guide.md     ← This file
-├── AI prompt.md            ← Short project blurb for pasting
-└── Contributor Workflow.md
+|-- docs/                    <- ALL wiki content (Markdown)
+|   |-- index.md            <- Homepage
+|   |-- .pages              <- Top-level nav order
+|   |-- Entities/           <- Structures, Currencies, Corporations
+|   |-- Gameplay/           <- Activities (PVP, PVE, Arena, Invasions)
+|   |-- World/              <- Maps, Security Rating, navigation
+|   `-- Contributing/       <- How to contribute, style, examples
+|-- Gathered Training Data/ <- SOURCE: in-game wiki export & Discord data
+|   |-- In Game WIKI.md     <- Primary source (v1.5.0 export, [[[Topic]]] format)
+|   `-- Raw Training Data*.md
+|-- mkdocs.yml              <- Site config (admins only)
+|-- AI-Context-Guide.md     <- This file
+|-- AI prompt.md            <- Short project blurb for pasting
+`-- Contributor Workflow.md
 ```
 
 ---
 
-## 4. Docs Structure (What Exists vs What’s Linked)
+## 4. Docs Structure (What Exists vs What's Linked)
 
 - **Every navigable section** has an **`index.md`** as the landing page.
 - **Navigation** is filesystem + **`.pages`** files (awesome-pages plugin). Order and visibility are set in `.pages`; not every file must appear in the sidebar.
-- **Broken or missing targets:** The homepage links to **Ships** and **Weapons** — these sections do **not** exist yet; they are placeholders. Create `docs/Ships/` and `docs/Weapons/` when filling content.
+- **Broken or missing targets:** The homepage links to **Ships** and **Weapons** -- these sections do **not** exist yet; they are placeholders. Create `docs/Ships/` and `docs/Weapons/` when filling content.
 
 **Current `docs/` outline:**
 
@@ -81,7 +81,7 @@ tib2-wiki/
 
 The file **`Gathered Training Data/In Game WIKI.md`** is the main **source of truth** for game mechanics and topics. It is an export of the in-game wiki (v1.5.0) with:
 
-- **Topic blocks:** `[[[TopicName]]]` … content … next topic.
+- **Topic blocks:** `[[[TopicName]]]` ... content ... next topic.
 - **In-game links:** `<u><link="Target">Label</link></u>`. When creating wiki pages, convert these to Markdown links to the corresponding wiki doc (e.g. `[Label](Target.md)` or the correct path under `docs/`).
 - **Coverage:** How To Play, FAQ, Corporations, Ships, Stats, Technology, Skills, Items, Crafting, PvP, Defense Structures, Factions, Artifacts, Relics, Alliances, Missions, Currencies, Events, Ship Mods, Abilities (Grapple, Hack, Drain, Technician, Taunt, Deflector, Junker), and more.
 

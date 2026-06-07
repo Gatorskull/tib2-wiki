@@ -12,11 +12,11 @@ Ships and [**defense units**](../Entities/Structures/index.md) can be upgraded w
 | 4 | 2,000 |
 | 5 | 3,000 |
 
-**Defense unit** Elite Rank costs are **5×** the ship costs.
+**Defense unit** Elite Rank costs are **5x** the ship costs.
 
 ## Striker Gunboat Progression
 
-The starting **Striker Gunboat** can become one of your strongest ships. Each Elite Rank adds **+3 Equip Points**, technology, and extra slots:
+The starting **Striker Gunboat** uses special Elite Rank progression. Each Elite Rank adds **+3 Equip Points**, technology, and extra slots:
 
 | Rank | Adds |
 |:----:|------|
@@ -30,6 +30,7 @@ The starting **Striker Gunboat** can become one of your strongest ships. Each El
 
 ## See Also
 
-* [Skulls](../Entities/Currencies/Skulls.md) — How to earn them
+* [Skulls](../Entities/Currencies/Skulls.md) -- How to earn them
 * [Ships](index.md)
-* [Structures](../Entities/Structures/index.md) — Defense unit costs
+* [Equip Points](Equip-Points.md) -- Full Equip Point formula
+* [Structures](../Entities/Structures/index.md) -- Defense unit costs

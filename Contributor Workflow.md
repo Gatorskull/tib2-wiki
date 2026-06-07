@@ -1,6 +1,6 @@
 Welcome to the team! We use a **Docs-as-Code** workflow with **branches and pull requests** to keep the wiki stable, reviewable, and easy to collaborate on.
 
-**⚠️ Never push directly to `main`.** All changes must go through a branch and a pull request.
+**[Warning] Never push directly to `main`.** All changes must go through a branch and a pull request.
 
 > **Important clarification**
 > 
@@ -11,18 +11,18 @@ Welcome to the team! We use a **Docs-as-Code** workflow with **branches and pull
 
 ---
 
-## 🛠️ Required Tools
+## Tools Required Tools
 
-1. **Obsidian** (Editor) – [https://obsidian.md/](https://obsidian.md/)
+1. **Obsidian** (Editor) - [https://obsidian.md/](https://obsidian.md/)
     
-2. **GitHub Desktop** (Local Git) – [https://desktop.github.com/](https://desktop.github.com/)
+2. **GitHub Desktop** (Local Git) - [https://desktop.github.com/](https://desktop.github.com/)
     
 3. **GitHub Website** (Pull Requests & Merging)
     
 
 ---
 
-## 🚀 The Workflow Loop
+## Workflow The Workflow Loop
 
 Follow these steps in order for a smooth contribution.
 
@@ -34,9 +34,9 @@ Before you begin (or before creating your branch):
 
 1. Open **GitHub Desktop**
     
-2. Switch to the **`main`** branch (②)
+2. Switch to the **`main`** branch ((2))
     
-3. Click **Fetch origin** (①)
+3. Click **Fetch origin** ((1))
     
 4. If updates are available, click **Pull origin** (this replaces the **Fetch origin** button)
     
@@ -47,14 +47,14 @@ Before you begin (or before creating your branch):
 
 _GitHub Desktop showing the **Fetch Origin** and **Current Branch** buttons._
 
-> ℹ️ **Look here**  
+> [Info] **Look here**  
 > After clicking **Pull origin**, your computer now has the most recent published changes downloaded locally.
 
 ---
 
 ### 2. Create a Branch (Anytime Before You Push)
 
-All work must live in a branch — **not** `main`.
+All work must live in a branch -- **not** `main`.
 
 You can create your branch:
 
@@ -65,7 +65,7 @@ You can create your branch:
 
 #### How to create the branch
 
-1. In **GitHub Desktop**, click **Current Branch → New Branch**
+1. In **GitHub Desktop**, click **Current Branch -> New Branch**
     
 2. Name your branch using this format:
     
@@ -86,7 +86,7 @@ You can create your branch:
 3. Create the branch **from `main`** and switch to it
     
 
-> ✅ Once created, **all commits stay on this branch** until the pull request is merged.
+> [Done] Once created, **all commits stay on this branch** until the pull request is merged.
 
 ![GitHub Desktop New Branch button](assets/workflow_2.png)
 
@@ -105,7 +105,7 @@ _GitHub Desktop **New Branch** button._
 
 - **All pages:** `docs/`
     
-- **Images:** Drag & drop → saved automatically to `docs/assets/`
+- **Images:** Drag & drop -> saved automatically to `docs/assets/`
     
 - **Links:** Use WikiLinks
     
@@ -130,10 +130,10 @@ Each commit should represent a meaningful step (draft, section added, fixes, etc
     
 3. Write a commit message (see format below)
     
-4. Click **Commit to _your branch_** (⚠️ not `main`)
+4. Click **Commit to _your branch_** ([Warning] not `main`)
     
 
-> ✅ Multiple commits on the **same branch** are normal and encouraged.
+> [Done] Multiple commits on the **same branch** are normal and encouraged.
 
 ![GitHub Desktop commit interface](assets/workflow_4.png)
 
@@ -143,7 +143,7 @@ _Commit your changes locally. You may commit multiple times before publishing._
 
 ### 5. Push the Branch
 
-When you’re ready to share your work:
+When you're ready to share your work:
 
 1. Click **Publish Branch** in GitHub Desktop
     
@@ -162,7 +162,7 @@ You may push multiple times as you continue working.
     
 2. Click **Compare & open pull request**
     
-    _Or: **Pull Requests → New Pull Request**_
+    _Or: **Pull Requests -> New Pull Request**_
     
 3. Verify:
     
@@ -197,12 +197,12 @@ _Add a descriptive title and create the pull request when ready._
 
 After opening the PR:
 
-#### ✅ No conflicts
+#### [Done] No conflicts
 
 - Proceed once approved
     
 
-#### ⚠️ Conflicts detected
+#### [Warning] Conflicts detected
 
 - If you **know how to fix them**, resolve locally and push updates
     
@@ -210,7 +210,7 @@ After opening the PR:
     
     - Leave the PR open
         
-    - Comment or label it **“Needs Review – Merge Conflict”**
+    - Comment or label it **"Needs Review - Merge Conflict"**
         
 
 **Do not force-push or guess.** Ask for help.
@@ -244,7 +244,7 @@ _Delete your branch after merging. Create a new branch for future changes._
 
 ---
 
-## 📝 Style & Standards
+## Notes Style & Standards
 
 ### Commit Message Format
 
@@ -254,20 +254,20 @@ _Delete your branch after merging. Create a new branch for future changes._
 
 **Tags:**
 
-- `[Content]` – Adding or editing text
+- `[Content]` - Adding or editing text
     
-- `[Fix]` – Typos or corrections
+- `[Fix]` - Typos or corrections
     
-- `[Assets]` – Images/icons
+- `[Assets]` - Images/icons
     
-- `[Config]` – Site configuration (**Admins only**)
+- `[Config]` - Site configuration (**Admins only**)
     
 
 ---
 
 ### Formatting Cheat Sheet (MkDocs Material)
 
-> ℹ️ These render on the live site, but not in GitHub preview.
+> [Info] These render on the live site, but not in GitHub preview.
 
 ```md
 !!! info "Pro Tip"
@@ -298,7 +298,7 @@ Use standard Markdown for GitHub compatibility:
 
 ---
 
-## 🚫 Do Not Edit (Unless Tech Lead)
+## Do not Do Not Edit (Unless Tech Lead)
 
 - `mkdocs.yml`
     
@@ -307,7 +307,7 @@ Use standard Markdown for GitHub compatibility:
 
 ---
 
-## 🆘 Troubleshooting
+## Help Troubleshooting
 
 - **Merge conflict:** Stop. Do not force-push. Fix or mark for review.
     
@@ -316,6 +316,6 @@ Use standard Markdown for GitHub compatibility:
 
 ---
 
-## ✅ Golden Rule
+## [Done] Golden Rule
 
-> Update `main` → Branch (anytime before pushing) → Write → Commit (as often as needed) → Push → Pull Request → Merge → Delete Branch
+> Update `main` -> Branch (anytime before pushing) -> Write -> Commit (as often as needed) -> Push -> Pull Request -> Merge -> Delete Branch

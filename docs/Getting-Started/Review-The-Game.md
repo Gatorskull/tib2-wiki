@@ -1,6 +1,6 @@
 # Review The Game
 
-*The Infinite Black 2* is a [**Spellbook**](Spellbook.md) indie game — a single programmer and small team. Reviews help the game survive and reach more players.
+*The Infinite Black 2* is a [**Spellbook**](Spellbook.md) indie game -- a single programmer and small team. Reviews help the game survive and reach more players.
 
 **Where to review:**
 

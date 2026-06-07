@@ -8,7 +8,7 @@ All contributors should follow these conventions to keep the wiki clean, consist
 
 Use headings to structure pages logically. Do **not** skip levels.
 ```md
-# Page Title (H1 – only one per page)
+# Page Title (H1 - only one per page)
 
 ## Major Section (H2)
 
@@ -164,4 +164,4 @@ Use for spoilers or optional deep dives.
 - Consistency beats cleverness
 - Ask before inventing new conventions
 
-If something isn’t covered here, bring it up with the project lead.
+If something isn't covered here, bring it up with the project lead.

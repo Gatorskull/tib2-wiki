@@ -1,6 +1,10 @@
 # Pity Loot Drops
 
-Most item drops use the **Pity Loot System**: every NPC kill adds to a counter until you get a drop. For example, after **7–8 kills** you're effectively "guaranteed" an **Uncommon**; after **33–40**, a **Rare**; around **300** kills, **Ultra-Rare**, and so on. NPCs can also **drop loot at any time** — when that happens, your pity counter for that rarity **resets**.
+Most item drops use the **Pity Loot System**: NPC kills add to hidden counters that make future drops more likely until a drop happens. Pity counters exist for item rarities, but the exact live drop formula still needs confirmation.
+
+See [Loot and Reward Reference](Loot-Reward-Reference.md) for pity counters and related reward tables.
+
+Community observations describe approximate breakpoints such as **7-8 kills** for Uncommon, **33-40** for Rare, and around **300** kills for Ultra-Rare. Treat those as rough field guidance, not exact guaranteed math.
 
 ## Risk and Reward
 
@@ -10,13 +14,13 @@ Pity counters **progress faster in more dangerous areas**. You won't see much pr
 
 ## PvP and High-Security Bonuses
 
-* [**PvP maps**](../Gameplay/Activities/Player vs Player (PVP)/index.md) progress pity **faster** and can produce a **guaranteed rare [Relic](../Entities/Currencies/Relics.md)** crafting component.
+* [**PvP maps**](<../Gameplay/Activities/Player vs Player (PVP)/index.md>) progress pity **faster** and can produce a **guaranteed rare [Relic](../Entities/Currencies/Relics.md)** crafting component.
 * **Security Rating 8** maps get a **25% loot boost**.
 * **Security Rating 9 Homeworld** raids get **double** pity loot.
 
 ## What Does NOT Reset Pity
 
-These do **not** reset your pity counters:
+Training notes say these do **not** reset normal item pity counters:
 
 * Stealing items
 * Invasion boss loot
@@ -29,5 +33,5 @@ These do **not** reset your pity counters:
 
 * [Items](index.md)
 * [Maps & Security Rating](../World/Maps/index.md)
-* [PvP](../Gameplay/Activities/Player vs Player (PVP)/index.md)
+* [PvP](<../Gameplay/Activities/Player vs Player (PVP)/index.md>)
 * [Relics](../Entities/Currencies/Relics.md)

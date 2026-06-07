@@ -33,7 +33,7 @@ When you use a Mutate Item Kit, the **strength** of the mutation is rolled at ra
 
 Each tier of mutation strength is roughly equal to **0.5 [Skill Points](../Gameplay/Skills.md)** of benefit. So an **Ultimate** mutation is like adding about **3.5 extra Skill Points** to your ship for that stat.
 
-The **stat** that is improved is **random** — you do not choose which stat gets the bonus.
+The **stat** that is improved is **random** -- you do not choose which stat gets the bonus.
 
 ---
 
@@ -47,9 +47,9 @@ There is a **very rare** chance that the mutation will be an **Equip Point** mut
 
 If you already mutated an item and want to try for a better result:
 
-- **Re-Mutate Item Kit** — Available from [**Reward Point Gifts**](../Gameplay/Events/Reward-Point-Gifts.md) (3,000 Reward Points).
+- **Re-Mutate Item Kit** -- Available from [**Reward Point Gifts**](../Gameplay/Events/Reward-Point-Gifts.md) (3,000 Reward Points).
 - Using it on a **previously mutated** item **re-rolls** the mutation.
-- Re-Mutate is **guaranteed to improve** the mutation rarity (e.g. Rare → higher tier). The **stat** chosen is still random.
+- Re-Mutate is **guaranteed to improve** the mutation rarity (e.g. Rare -> higher tier). The **stat** chosen is still random.
 
 So: first mutation = craft and use a normal Mutate Item Kit; later improvements = Re-Mutate Item Kit from Reward Points.
 
@@ -62,16 +62,16 @@ So: first mutation = craft and use a normal Mutate Item Kit; later improvements 
 | **Source** | [Item Crafting](Item-Crafting.md); kit type random at craft |
 | **Use** | One-time per item; consumed on use |
 | **Effect** | Random stat bonus (or rare +EP); always positive |
-| **Value** | ~0.5 Skill Points per tier; Ultimate ≈ 3.5 Skill Points |
-| **Re-roll** | Re-Mutate Item Kit (Reward Point Gifts, 3,000 RP) — improves rarity, random stat |
+| **Value** | ~0.5 Skill Points per tier; Ultimate ~ 3.5 Skill Points |
+| **Re-roll** | Re-Mutate Item Kit (Reward Point Gifts, 3,000 RP) -- improves rarity, random stat |
 | **Other** | +50% scrap/deconstruct value; stacks with Void bonuses |
 
 ---
 
 ## See Also
 
-* [Item Crafting](Item-Crafting.md) — How to craft Mutate Item Kits
-* [Void Items](Void-Items.md) — Similar extra bonuses that stack with mutate
-* [Diminishing Returns](Diminishing-Returns.md) — How stacked stats are scaled
-* [Reward Point Gifts](../Gameplay/Events/Reward-Point-Gifts.md) — Re-Mutate Item Kit source
-* [Equip Points](../Ships/Equip-Points.md) — What +EP mutations add to
+* [Item Crafting](Item-Crafting.md) -- How to craft Mutate Item Kits
+* [Void Items](Void-Items.md) -- Similar extra bonuses that stack with mutate
+* [Diminishing Returns](Diminishing-Returns.md) -- How stacked stats are scaled
+* [Reward Point Gifts](../Gameplay/Events/Reward-Point-Gifts.md) -- Re-Mutate Item Kit source
+* [Equip Points](../Ships/Equip-Points.md) -- What +EP mutations add to

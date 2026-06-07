@@ -6,9 +6,11 @@
 
 | Reward | Notes |
 |--------|--------|
-| **Victory loot** | Invasion victory loot has a **1:20 chance** to be [**Void**](../../../Items/index.md). |
-| **Phoenix Ship Mod** | You can earn the [**Phoenix ship mod**](../../../Ships/Ship-Mods.md) and titles by **killing Invasion NPCs**. Phoenix gives Rebirth (fatal damage → repair + cloak) and improved repairs on injured allies. |
-| **Party Box activities** | [Party Box](../../../index.md) activities can include **"Invasion Victory"** — complete the task for bonus loot (e.g. 1 in 25 chance of an advanced Tech Computer). |
+| **Victory loot** | Invasion victory loot has a **1:20 chance** to be [**Void**](../../../Items/Void-Items.md). |
+| **Phoenix Ship Mod** | You can earn the [**Phoenix ship mod**](../../../Ships/Ship-Mods.md) and titles by **killing Invasion NPCs**. Phoenix gives Rebirth (fatal damage -> repair + cloak) and improved repairs on injured allies. |
+| **Party Box activities** | [Party Box](../../Events/Party-Boxes.md) activities can include **"Invasion Victory"** -- complete the task for bonus loot (e.g. 1 in 25 chance of an advanced Tech Computer). |
+
+See [Void Items](../../../Items/Void-Items.md) and [Loot and Reward Reference](../../../Items/Loot-Reward-Reference.md) for related reward notes.
 
 ## Pity Loot Note
 
@@ -16,18 +18,18 @@ Invasion boss loot and other non-standard invasion drops **do not reset** your [
 
 ## Hardcore & Oblivion
 
-On the Oblivion server, [Hardcore](../../../Ships/index.md) ships can get **up to a 10× loot bonus** (or more during invasions) when they get the killing shot, stacking with other bonuses.
+On the Oblivion server, [Hardcore](../../../Ships/index.md) ships can get **up to a 10x loot bonus** (or more during invasions) when they get the killing shot, stacking with other bonuses.
 
 ---
 
 !!! info "Event timing"
-    Invasion events are scheduled in-game. Check the game client or announcements for when invasions are active.
+    Invasion events are scheduled in-game. Check the game or announcements for when invasions are active.
 
 ---
 
 ## See Also
 
 * [PvE overview](index.md)
-* [Ship Mods](../../../Ships/Ship-Mods.md) — Phoenix and other mods
-* [Void Items](../../../Items/index.md)
+* [Ship Mods](../../../Ships/Ship-Mods.md) -- Phoenix and other mods
+* [Void Items](../../../Items/Void-Items.md)
 * [Pity Loot](../../../Items/Pity-Loot.md)

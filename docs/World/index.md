@@ -14,7 +14,7 @@ To travel the universe, a Captain must move their fleet through individual **[Se
 * **Safety:** Some systems are patrolled by the **Earth Defense Force** (Safe), while others are lawless warzones (PvP). See **[Map Security Ratings](Maps/Security Rating.md)** for details.
 
 ## Topics
-* **[Maps & Security Ratings](Maps/index.md)** – Understanding the systems.
-* **[Sectors & Collision](Maps/Sectors.md)** – Stacking limits and how to avoid taking damage.
-* **[Jump Gates](../Entities/Structures/Jump Gates.md)** – How to warp between Solar Systems.
-* **[Factions](Factions/index.md)** – Wyrd, Het, Precursor, Pirates — lore and homeworlds.
+* **[Maps & Security Ratings](Maps/index.md)** - Understanding the systems.
+* **[Sectors & Collision](Maps/Sectors.md)** - Stacking limits and how to avoid taking damage.
+* **[Jump Gates](../Entities/Structures/Jump Gates.md)** - How to warp between Solar Systems.
+* **[Factions](Factions/index.md)** - Wyrd, Het, Precursor, Pirates -- lore and homeworlds.

@@ -4,7 +4,7 @@
 
 ## Enforcement
 
-Breaking this rule results in **ALL accounts permanently banned** — including accounts used by roommates, family members, or others on the same device or network.
+Breaking this rule results in **ALL accounts permanently banned** -- including accounts used by roommates, family members, or others on the same device or network.
 
 The "One Account" rule keeps the game fair. Multiple accounts ruined the original *Infinite Black*; the same policy applies here.
 

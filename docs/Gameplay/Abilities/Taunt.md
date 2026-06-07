@@ -14,4 +14,4 @@ The forced target change also triggers a new **target lock** cooldown for the vi
 
 * [Grapple](Grapple.md) | [Hacking](Hacking.md) | [Drain](Drain.md) | [Technician](Technician.md) | [Deflector](Deflector.md) | [Junker](Junker.md)
 * [Abilities](index.md)
-* [Size and Targeting](../../Ships/Size-And-Targeting.md) — Target lock
+* [Size and Targeting](../../Ships/Size-And-Targeting.md) -- Target lock

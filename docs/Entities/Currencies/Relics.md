@@ -1,18 +1,18 @@
 # Relics
 
-**Relics** are a rare [**ship crafting**](../../Ships/Ship-Crafting.md) component used to build **Assassin, Hades, Carrier, and Emperor-class** [ships](../../Ships/index.md). Each alien faction has its own relic type for building that faction’s ships at [**Corporation Shipyards**](../Structures/Shipyards.md).
+**Relics** are a rare [**ship crafting**](../../Ships/Ship-Crafting.md) component used to build **Assassin, Hades, Carrier, and Emperor-class** [ships](../../Ships/index.md). Each alien faction has its own relic type for building that faction's ships at [**Corporation Shipyards**](../Structures/Shipyards.md).
 
-Relics are **tradable** like other resources — they can be sold, traded, or used yourself.
+Relics are **tradable** like other resources -- they can be sold, traded, or used yourself.
 
 ## How to Obtain
 
-| Source | Notes |
-|--------|--------|
-| [**Alliance Wars**](../Corporations/Alliances.md) | Main source. Corps capture **Relic Shrines** with [Garrisons](../Structures/Garrisons.md); shrines generate relics. |
-| **Level rewards** | Every 5 levels starting at **Level 15**. |
-| [**The Arena**](../../Gameplay/Activities/Player vs Player (PVP)/Arena.md) | Arena rewards can include relics. |
-| **Loot** | Dropped by NPCs. |
-| **Free Daily Gifts / Holiday Events** | Special events and daily rewards. |
+| Source                                                                       | Notes                                                                                                  |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------ |
+| [**Alliance Wars**](../Corporations/Alliances.md)                            | Corps capture **Relic Shrines** with [Garrisons](../Structures/Garrisons.md); shrines generate relics. |
+| **Level rewards**                                                            | Every 5 levels starting at **Level 15**.                                                               |
+| [**The Arena**](<../../Gameplay/Activities/Player vs Player (PVP)/Arena.md>) | Arena rewards can include relics.                                                                      |
+| **Loot**                                                                     | Dropped by NPCs.                                                                                       |
+| **Free Daily Gifts / Holiday Events**                                        | Special events and daily rewards.                                                                      |
 
 ### Relic Shrines (Alliance Wars)
 
@@ -30,20 +30,20 @@ Relics are **tradable** like other resources — they can be sold, traded, or us
 
 Each player has an **Alliance Point** counter that increases with kills, PvP, defense fights, Arena, and other alliance glory. **Players with the most Alliance Points get priority** when alliance relic loot is distributed. When someone receives a relic, their counter **resets** so others get a chance.
 
-**Captain Panel → STATS** to see your current Alliance Points.
+**Captain Panel -> STATS** to see your current Alliance Points.
 
 ---
 
 ## Using Relics
 
 * **USE** a relic item to add it to your crafting bank.
-* **BUILD** a relic via **Captain Panel → Item Crafting** (same crafting panel as items).
+* **BUILD** a relic via **Captain Panel -> Item Crafting** (same crafting panel as items).
 
 ---
 
 ## See Also
 
-* [Ship Crafting](../../Ships/Ship-Crafting.md) — What relics are used for
-* [Skulls](Skulls.md) — The other key ship-crafting currency
-* [Corporations](../Corporations/index.md) — Shipyards and shrine capture
-* [Alliances](../Corporations/Alliances.md) — Shared relic generation and Alliance Points
+* [Ship Crafting](../../Ships/Ship-Crafting.md) -- What relics are used for
+* [Skulls](Skulls.md) -- The other key ship-crafting currency
+* [Corporations](../Corporations/index.md) -- Shipyards and shrine capture
+* [Alliances](../Corporations/Alliances.md) -- Shared relic generation and Alliance Points

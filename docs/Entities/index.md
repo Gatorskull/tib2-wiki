@@ -9,7 +9,7 @@
 | Section | Summary |
 |---------|---------|
 | [**Corporations**](Corporations/index.md) | Join a corp for tech, ships, and protection. Alliances, Corporate Defenders, and how corps work. |
-| [**Currencies**](Currencies/index.md) | Credits, Skulls, Tech Points, Star Shards, and Relics — what they are and how to get them. |
+| [**Currencies**](Currencies/index.md) | Credits, Skulls, Tech Points, Star Shards, and Relics -- what they are and how to get them. |
 | [**Structures**](Structures/index.md) | Defense units: Planets, Garrisons, Outposts, Shipyards. Deployment, PvP, and [Artifacts](Structures/Artifacts.md). |
 
 ---
@@ -24,6 +24,6 @@
 
 ## See Also
 
-* [Ships](../Ships/index.md) — What you build at corp Shipyards and equip with items
-* [World / Maps](../World/Maps/index.md) — Where structures deploy and territory is contested
-* [PvP](../Gameplay/Activities/Player vs Player (PVP)/index.md) — Skulls and structure warfare
+* [Ships](../Ships/index.md) -- What you build at corp Shipyards and equip with items
+* [World / Maps](../World/Maps/index.md) -- Where structures deploy and territory is contested
+* [PvP](<../Gameplay/Activities/Player vs Player (PVP)/index.md>) -- Skulls and structure warfare

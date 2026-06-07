@@ -8,8 +8,8 @@
 
 When a [**corporation**](../Corporations/index.md) controls an artifact (by having it stored at one of their planets or garrisons):
 
-- **All members** of that corporation receive the artifact’s **technology bonus**.
-- This applies **regardless** of the member’s Skill Tree investment or unlocked tech research — the bonus is global for the corp while they hold the artifact.
+- **All members** of that corporation receive the artifact's **technology bonus**.
+- This applies **regardless** of the member's Skill Tree investment or unlocked tech research -- the bonus is global for the corp while they hold the artifact.
 - If the corporation **loses control** of the artifact (e.g. it is captured or the structure is destroyed), the tech bonus is **lost** for that corp. The bonus is only active while they control it.
 
 So capturing and holding artifacts is a major goal for corps that want to boost their entire membership.
@@ -25,10 +25,10 @@ Any player can **STUDY** an artifact. Studying is a **one-time, permanent** acti
 
 ### Who Can Study?
 
-- **Uncaptured artifacts** — Any player can study them.
-- **Corporation-captured artifacts** — Only **alliance members** of the corporation that holds the artifact can study it. This is both a perk for joining that corp/alliance and an incentive for outsiders to attack and **liberate** artifacts so they can study them too.
+- **Uncaptured artifacts** -- Any player can study them.
+- **Corporation-captured artifacts** -- Only **alliance members** of the corporation that holds the artifact can study it. This is both a perk for joining that corp/alliance and an incentive for outsiders to attack and **liberate** artifacts so they can study them too.
 
-Once a player has studied an artifact, the **+1 Skill Point is kept forever** — even if the corp later loses the artifact. Only the **corp tech bonus** is tied to control; the personal skill bonus is permanent.
+Once a player has studied an artifact, the **+1 Skill Point is kept forever** -- even if the corp later loses the artifact. Only the **corp tech bonus** is tied to control; the personal skill bonus is permanent.
 
 ---
 
@@ -46,7 +46,7 @@ Once a player has studied an artifact, the **+1 Skill Point is kept forever** �
 
 ## See Also
 
-* [Structures](index.md) — Planets, Garrisons, and where artifacts are stored
-* [Corporations](../Corporations/index.md) — How corps capture and benefit from artifacts
-* [Technology](../../Gameplay/Technology.md) — What the artifact tech bonus affects
-* [Skills](../../Gameplay/Skills.md) — What Skill Points do
+* [Structures](index.md) -- Planets, Garrisons, and where artifacts are stored
+* [Corporations](../Corporations/index.md) -- How corps capture and benefit from artifacts
+* [Technology](../../Gameplay/Technology.md) -- What the artifact tech bonus affects
+* [Skills](../../Gameplay/Skills.md) -- What Skill Points do

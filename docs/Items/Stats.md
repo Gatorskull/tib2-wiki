@@ -40,5 +40,5 @@ Ships, [defense units](../Entities/Structures/index.md), and [items](index.md) p
 
 * [Items](index.md)
 * [Diminishing Returns](Diminishing-Returns.md)
-* [Skills](../Gameplay/Skills.md) — Captain, ship, and corp stats stack
+* [Skills](../Gameplay/Skills.md) -- Captain, ship, and corp stats stack
 * [Technology](../Gameplay/Technology.md)

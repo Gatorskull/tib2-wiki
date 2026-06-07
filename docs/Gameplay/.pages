@@ -1,10 +1,13 @@
 nav:
   - index.md
   - Missions.md
+  - Combat-and-Targeting.md
   - Technology.md
+  - Technology-Reference.md
   - Skills.md
+  - Level-XP-Reference.md
+  - Achievements-and-Leaderboards.md
   - Activities
   - Abilities
   - Events
   - Oblivion-Server.md
-  - ...

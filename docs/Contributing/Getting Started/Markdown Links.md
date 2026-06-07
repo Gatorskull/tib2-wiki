@@ -73,7 +73,7 @@ docs/World/hello.md
 [Ships](../Ships/index.md)
 ```
 
-> 💡 **Tip:** If you could reach it with `cd` in a terminal, you can link to it relatively.
+> [Tip] **Tip:** If you could reach it with `cd` in a terminal, you can link to it relatively.
 
 ---
 
@@ -109,13 +109,13 @@ From the `docs/` root, links are simply `Section/Page.md` (e.g. `Ships/index.md`
 
 ### Filenames or folders with spaces
 
-Use the **literal space** in the path so the link matches the file or folder name on disk (e.g. `Tech Points.md`, `Jump Gates.md`, `Player vs Player (PVP)/Arena.md`). Do not use `%20` in internal links — that can break resolution in some builds.
+Use the **literal space** in the path so the link matches the file or folder name on disk (e.g. `Tech Points.md`, `Jump Gates.md`, `Player vs Player (PVP)/Arena.md`). Do not use `%20` in internal links -- that can break resolution in some builds.
 
 ---
 
 ## What Not To Do
 
-### Don’t link to rendered URLs
+### Don't link to rendered URLs
 
 ```
 /hello-world
@@ -140,7 +140,7 @@ Rendered slugs depend on titles and theme behavior and may change.
 > **If you want a global reference, use an absolute one.**
 
 ---
-## External Links (Off‑Wiki References)
+## External Links (Off-Wiki References)
 
 Markdown links can also point to **external websites** (outside the wiki). While these are sometimes necessary, they should be used **sparingly and intentionally**.
 
@@ -164,7 +164,7 @@ Excessive external linking can introduce problems:
 
 - **Bias**: Linking selectively to certain creators, forums, or communities can imply endorsement or favoritism.
 - **Link rot**: External pages can change, move, or disappear over time.
-- **Fragmented knowledge**: Readers are pushed off‑site instead of finding answers within the wiki.
+- **Fragmented knowledge**: Readers are pushed off-site instead of finding answers within the wiki.
 
 As a rule:
 
@@ -180,7 +180,7 @@ As a rule:
 - Avoid linking to:
     - Opinion pieces
     - Monetized content (ads, referral links)
-    - Single‑person interpretations when a neutral summary can be written instead
+    - Single-person interpretations when a neutral summary can be written instead
 
 ### Recommended Pattern
 
@@ -192,4 +192,4 @@ This mechanic was introduced in version 1.4 to rebalance fleet combat.
 *Source: [Official patch notes](https://example.com/patch-notes)*
 ```
 
-This keeps the wiki **self‑contained, neutral, and durable**, while still allowing readers to verify information if they choose to.
+This keeps the wiki **self-contained, neutral, and durable**, while still allowing readers to verify information if they choose to.

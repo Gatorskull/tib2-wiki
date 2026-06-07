@@ -9,6 +9,9 @@
 # local build files
 site/
 
+# local source/training material
+/Gathered Training Data/
+
 # local env files
 .env*.local
 .env*.dev

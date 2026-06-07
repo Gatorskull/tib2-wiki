@@ -1,16 +1,16 @@
-1. ### Goot #116914 _—_ 12/23/2025 1:36 PM
+1. ### Goot #116914 _--_ 12/23/2025 1:36 PM
     
-    We are starting a new project. Please use this channel to provide information that will be used to train new players. You can submit information in any format as a text message to the channel, or suggest guides that have good info etc. I will use all of this data to create a new player guide for everyone to use. One guide will be read through format for new players to browse, one will be copy and paste chat snippets for us to use in game. ALL DISCUSSION ABOUT INCLUDED INFO OR IDEAS FOR INCLUSION SHOULD BE IN ⁠training-info-discussion
+    We are starting a new project. Please use this channel to provide information that will be used to train new players. You can submit information in any format as a text message to the channel, or suggest guides that have good info etc. I will use all of this data to create a new player guide for everyone to use. One guide will be read through format for new players to browse, one will be copy and paste chat snippets for us to use in game. ALL DISCUSSION ABOUT INCLUDED INFO OR IDEAS FOR INCLUSION SHOULD BE IN training-info-discussion
     
-2. Example: To turn on sector counts go to the hamburger menu, settings, gameplay, gameplay settings then turn on “Display local sector ship counts” this will provide you with a read out in the top right of your screen that shows allies (green) neutrals (yellow) PvP enemies (red) and npcs (purple)
+2. Example: To turn on sector counts go to the hamburger menu, settings, gameplay, gameplay settings then turn on "Display local sector ship counts" this will provide you with a read out in the top right of your screen that shows allies (green) neutrals (yellow) PvP enemies (red) and npcs (purple)
     
 3. Example: collision in game forces stack sizes from players within one alliance to be at or under 75 players in one sector. You can view the current amount of players by looking the sector count in the top right (defaults off). If you join a stack and see that number is now greater than 75 then leave the stack and try a different one or collision will damage everyone in that sector
     
-4. ### Lungfish #9598936 _—_ 12/23/2025 1:39 PM
+4. ### Lungfish #9598936 _--_ 12/23/2025 1:39 PM
     
     Collision occurs when there are 76 or more ships from the same alliance in 1 sector, or more than 225 from any alliance in the same sector. While collision is on, any ship in that sector will take increasing amounts of damage every 5 seconds, which will quickly destroy ships.
     
-5. ### Goot #116914 _—_ 12/23/2025 1:42 PM
+5. ### Goot #116914 _--_ 12/23/2025 1:42 PM
     
     One of the earliest goals is to reach level 35. When you reach level 35 you can deploy a human carrier. Carriers can be geared to move quickly by equipping items with the move speed stat. If you are in a corporation, then your carrier will provide all of your ships with the move speed of the carrier, so you can have slow dps ships and a fast carrier and move all of them at the speed of the carrier
     
@@ -18,43 +18,43 @@
     
 7. Just make sure things are finalized via edits etc
     
-8. ### Goot #116914 _—_ 12/23/2025 1:44 PM
+8. ### Goot #116914 _--_ 12/23/2025 1:44 PM
     
-    For example if anyone sees something I missed here please feel free to add the info or make it more detailed. Don’t worry about doubling up
+    For example if anyone sees something I missed here please feel free to add the info or make it more detailed. Don't worry about doubling up
     
-9. ### Lungfish #9598936 _—_ 12/23/2025 1:46 PM
+9. ### Lungfish #9598936 _--_ 12/23/2025 1:46 PM
     
     At level 25 you can use the chat command 'freegift' to get a mark upgrade kit, which is a very rare consumable that turns a regular mark computer into a tech. This is currently the only source of mark upgrade kits. Consult with allies before using or selling it. The 'freegift' command also gives you a free victor mark cpu and a skip drive, so you may have to use the code twice to get your mark upgrade.
     
-10. ### Goot #116914 _—_ 12/23/2025 1:47 PM
+10. ### Goot #116914 _--_ 12/23/2025 1:47 PM
     
-    To use the chat command freegift simply type the words “freegift” into any chat channel and hit enter. Just freegift nothing else needed
+    To use the chat command freegift simply type the words "freegift" into any chat channel and hit enter. Just freegift nothing else needed
     
 11. While chatting, you can hit the r button (hotkey) to quickly open chat and auto start your reply to the last person you private messaged or received a pm from. You can also open chat via the top left button and then hit the reply button to the left of the text entry field
     
-12. ### Lungfish #9598936 _—_ 12/23/2025 2:06 PM
+12. ### Lungfish #9598936 _--_ 12/23/2025 2:06 PM
     
     There are hourly arena events which are a reliable source of skulls. At low levels you can enter with just 1 ship, though you may need more ships at higher levels. Any ship that enters needs at least 1000 gear score, and 1500 for full skull rewards, and cannot have any free items on it. The three current arena modes are: Standard - Bring up to 3 ships, cannot automatically follow teammates Fleet - Bring up to 4 ships, can follow teammates. Usually one member of the team will link a driver in team chat for you to follow. Hardcore - Bring up to 3 ships which must be hardcore ships, cannot automatically follow teammates. Gives 2 more skulls than other modes. There are arena modifiers which can be applied to any arena. The current arena modifiers are: Chaos - Tends to have smaller and more teams, with 2-3 players per team. Has better item rewards for winning, which is based on individual kill count instead of team kills. Ultimate - All gear becomes ultimate gear.
     
-13. ### Lungfish #9598936 _—_ 12/23/2025 2:19 PM
+13. ### Lungfish #9598936 _--_ 12/23/2025 2:19 PM
     
     Winning an arena gives 15 skulls and an item reward and losing gives 7 skulls. Hardcore arenas give +2 skulls. Chaos arenas give +2 skulls. The daily event "Arena Awards Bonus Loot and Skulls" gives +2 skulls, and an aditional item reward for winning. Being the last team standing gives +3 skulls. Being an underdog team (having less ships than most other teams) gives +3 skulls. Being the mvp on your team in kills, damage, healing, or utility (using abilities) gives +4 skulls, +1 for each additional mvp. Being in a losing team and in the top 20% of killers, the top healer, or the top utility gives 3 skulls and an item reward.
     
-14. ### Lungfish #9598936 _—_ 12/23/2025 2:26 PM
+14. ### Lungfish #9598936 _--_ 12/23/2025 2:26 PM
     
     If there are 30 or more ships from one alliance in a map and there is a structure from a different alliance, the ship count will appear on the starmap and there will be a warning in chat. This is checked every minute, with the exact second being based on the spaceball rolls. If spaceball rolls at the xx:05 second and you enter a map with 100 ships at xx:07, there won't be a warning for another 58 seconds.
     
 15. When you get the killing shot on a ship in pvp, you and anyone else who attacked that ship since it was in combat will gain 1 skull. Your corp will also gain 1 skull. You can gain additional skulls in the following scenarios: Weekend event: +1 skull Daily event (double skulls for pvp kills): +1 skull Defending on a currently engaged structure (ie, you killed a structure attacker): +2 skulls Attacking on a currently engaged structure: +1 skull Fighting on a currently engaged structure, and the killed ship has high gear score: +1 skull
     
-16. ### Lungfish #9598936 _—_ 12/23/2025 2:33 PM
+16. ### Lungfish #9598936 _--_ 12/23/2025 2:33 PM
     
     When you kill a structure in pvp, anyone who attacked that structure will gain skulls according to the following formula: Outpost/Shipyard: 1 skull per 500 gear score Garrison: 1 skull per 400 gear score Planet: 1 skull per 300 gear score
     
-17. ### Goot #116914 _—_ 12/23/2025 2:49 PM
+17. ### Goot #116914 _--_ 12/23/2025 2:49 PM
     
     Lead assist feature: Lead assisting is used to bring an ally or teamates (arena) ship to the top of your friendly ship list. You can enable lead assist on a ship by going to that ships details page (typically will be linked in a chat channel as a "driver" or D1, D2 etc so just click the chat link to open the ship details) then navigating to the right hand side of the details and finding yellow my "assist leader leader" button. This brings that ship to the top of your ally ship list (when you are in sector with it) where you can then follow it. It also overlays a yellow box onto the ship in the map so that you can easily see it in the world to navigate to it and follow it. RE: collision and stack sizes here
     
-18. ### cattabliss #132271 _—_ 12/23/2025 3:20 PM
+18. ### cattabliss #132271 _--_ 12/23/2025 3:20 PM
     
     **Should I change any settings?** There are a number of settings you should be aware of when you start playing the game that will help improve your experience. **Display local sector ship counts:** Gameplay settings. Turn on. Sector counts show how many friendly and enemy ships are in your sector in the top right corner of the screen. This is important for a few reasons: every stack in a single sector can have a max of 75 allied ships, having your sector count on will help you prevent causing collision with friendly players. Another reason is to identify the number of enemy ships in the sector. **Always show sector name text:** Gameplay settings. Turn on. This will help you identify the numbers (12/8) of sectors on the main screen. It can help you find locations or bosses for missions. **UTC time/local time:** Gameplay settings. The game operates on UTC time, and the game starts daily at 00:00 UTC (the point when Monday turns to Tuesday) and new events are rolled every 8 hours, at 00:00, 08:00. 16:00 UTC. **Camera snap back delay:** Gameplay settings. This is the setting that lets you control (in seconds) the time it takes for you to "snap back" to look at your ships, after you have scrolled away to look somewhere else on the map. **Top down/Side View** Gameplay settings. This lets you look at your ships from a "2d" perspective versus a 3d perspective. **Show player ships over NPC ships** Ship button list. Turn on. Especially important in PVP, this setting lets you see enemy players at the top of the list when they are mixed in with NPC ships. **Sort allied ships most in danger:** Ship button list. Turn on. This setting will let you identify which friendly ships are most in danger of dying, it can help keep your team mates alive in any situation where you are taking damage. **Ship Buttons:** Ship buttons > show buttons. Set all settings to always with the exception of resources.
     
@@ -68,7 +68,7 @@
     
 23. **Arena Requirements** You must have a minimum of 1,500 gear score to receive full rewards in the arena. No 'new player items' are permitted in the arena. You must do a minimum of approximately 1,500 damage to gain skulls in arena. In general, losing an arena will reward you with 7 skulls, while winning will get you 15, with more skulls being awarded to team MVPs who deal the most damage, make the most repairs, have the most abilities used, or make the most kills. **Arena Gear** Total hull or shield is one of the most important assets in arena. Small HP pools get targeted first. One trick some players use is to bring a very large shield, which allows you to wear a small hull and possibly maintain a 3.5s ship using cheap movespeed items. Your other option is to obtain a crux drive or skip drive (depletable, cannot be repaired outside of upgrade bonuses) and wear a large hull. I recommend a hull or shield pool of at least 8,000, even 10,000 if possible. It will help you survive longer. The other parts would be your guns and your fighters. Make sure you've got them eqiipped and your offensive stats -- crit chance, hit chance, damage/hull damage buff -- will help you do sufficient damage. Lastly, your special in arena is probably the most important item you can bring. An advanced shield with a 12k shield can make it significantly larger, making you less likely to be targeted. A technician can help heal and degrapple yourself to escape. A stalker is extremely cheap and can help you vanish if you get focus targeted. Consider your choice and make a strategy to survive and do damage.
     
-24. LuckyMFer — 11/27/25, 10:46 AM I have a few notes to add: General rule of thumb - any hull under 10k will be insta targeted and killed. Shields are very helpful but 9/10 players will still shoot a low hull first even if the shield is huge. Hacks are more relevant in arena than anywhere else since they disrupt crux drives, effectively stunning ships upon movement to a new sector. Most players work their way up to emps for max dps, but this isn't necessarily ideal for arena. Smaller ships get speed/targeting bonuses, strike team bonus, and better utilities for things like hack, grap, hackram. Advanced players prefer natural movespeed which is effected by ship size (a flagship will move at 3.3s whereas destroyer moves at 3.2s). All good things to keep in mind if you're trying to be competitive. Slow moving emps make prime tgts due to their high damage output, and they're often left behind as fodder by fast drivers when the stack is overpowered. Strategy-wise, it's most important to think about who to target. Players like MyBankai are able to dominate entire stacks by themselves, so the only way to beat them when you're outmatched is to work with any other remaining teams to take down the juggernaut. It's always tempting to go for the easy kill but this will not win you a match (unless it's chaos arena). Typically, your driver will set the target for your stack if you are using the assist function (as you should be), but this is an important concept to understand especially if you find yourself driving your stack. If you find yourself in a 3 team battle, don't sit back and wait for two teams to kill each other before engaging. Stay close to the action and time your jumps to move in just after the enemy stacks hit each other. Again, pick your target intentionally. If one team is winning or overpowered, that should be your target. Use the losing team to beef up your dps by leaving them alone and focusing fire on the biggest threat.
+24. LuckyMFer -- 11/27/25, 10:46 AM I have a few notes to add: General rule of thumb - any hull under 10k will be insta targeted and killed. Shields are very helpful but 9/10 players will still shoot a low hull first even if the shield is huge. Hacks are more relevant in arena than anywhere else since they disrupt crux drives, effectively stunning ships upon movement to a new sector. Most players work their way up to emps for max dps, but this isn't necessarily ideal for arena. Smaller ships get speed/targeting bonuses, strike team bonus, and better utilities for things like hack, grap, hackram. Advanced players prefer natural movespeed which is effected by ship size (a flagship will move at 3.3s whereas destroyer moves at 3.2s). All good things to keep in mind if you're trying to be competitive. Slow moving emps make prime tgts due to their high damage output, and they're often left behind as fodder by fast drivers when the stack is overpowered. Strategy-wise, it's most important to think about who to target. Players like MyBankai are able to dominate entire stacks by themselves, so the only way to beat them when you're outmatched is to work with any other remaining teams to take down the juggernaut. It's always tempting to go for the easy kill but this will not win you a match (unless it's chaos arena). Typically, your driver will set the target for your stack if you are using the assist function (as you should be), but this is an important concept to understand especially if you find yourself driving your stack. If you find yourself in a 3 team battle, don't sit back and wait for two teams to kill each other before engaging. Stay close to the action and time your jumps to move in just after the enemy stacks hit each other. Again, pick your target intentionally. If one team is winning or overpowered, that should be your target. Use the losing team to beef up your dps by leaving them alone and focusing fire on the biggest threat.
     
 25. **How do I get more credits?** Credits are one of the three main currencies, alongside skulls and tech points, are the best asset in all of TIB2. TIB2 is a deflationary economy, this means credit really is king, and holding onto credit means you will likely be able to buy more tomorrow with your money than you can today, as items become more common and their value decreases relative to the main currency. There are a few ways to get more credits:
     

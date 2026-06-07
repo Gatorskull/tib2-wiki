@@ -16,7 +16,30 @@ nav:
 
   # Standalone pages in this folder
   - FAQ.md
-  - Wiki-Fill-Out-Plan.md
+  - Content Standards.md
+  - Wiki-Rough-Pass-Audit.md
+  - Gootchat-Source-Review.md
+  - Client-Extraction-Notes.md
+  - Client-Mining-Pass-2026-05-16.md
+  - Client-Mining-Pass-2-2026-05-16.md
+  - Client-Mining-Pass-3-2026-05-16.md
+  - Client-Mining-Pass-4-2026-05-16.md
+  - Client-Mining-Pass-5-2026-05-16.md
+  - Client-Mining-Pass-6-2026-05-16.md
+  - Client-Mining-Pass-7-2026-05-16.md
+  - Client-Mining-Pass-8-2026-05-16.md
+  - Client-Mining-Pass-9-2026-05-16.md
+  - Client-Extracted-Ships.md
+  - Client-Extracted-Level-XP.md
+  - Client-Extracted-Crafting.md
+  - Client-Extracted-Technology.md
+  - Client-Extracted-Structures.md
+  - Client-Extracted-Items.md
+  - Client-Extracted-Loot-Rewards.md
+  - Client-Extracted-Factions.md
+  - Client-Extracted-Item-Stat-Coverage.md
+  - Client-Extracted-Item-Stat-Formulas-Narrow.md
+  - Gaps-To-Fill-Checklist.md
   - Changelog.md
 
   # Catch-all: include any other files/folders not listed above

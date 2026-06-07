@@ -1,9 +1,9 @@
 # Oblivion Server
 
-The **Oblivion Server** is a **separate universe** with hardcore rule variations. Access: **Login Screen → Select Character → Oblivion Mode → Create Character**.
+The **Oblivion Server** is a **separate universe** with hardcore rule variations. Access: **Login Screen -> Select Character -> Oblivion Mode -> Create Character**.
 
 !!! warning "No refunds"
-    Staff will **never** refund or repair items or ships on the Oblivion Server — even for deaths caused by lag, bugs, or staff error. You agree to this by playing there.
+    Staff will **never** refund or repair items or ships on the Oblivion Server -- even for deaths caused by lag, bugs, or staff error. You agree to this by playing there.
 
 ---
 
@@ -21,7 +21,7 @@ The **Oblivion Server** is a **separate universe** with hardcore rule variations
 | **Ship durability on death** | **10%** loss; ship **breaks at 0%** | Small loss; repairable with Skulls |
 | **Ship drops on death** | **1 random** equipped item | No drop (in open world) |
 | **Hardcore ship on death** | **100%** durability loss; **all** equipped items drop | 1 random item drop |
-| **Hardcore ship loot** | Large loot bonus (see below) | — |
+| **Hardcore ship loot** | Large loot bonus (see below) | -- |
 | **Following** | Captains can only follow **their own** ships | Can follow allies |
 | **Love Day** | **No** Love Day mechanics | Love Day disables PvP |
 | **Ship movement** | **Faster** | Normal |
@@ -30,30 +30,30 @@ The **Oblivion Server** is a **separate universe** with hardcore rule variations
 | **Defense unit Gear Score** | **2,000** required (recall if lower) | 3,000 |
 | **SR8 capture** | **7** Alliance Citizens required | 20 |
 | **Skull cost** | **Reduced** for building or Elite Rank ships | Normal |
-| **Unique ships** | **1%** durability loss on death | — |
+| **Unique ships** | **1%** durability loss on death | -- |
 
 ## Hardcore Ships on Oblivion
 
-[**Hardcore**](../Ships/Hardcore-Units.md) ships generate [**pity loot**](../Items/Pity-Loot.md) at **2×** the Oblivion accelerated rate when they get the killing shot. This stacks with other bonuses — **up to 10×** or more during invasions.
+[**Hardcore**](../Ships/Hardcore-Units.md) ships generate [**pity loot**](../Items/Pity-Loot.md) at **2x** the Oblivion accelerated rate when they get the killing shot. This stacks with other bonuses -- **up to 10x** or more during invasions.
 
 ## Arena on Oblivion
 
-* **Hardcore ships** — Drop **one** item on death (not everything).
-* **Normal ships** — Do **not** drop any equipment on death.
-* **Equipment** — Takes **1%** durability damage on death.
-* **Ship durability** — **1%** loss on death.
-* **Rewards** — The Arena **can award Ultimate** items.
+* **Hardcore ships** -- Drop **one** item on death (not everything).
+* **Normal ships** -- Do **not** drop any equipment on death.
+* **Equipment** -- Takes **1%** durability damage on death.
+* **Ship durability** -- **1%** loss on death.
+* **Rewards** -- The Arena **can award Ultimate** items.
 
 ## Tech Points and Reward Points
 
 * [**Tech Point**](../Entities/Currencies/Tech Points.md) **orders** deliver to **both** Primary and Oblivion if you have a character on each. There is **no link** between servers; **nothing transfers**.
-* [**Reward Point Gifts**](./Events/Reward-Point-Gifts.md) can buy [**Party Boxes**](./Events/Party-Boxes.md) that include **Ultimate** rarity on Oblivion.
+* [**Reward Point Gifts**](Events/Reward-Point-Gifts.md) can buy [**Party Boxes**](Events/Party-Boxes.md) that include **Ultimate** rarity on Oblivion.
 
 ---
 
 ## See Also
 
-* [PvP](./Activities/Player vs Player (PVP)/index.md) — Normal server rules
-* [Ships](../Ships/index.md) — Hardcore ships
+* [PvP](<Activities/Player vs Player (PVP)/index.md>) -- Normal server rules
+* [Ships](../Ships/index.md) -- Hardcore ships
 * [Tech Points](../Entities/Currencies/Tech Points.md)
-* [Factions](../World/Factions/Precursor.md) — The Precursors' conflict with The Oblivion (lore)
+* [Factions](../World/Factions/Precursor.md) -- The Precursors' conflict with The Oblivion (lore)

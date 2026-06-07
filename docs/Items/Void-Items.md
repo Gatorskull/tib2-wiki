@@ -8,7 +8,7 @@
 |--------|------------------|
 | **Crafted items** | **1:50** chance to be Void. Crafters use **:CRAFTVOID** in chat. |
 | **NPC defense units** | Can drop Void loot. |
-| **Free Weekly Gift** | [Party Box](../Gameplay/Events/Party-Boxes.md) missions (Captain Panel → REWARDS → CLAIM WEEKLY GIFT). |
+| **Free Weekly Gift** | [Party Box](../Gameplay/Events/Party-Boxes.md) missions (Captain Panel -> REWARDS -> CLAIM WEEKLY GIFT). |
 | **Standard Arena** | Prizes **1:20** chance to be Void. |
 | **Hardcore Arena** | Prizes **1:4** chance to be Void. |
 | **Invasion victory** | Loot **1:20** chance to be Void. |
@@ -26,8 +26,8 @@ Void items can be **mutated** and **upgraded** like normal gear. To upgrade to t
 
 ## Re-Void and Conversion
 
-* **Re-Void Kits** — From [Reward Point Gifts](../Gameplay/Events/Reward-Point-Gifts.md). Let you **re-roll** the Void bonus randomly.
-* **Void Upgrade Kit** — Crafted (Captain Panel → Item Crafting). Converts a **normal** non-Void item to Void.
+* **Re-Void Kits** -- From [Reward Point Gifts](../Gameplay/Events/Reward-Point-Gifts.md). Let you **re-roll** the Void bonus randomly.
+* **Void Upgrade Kit** -- Crafted (Captain Panel -> Item Crafting). Converts a **normal** non-Void item to Void.
 
 ## Void Rarity Names
 
@@ -49,5 +49,5 @@ Void items can be **mutated** and **upgraded** like normal gear. To upgrade to t
 * [Item Crafting](Item-Crafting.md)
 * [Stats](Stats.md)
 * [Relics](../Entities/Currencies/Relics.md)
-* [Arena](../Gameplay/Activities/Player vs Player (PVP)/Arena.md)
+* [Arena](<../Gameplay/Activities/Player vs Player (PVP)/Arena.md>)
 * [Party Boxes](../Gameplay/Events/Party-Boxes.md)

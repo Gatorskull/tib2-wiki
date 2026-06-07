@@ -4,26 +4,30 @@ This section covers core systems that shape how you play: missions, technology, 
 
 ## Core Systems
 
-* [**Missions**](Missions.md) — Personal, corp, and alliance missions.
-* [**Technology**](Technology.md) — 250+ techs from artifacts, corps, and items.
-* [**Skills**](Skills.md) — Captain, ship, and corporation skill trees (they stack).
+* [**Missions**](Missions.md) -- Personal, corp, and alliance missions.
+* [**Combat and Targeting**](Combat-and-Targeting.md) -- Target locks, attack readiness, hostile ability gates, and defense attack rules.
+* [**Technology**](Technology.md) -- 250+ techs from artifacts, corps, and items.
+* [**Technology Reference**](Technology-Reference.md) -- Technology effect values.
+* [**Skills**](Skills.md) -- Captain, ship, and corporation skill trees (they stack).
+* [**Level and XP Reference**](Level-XP-Reference.md) -- Level formula and XP milestones.
+* [**Achievements and Leaderboards**](Achievements-and-Leaderboards.md) -- Tracked achievement families, leaderboard categories, and known milestone patterns.
 
 ## Activities
 
-* [**Player vs Player (PvP)**](Activities/Player vs Player (PVP)/index.md) — Open-world PvP and territory.
-* [**The Arena**](Activities/Player vs Player (PVP)/Arena.md) — Structured PvP and Skull rewards.
-* [**Player vs Environment (PvE)**](Activities/Player vs Environment (PVE)/index.md) — PvE content.
-* [**Invasions**](Activities/Player vs Environment (PVE)/Invasions.md) — Invasion events.
+* [**Player vs Player (PvP)**](<Activities/Player vs Player (PVP)/index.md>) -- Open-world PvP and territory.
+* [**The Arena**](<Activities/Player vs Player (PVP)/Arena.md>) -- Structured PvP and Skull rewards.
+* [**Player vs Environment (PvE)**](<Activities/Player vs Environment (PVE)/index.md>) -- PvE content.
+* [**Invasions**](<Activities/Player vs Environment (PVE)/Invasions.md>) -- Invasion events.
 
 ## Abilities
 
-* [**Abilities**](Abilities/index.md) — Grapple, Hack, Drain, Technician, Taunt, Deflector, Junker, Small Strike Team Bonus.
+* [**Abilities**](Abilities/index.md) -- Grapple, Hack, Drain, Technician, Taunt, Deflector, Junker, Small Strike Team Bonus.
 
 ## Events
 
-* [**Events**](Events/index.md) — Free daily gifts, daily modifiers, holiday gems, [Party Boxes](Events/Party-Boxes.md), [Reward Point Gifts](Events/Reward-Point-Gifts.md).
+* [**Events**](Events/index.md) -- Free daily gifts, daily modifiers, holiday gems, [Party Boxes](Events/Party-Boxes.md), [Reward Point Gifts](Events/Reward-Point-Gifts.md).
 
 ## Other
 
-* [**Oblivion Server**](Oblivion-Server.md) — Separate hardcore universe; different PvP, durability, and economy rules.
-* [**Spaceball**](Spaceball.md) — In-game game of chance (Credits/Tech Points); availability may vary by region.
+* [**Oblivion Server**](Oblivion-Server.md) -- Separate hardcore universe; different PvP, durability, and economy rules.
+* [**Spaceball**](Spaceball.md) -- In-game game of chance (Credits/Tech Points); availability may vary by region.

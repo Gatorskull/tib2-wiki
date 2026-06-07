@@ -1,12 +1,24 @@
 # Ship Crafting
 
-[**Corporations**](../Entities/Corporations/index.md) level up their [**Shipyards**](../Entities/Structures/Shipyards.md) to unlock ship blueprints. Members build ships at the corp's shipyard; each Shipyard is dedicated to **one faction** (Pirate, Het, Wyrd, or Precursor). Corp leadership chooses the faction, opening advanced **alien-class** ships with different [**technology**](../Gameplay/Technology.md) — more powerful but more expensive.
+[**Corporations**](../Entities/Corporations/index.md) level up their [**Shipyards**](../Entities/Structures/Shipyards.md) to unlock ship blueprints. Members build ships at the corp's shipyard; each Shipyard is dedicated to **one faction** (Pirate, Het, Wyrd, or Precursor). Corp leadership chooses the faction, opening advanced **alien-class** ships with different [**technology**](../Gameplay/Technology.md) -- more powerful but more expensive.
 
 ## Requirements
 
-* [**Larger ships**](Size-And-Targeting.md) have more [**Equip Points**](Equip-Points.md), allowing stronger items.
-* **Advanced ships** require [**Skulls**](../Entities/Currencies/Skulls.md) and [**Relics**](../Entities/Currencies/Relics.md) in addition to basic resources.
-* You need a corporation with the **right faction shipyard** to build that faction's ships.
+Ship construction checks:
+
+- Ship class and faction must be valid.
+- Some ships/factions require a minimum number of days in a corporation.
+- Some ships/factions require [Skulls](../Entities/Currencies/Skulls.md).
+- Some ships/factions require [Relics](../Entities/Currencies/Relics.md).
+- Pirate construction uses Human relics for the relic-bank check.
+- The player's ship garage must have room.
+- Resource requirements are calculated per resource type.
+- The acting ship must pass the shared ship validator.
+- Construction requires an eligible friendly defense unit in the current sector, or an eligible corporation-owned [Shipyard](../Entities/Structures/Shipyards.md).
+- Non-human Shipyards are ignored unless owned by the player's corporation.
+- Missing resources block construction.
+
+Larger ships generally have more [Equip Points](Equip-Points.md). Exact ship values belong in [Ship Reference](Ship-Reference.md), not repeated across guide pages.
 
 ## Ship Stat Bonus Mod
 

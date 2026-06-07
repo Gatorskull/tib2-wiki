@@ -2,21 +2,21 @@ Wiki Version v1.5.0
 [[[The Infinite Black 2]]]
 <b>THE INFINITE BLACK 2 WIKI</b>
 
-Welcome to The Infinite Black 2 by <u><link=”Spellbook”>Spellbook</link></u>!
+Welcome to The Infinite Black 2 by <u><link="Spellbook">Spellbook</link></u>!
 
 <b>WIKI TOPICS</b>
 <u><link="How To Play">How To Play</link></u>
 <u><link="Player Guides">Player-Written Guides</link></u>
 <u><link="FAQ">Frequently Asked Questions</link></u>
 <u><link="Device Sharing and Multiple Accounts">Device Sharing & Multiple Accounts</link></u>
-<u><link=”Review The Game”>Review The Game</link></u>
+<u><link="Review The Game">Review The Game</link></u>
 <u><link="Oblivion Server Rules">The Oblivion Server</link></u>
 
 <u><link="Stats">Stats</link></u>
 <u><link="Technology">Technology</link></u>
 <u><link="Skills">Skills</link></u>
 <u><link="The Starmap">The Starmap</link></u>
-<u><link=”Missions”>Missions</link></u>
+<u><link="Missions">Missions</link></u>
 
 <u><link="Corporations">Corporations</link></u>
 <u><link="Alliances">Alliances</link></u>
@@ -30,7 +30,7 @@ Welcome to The Infinite Black 2 by <u><link=”Spellbook”>Spellbook</link></u>
 <u><link="Reward Point Gifts">Reward Point Gifts</link></u>
 <u><link="Party Boxes">Party Boxes</link></u>
 <u><link="Free Daily Gifts">Free Daily Gifts</link></u>
-<u><link=”Holiday Events”>Holiday Events</link></u>
+<u><link="Holiday Events">Holiday Events</link></u>
 <u><link="Daily Events">Daily Events</link></u>
 
 <u><link="Ships">Ships</link></u>
@@ -40,7 +40,7 @@ Welcome to The Infinite Black 2 by <u><link=”Spellbook”>Spellbook</link></u>
 <u><link="Ship Crafting">Ship Crafting</link></u>
 <u><link="Ship & Defense Unit Size">Ship & Defense Unit Size</link></u>
 <u><link="Hardcore Ships & Defense Units">Hardcore Ships & Defense Units</link></u>
-<u><link=”Retro Ship Skins”>Retro Ship Skins</link></u>
+<u><link="Retro Ship Skins">Retro Ship Skins</link></u>
 
 <u><link="Item Types">Items</link></u>
 <u><link="Pity Loot Drops">Pity Loot Drops</link></u>
@@ -62,14 +62,14 @@ Welcome to The Infinite Black 2 by <u><link=”Spellbook”>Spellbook</link></u>
 <u><link="Deception Module">Deception Module</link></u>
 <u><link="Gravity Drives">Gravity Drives</link></u>
 
-<u><link=”Skulls”>Skulls</link></u>
+<u><link="Skulls">Skulls</link></u>
 <u><link="Tech Points">Tech Points</link></u>
 <u><link="Spaceball">Spaceball</link></u>
 
-<u><link=”The Wyrd Alien Faction”>The Wyrd Alien Faction</link></u>
-<u><link=”The Het Alien Faction”>The Het Alien Faction</link></u>
-<u><link=”The Precursor Alien Faction”>The Precursor Alien Faction</link></u>
-<u><link=”The Pirate Faction”>The Pirate Faction</link></u>
+<u><link="The Wyrd Alien Faction">The Wyrd Alien Faction</link></u>
+<u><link="The Het Alien Faction">The Het Alien Faction</link></u>
+<u><link="The Precursor Alien Faction">The Precursor Alien Faction</link></u>
+<u><link="The Pirate Faction">The Pirate Faction</link></u>
 
 <u><link="Spellbook">Spellbook</link></u>
 <u><link="Delete My Account">Delete My Account</link></u>
@@ -82,22 +82,22 @@ The universe is represented by a map of connected squares, called sectors.
 
 Think of a sector like a room: Inside you will find enemies to kill, asteroids to harvest and other players. Travel from sector to sector by clicking on the squares to plot a course!
 
-Your first <u><link=”Missions”>Mission</link></u> is to explore the Sol Star System while fighting pirates and harvesting asteroids. You will receive free <u><link=”Ships”>ships</link></u> as you level up and explore the universe. Once you earn another ship, click “Deploy 2nd Ship” to grow your fleet!
+Your first <u><link="Missions">Mission</link></u> is to explore the Sol Star System while fighting pirates and harvesting asteroids. You will receive free <u><link="Ships">ships</link></u> as you level up and explore the universe. Once you earn another ship, click "Deploy 2nd Ship" to grow your fleet!
 
 The universe is huge with over 30,000 sectors to explore! Enemies become more difficult in higher <u><link="The Starmap">Security Rating maps</link></u> where players fight for territory with their corporation.
 
-Joining a <u><link=”Corporations”>Corporation</link></u> early is very important! They provide you with <u><link="Technology">technology</link></u> benefits, advice, hunting groups and access to advanced <u><link=”Ship Crafting”>ship construction</link></u>. If your corporation isn't helpful you should find one that is (they benefit from you joining too).
+Joining a <u><link="Corporations">Corporation</link></u> early is very important! They provide you with <u><link="Technology">technology</link></u> benefits, advice, hunting groups and access to advanced <u><link="Ship Crafting">ship construction</link></u>. If your corporation isn't helpful you should find one that is (they benefit from you joining too).
 
 _ENDSEARCH_Related Articles:
 <u><link="Player Guides">Player-Written Guides</link></u>
 <u><link="FAQ">Frequently Asked Questions</link></u>
-<u><link=”Review The Game”>Review The Game</link></u>
+<u><link="Review The Game">Review The Game</link></u>
 [[[FAQ]]]
 ? - <mark>I'm a new player! How do I play? What should I do and where do I start?</mark>
 Check out <u><link="How To Play">How To Play</link></u>
 
 ? - <mark>This game is hard -- How do I get better?</mark>
-All combat is balanced around multiple <u><link="Ships">ships</link></u>. Playing with a team and deploying additional ships is critical to success! Explore 100% of the Sol Star System to earn your first ship then click "Deploy 2nd Ship". Make sure to join a <u><link=”Corporations”>Corporation</link></u> -- They provide <u><link="Technology">technology</link></u>, <u><link="Skills">skills</link></u> and group protection.
+All combat is balanced around multiple <u><link="Ships">ships</link></u>. Playing with a team and deploying additional ships is critical to success! Explore 100% of the Sol Star System to earn your first ship then click "Deploy 2nd Ship". Make sure to join a <u><link="Corporations">Corporation</link></u> -- They provide <u><link="Technology">technology</link></u>, <u><link="Skills">skills</link></u> and group protection.
 
 ? - <mark>What are Equip Points and how do I get more?</mark>
 Equip Points represent how much space your ship has for mounting weapons, armor, storage, etc. Larger ships have more Equip Point capacity. You can read more about <u><link="Equip Points">Equip Points here</link></u>.
@@ -115,32 +115,32 @@ New players benefit from +XP% Bonus to level quickly. Evasion is the best stat f
 <u><link="Technology">Technology</link></u>, <u><link="Skills">Skills</link></u> and <u><link="Item Types">Items</link></u> all stack together to provide your ships with a +XP% Bonus. When you kill an enemy NPC you gain XP based on your ship's level versus the target's level. A percentage of that XP gained is then given to your player, and a percentage of that is given to your corporation. This means that you can increase player and corp XP by boosting your ship XP.
 
 ? - <mark>What is Ship Durability?</mark>
-When ships are destroyed they can potentially lose a small amount of durability. This durability reduces certain <u><link="Stats">stats</link></u> like Resource Capacity, Hull, Shields and Resists. Ship Durability can be repaired with <u><link=”Skulls”>Skulls</link></u> using the REPAIR button on the ship inspection panel. 
+When ships are destroyed they can potentially lose a small amount of durability. This durability reduces certain <u><link="Stats">stats</link></u> like Resource Capacity, Hull, Shields and Resists. Ship Durability can be repaired with <u><link="Skulls">Skulls</link></u> using the REPAIR button on the ship inspection panel. 
 
 ? - <mark>How do I get Skulls?</mark>
-Skulls are earned exclusively from <u><link="Player vs Player Combat">Player vs Player Combat</link></u>. See the <u><link=”Skulls”>Skulls</link></u> wiki article for details.
+Skulls are earned exclusively from <u><link="Player vs Player Combat">Player vs Player Combat</link></u>. See the <u><link="Skulls">Skulls</link></u> wiki article for details.
 
 ? - <mark>What is Item Durability?</mark>
 <u><link="Item Types">Equipment Items</link></u> can suffer some damage when your ship dies. This does not impact the item's stat bonuses, but an item with 0% Durability cannot be equipped and must be repaired. You can repair items by clicking on the item, Upgrade Button then Repair.
 
 ? - <mark>What ship should I build first?</mark>
-Scrapping junk uncommon and basic gear for resources is the fastest way to build up your resources for another ship. Het and Precursor faction Cruisers are great ships to get started in <u><link=”Skulls”>The Arena</link></u> and <u><link="Player vs Player Combat">PvP</link></u>! You'll need to join a corporation with the correct faction shipyard.
+Scrapping junk uncommon and basic gear for resources is the fastest way to build up your resources for another ship. Het and Precursor faction Cruisers are great ships to get started in <u><link="Skulls">The Arena</link></u> and <u><link="Player vs Player Combat">PvP</link></u>! You'll need to join a corporation with the correct faction shipyard.
 
 ? - <mark>Why do my ship stats seem lower than they should be?</mark>
 Check out <u><link="Stat Bonus Diminishing Returns">Stat Bonus Diminishing Returns</link></u>
 
 ? - <mark>How can I support this game?</mark>
-The best way to support us is to <u><link=”Review The Game”>Review The Game</link></u>!
+The best way to support us is to <u><link="Review The Game">Review The Game</link></u>!
 [[[Corporations]]]
-Corporations are the social backbone of The Infinite Black 2. Most game features involve working as a team to unlock <u><link="Technology">technology</link></u>, capture <u><link=”Artifacts”>artifacts</link></u>, harvest <u><link=”Relics”>relics</link></u> and fight in the <u><link=”Alliances”>Alliance War</link></u>.
+Corporations are the social backbone of The Infinite Black 2. Most game features involve working as a team to unlock <u><link="Technology">technology</link></u>, capture <u><link="Artifacts">artifacts</link></u>, harvest <u><link="Relics">relics</link></u> and fight in the <u><link="Alliances">Alliance War</link></u>.
 
 There is no downside to joining a corporation and many benefits! New players should find a friendly and active corp as soon as possible! They can provide hunting groups, access to better ships, protection from <u><link="Player vs Player Combat">PvP</link></u> and more!
 
-Corporations earn XP from every kill, then level up and train <u><link="Skills">skills</link></u> just like players. A corporation's skill and technology choices apply to all <u><link=”Ships”>ships</link></u> owned by its members.
+Corporations earn XP from every kill, then level up and train <u><link="Skills">skills</link></u> just like players. A corporation's skill and technology choices apply to all <u><link="Ships">ships</link></u> owned by its members.
 
-Every corporation begins with a planet, garrison, outpost and shipyard <u><link=”Corporation Defense Structures”>defense unit</link></u>. These are leveled-up using resource deposits, which unlock more <u><link="Equip Points">Equip Points</link></u> and gear slots. Defense units may be deployed in PvP <u><link="The Starmap">system maps</link></u> to grow corporation and <u><link=”Alliances”>alliance</link></u> territory. Corporation members can invest <u><link="Tech Points">Tech Points</link></u> to unlock more defense units from the Corporation Management panel.
+Every corporation begins with a planet, garrison, outpost and shipyard <u><link="Corporation Defense Structures">defense unit</link></u>. These are leveled-up using resource deposits, which unlock more <u><link="Equip Points">Equip Points</link></u> and gear slots. Defense units may be deployed in PvP <u><link="The Starmap">system maps</link></u> to grow corporation and <u><link="Alliances">alliance</link></u> territory. Corporation members can invest <u><link="Tech Points">Tech Points</link></u> to unlock more defense units from the Corporation Management panel.
 
-Ships owned by members of a Corporation might be summoned as <u><link=”Corporate Defender Ships”>Corporate Defenders</link></u> to protect defense units under attack. These ships will deploy automatically and fight under the control of the game's AI.
+Ships owned by members of a Corporation might be summoned as <u><link="Corporate Defender Ships">Corporate Defenders</link></u> to protect defense units under attack. These ships will deploy automatically and fight under the control of the game's AI.
 [[[Ships]]]
 There are 10 ship types in The Infinite Black:
 Small: Shuttle, Frigate, Assassin
@@ -149,7 +149,7 @@ Large: Battleship, Flagship
 Huge: Carrier, Hades
 Massive: Emperor
 
-<u><link=”Ship & Defense Unit Size”>Ship Size</link></u> controls movement speeds, targeting speed, <u><link="Equip Points">Equip Point</link></u> capacity and more.
+<u><link="Ship & Defense Unit Size">Ship Size</link></u> controls movement speeds, targeting speed, <u><link="Equip Points">Equip Point</link></u> capacity and more.
 
 Your fleet must eventually contain a mix of ship sizes:
 8-Ship Fleet: Requires a MEDIUM or less
@@ -174,21 +174,21 @@ Captain Level required to deploy more ships:
 - Players begin in a Striker Gunboat with better-than-average ability and decent gear.
 - Striker Gunboats gain more equipment slots and Equip Points with <u><link="Elite Ranks">Elite Ranks</link></u>
 - Shipyards level up and unlock blueprints, allowing them to build new ships.
-- Members of a <u><link=”Corporations”>Corporation</link></u> can build at a <u><link=”Corporation Defense Structures”>Shipyard</link></u> when it reaches the correct level.
-- Powerful ships require <u><link=”Relics”>Relics</link></u> as a crafting component.
+- Members of a <u><link="Corporations">Corporation</link></u> can build at a <u><link="Corporation Defense Structures">Shipyard</link></u> when it reaches the correct level.
+- Powerful ships require <u><link="Relics">Relics</link></u> as a crafting component.
 - Corporations can unlock and level-up 3 Shipyards total.
 - Players can own 100+ ships of any type and deploy several at once.
 
 _ENDSEARCH_Related Articles:
 <u><link="Ship Crafting">Ship Crafting</link></u>
 <u><link="Ship Mods">Ship Mods</link></u>
-<u><link=”Retro Ship Skins”>Retro Ship Skins</link></u>
+<u><link="Retro Ship Skins">Retro Ship Skins</link></u>
 [[[Retro Ship Skins]]]
 See skins at <u><link="https://files.spellbook.com/tib/retroshipskins.jpg">https://files.spellbook.com/tib/retroshipskins.jpg</link></u>
 
 Every <u><link="Ships">ship class</link></u> has 2 or 3 alternate models that are discovered or awarded as prizes. These are one-time use <u><link="Item Types">items</link></u> you can also trade or sell.
 
-- 6 skins come from <u><link=”Holiday Events”>Holiday Events</link></u>
+- 6 skins come from <u><link="Holiday Events">Holiday Events</link></u>
 
 - Scorpion skin is a Steam Exclusive
 <u><link="https://store.steampowered.com/app/777470/The_Infinite_Black_2/">https://store.steampowered.com/app/777470/The_Infinite_Black_2</link></u>
@@ -205,7 +205,7 @@ Retro Frigate Skin #2
 [[[Free Daily Gifts]]]
 Players can return each day to claim several rewards! Daily gifts reset at 00:00 Coordinated Universal Time (UTC) every day.
 
-- Use the FREE button at any <u><link=”Corporation Defense Structures”>defense unit</link></u> to claim bonus <u><link="Item Crafting">crafting resources</link></u>.
+- Use the FREE button at any <u><link="Corporation Defense Structures">defense unit</link></u> to claim bonus <u><link="Item Crafting">crafting resources</link></u>.
 
 - Use the GIFT BOX button in the hamburger drop-down menu to randomly upgrade <u><link="Ships">ships</link></u> <u><link="Elite Ranks">Elite Ranks</link></u>, equipped <u><link="Item Types">item rarity or quality</link></u>, durability repairs and more!
 
@@ -213,8 +213,8 @@ Players can return each day to claim several rewards! Daily gifts reset at 00:00
 
 _ENDSEARCH_Related Articles:
 <u><link="Reward Point Gifts">Reward Point Gifts</link></u>
-<u><link=”Daily Events”>Daily Events</link></u>
-<u><link=”Holiday Events”>Holiday Events</link></u>
+<u><link="Daily Events">Daily Events</link></u>
+<u><link="Holiday Events">Holiday Events</link></u>
 [[[Holiday Events]]]
 There are special gem holiday events on specific days:
 * January 1st
@@ -227,18 +227,18 @@ There are special gem holiday events on specific days:
 
 During any holiday event, certain NPC enemies drop rare and powerful items! These special NPCs display a glowing gem floating over their <u><link="Ships">ship</link></u> -- Kill them to collect it! Gems may spawn anywhere in the game at any Security Rating, although typically in more difficult areas.
 
-Clues about where to find gems are whispered secretly to one player every 30 minutes! Sometimes a whole <u><link=”Corporations”>corporation</link></u> might also be told, or possibly the entire universe! Gems will not be visible for 30 minutes (even to the person who got the clue). This gives captains a chance to capture their prize before someone else.
+Clues about where to find gems are whispered secretly to one player every 30 minutes! Sometimes a whole <u><link="Corporations">corporation</link></u> might also be told, or possibly the entire universe! Gems will not be visible for 30 minutes (even to the person who got the clue). This gives captains a chance to capture their prize before someone else.
 
 _ENDSEARCH_Related Articles:
 <u><link="Reward Point Gifts">Reward Point Gifts</link></u>
 <u><link="Free Daily Gifts">Free Daily Gifts</link></u>
-<u><link=”Daily Events”>Daily Events</link></u>
+<u><link="Daily Events">Daily Events</link></u>
 [[[Daily Events]]]
-There is a daily event reset every 24 hours. Most timed mechanics such as leveling <u><link=”Corporation Defense Structures”>Defense Units</link></u>, new <u><link=”Missions”>Missions</link></u> and collecting <u><link="Free Daily Gifts">Free Daily Gifts</link></u> reset at 00:00 Coordinated Universal Time (UTC).
+There is a daily event reset every 24 hours. Most timed mechanics such as leveling <u><link="Corporation Defense Structures">Defense Units</link></u>, new <u><link="Missions">Missions</link></u> and collecting <u><link="Free Daily Gifts">Free Daily Gifts</link></u> reset at 00:00 Coordinated Universal Time (UTC).
 
-There are also over 50 random Daily Events that modify core game rules, such as granting <u><link=”Ship & Defense Unit Size”>small ships</link></u> powerful temporary abilities or adding bonus <u><link="Stats">stats</link></u> to any <u><link="Ship Crafting">crafting</link></u> that day! You will receive an alert when logging in detailing the daily events, or type :DAILY into chat at any time.
+There are also over 50 random Daily Events that modify core game rules, such as granting <u><link="Ship & Defense Unit Size">small ships</link></u> powerful temporary abilities or adding bonus <u><link="Stats">stats</link></u> to any <u><link="Ship Crafting">crafting</link></u> that day! You will receive an alert when logging in detailing the daily events, or type :DAILY into chat at any time.
 
-Any event that mentions "Aliens" means Wyrd, Precursor and Hets -- Not Pirates! <u><link=”Missions”>Missions</link></u> that say "Aliens" can include Pirates, however.
+Any event that mentions "Aliens" means Wyrd, Precursor and Hets -- Not Pirates! <u><link="Missions">Missions</link></u> that say "Aliens" can include Pirates, however.
 
 <b>Intergalactic Love Day and War Day</b> controls when open-world <u><link="Player vs Player Combat">Player vs Player Combat</link></u> is allowed and alternates with each daily reset.
 
@@ -258,21 +258,21 @@ Some events require secret unlocks involving your portrait or selected title:
 _ENDSEARCH_Related Articles:
 <u><link="Reward Point Gifts">Reward Point Gifts</link></u>
 <u><link="Free Daily Gifts">Free Daily Gifts</link></u>
-<u><link=”Holiday Events”>Holiday Events</link></u>
+<u><link="Holiday Events">Holiday Events</link></u>
 [[[The Starmap]]]
 There are over 50 Solar Systems to explore with unique secrets, treasures and enemies! To view the Starmap click on the "hamburger menu" drop-down near your player button, then click Starmap.
 
-Each solar system is controlled by one of five Factions: Humans, Hets, Pirates, Precursors, and Wyrd. Every faction has a powerful <u><link=”Corporation Defense Structures”>homeworld</link></u> that can be raided later by advanced corporations for high-value rewards.
+Each solar system is controlled by one of five Factions: Humans, Hets, Pirates, Precursors, and Wyrd. Every faction has a powerful <u><link="Corporation Defense Structures">homeworld</link></u> that can be raided later by advanced corporations for high-value rewards.
 
-You are always safe in human-controlled space, but beyond that <u><link="Player vs Player Combat">Player vs Player combat</link></u> is possible! <u><link="Corporations">Corporations</link></u> join <u><link=”Alliances”>Alliances</link></u> to battle for control of the universe and discover powerful <u><link=”Relics”>Relics</link></u>!
+You are always safe in human-controlled space, but beyond that <u><link="Player vs Player Combat">Player vs Player combat</link></u> is possible! <u><link="Corporations">Corporations</link></u> join <u><link="Alliances">Alliances</link></u> to battle for control of the universe and discover powerful <u><link="Relics">Relics</link></u>!
 
 Captains can QUICK JUMP their <u><link="Ships">ships</link></u> from the "hamburger menu" drop-down to any defense unit in their Alliance or human-faction jump gate they've discovered. Quick Jump costs 1 <u><link="Tech Points">Tech Point</link></u> (no matter how many ships are moving).
 
 _ENDSEARCH_Related Articles:
-<u><link=”The Wyrd Alien Faction”>The Wyrd Alien Faction</link></u>
-<u><link=”The Het Alien Faction”>The Het Alien Faction</link></u>
-<u><link=”The Precursor Alien Faction”>The Precursor Alien Faction</link></u>
-<u><link=”The Pirate Faction”>The Pirate Faction</link></u>
+<u><link="The Wyrd Alien Faction">The Wyrd Alien Faction</link></u>
+<u><link="The Het Alien Faction">The Het Alien Faction</link></u>
+<u><link="The Precursor Alien Faction">The Precursor Alien Faction</link></u>
+<u><link="The Pirate Faction">The Pirate Faction</link></u>
 [[[The Wyrd Alien Faction]]]
 Individuals of the Wyrd species bear a resemblance to Earth's spiders, having eight limbs. Six of these function as legs, while the remaining two have hands with multiple fingers, enabling them to perform intricate tasks with greater precision than humans. Little information is available about their social structure, with most knowledge coming from observations of injured specimens.
 
@@ -283,9 +283,9 @@ The venom of the Wyrd acts as a potent neurotoxin, paralyzing their prey while k
 All Wyrd specimens observed so far have been male, leading experts to speculate that the captured ones might belong to a worker or warrior class within their society. It is suspected that other members of their species could be more dangerous, potentially exhibiting variations in size, strength, and intelligence. As of now, there is no insight into the individual personalities of the Wyrd.
 
 _ENDSEARCH_Related Articles:
-<u><link=”The Het Alien Faction”>The Het Alien Faction</link></u>
-<u><link=”The Precursor Alien Faction”>The Precursor Alien Faction</link></u>
-<u><link=”The Pirate Faction”>The Pirate Faction</link></u>
+<u><link="The Het Alien Faction">The Het Alien Faction</link></u>
+<u><link="The Precursor Alien Faction">The Precursor Alien Faction</link></u>
+<u><link="The Pirate Faction">The Pirate Faction</link></u>
 [[[The Het Alien Faction]]]
 The Hets are a mysterious species known for living in open space and moving in large herds, or pods similar to Earth's cetaceans, with an average pod size of about fifty. Individual encounters with Hets are extremely rare. Their social structure is almost nonexistent, seemingly operating on a hive-mind that enables a single unit to act without any regard for individuality, focusing solely on the pod's well-being.
 
@@ -296,9 +296,9 @@ The Wyrd, in an attempt to weaponize the Hets against humans, introduced the vir
 Physically, Hets resemble organic long ships with flukes and tails, believed to travel using solar wind currents. They show no signs of distinct personalities, likely due to their hive-mind dominance.
 
 _ENDSEARCH_Related Articles:
-<u><link=”The Wyrd Alien Faction”>The Wyrd Alien Faction</link></u>
-<u><link=”The Precursor Alien Faction”>The Precursor Alien Faction</link></u>
-<u><link=”The Pirate Faction”>The Pirate Faction</link></u>
+<u><link="The Wyrd Alien Faction">The Wyrd Alien Faction</link></u>
+<u><link="The Precursor Alien Faction">The Precursor Alien Faction</link></u>
+<u><link="The Pirate Faction">The Pirate Faction</link></u>
 [[[The Pirate Faction]]]
 Originally from Earth in the Sol system, many humans were forced to flee their planet due to severe over-pollution and resource exploitation. Corporations saved their loyalists but abandoned the rest, leading to the death of billions! Pirate Fleets soon followed, composed of survivors in ragtag improvised ships.
 
@@ -315,9 +315,9 @@ Pirate humans, while similar in their pursuit of wealth, differ in their abandon
 The human race has engaged in open war with every known alien species for hundreds of years. Most humans believe the only alternative is extinction and this fight for survival to be all which matters.
 
 _ENDSEARCH_Related Articles:
-<u><link=”The Wyrd Alien Faction”>The Wyrd Alien Faction</link></u>
-<u><link=”The Het Alien Faction”>The Het Alien Faction</link></u>
-<u><link=”The Precursor Alien Faction”>The Precursor Alien Faction</link></u>
+<u><link="The Wyrd Alien Faction">The Wyrd Alien Faction</link></u>
+<u><link="The Het Alien Faction">The Het Alien Faction</link></u>
+<u><link="The Precursor Alien Faction">The Precursor Alien Faction</link></u>
 [[[The Precursor Alien Faction]]]
 The Precursors, a profoundly ancient and mysterious alien race, have existed in the universe for billions of years. Known for their ostensibly robotic forms, it remains unclear whether these are their actual bodies or simply avatars. This ambiguity is heightened by their advanced technology, notably their self-destruct mechanisms, which prevent any form of capture and study, thus maintaining their enigmatic status.
 
@@ -326,21 +326,21 @@ While they are engaged in an obscure conflict with a formidable entity known as 
 Despite their technological prowess and long-standing presence, much about The Precursors remains unknown, including their societal structures, cultural aspects, and ultimate intentions. Their interactions with other species are marked by a combination of warning and oblique guidance, adding to their complex and intriguing characterization in the cosmic tableau.
 
 _ENDSEARCH_Related Articles:
-<u><link=”The Wyrd Alien Faction”>The Wyrd Alien Faction</link></u>
-<u><link=”The Het Alien Faction”>The Het Alien Faction</link></u>
-<u><link=”The Pirate Faction”>The Pirate Faction</link></u>
+<u><link="The Wyrd Alien Faction">The Wyrd Alien Faction</link></u>
+<u><link="The Het Alien Faction">The Het Alien Faction</link></u>
+<u><link="The Pirate Faction">The Pirate Faction</link></u>
 [[[Artifacts]]]
 There are over 50 mysterious alien artifacts scattered throughout the universe.
 
-<u><link=”Corporations”>Corporations</link></u> can capture and store these at their <u><link=”Corporation Defense Structures”>planets and garrisons</link></u>, reaping the <u><link="Technology">technology</link></u> benefits. Controlling an artifact grants its tech bonus to all members of that corporation, regardless of <u><link="Skills">Skill Tree</link></u> investment or unlocked tech research.
+<u><link="Corporations">Corporations</link></u> can capture and store these at their <u><link="Corporation Defense Structures">planets and garrisons</link></u>, reaping the <u><link="Technology">technology</link></u> benefits. Controlling an artifact grants its tech bonus to all members of that corporation, regardless of <u><link="Skills">Skill Tree</link></u> investment or unlocked tech research.
 
 Any player can STUDY an artifact which permanently awards +1 <u><link="Skills">Skill Point</link></u>. This is a long-term goal for players who will seek out artifacts to study over the course of the game, and collect every bonus skill point.
 
 If a corporation has captured an artifact only their alliance members can study it! This is a perk for joining their corporation and also an incentive for outsiders to attack and liberate artifacts. The corporate tech bonus is lost if control of the artifact is lost, but the player skill point bonuses are forever once studied.
 [[[Corporation Defense Structures]]]
-Any <u><link=”Corporations”>corporation</link></u> that wants to survive The Infinite Black must upgrade and maintain its defense units! These structures are critical for success -- They build new ships, protect <u><link="Artifacts">artifacts</link></u> and spread a sphere of influence that hurts intruders while helping members.
+Any <u><link="Corporations">corporation</link></u> that wants to survive The Infinite Black must upgrade and maintain its defense units! These structures are critical for success -- They build new ships, protect <u><link="Artifacts">artifacts</link></u> and spread a sphere of influence that hurts intruders while helping members.
 
-Captains earn bonus <u><link=”Skulls”>Skulls</link></u> as a reward for both DEFENDING and ATTACKING corporate structures (non-NPC only). Participation in Player vs Player defense combat is one of the best ways to earn Skulls!
+Captains earn bonus <u><link="Skulls">Skulls</link></u> as a reward for both DEFENDING and ATTACKING corporate structures (non-NPC only). Participation in Player vs Player defense combat is one of the best ways to earn Skulls!
 
 Defense Units are designed to represent 10 to 15 ships-worth of firepower! Most of their stats are multiplied by 10x in attack calculations, so equipping one good item on a defense unit is like equipping one good item on 15 defender ships!
 
@@ -350,7 +350,7 @@ Weapons and fighter drones equipped to defense units can attack faster than thei
 
 <b>PLANETS</b> are the central hub of every good corporation. Members can choose to respawn at the Corporate Planet instead of Earth (Settings -> Gameplay Menu). Planets grant a system-wide <u><link="Technology">technology</link></u> bonus to all members, and multiply +Max Hull and +Max Shield <u><link="Stats">stats</link></u> by 40x. Each corporation has one planet. Planets deployed on a Sacred Relic Shrine grant their technology bonus to the entire alliance, throughout the entire game.
 
-<b>GARRISONS</b> provide corporations with a powerful Garrison Strike area attack, similar to Nova explosions. Damage from a strike is derived from the Garrison's level and Max <u><link="Equip Points">Equip Points</link></u>. Garrisons multiply +Max Hull and +Max Shield stats by 30x. Each corporation can have up to 4 Garrisons. <u><link=”Relics”>Relic Shrines</link></u> can only be captured by a Garrison.
+<b>GARRISONS</b> provide corporations with a powerful Garrison Strike area attack, similar to Nova explosions. Damage from a strike is derived from the Garrison's level and Max <u><link="Equip Points">Equip Points</link></u>. Garrisons multiply +Max Hull and +Max Shield stats by 30x. Each corporation can have up to 4 Garrisons. <u><link="Relics">Relic Shrines</link></u> can only be captured by a Garrison.
 
 <b>OUTPOSTS</b> grow a sphere of territory influence 1 sector every 6 hours, up to a max of (2 + Outpost_Level/5). Corp members in the territory receive a movement and resist bonus, while enemies are slower and less protected. Outposts multiply +Max Hull and +Max Shield stats by 12x. Each corporation can have up to 8 Outposts.
 
@@ -363,14 +363,14 @@ Defense Protection Shields play an important role in <u><link="Player vs Player 
 - All defense units multiply Battery Recharge stat by 4x
 - There is no 10% <u><link="Item Types">auxiliary item</link></u> stat penalty like ships receive.
 - Weapons and Fighter Drones attack 6x faster than normal.
-- Defenses ignore <u><link=”Ship & Defense Unit Size”>targeting speeds</link></u>, targeting nearly instantly.
+- Defenses ignore <u><link="Ship & Defense Unit Size">targeting speeds</link></u>, targeting nearly instantly.
 - Defenses are leveled up with resources from their inspect menu.
 - You can Quick Jump to any structure under attack except Outposts.
 - Engage an enemy defense unit to prevent quick-jumps to it.
 - NPC Defenses drop high-quality items and rare crafting components
 - All defenses drop hundreds or thousands of resources.
-- Players earn <u><link=”Skulls”>Skulls</link></u> for killing non-NPC defense units.
-- <u><link="Corporations">Corporations</link></u> can deploy Garrisons on top of Shrines to harvest <u><link=”Relics”>Relics</link></u> for their <u><link=”Alliances”>Alliance</link></u>.
+- Players earn <u><link="Skulls">Skulls</link></u> for killing non-NPC defense units.
+- <u><link="Corporations">Corporations</link></u> can deploy Garrisons on top of Shrines to harvest <u><link="Relics">Relics</link></u> for their <u><link="Alliances">Alliance</link></u>.
 - Defenses can deploy in human-controlled PvE maps but recall after 15 days.
 [[[Ship & Defense Unit Size]]]
 Every combat entity has a size classification: Small, Medium, Large, Huge or Massive. Size modifies a variety of factors such as movement speed, evasion, and weapon targeting speed.
@@ -379,9 +379,9 @@ See the <u><link="Ships">Ships Wiki</link></u> for fleet size and captain level 
 
 Big ships are designed to fight other bigs, so they naturally have trouble targeting little shuttles and frigates. Before weapons can be fired at an enemy, a target lock must first be acquired. The greater the disparity in size, the longer the large attacker's targeting speed. This rewards players for fielding small ships in their fleet -- Although they can't carry as much equipment, they are much more evasive. Fleets will want their smaller ships to target other small ships, and leave the big guns for the big guys.
 
-Ship size also controls movement speed: There is a pre-move "warm up" time which players see as a pre-jump animation. This is 0.7 seconds for Small ships, 1 second for Medium, 1.3 seconds for Large and 1.7 for Huge or Massive ships. The Skip Drive Engine and <u><link=”Gravity Drives”>Gravity Drives</link></u> reduces this to 0.5 seconds for any ship.
+Ship size also controls movement speed: There is a pre-move "warm up" time which players see as a pre-jump animation. This is 0.7 seconds for Small ships, 1 second for Medium, 1.3 seconds for Large and 1.7 for Huge or Massive ships. The Skip Drive Engine and <u><link="Gravity Drives">Gravity Drives</link></u> reduces this to 0.5 seconds for any ship.
 
-<u><link=”Corporation Defense Structures”>Defense Units</link></u> like Planets and Garrisons do not have a targeting limit and can attack anything immediately. Very slow weapons attached to defense units receive an attack speed bonus, however.
+<u><link="Corporation Defense Structures">Defense Units</link></u> like Planets and Garrisons do not have a targeting limit and can attack anything immediately. Very slow weapons attached to defense units receive an attack speed bonus, however.
 
 <u><link="Item Types">Fighter Drones</link></u> ignore size disparity, making Carriers highly effective against small targets as they carry a large complement of drones.
 [[[Oblivion Server Rules]]]
@@ -416,7 +416,7 @@ Login Screen -> Select Character -> Oblivion Mode -> Create Character
 
 <u><link="Hardcore Ships & Defense Units">Hardcore ships</link></u> generate <u><link="Pity Loot Drops">pity loot</link></u> at 2x the Oblivion accelerated rate if they get the killing shot. This stacks with all other loot bonuses, providing up to a 10x bonus (or even more during invasions).
 
-<u><link=”Skulls”>The Arena</link></u> rules on the Oblivion Server:
+<u><link="Skulls">The Arena</link></u> rules on the Oblivion Server:
 * Hardcore ships drop one item on death (not everything)
 * Normal ships do not drop any equipment on death
 * Equipped items are damaged by 1% durability on death
@@ -429,11 +429,11 @@ Any ship or defense unit can opt-in as Hardcore to gain -10% Movement Cooldown, 
 
 When any hardcore unit dies it drops 1 random <u><link="Item Types">equipment item</link></u>. They cannot equip free newbie gear, and lose slightly more durability on death.
 [[[Corporate Defender Ships]]]
-<u><link="Ships">Ships</link></u> owned by members of a <u><link=”Corporations”>corporation</link></u> might be summoned while the player is offline to help protect <u><link=”Corporation Defense Structures”>defense units</link></u> under attack. These are automatically deployed and controlled by the game's AI but will recall if the player logs in.
+<u><link="Ships">Ships</link></u> owned by members of a <u><link="Corporations">corporation</link></u> might be summoned while the player is offline to help protect <u><link="Corporation Defense Structures">defense units</link></u> under attack. These are automatically deployed and controlled by the game's AI but will recall if the player logs in.
 
 Corp Defenders killed during an attack do not lose any durability or suffer penalties. To be eligible a ship must be Level 10 or higher, have a weapon equipped and a <u><link="Item Types">Gear Score</link></u> of 1,000 or higher. <u><link="Hardcore Ships & Defense Units">Hardcore ships</link></u> will never be used as Corp Defenders.
 
-Corporate <u><link=”Alliances”>Alliances</link></u> share their pool of Corp Defenders so that any ship in the alliance can be called to fight at any defense unit. The strongest available defenders deploy first, with a mix of small and large units.
+Corporate <u><link="Alliances">Alliances</link></u> share their pool of Corp Defenders so that any ship in the alliance can be called to fight at any defense unit. The strongest available defenders deploy first, with a mix of small and large units.
 [[[Stat Bonus Diminishing Returns]]]
 "Diminishing Returns" is a term which means receiving less benefit the more you have of something.
 
@@ -507,19 +507,19 @@ There are 9 types of Equipment Items in The Infinite Black:
 
 Weapons, Armor, Shields and Storage have a Rank which modifies their power and <u><link="Equip Points">Equip Point Cost</link></u>. These and other <u><link="Stats">stats</link></u> can be changed by clicking the UPGRADE button when inspecting an item.
 
-All items drop as loot, are <u><link="Item Crafting">crafted</link></u>, or can be won as a prize in <u><link=”Skulls”>The Arena</link></u>. There are also many different classes of Consumable items, such as Quality Repair Kits, Nanobot Boosts and <u><link="Ship Mods">Ship Mods</link></u>.
+All items drop as loot, are <u><link="Item Crafting">crafted</link></u>, or can be won as a prize in <u><link="Skulls">The Arena</link></u>. There are also many different classes of Consumable items, such as Quality Repair Kits, Nanobot Boosts and <u><link="Ship Mods">Ship Mods</link></u>.
 
 Many mechanics in the game test your ship's GEAR SCORE, such as joining The Arena or earning <u><link="Player vs Player Combat">PvP</link></u> rewards. Gear Score is a point value assigned to each item depending on factors such as Rarity, Quality and Rank. Your <u><link="Ships">ship's</link></u> Gear Score is the sum of all equipped item scores.
 
 <b>DRONES</b>
-There are three drone types: Fighter, Harvester and Repair. Fighter drones are basically weapons that don't consume battery power. Harvester drones allow you to gather resources from asteroids and debris. Repair drones provide passive healing over time. Most players will want at least one Harvester drone except when joining fleet <u><link="Player vs Player Combat">PvP</link></u>. Fighter Drones ignore <u><link=”Ship & Defense Unit Size”>size disparity</link></u>, making them highly effective against small targets.
+There are three drone types: Fighter, Harvester and Repair. Fighter drones are basically weapons that don't consume battery power. Harvester drones allow you to gather resources from asteroids and debris. Repair drones provide passive healing over time. Most players will want at least one Harvester drone except when joining fleet <u><link="Player vs Player Combat">PvP</link></u>. Fighter Drones ignore <u><link="Ship & Defense Unit Size">size disparity</link></u>, making them highly effective against small targets.
 
 Check out <u><link="Player Guides">Item Guides</link></u> written by other players for their thoughts and opinions on equipment.
 
 _ENDSEARCH_Related Articles:
 <u><link="Deception Module">Deception Module</link></u>
 <u><link="Gravity Drives">Gravity Drives</link></u>
-<u><link=”Retro Ship Skins”>Retro Ship Skins</link></u>
+<u><link="Retro Ship Skins">Retro Ship Skins</link></u>
 <u><link="Pity Loot Drops">Pity Loot Drops</link></u>
 <u><link="Mutate Item Kit">Mutate Item Kit</link></u>
 <u><link="Stat Bonus Diminishing Returns">Stat Bonus Diminishing Returns</link></u>
@@ -531,7 +531,7 @@ There are several ways to discover Void Items:
 - <u><link="Item Crafting">Crafted items</link></u> have a 1:50 chance to be Void
 - <u><link="Corporation Defense Structures">NPC defense units</link></u> can drop Void loot
 - <u><link="Free Daily Gifts">Free Weekly Gift</link></u> rewards for <u><link="Party Boxes">Party Box</link></u> missions
-- <u><link=”Skulls”>Standard Arena</link></u> prizes have a 1:20 chance to be Void
+- <u><link="Skulls">Standard Arena</link></u> prizes have a 1:20 chance to be Void
 - Hardcore Arena prizes have a 1:4 chance to be Void
 - Invasion victory loot has a 1:20 chance to be Void
 - Normal loot drops have a 1:5000 chance to be Void
@@ -549,7 +549,7 @@ Elite = Elite Void
 Legendary = Mythic Void
 Ultimate = Omega Void
 [[[Elite Ranks]]]
-<u><link="Ships">Ships</link></u> and <u><link=”Corporation Defense Structures”>Defense Units</link></u> can permanently improve their default <u><link="Technology">Technology</link></u>, <u><link="Skills">Skill Points</link></u> and <u><link="Equip Points">Equip Points</link></u> by upgrading Elite Ranks. This is done on the Unit Inspect Panel with the ELITE RANK button, using <u><link=”Skulls”>Skulls</link></u> earned from <u><link="Player vs Player Combat">Player-vs-Player</link></u> kills.
+<u><link="Ships">Ships</link></u> and <u><link="Corporation Defense Structures">Defense Units</link></u> can permanently improve their default <u><link="Technology">Technology</link></u>, <u><link="Skills">Skill Points</link></u> and <u><link="Equip Points">Equip Points</link></u> by upgrading Elite Ranks. This is done on the Unit Inspect Panel with the ELITE RANK button, using <u><link="Skulls">Skulls</link></u> earned from <u><link="Player vs Player Combat">Player-vs-Player</link></u> kills.
 
 You can preview what technology improvements are possible by pressing the ELITE RANK button without approving the upgrade.
 
@@ -573,9 +573,9 @@ Elite Rank 5 adds +1 Drone Slot, Reverse Grapple Tech
 _ENDSEARCH_Related Articles:
 <u><link="Deception Module">Deception Module</link></u>
 [[[Skulls]]]
-Skulls are a currency and crafting resource awarded to Captains exclusively for <u><link="Player vs Player Combat">Player-vs-Player</link></u> kills, with many uses throughout the game. For example, <u><link="Ship Crafting">ship crafting</link></u> requires Skulls and <u><link=”Relics”>Relics</link></u> to construct advanced blueprints, Skulls are needed to repair damaged Ship Durability and upgrade <u><link="Elite Ranks">Elite Ranks</link></u>.
+Skulls are a currency and crafting resource awarded to Captains exclusively for <u><link="Player vs Player Combat">Player-vs-Player</link></u> kills, with many uses throughout the game. For example, <u><link="Ship Crafting">ship crafting</link></u> requires Skulls and <u><link="Relics">Relics</link></u> to construct advanced blueprints, Skulls are needed to repair damaged Ship Durability and upgrade <u><link="Elite Ranks">Elite Ranks</link></u>.
 
-Bonus Skulls are awarded for DEFENDING or ATTACKING non-NPC <u><link="Corporation Defense Structures">Defense Units</link></u>. Join a <u><link=”Corporations”>Corporation</link></u> and ask them about getting involved in the <u><link="Alliances">Alliance Wars</link></u>!
+Bonus Skulls are awarded for DEFENDING or ATTACKING non-NPC <u><link="Corporation Defense Structures">Defense Units</link></u>. Join a <u><link="Corporations">Corporation</link></u> and ask them about getting involved in the <u><link="Alliances">Alliance Wars</link></u>!
 
 <b>THE ARENA</b>
 The best place to earn Skulls is in The Arena, which is a controlled player-vs-player environment with balanced teams and no external influences like <u><link="Artifacts">Artifacts</link></u> or <u><link="Skills">Corporation Skills</link></u>. Arena rounds launch regularly every few hours and are open to any captain. The minimum requirement for new players is a <u><link="Ships">ship</link></u> with a <u><link="Item Types">Gear Score</link></u> of 1,000 and no free starting gear. Advanced players are required to bring more than 1 ship depending on the type of arena.
@@ -584,7 +584,7 @@ The Arena is won by the team with the most kills! Captains who lost but had high
 
 You can access The Arena through your Captain Panel using the ARENA button once registration is announced. The Arena begins every few hours at the top of the hour.
 [[[Skills]]]
-Player Captains, <u><link="Ships">Ships</link></u>, <u><link="Corporation Defense Structures">Defense Units</link></u> and <u><link=”Corporations”>Corporations</link></u> each have a Skill Tree where points can be invested for permanent stat improvements. All of these skill tiers stack: Your final stat bonus is a combination of your captain, corporation and ship's skills!
+Player Captains, <u><link="Ships">Ships</link></u>, <u><link="Corporation Defense Structures">Defense Units</link></u> and <u><link="Corporations">Corporations</link></u> each have a Skill Tree where points can be invested for permanent stat improvements. All of these skill tiers stack: Your final stat bonus is a combination of your captain, corporation and ship's skills!
 
 New skill points are awarded with each level, plus your Captain gains bonus points every time they study an <u><link="Artifacts">Artifact</link></u>.
 
@@ -600,7 +600,7 @@ You will earn crafting skill each time that you make an item. This skill directl
 
 There are 6 item crafting skill categories: Scientist, Engineer, Weapons, Armor, Shields and Drones. Scientists build Engines and Special-type items, while Engineers build Computers, Batteries and Storage items. Most Engine and <u><link="Item Types">Special-type items</link></u> only enter the game through crafting or unique events.
 
-Outside of <u><link=”Skulls”>The Arena</link></u> there is rarely loot with quality higher than 100. Only skilled crafters can produce the most powerful gear, and only after a significant amount of effort.
+Outside of <u><link="Skulls">The Arena</link></u> there is rarely loot with quality higher than 100. Only skilled crafters can produce the most powerful gear, and only after a significant amount of effort.
 
 Item crafting is intended to be a long-term player goal with a timeline of years. Only a few dedicated players will ever reach Masterwork crafting ability, but their products will fetch a premium with the highest demand. All items are tagged to display who created it.
 
@@ -615,11 +615,11 @@ _ENDSEARCH_Related Articles:
 <u><link="Stat Bonus Diminishing Returns">Stat Bonus Diminishing Returns</link></u>
 <u><link="FAQ">Frequently Asked Questions</link></u>
 [[[Ship Crafting]]]
-<u><link=”Corporations”>Corporations</link></u> level up their <u><link="Corporation Defense Structures">Shipyards</link></u> to unlock new <u><link="Ships">ship</link></u> blueprints for members to use.
+<u><link="Corporations">Corporations</link></u> level up their <u><link="Corporation Defense Structures">Shipyards</link></u> to unlock new <u><link="Ships">ship</link></u> blueprints for members to use.
 
 Corp leadership may select a single faction (Pirate, Het, Wyrd, Precursor) for each Shipyard to specialize in, opening up production options for advanced alien-class ships. These alien blueprints have access to different <u><link="Technology">technology</link></u> more powerful than human ships, but are also more expensive to build.
 
-<u><link=”Ship & Defense Unit Size”>Larger ships</link></u> have more <u><link="Equip Points">Equip Points</link></u>, allowing them to use more powerful items. Advanced ships can require <u><link=”Skulls”>Skulls</link></u> and <u><link=”Relics”>Relics</link></u> in addition to basic crafting resources.
+<u><link="Ship & Defense Unit Size">Larger ships</link></u> have more <u><link="Equip Points">Equip Points</link></u>, allowing them to use more powerful items. Advanced ships can require <u><link="Skulls">Skulls</link></u> and <u><link="Relics">Relics</link></u> in addition to basic crafting resources.
 
 When you craft a ship it gains a random Ship Stat Bonus Mod. You can measure how powerful this bonus is by how many <u><link="Skills">Skill Points</link></u> it would take to gain an equivalent bonus. The random roll for a ship's crafted Stat Bonus Mod is between 3 Skill Points and 12 Skill Points, with the maximum only possible during rare <u><link="Daily Events">Daily Crafting Events</link></u>. Ship Stat Modification items can be found as loot, allowing players to replace this crafted stat bonus.
 
@@ -629,14 +629,14 @@ _ENDSEARCH_Related Articles:
 <u><link="Item Crafting">Item Crafting</link></u>
 <u><link="Stat Bonus Diminishing Returns">Stat Bonus Diminishing Returns</link></u>
 <u><link="FAQ">Frequently Asked Questions</link></u>
-<u><link=”The Wyrd Alien Faction”>The Wyrd Alien Faction</link></u>
-<u><link=”The Het Alien Faction”>The Het Alien Faction</link></u>
-<u><link=”The Precursor Alien Faction”>The Precursor Alien Faction</link></u>
-<u><link=”The Pirate Faction”>The Pirate Faction</link></u>
+<u><link="The Wyrd Alien Faction">The Wyrd Alien Faction</link></u>
+<u><link="The Het Alien Faction">The Het Alien Faction</link></u>
+<u><link="The Precursor Alien Faction">The Precursor Alien Faction</link></u>
+<u><link="The Pirate Faction">The Pirate Faction</link></u>
 [[[Relics]]]
 Relics are a rare <u><link="Ship Crafting">ship crafting</link></u> component used to build Assassin, Hades, Carrier and Emperor-Class <u><link="Ships">ships</link></u>. Each alien faction has its own type of relic for building its specific ships at <u><link="Corporation Defense Structures">Corporation Shipyards</link></u>.
 
-Relics can be found in many different places! You might discover them as loot from NPCs, from <u><link="Free Daily Gifts">Free Daily Gifts</link></u>, from special <u><link=”Holiday Events”>Holiday Events</link></u>, as a reward in <u><link=”Skulls”>The Arena</link></u>, or earned every 5 Levels starting at Level 15.
+Relics can be found in many different places! You might discover them as loot from NPCs, from <u><link="Free Daily Gifts">Free Daily Gifts</link></u>, from special <u><link="Holiday Events">Holiday Events</link></u>, as a reward in <u><link="Skulls">The Arena</link></u>, or earned every 5 Levels starting at Level 15.
 
 Most relics come from the <u><link="Alliances">Alliance Wars</link></u> by <u><link="Corporations">corporations</link></u> fighting over territory and capturing Shrines with their <u><link="Corporation Defense Structures">Garrisons</link></u>. Each corporation may control 4 Relic Shrines, with a maximum of 10 shrines total for any alliance. Captured Shrines generate one relic at 100% progress:
 
@@ -651,7 +651,7 @@ Each player has an Alliance Point counter that goes up with any kill, PvP battle
 - USE a relic item to add it to your crafting bank.
 - BUILD a relic with your captain's ITEM CRAFTING button.
 [[[Alliances]]]
-Several <u><link="Corporations">Corporations</link></u> may join together as a single team, forging an alliance that captures territory and <u><link=”Relics”>Relics</link></u> in a never-ending galactic war! Each alliance shares a chat room, <u><link=”Missions”>Missions</link></u> and <u><link=”Corporate Defender Ships”>Corporate Defenders</link></u>. All players in an alliance are friendly in <u><link="Player vs Player Combat">PvP systems</link></u> (except for <u><link=”Skulls”>The Arena</link></u>).
+Several <u><link="Corporations">Corporations</link></u> may join together as a single team, forging an alliance that captures territory and <u><link="Relics">Relics</link></u> in a never-ending galactic war! Each alliance shares a chat room, <u><link="Missions">Missions</link></u> and <u><link="Corporate Defender Ships">Corporate Defenders</link></u>. All players in an alliance are friendly in <u><link="Player vs Player Combat">PvP systems</link></u> (except for <u><link="Skulls">The Arena</link></u>).
 
 'Alliance Citizens' are any player Level 25+ in a corporation, who have logged in within the last 15 days. An alliance may contain up to 6 corporations with a max of 180 Alliance Citizen players between them (100 on Universe #2). Corporations cannot invite players once the citizen count is maxed, however they can always invite new players under Level 25. Players who haven't logged in for 15 days do not count against the Alliance Citizen cap.
 
@@ -682,15 +682,15 @@ Mission Types:
 - Harvest Resources
 - Explore Solar Systems
 
-Missions to kill "Aliens" mean any NPC enemy, including Pirates. <u><link=”Corporate Defender Ships”>Corporate Defenders</link></u> do NOT count for mission kill credit.
+Missions to kill "Aliens" mean any NPC enemy, including Pirates. <u><link="Corporate Defender Ships">Corporate Defenders</link></u> do NOT count for mission kill credit.
 
 When killing Elite NPCs, they progress missions by 1 point per <u><link="Elite Ranks">Elite Rank</link></u>. For example, a 3-Star Elite NPC will progress your 'Kill Elite NPCs' mission by 3 points.
 
-When killing Players for a mission, only kills outside of <u><link=”Skulls”>The Arena</link></u> count and only when a <u><link=”Skulls”>Skull</link></u> is earned. Only 1 point of progress can be earned per kill, per mission.
+When killing Players for a mission, only kills outside of <u><link="Skulls">The Arena</link></u> count and only when a <u><link="Skulls">Skull</link></u> is earned. Only 1 point of progress can be earned per kill, per mission.
 
 Corporations may cancel their missions using the :CORP and :ALLIANCE chat commands.
 [[[Equip Points]]]
-<u><link="Ships">Ships</link></u> and <u><link="Corporation Defense Structures">Defense Units</link></u> of different <u><link=”Ship & Defense Unit Size”>sizes</link></u> have a limited amount of space for attaching equipment items: This capacity is represented by the Equip Point system.
+<u><link="Ships">Ships</link></u> and <u><link="Corporation Defense Structures">Defense Units</link></u> of different <u><link="Ship & Defense Unit Size">sizes</link></u> have a limited amount of space for attaching equipment items: This capacity is represented by the Equip Point system.
 
 Most items have an Equip Point cost -- The sum of all equipped items cannot exceed a ship's maximum Equip Points!
 
@@ -709,7 +709,7 @@ We like to reward taking risks, so your pity loot counters go up faster in more 
 
 The QUALITY of loot depends on the LEVEL of what dropped it, even if it was pity loot. Kill higher-level NPCs to get better quality gear!
 
-<u><link="Player vs Player Combat">PvP Maps</link></u> add up Pity Loot faster and also produce a guaranteed rare <u><link=”Relics”>Relic</link></u> crafting component. Security Rating 8 maps receive a 25% loot boost and Security Rating 9 Homeworld Raids get double pity loot.
+<u><link="Player vs Player Combat">PvP Maps</link></u> add up Pity Loot faster and also produce a guaranteed rare <u><link="Relics">Relic</link></u> crafting component. Security Rating 8 maps receive a 25% loot boost and Security Rating 9 Homeworld Raids get double pity loot.
 
 Note: Stealing items, invasion boss loot, killing <u><link="Corporation Defense Structures">NPC defense units</link></u>, <u><link="Party Boxes">Party Boxes</link></u> and other non-standard loot does NOT reset your pity loot counters!
 [[[Stats]]]
@@ -774,11 +774,11 @@ _ENDSEARCH_Related Articles:
 <u><link="Hacking Ability Action">Hacking Ability Action</link></u>
 <u><link="Drain Ability Action">Drain Ability Action</link></u>
 [[[Technology]]]
-There are over 250 technologies to discover which influence every facet of life in The Infinite Black. <u><link="Artifacts">Artifacts</link></u>, <u><link=”Corporations”>corporation</link></u> research, <u><link="Item Types">special items</link></u> and rare alien <u><link="Ships">ships</link></u> are just some of the ways to unlock these benefits.
+There are over 250 technologies to discover which influence every facet of life in The Infinite Black. <u><link="Artifacts">Artifacts</link></u>, <u><link="Corporations">corporation</link></u> research, <u><link="Item Types">special items</link></u> and rare alien <u><link="Ships">ships</link></u> are just some of the ways to unlock these benefits.
 
 Technology that is described as a Rank, such as Improved Hulls or Damage versus Aliens, does not stack with lower ranks. Non-ranked technology, such as Analysis or Targeting, will stack with other similar benefits.
 
-Some low-level technology can be boosted for one hour using <u><link="Tech Points">Tech Points</link></u> and applies to all ships controlled by a player. The 60-minute timer will not count down if that technology is superseded by a better or similar technology, such as from a <u><link=”Corporations”>corporation</link></u> or <u><link=”Artifacts”>artifact</link></u>.
+Some low-level technology can be boosted for one hour using <u><link="Tech Points">Tech Points</link></u> and applies to all ships controlled by a player. The 60-minute timer will not count down if that technology is superseded by a better or similar technology, such as from a <u><link="Corporations">corporation</link></u> or <u><link="Artifacts">artifact</link></u>.
 
 To see a complete list of all Technology, click on the HELP menu INFORMATION button and select TECHNOLOGY LIST. 
 
@@ -792,11 +792,11 @@ _ENDSEARCH_Related Articles:
 <u><link="Deflector">Deflector Technology</link></u>
 <u><link="Junker">Junker Technology</link></u>
 [[[Player vs Player Combat]]]
-Players are safe from attack when in human-controlled systems, called PvE Maps, marked in BLUE on <u><link="The Starmap">The Starmap</link></u>. When you join a <u><link=”Corporations”>corporation</link></u> you also join their <u><link=”Alliances”>alliance</link></u>, placing you on a team in any PvP Maps with other players in that alliance. Friendly ships share vision, can follow or repair each other and attack enemies to split XP and loot.
+Players are safe from attack when in human-controlled systems, called PvE Maps, marked in BLUE on <u><link="The Starmap">The Starmap</link></u>. When you join a <u><link="Corporations">corporation</link></u> you also join their <u><link="Alliances">alliance</link></u>, placing you on a team in any PvP Maps with other players in that alliance. Friendly ships share vision, can follow or repair each other and attack enemies to split XP and loot.
 
 With bigger risks come bigger rewards! <u><link="Pity Loot Drops">Pity Loot Drops</link></u> are boosted dramatically in dangerous areas, along with XP and Resource gains. Adventurous captains will see around 10% more XP and 20% more loot when hunting in PvP Maps.
 
-Corporations may deploy their <u><link="Corporation Defense Structures">defense units</link></u> in any system. Most PvP Maps contain a Shrine that can be harvested to gather <u><link=”Relics”>Relics</link></u> for your alliance -- Corporations may place a <u><link="Corporation Defense Structures">Garrison</link></u> on the Shrine to capture that map and collect its relics.
+Corporations may deploy their <u><link="Corporation Defense Structures">defense units</link></u> in any system. Most PvP Maps contain a Shrine that can be harvested to gather <u><link="Relics">Relics</link></u> for your alliance -- Corporations may place a <u><link="Corporation Defense Structures">Garrison</link></u> on the Shrine to capture that map and collect its relics.
 
 You are relatively safe from attack at any defense unit owned by your corporation, however all bets are off if it comes under attack! You are also safe at Jump Gates between systems, but only if you are not flagged in combat! <b>Remember: You are never 100% safe in PvP maps!</b>
 
@@ -818,11 +818,11 @@ There are 8 consumable items which can permanently modify your <u><link="Ships">
 - Paladin Ship Mod: Adds max hull and defensive technology.
 - Ultimate Ship Mod: Adds +4 <u><link="Equip Points">Equip Points</link></u> and unlocks additional gear slots.
 
-The Gladiator Ship Mod guarantees critical attacks against injured enemies and critical repairs on injured friends. Earn a Gladiator ship mod and titles for every 100 victories in <u><link=”Skulls”>The Arena</link></u>.
+The Gladiator Ship Mod guarantees critical attacks against injured enemies and critical repairs on injured friends. Earn a Gladiator ship mod and titles for every 100 victories in <u><link="Skulls">The Arena</link></u>.
 
 The Phoenix Ship Mod converts fatal damage into a large repair and instant cloak, while also improving repairs on injured friends. Phoenix Rebirth works for PvP and PvE deaths, with separate cooldowns for each. You can earn a Phoenix ship mod and titles by killing Invasion NPCs. Phoenix cannot be used on <u><link="Hardcore Ships & Defense Units">Hardcore Ships</link></u> and ships with Phoenix cannot go hardcore.
 
-The Ultimate Ship Mod is crafted from "fragments" dropped as loot by <u><link="Corporation Defense Structures">NPC Defense Units</link></u> or harvested from <u><link=”Relics”>Relic Shrines</link></u>. You may only have one deployed Ultimate Ship at any time.
+The Ultimate Ship Mod is crafted from "fragments" dropped as loot by <u><link="Corporation Defense Structures">NPC Defense Units</link></u> or harvested from <u><link="Relics">Relic Shrines</link></u>. You may only have one deployed Ultimate Ship at any time.
 
 The Paladin Ship Mod is only created when any Emperor-Class Ship is <u><link="Ship Crafting">crafted</link></u> as an additional bonus result.
 
@@ -833,7 +833,7 @@ Crafting the Ultimate or Interdictor Ship Mods requires identical fragments and 
 The <u><link="Deception Module">Deception Module</link></u> hides equipped gear, resists and other <u><link="Stats">stats</link></u>. It does not replace or conflict with other ship mods.
 
 _ENDSEARCH_Related Articles:
-<u><link=”Retro Ship Skins”>Retro Ship Skins</link></u>
+<u><link="Retro Ship Skins">Retro Ship Skins</link></u>
 [[[Junker]]]
 Junker technology can trigger a hull repair any time an attacker deals damage, including drones, splash, and battle ram. It will repair the attacker for 33% to 100% of the total hull damage dealt, although it will not trigger if total damage is less than 30. Junker does not benefit from other technology like Technician or +Hull Repair stat.
 
@@ -880,7 +880,7 @@ _ENDSEARCH_Related Articles:
 [[[Taunt]]]
 The Tank Special Item gains a unique Taunt ability at Ultra-Rare Rarity and above, forcing damaged enemies to attack the tank. This target change happens automatically on any HIT or CRITICAL attack from the tank and lasts X seconds depending on the rarity and quality of the Tank item. It does not trigger on SPLASH or other types of damage, but it can splash during a special daily event.
 
-This forced target change also triggers a new <u><link=”Ship & Defense Unit Size”>Target Lock</link></u> cooldown for the victim as with any attack target change.
+This forced target change also triggers a new <u><link="Ship & Defense Unit Size">Target Lock</link></u> cooldown for the victim as with any attack target change.
 
 The <u><link="Technician">Technician Technology</link></u> line can remove Taunt, while also applying a Repair-Over-Time bonus that protects the victim from negative effects for 21 seconds.
 
@@ -952,7 +952,7 @@ _ENDSEARCH_Related Articles:
 <u><link="Deflector">Deflector Technology</link></u>
 <u><link="Junker">Junker Technology</link></u>
 [[[Small Strike Team Bonus]]]
-When a fleet of 4 or more <u><link="Ships">ships</link></u> is composed of at least 33% <u><link=”Ship & Defense Unit Size”>Small or Medium Size Craft</link></u>, they unlock the Small Strike Team benefit, granting a 5% bonus to Outgoing Damage and +5 to all resists for the entire fleet (not just the small ships).
+When a fleet of 4 or more <u><link="Ships">ships</link></u> is composed of at least 33% <u><link="Ship & Defense Unit Size">Small or Medium Size Craft</link></u>, they unlock the Small Strike Team benefit, granting a 5% bonus to Outgoing Damage and +5 to all resists for the entire fleet (not just the small ships).
 
 This effect intends to incentivize small ships in fleet combat and squad-based tactics instead of large single stacks.
 
@@ -971,7 +971,7 @@ Crafting the Ultimate or Interdictor Ship Mods requires identical fragments and 
 _ENDSEARCH_Related Articles:
 <u><link="Gravity Drives">Gravity Drives</link></u>
 [[[Tech Points]]]
-Creating <u><link=”Corporations”>corporations</link></u>, item upgrades, short-term XP boosts, bank space unlocks and other benefits are purchased with Tech Points. You will earn thousands of free Tech Points over your career as a Captain, and can convert 1,000 Credits into 1 Tech Point at any time.
+Creating <u><link="Corporations">corporations</link></u>, item upgrades, short-term XP boosts, bank space unlocks and other benefits are purchased with Tech Points. You will earn thousands of free Tech Points over your career as a Captain, and can convert 1,000 Credits into 1 Tech Point at any time.
 
 Tech Points can also be purchased at <u><link="https://www.spellbook.com/purchase/tib2/techpoints.php">https://www.Spellbook.com</link></u> to support this free game and the indie developers at <u><link="Spellbook">Spellbook</link></u>! 
 
@@ -1011,7 +1011,7 @@ Additionally, destroying <u><link="Corporation Defense Structures">NPC Defense S
 
 Open your Captain Panel and click the REWARDS button for a summary of points and prizes.
 
-The <u><link="Deception Module">Deception Module</link></u> is claimed with 1,000 Reward Points. Additional gifts include a captain title, exclusive <u><link=”Retro Ship Skins”>Retro Ship Skins</link></u> and a special random bonus once you reach 5,000 Reward Points!
+The <u><link="Deception Module">Deception Module</link></u> is claimed with 1,000 Reward Points. Additional gifts include a captain title, exclusive <u><link="Retro Ship Skins">Retro Ship Skins</link></u> and a special random bonus once you reach 5,000 Reward Points!
 
 The <u><link="Mutate Item Kit">Re-Mutate Item Kit</link></u> is claimed with 3,000 Reward Points and will upgrade and re-roll a mutated item.
 
@@ -1022,11 +1022,11 @@ You can order Tech Points at <u><link="https://www.spellbook.com/purchase/tib2/t
 
 _ENDSEARCH_Related Articles:
 <u><link="Free Daily Gifts">Free Daily Gifts</link></u>
-<u><link=”Holiday Events”>Holiday Events</link></u>
+<u><link="Holiday Events">Holiday Events</link></u>
 [[[Deception Module]]]
 The Deception Module is a ship upgrade which hides things like equipped gear and <u><link="Equip Points">Equip Points</link></u> from all other players. This upgrade doesn't replace or conflict with other <u><link="Ship Mods">ship mods</link></u> and works on any ship.
 
-You can find Deception Modules in <u><link=”Skulls”>The Arena</link></u>, <u><link=”Holiday Events”>Holiday Events</link></u> or as a <u><link="Reward Point Gifts">Reward Point Gift</link></u>. Toggle deception on or off from the Ship Inspect panel.
+You can find Deception Modules in <u><link="Skulls">The Arena</link></u>, <u><link="Holiday Events">Holiday Events</link></u> or as a <u><link="Reward Point Gifts">Reward Point Gift</link></u>. Toggle deception on or off from the Ship Inspect panel.
 
 Deception effects grow more powerful with <u><link="Elite Ranks">Elite Ranks</link></u>!
 
@@ -1127,7 +1127,7 @@ We started making mobile games in 2011 and found success with the original Infin
 
 This game would not be possible without our backers on kickstarter who never doubted us during the long creation process.
 
-Please take a moment to <u><link=”Review The Game”>Review The Game</link></u> to support independent game development!
+Please take a moment to <u><link="Review The Game">Review The Game</link></u> to support independent game development!
 [[[Review The Game]]]
 The Infinite Black 2 is a <u><link="Spellbook">single-programmer</link></u> indie game project!
 
@@ -1165,7 +1165,7 @@ _ENDSEARCH_Related Articles:
 <u><link="How To Play">How To Play</link></u>
 <u><link="FAQ">Frequently Asked Questions</link></u>
 [[[Device Sharing and Multiple Accounts]]]
-We enforce a rule of ONE <u><link=”Spellbook”>Spellbook</link></u> account for each player. Players cannot have two or more accounts under any circumstances, even if they use multiple devices!
+We enforce a rule of ONE <u><link="Spellbook">Spellbook</link></u> account for each player. Players cannot have two or more accounts under any circumstances, even if they use multiple devices!
 
 Breaking this rule will result in ALL accounts permanently banned -- This includes roommates, little brothers and grandmothers.
 

@@ -1,28 +1,34 @@
 # Grapple Ability
 
-With **10+ Grapple Chance** a [ship](../../Ships/index.md) can use the **Grapple** hotbar action. It **consumes 25% battery**. Grappled targets **lose 25 Evasion** and **cannot move**.
+With **10+ Grapple Chance**, a [ship](../../Ships/index.md) can use the **Grapple** hotbar action. Grapple requires a target in the same sector, is a hostile action, has a default **50 s** cooldown, and costs battery to use. Grappled targets **lose 25 Evasion** and **cannot move** while the effect lasts.
 
-## How It Works (No Dice Roll)
+## How It Works
 
-* **Grapple Chance** — Increases **duration** of the effect.
-* **Grapple Resist** — Reduces duration. **1 point Grapple Resist ≈ 2 points Grapple Chance** (or 1% for NPCs). ~25 Resist gives a chance to fully resist vs +10 Grapple Chance. Below 2.5 s duration: **50% resist**. Below 1 s: **always resisted**.
-* **Evasion** (players): 5 Evasion = 1 Grapple Resist.
-* **Hit Chance** (players): 5 Hit Chance = 1 Grapple Chance.
+* **Grapple Chance** increases the Grapple effect.
+* **Grapple Resist** reduces the Grapple effect.
+* For player ships, **Hit Chance** can contribute to Grapple power and **Evasion** can contribute to Grapple resistance.
+* If the final effect is too weak, the Grapple can be resisted.
 
-## Base Duration
+Exact duration and resist formulas are **Needs data** until the live behavior is confirmed.
 
-* **Base:** 4 s + 1 s (Advanced Grappling) + 2 s (Advanced Grappling II).
-* Each point of **Grapple Chance** adds **1%** duration. Each point of **Grapple Resist** reduces duration by **2%** (1% for NPCs).
+## Technology Effects
 
-## Reverse and Advanced
+| Technology | Effect |
+|------------|--------|
+| **Advanced Grappling** | Adds Grapple duration. |
+| **Advanced Grappling II** | Adds more Grapple duration. |
+| **Advanced Grappling III** | Adds the highest Grapple duration bonus and lets the grappler drag the target when moving. |
+| **Grapple Speed** | Reduces Grapple cooldown by 4 s. |
+| **Grapple Speed II** | Reduces Grapple cooldown by 6 s. |
+| **Grapple Speed III** | Reduces Grapple cooldown by 8 s. |
+| **Reverse Grappling** | Gives a high chance to deflect Grapple back at attackers. |
 
-* **Reverse Grappling** — 50% chance to reflect the Grapple back at the attacker, using the target's Grapple Chance (even if &lt;10).
-* **Advanced Grappling III** — Grappler can **drag the target to another sector** when moving. From the Grappling Hook special item and **Elite Rank 3+ Cruiser**.
+Advanced Grappling can come from the **Grappling Hook** special item and some ship progression sources.
 
 ---
 
 ## See Also
 
 * [Hacking](Hacking.md) | [Drain](Drain.md) | [Technician](Technician.md) | [Taunt](Taunt.md) | [Deflector](Deflector.md) | [Junker](Junker.md)
-* [Stats](../../Items/Stats.md) — Grapple Chance / Resist
+* [Stats](../../Items/Stats.md) -- Grapple Chance / Resist
 * [Abilities](index.md)

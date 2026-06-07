@@ -21,6 +21,6 @@ Timed and daily content: free gifts, daily event modifiers, holiday gems, and Pa
 
 ## See Also
 
-* [Missions](../Missions.md) — Reset with daily
-* [PvE](../Activities/Player vs Environment (PVE)/index.md) — Event loot and modifiers
-* [Currencies](../../Entities/Currencies/index.md) — Tech Points and Star Shards
+* [Missions](../Missions.md) -- Reset with daily
+* [PvE](<../Activities/Player vs Environment (PVE)/index.md>) -- Event loot and modifiers
+* [Currencies](../../Entities/Currencies/index.md) -- Tech Points and Star Shards
